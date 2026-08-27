@@ -1,0 +1,23 @@
+node_modules/
+.pnpm-store/
+dist/
+*.log
+*.tsbuildinfo
+*.pyc
+__pycache__/
+.DS_Store
+
+# 本地探查与源数据（包含本机路径，不上传公开仓库）
+.inspection_runtime/
+work/
+figures/
+*.xlsx
+*.xlsx.inspect.ndjson
+data_inspection_report.md
+analysis_log.md
+figure_captions.md
+final_material_review_report.md
+src/data/data_report.json
+scripts/*.py
+scripts/*.mjs
+requirements.txt
