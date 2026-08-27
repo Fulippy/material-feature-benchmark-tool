@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#e8edf2"/>
+  <path d="M200 284l72-74 52 46 58-76 78 104H200z" fill="#c5d0da"/>
+  <circle cx="240" cy="146" r="28" fill="#c5d0da"/>
+  <text x="320" y="354" text-anchor="middle" fill="#617184" font-family="Arial, sans-serif" font-size="24">暂无可用图片</text>
+</svg>
