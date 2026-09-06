@@ -14,6 +14,7 @@ export type Material = {
   min: number
   max: number
   image: string
+  images: string[]
   description?: string
   cognitiveText: string
   cases: MaterialCase[]

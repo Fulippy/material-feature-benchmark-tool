@@ -15,7 +15,13 @@
           "category": "多孔材料",
           "min": 0.019,
           "max": 0.032,
-          "image": "/assets/cases/e6ed17ee15666d939670fe9ff774e58d-4094b4a898.jpeg",
+          "image": "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
+          "images": [
+            "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
+            "/assets/materials/03_Polystyrene_Packaging_Beads-9123782bb5.jpg",
+            "/assets/materials/04_EPS_Plastic_Foam_Beads-bfe286b137.jpg"
+          ],
+          "description": "EPS常用名称为EPS泡沫、发泡聚苯乙烯，部分地区也称保丽龙。它由可发性聚苯乙烯珠粒经过预发泡和模塑形成，内部包含大量封闭气泡，因此密度低、隔热和缓冲性能突出。常用于产品包装、保温板、头盔缓冲层、展示模型与轻量化填充，但耐热性和耐溶剂性有限。",
           "cognitiveText": "EPS在“密度”尺度中的参数区间为 0.019–0.032 g/cm³。",
           "cases": [
             {
@@ -81,7 +87,14 @@
           "category": "木质材料",
           "min": 0.12,
           "max": 0.24,
-          "image": "/assets/cases/c162550f3fca40cf42b1355311ca5796-7889f9789a.jpeg",
+          "image": "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
+          "images": [
+            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
+            "/assets/materials/02_Natural_Cork_Sheet_Roll-36f7686707.jpg",
+            "/assets/materials/03_Natural_Cork_Fabric_Rolls-37601d0fd8.jpg",
+            "/assets/materials/05_Natural_Cork_Sheet_Roll-f2bb65d00c.jpg"
+          ],
+          "description": "软木常用名称为软木或栓皮，主要取自栓皮栎等树木的外层树皮。其蜂窝状封闭细胞结构使材料轻、可压缩、回弹、隔热、吸声并具有一定防水性。软木可制成整片、颗粒板或复合材料，常用于瓶塞、地板、墙面、鞋材、握把、包装和可持续产品表面。",
           "cognitiveText": "软木在“密度”尺度中的参数区间为 0.12–0.24 g/cm³。",
           "cases": [
             {
@@ -210,7 +223,15 @@
           "category": "木质材料",
           "min": 0.55,
           "max": 0.67,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
+          "image": "/assets/materials/05_Black_Walnut_Wood_Planks-410a6939d6.jpg",
+          "images": [
+            "/assets/materials/05_Black_Walnut_Wood_Planks-410a6939d6.jpg",
+            "/assets/materials/01_Black_Walnut_Lumber_Planks-47440b3182.jpg",
+            "/assets/materials/02_Black_Walnut_Hardwood_Boards-7ebcfbe8db.jpg",
+            "/assets/materials/03_American_Black_Walnut_Lumber_Boards-8d026bd88c.jpg",
+            "/assets/materials/04_Black_Walnut_DIY_Boards-dbdf3be32f.jpg"
+          ],
+          "description": "胡桃木常用名称为胡桃木，产品设计中常见的是黑胡桃木。它属于中等密度阔叶木材，心材多呈浅褐至深巧克力色，纹理细致并具有良好切削、雕刻和涂饰性能。常用于高档家具、饰面板、乐器、枪托和产品木质外壳，但颜色、纹理和力学性能会随树种与产地变化。",
           "cognitiveText": "胡桃木在“密度”尺度中的参数区间为 0.55–0.67 g/cm³。",
           "cases": [
             {
@@ -360,7 +381,15 @@
           "category": "木质材料",
           "min": 0.675,
           "max": 0.755,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
+          "image": "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
+          "images": [
+            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
+            "/assets/materials/02_White_Oak_Lumber_Boards-e9db162d1b.jpg",
+            "/assets/materials/03_Oak_Thin_Boards_Set-b06db8e91b.jpg",
+            "/assets/materials/04_Oak_Lumber_Boards-4144b6bf03.jpg",
+            "/assets/materials/05_White_Oak_Plain-Sawn_Hardwood_Planks-9f8aaada2b.jpg"
+          ],
+          "description": "橡木常用名称为橡木或栎木，来自栎属多种树木，是家具和室内产品中常见的阔叶木材。其纹理明显，通常具有较好的强度、耐磨性和表面涂饰效果，白橡与红橡在导管结构、色泽和耐久性方面存在差异。常用于家具、地板、酒桶、饰面板和结构木制品，性能受含水率影响明显。",
           "cognitiveText": "橡木在“密度”尺度中的参数区间为 0.675–0.755 g/cm³。",
           "cases": [
             {
@@ -510,7 +539,15 @@
           "category": "木质材料",
           "min": 0.68,
           "max": 1.02,
-          "image": "/assets/cases/85dc813edc2d2a4a3e263602200dea38-e842c6490a.jpeg",
+          "image": "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
+          "images": [
+            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
+            "/assets/materials/02_Bamboo_Laminated_Wood_Boards-1aabd4826c.jpg",
+            "/assets/materials/03_Bamboo_Slats_Display-fca6bce693.jpg",
+            "/assets/materials/04_Natural_Dry_Bamboo_Strips-a9ba0e4cf8.jpg",
+            "/assets/materials/05_Stacked_Bamboo_Plywood_Boards-2231a7d0e2.jpg"
+          ],
+          "description": "竹材常用名称为竹材或竹木，来源于竹秆，经干燥、防护、剖分、层压或重组后可形成板材和构件。其纤维沿生长方向排列，具有较高比强度和鲜明纹理，但性能受竹种、部位、含水率及胶合方式影响。常用于家具、餐具、地板、包装、建筑构件和可持续产品设计。",
           "cognitiveText": "竹材在“密度”尺度中的参数区间为 0.68–1.02 g/cm³。",
           "cases": [
             {
@@ -541,7 +578,12 @@
           "category": "聚合物与弹性体",
           "min": 0.92,
           "max": 0.94,
-          "image": "/assets/cases/f687b26296c639eec40b6b3db84f9ad4-04a76324ec.jpeg",
+          "image": "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
+          "images": [
+            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
+            "/assets/materials/01_Polypropylene_Machined_Sheets_and_Rods-3ff1c90585.jpg"
+          ],
+          "description": "PP常用名称为聚丙烯或PP塑料，是密度较低、用途广泛的热塑性聚合物。它耐化学品、耐湿、易注塑和挤出，并具有良好的反复弯折疲劳性能，可制作一体式活铰链。常见于食品容器、家居用品、医疗耗材、汽车内饰、无纺布和包装薄膜，但低温冲击性能及耐候性需要关注。",
           "cognitiveText": "PP在“密度”尺度中的参数区间为 0.92–0.94 g/cm³。",
           "cases": [
             {
@@ -691,7 +733,14 @@
           "category": "聚合物与弹性体",
           "min": 1.04,
           "max": 1.18,
-          "image": "/assets/cases/d1a4f73cf0c7a717022407f050aa1450-a254293cb6.jpeg",
+          "image": "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
+          "images": [
+            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
+            "/assets/materials/02_ABS_Plastic_Pellets-072e2e6578.jpg",
+            "/assets/materials/04_ABS_Plastic_Resin_Granules-4e4ab4d3c6.jpg",
+            "/assets/materials/05_Chimei_ABS_Resin_PA-765b_Plastic_Granules-1a84b6b56a.jpg"
+          ],
+          "description": "ABS常用名称为ABS塑料或ABS树脂，中文全称为丙烯腈—丁二烯—苯乙烯共聚物。它综合了刚性、韧性、尺寸稳定性和较好的表面加工性能，可通过注塑、挤出、机加工与表面涂装制成复杂外壳。常见于家电、电子产品、玩具、工具外壳、汽车内饰和模型制作。",
           "cognitiveText": "ABS在“密度”尺度中的参数区间为 1.04–1.18 g/cm³。",
           "cases": [
             {
@@ -837,12 +886,18 @@
           ]
         },
         {
-          "name": "PA（尼龙）",
+          "name": "PA",
           "category": "聚合物与弹性体",
           "min": 1.13,
           "max": 1.14,
-          "image": "/assets/cases/9a7433e5f6b04b51d09e6f3a22ffe691-0a89e7d992.jpeg",
-          "cognitiveText": "PA（尼龙）在“密度”尺度中的参数区间为 1.13–1.14 g/cm³。",
+          "image": "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
+          "images": [
+            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
+            "/assets/materials/02_Polyamide_-PA-_Sheets-_Rods-_and_Tubes-df8c0bbbe9.jpg",
+            "/assets/materials/05_Polyamide_-PA-_Plastic_Samples-47c88552e2.jpg"
+          ],
+          "description": "PA常用名称为尼龙或PA塑料，材料学名称为聚酰胺。其分子链含有酰胺基团，通常具有较高强度、耐磨性、耐疲劳性和良好的自润滑特征。不同尼龙牌号及含水状态会显著影响尺寸和力学性能。常用于齿轮、轴承、扣件、织物纤维、工具零件及结构性注塑件。",
+          "cognitiveText": "PA在“密度”尺度中的参数区间为 1.13–1.14 g/cm³。",
           "cases": [
             {
               "productName": "Bluetooth Speaker for Two-Wheelers",
@@ -991,7 +1046,13 @@
           "category": "聚合物与弹性体",
           "min": 1.18,
           "max": 1.2,
-          "image": "/assets/cases/3438d4ea99d2f67e8586fc88a5c5f118-8c954130f7.jpeg",
+          "image": "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
+          "images": [
+            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
+            "/assets/materials/02_Clear_Acrylic_Rods_and_Sheets-d7da225e61.jpg",
+            "/assets/materials/05_Acrylic_PMMA_Samples-d06b9c7a7e.jpg"
+          ],
+          "description": "PMMA常用名称为亚克力、有机玻璃或压克力，化学名称为聚甲基丙烯酸甲酯。它是透明度较高的无定形热塑性塑料，具有良好的耐候性、着色性和机械加工性能，常作为玻璃替代材料。典型应用包括灯具、展示架、标识、透明罩、汽车灯具和光学件，但抗冲击性低于PC。",
           "cognitiveText": "PMMA在“密度”尺度中的参数区间为 1.18–1.2 g/cm³。",
           "cases": [
             {
@@ -1008,7 +1069,13 @@
           "category": "聚合物与弹性体",
           "min": 1.05,
           "max": 1.34,
-          "image": "/assets/cases/ebf1077dc595bbc5d602b16119cf037d-f5535cc6c3.jpeg",
+          "image": "/assets/materials/04_TPU_SMP_Filament_and_Printed_Samples-986cefa695.jpg",
+          "images": [
+            "/assets/materials/04_TPU_SMP_Filament_and_Printed_Samples-986cefa695.jpg",
+            "/assets/materials/03_Thermoplastic_Polyurethane_Pellets_and_Filame-7d84b8c1d6.jpg",
+            "/assets/materials/05_Medical-Grade_Thermoplastic_Polyurethane_Comp-e3405b5e0d.jpg"
+          ],
+          "description": "TPU常用名称为热塑性聚氨酯或TPU弹性体，是可熔融加工的聚氨酯类弹性材料。它兼具橡胶般的弹性与热塑性塑料的成型效率，通常具有耐磨、抗撕裂、耐油和良好回弹性。常用于手机保护套、鞋材、软管、电缆护套、薄膜、滚轮及可穿戴产品，不同软硬段配方差异较大。",
           "cognitiveText": "TPU在“密度”尺度中的参数区间为 1.05–1.34 g/cm³。",
           "cases": [
             {
@@ -1102,7 +1169,15 @@
           "category": "聚合物与弹性体",
           "min": 1.19,
           "max": 1.22,
-          "image": "/assets/cases/e209c123c24c6fdf9217763ea23e14be-e7bc9f9dfc.jpeg",
+          "image": "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
+          "images": [
+            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
+            "/assets/materials/01_Transparent_Polycarbonate_Pellets-02e6f623ea.jpg",
+            "/assets/materials/03_Clear_Polycarbonate_Pellets-4d7b981453.jpg",
+            "/assets/materials/04_Polycarbonate_Pellets_for_Electrical_Applicat-debca79357.jpg",
+            "/assets/materials/05_Polycarbonate_Resin_Pellets_for_LED_Diffusers-faf7855af7.jpg"
+          ],
+          "description": "PC常用名称为聚碳酸酯或PC塑料，部分地区也称防弹胶。它是一种透明热塑性工程塑料，突出特点是抗冲击能力强、尺寸稳定、可透光并能进行注塑和热成型。PC常用于透明防护罩、电子产品外壳、头盔镜片、灯具、医疗器械及光学部件，但需要关注表面耐刮擦和耐化学性。",
           "cognitiveText": "PC在“密度”尺度中的参数区间为 1.19–1.22 g/cm³。",
           "cases": [
             {
@@ -1252,7 +1327,14 @@
           "category": "聚合物与弹性体",
           "min": 1.16,
           "max": 1.55,
-          "image": "/assets/cases/17f23baf9cf90621af365a5daf08ee61-6b6b08c3be.jpeg",
+          "image": "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
+          "images": [
+            "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
+            "/assets/materials/02_PVC_Rain_Pipe_and_Pellets_Showcase-80929947ea.jpg",
+            "/assets/materials/03_PVC_Pellets_and_Sheet_Display-627743793d.jpg",
+            "/assets/materials/05_PVC_Compound_Pellets_and_Pipes-6081d5f1f8.jpg"
+          ],
+          "description": "PVC常用名称为聚氯乙烯或PVC塑料，可通过增塑剂和稳定剂配方形成硬质或软质材料。硬质PVC具有较好的刚性、耐化学性和阻燃特征，软质PVC则柔韧并易加工。它广泛用于管材、型材、电线护套、地板、薄膜、卡片和充气制品，性能与环境影响高度依赖具体添加剂体系。",
           "cognitiveText": "PVC在“密度”尺度中的参数区间为 1.16–1.55 g/cm³。",
           "cases": [
             {
@@ -1318,7 +1400,12 @@
           "category": "聚合物与弹性体",
           "min": 1.4,
           "max": 1.6,
-          "image": "/assets/cases/92fc6909ad3d1958a17a1159fe862189-938b359b60.jpeg",
+          "image": "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
+          "images": [
+            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
+            "/assets/materials/04_PET_Preforms_and_Pellets-66a536ba55.jpg"
+          ],
+          "description": "PET常用名称为PET塑料或聚酯，化学名称为聚对苯二甲酸乙二酯。它可制成透明容器、薄膜、片材和纤维，具有较好的强度、气体阻隔性、尺寸稳定性和可回收性。结晶程度与加工状态会改变透明度和耐热性，常用于饮料瓶、食品包装、电子薄膜、纺织纤维及工程塑料。",
           "cognitiveText": "PET在“密度”尺度中的参数区间为 1.4–1.6 g/cm³。",
           "cases": [
             {
@@ -1468,7 +1555,15 @@
           "category": "纤维",
           "min": 1.7,
           "max": 2,
-          "image": "/assets/cases/6444a632063ed0fd0a511f1f5fa8c68a-2cb773c337.jpeg",
+          "image": "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
+          "images": [
+            "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
+            "/assets/materials/02_Unidirectional_Carbon_Fiber_Fabric_Roll-96256e7846.jpg",
+            "/assets/materials/03_Carbon_Fiber_Fabric_Roll-52999713f1.jpg",
+            "/assets/materials/04_Woven_Carbon_Fiber_Fabric_Roll-72fc649b71.jpg",
+            "/assets/materials/05_UD_Carbon_Fiber_Fabric_Roll-6fe47321c3.jpg"
+          ],
+          "description": "碳纤维常用简称为碳纤，是含碳量很高的细丝状材料，通常由聚丙烯腈等前驱体经稳定化和碳化制成。它具有低密度、高比强度、高比模量和明显方向性，多与环氧等树脂组合成复合材料。常用于航空航天、运动器材、自行车、汽车部件、机器人和高端产品外壳。",
           "cognitiveText": "碳纤维在“密度”尺度中的参数区间为 1.7–2 g/cm³。",
           "cases": [
             {
@@ -1614,12 +1709,19 @@
           ]
         },
         {
-          "name": "普通混凝土",
+          "name": "混凝土",
           "category": "建筑与矿物材料",
           "min": 2.24,
           "max": 2.4,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
-          "cognitiveText": "普通混凝土在“密度”尺度中的参数区间为 2.24–2.4 g/cm³。",
+          "image": "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
+          "images": [
+            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
+            "/assets/materials/01_Concrete_Aggregate_Sample-2a7751994f.jpg",
+            "/assets/materials/03_Exposed_Aggregate_Concrete_Samples-ef04d78dfc.jpg",
+            "/assets/materials/04_Concrete_Texture_Samples-68a5c93cd5.jpg"
+          ],
+          "description": "混凝土常用名称为混凝土，工程中也简称“砼”，由水泥、骨料、水及必要外加剂拌合并硬化形成。它抗压能力较强、可浇筑成复杂形状且成本相对可控，但抗拉性能较弱，常与钢筋组合使用。除建筑结构外，也用于家具、灯具、花器和公共设施等产品，表观性能受配比、养护和孔隙影响。",
+          "cognitiveText": "混凝土在“密度”尺度中的参数区间为 2.24–2.4 g/cm³。",
           "cases": [
             {
               "productName": "Decorative Surface",
@@ -1764,12 +1866,18 @@
           ]
         },
         {
-          "name": "钢化钠钙玻璃",
+          "name": "钢化玻璃",
           "category": "玻璃与陶瓷",
           "min": 2.44,
           "max": 2.52,
-          "image": "/assets/cases/17f23baf9cf90621af365a5daf08ee61-6b6b08c3be.jpeg",
-          "cognitiveText": "钢化钠钙玻璃在“密度”尺度中的参数区间为 2.44–2.52 g/cm³。",
+          "image": "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
+          "images": [
+            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
+            "/assets/materials/01_Clear_Glass_Sample-8d34ea7bab.jpg",
+            "/assets/materials/05_钢化安全玻璃破裂颗粒-7bc89f3275.jpg"
+          ],
+          "description": "钢化玻璃常用名称为钢化玻璃或强化玻璃，是普通玻璃经热处理或化学强化形成表面压应力的安全玻璃。它的抗弯和抗热冲击能力通常高于未强化玻璃，破碎时热钢化玻璃会形成较小颗粒。常用于建筑门窗、家具、家电面板、汽车侧窗、手机保护盖板和展示装置。",
+          "cognitiveText": "钢化玻璃在“密度”尺度中的参数区间为 2.44–2.52 g/cm³。",
           "cases": [
             {
               "productName": "Interior Design Element",
@@ -1918,7 +2026,14 @@
           "category": "金属与合金",
           "min": 2.6,
           "max": 2.6,
-          "image": "/assets/cases/10754c93a172f1bc5d1052a0858d15c1-8f2704d01f.jpeg",
+          "image": "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
+          "images": [
+            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
+            "/assets/materials/01_Aluminum_Alloy_Extrusion_Rods-cc5ade1966.jpg",
+            "/assets/materials/03_Aluminum_Alloy_Solid_Bars-647e9f31c2.jpg",
+            "/assets/materials/05_Extruded_Aluminum_Alloy_Bars-9f9569126b.jpg"
+          ],
+          "description": "铝合金是以铝为基体并加入镁、硅、铜、锌等元素形成的轻金属材料，常用名称即铝合金。它具有低密度、较好的比强度、耐腐蚀性和加工性，可进行挤压、压铸、冲压、机加工及阳极氧化。常用于电子产品外壳、交通工具、家具、建筑型材、灯具和包装。",
           "cognitiveText": "铝合金在“密度”尺度中的参数区间为 2.6–2.6 g/cm³。",
           "cases": [
             {
@@ -2064,12 +2179,18 @@
           ]
         },
         {
-          "name": "工程瓷",
+          "name": "瓷",
           "category": "玻璃与陶瓷",
           "min": 2.3,
           "max": 3,
-          "image": "/assets/cases/placeholder.svg",
-          "cognitiveText": "工程瓷在“密度”尺度中的参数区间为 2.3–3 g/cm³。",
+          "image": "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
+          "images": [
+            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
+            "/assets/materials/01_White_Porcelain_Floor_Tiles-0aa85f40b4.jpg",
+            "/assets/materials/03_Grazioso_Canvas_White_Porcelain_Tile_Sample-2bf10bfed4.jpg"
+          ],
+          "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
+          "cognitiveText": "瓷在“密度”尺度中的参数区间为 2.3–3 g/cm³。",
           "cases": []
         },
         {
@@ -2077,7 +2198,13 @@
           "category": "建筑与矿物材料",
           "min": 2.68,
           "max": 2.85,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
+          "image": "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
+          "images": [
+            "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
+            "/assets/materials/02_Grey-White_Marble_Slab-3fc844a84b.jpg",
+            "/assets/materials/05_White_Marble_Slab_Texture-c04bb0dbdf.jpg"
+          ],
+          "description": "大理石常用名称为大理石，地质学上主要对应大理岩，是石灰岩或白云岩经变质作用形成的天然石材。其纹理、颜色和孔隙会因矿物组成而变化，表面可抛光形成装饰效果。常用于建筑饰面、台面、雕塑、家具构件和工艺品，但需要关注脆性、重量、酸敏感性及天然批次差异。",
           "cognitiveText": "大理石在“密度”尺度中的参数区间为 2.68–2.85 g/cm³。",
           "cases": [
             {
@@ -2199,7 +2326,14 @@
           "category": "玻璃与陶瓷",
           "min": 3.5,
           "max": 3.53,
-          "image": "/assets/cases/464383a4bfae02ebf6056e5acbd80671-389aeed4f6.jpeg",
+          "image": "/assets/materials/04_Raw_Uncut_Diamond-bc3d17546f.jpg",
+          "images": [
+            "/assets/materials/04_Raw_Uncut_Diamond-bc3d17546f.jpg",
+            "/assets/materials/01_African_Raw_Diamond-510ed04654.jpg",
+            "/assets/materials/02_Natural_Rough_Grey_Diamonds-1170c9692e.jpg",
+            "/assets/materials/05_White-Grey_Rough_Diamond_Crystals-e2de98b793.jpg"
+          ],
+          "description": "金刚石常用名称为金刚石，达到宝石品质并经切磨后通常称为钻石，是碳元素形成的晶体材料。它具有极高硬度、耐磨性和很高导热能力，但不同晶向和缺陷会影响性能。除珠宝外，工业金刚石广泛用于切削、磨削、钻探、散热片、光学窗口和高压实验装置。",
           "cognitiveText": "金刚石在“密度”尺度中的参数区间为 3.5–3.53 g/cm³。",
           "cases": [
             {
@@ -2254,12 +2388,19 @@
           ]
         },
         {
-          "name": "蓝宝石（单晶Al₂O₃）",
+          "name": "蓝宝石玻璃",
           "category": "玻璃与陶瓷",
           "min": 3.97,
           "max": 3.98,
-          "image": "/assets/cases/0f7d7c26ffda27fe248ebc7f0b72139d-efae3bced0.jpeg",
-          "cognitiveText": "蓝宝石（单晶Al₂O₃）在“密度”尺度中的参数区间为 3.97–3.98 g/cm³。",
+          "image": "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
+          "images": [
+            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
+            "/assets/materials/03_Synthetic_Sapphire_Optical_Windows-4097024730.jpg",
+            "/assets/materials/04_Sapphire_Crystal_Glass_Blanks-bbf388a18c.jpg",
+            "/assets/materials/05_Customized_Sapphire_Optical_Window_Disc-a16fba506c.jpg"
+          ],
+          "description": "蓝宝石玻璃常用名称为蓝宝石玻璃或蓝宝石晶体，本质上通常是人工生长的单晶氧化铝，并非普通硅酸盐玻璃。它透明、硬度高、耐磨且耐高温，可制成薄片和光学窗口，但加工成本较高且仍具有脆性。常用于手表镜面、手机镜头保护、传感器窗口、LED衬底和精密光学器件。",
+          "cognitiveText": "蓝宝石玻璃在“密度”尺度中的参数区间为 3.97–3.98 g/cm³。",
           "cases": [
             {
               "productName": "Ring",
@@ -2289,7 +2430,13 @@
           "category": "金属与合金",
           "min": 4.42,
           "max": 4.43,
-          "image": "/assets/cases/0209146255f15e38ff9dd05c5bd77d66-2b025de7d3.jpeg",
+          "image": "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
+          "images": [
+            "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
+            "/assets/materials/01_Titanium_Raw_Material_Assortment-3127cfeb3d.jpg",
+            "/assets/materials/02_Titanium_Sheets-_Plates-_and_Rods_Display-945f8f00f4.jpg"
+          ],
+          "description": "钛合金是以钛为基体并加入铝、钒、钼等元素形成的合金体系，常用名称即钛合金。它兼具较低密度、较高比强度、耐腐蚀和生物相容性，α型、β型及α+β型合金的组织和性能不同。常用于航空结构、发动机部件、医疗植入物、化工设备、运动器材和高端消费品。",
           "cognitiveText": "钛合金在“密度”尺度中的参数区间为 4.42–4.43 g/cm³。",
           "cases": [
             {
@@ -2435,12 +2582,16 @@
           ]
         },
         {
-          "name": "工业纯钛",
+          "name": "钛金属（纯钛）",
           "category": "金属与合金",
           "min": 4.5,
           "max": 4.51,
-          "image": "/assets/cases/8c6f760564b95d6313fac22e970c639b-fa4c57fa53.jpeg",
-          "cognitiveText": "工业纯钛在“密度”尺度中的参数区间为 4.5–4.51 g/cm³。",
+          "image": "/assets/materials/04_Titanium_Sheets-_Plates-_and_Rods_Display-3e8e9bf78e.jpg",
+          "images": [
+            "/assets/materials/04_Titanium_Sheets-_Plates-_and_Rods_Display-3e8e9bf78e.jpg"
+          ],
+          "description": "钛金属（纯钛）常用名称为纯钛或钛金属，通常指工业纯钛而非加入大量合金元素的钛合金。它呈银灰色，密度低于钢，具有良好耐腐蚀性、生物相容性和一定成形焊接能力；不同纯钛等级的强度差异明显。常用于化工设备、医疗器械、换热器、建筑饰面和轻量化产品。",
+          "cognitiveText": "钛金属（纯钛）在“密度”尺度中的参数区间为 4.5–4.51 g/cm³。",
           "cases": [
             {
               "productName": "Heirloom Vacuum Flask – Mini",
@@ -2456,7 +2607,13 @@
           "category": "玻璃与陶瓷",
           "min": 5.7,
           "max": 6.1,
-          "image": "/assets/cases/5db5b422a968e64ee9d28c70bbb2dbb6-6be416de5b.jpeg",
+          "image": "/assets/materials/01_Y-TZP_Zirconia_Ceramic_Blocks-cd68a7bd3e.jpg",
+          "images": [
+            "/assets/materials/01_Y-TZP_Zirconia_Ceramic_Blocks-cd68a7bd3e.jpg",
+            "/assets/materials/03_Polished_Zirconia_Ceramic_Blocks-bb3994de47.jpg",
+            "/assets/materials/05_Zirconia_Ceramic_Samples-50e225bf12.jpg"
+          ],
+          "description": "氧化锆陶瓷常用名称为锆瓷，有时因其较高韧性被称为陶瓷钢，主要成分为二氧化锆。通过氧化钇等稳定剂控制晶相，可利用相变增韧获得优于普通陶瓷的抗裂能力，同时保持耐磨、耐腐蚀和生物相容性。常用于刀具、轴承、牙科修复、手表部件和精密结构件。",
           "cognitiveText": "氧化锆陶瓷在“密度”尺度中的参数区间为 5.7–6.1 g/cm³。",
           "cases": [
             {
@@ -2606,7 +2763,12 @@
           "category": "金属与合金",
           "min": 6.3,
           "max": 6.8,
-          "image": "/assets/cases/864b3cf966a8a1ef73d3afc72e1c8475-8e6925d493.jpeg",
+          "image": "/assets/materials/02_Zinc_Alloy_Ingots-c23c1e9576.jpg",
+          "images": [
+            "/assets/materials/02_Zinc_Alloy_Ingots-c23c1e9576.jpg",
+            "/assets/materials/04_Zamak_Alloy_Ingots_for_Die_Casting-4ce2d4b424.jpg"
+          ],
+          "description": "锌合金常用名称为锌合金或锌压铸合金，是以锌为基体并加入铝、铜、镁等元素的低熔点合金，常见体系包括Zamak。它具有良好压铸流动性，可成形薄壁、细节丰富的零件，表面适合电镀和涂装。常用于锁具、拉手、电子外壳、汽车小型件、玩具和装饰五金。",
           "cognitiveText": "锌合金在“密度”尺度中的参数区间为 6.3–6.8 g/cm³。",
           "cases": [
             {
@@ -2742,7 +2904,12 @@
           "category": "金属与合金",
           "min": 7.1,
           "max": 7.2,
-          "image": "/assets/cases/2386ea6a62b38689165575e1cd3e1011-b37666be8f.jpeg",
+          "image": "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
+          "images": [
+            "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
+            "/assets/materials/03_Cast_Iron_Ingot-39834ac7d0.jpg"
+          ],
+          "description": "铸铁是含碳量较高、主要通过铸造成形的铁碳合金，常用名称即铸铁。灰铸铁、球墨铸铁、白口铸铁等类型因石墨形态和组织不同，在减振、强度、耐磨和韧性上差异明显。铸铁流动性好、成本相对低，常用于机床底座、发动机部件、管件、炉具、锅具和厚壁结构件。",
           "cognitiveText": "铸铁在“密度”尺度中的参数区间为 7.1–7.2 g/cm³。",
           "cases": [
             {
@@ -2892,7 +3059,14 @@
           "category": "金属与合金",
           "min": 7.7,
           "max": 8,
-          "image": "/assets/cases/d3e59fd616e923bdbc4f30bfdc855522-f312bf6fda.jpeg",
+          "image": "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
+          "images": [
+            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
+            "/assets/materials/02_Stainless_Steel_Product_Range-5c3c0ea5bb.jpg",
+            "/assets/materials/04_Stainless_Steel_Sheets_and_Rods-ca1dc40731.jpg",
+            "/assets/materials/05_Stainless_Steel_Product_Assortment-747d45f710.jpg"
+          ],
+          "description": "不锈钢常用名称为不锈钢或耐蚀钢，是以铁为基体、含有足够铬并可加入镍、钼等元素的合金体系。铬在表面形成钝化膜，使其具有较好的耐腐蚀和清洁维护性能。奥氏体、铁素体、马氏体等类别在强度、磁性和加工性上不同，常用于厨具、建筑、医疗、交通及产品外壳。",
           "cognitiveText": "不锈钢在“密度”尺度中的参数区间为 7.7–8 g/cm³。",
           "cases": [
             {
@@ -3042,7 +3216,14 @@
           "category": "金属与合金",
           "min": 8.41,
           "max": 8.53,
-          "image": "/assets/cases/abc2dc2b6a6d8ffe68bb70a881175595-6c359e5070.jpeg",
+          "image": "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
+          "images": [
+            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
+            "/assets/materials/02_Brass_Alloy_Components-e2d520e349.jpg",
+            "/assets/materials/03_Brass_Alloy_Product_Showcase-a9260d0607.jpg",
+            "/assets/materials/05_Brass_Cut-to-Length_Components-4c35d4c4b1.jpg"
+          ],
+          "description": "黄铜是以铜和锌为主要成分的铜合金，常用名称即黄铜。它呈黄至金色金属光泽，具有良好成形、切削、耐腐蚀和装饰性能；加入铅、锡、铝等元素可形成不同用途的特殊黄铜。常用于阀门、管件、紧固件、乐器、灯具、家具五金、饰品和需要金色外观的产品部件。",
           "cognitiveText": "黄铜在“密度”尺度中的参数区间为 8.41–8.53 g/cm³。",
           "cases": [
             {
@@ -3192,7 +3373,14 @@
           "category": "金属与合金",
           "min": 8.96,
           "max": 9,
-          "image": "/assets/cases/930e8d48e9a3977df52ddc0ecb40e319-2ad9b406d8.jpeg",
+          "image": "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
+          "images": [
+            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
+            "/assets/materials/02_Copper_Product_Samples-a2d4818efa.jpg",
+            "/assets/materials/03_High-Purity_Copper_Ingots_and_Lumps-99f1e8324a.jpg",
+            "/assets/materials/04_Copper_Metal_Profiles-9c0df64d04.jpg"
+          ],
+          "description": "铜常用名称为铜，较高纯度的工业铜常称紫铜或纯铜。它具有优良的导电、导热、延展和耐腐蚀性能，表面会随环境形成由红褐到绿色的氧化或碱式碳酸盐层。铜常用于电线、电路、换热器、管材、厨具、建筑饰面和工艺品，也是黄铜、青铜等合金的主要基体。",
           "cognitiveText": "铜在“密度”尺度中的参数区间为 8.96–9 g/cm³。",
           "cases": [
             {
@@ -3354,7 +3542,13 @@
           "category": "多孔材料",
           "min": 0.00076,
           "max": 0.00345,
-          "image": "/assets/cases/e6ed17ee15666d939670fe9ff774e58d-4094b4a898.jpeg",
+          "image": "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
+          "images": [
+            "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
+            "/assets/materials/03_Polystyrene_Packaging_Beads-9123782bb5.jpg",
+            "/assets/materials/04_EPS_Plastic_Foam_Beads-bfe286b137.jpg"
+          ],
+          "description": "EPS常用名称为EPS泡沫、发泡聚苯乙烯，部分地区也称保丽龙。它由可发性聚苯乙烯珠粒经过预发泡和模塑形成，内部包含大量封闭气泡，因此密度低、隔热和缓冲性能突出。常用于产品包装、保温板、头盔缓冲层、展示模型与轻量化填充，但耐热性和耐溶剂性有限。",
           "cognitiveText": "EPS在“弹性模量”尺度中的参数区间为 0.00076–0.00345 GPa。",
           "cases": [
             {
@@ -3420,7 +3614,14 @@
           "category": "木质材料",
           "min": 0.013,
           "max": 0.05,
-          "image": "/assets/cases/c162550f3fca40cf42b1355311ca5796-7889f9789a.jpeg",
+          "image": "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
+          "images": [
+            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
+            "/assets/materials/02_Natural_Cork_Sheet_Roll-36f7686707.jpg",
+            "/assets/materials/03_Natural_Cork_Fabric_Rolls-37601d0fd8.jpg",
+            "/assets/materials/05_Natural_Cork_Sheet_Roll-f2bb65d00c.jpg"
+          ],
+          "description": "软木常用名称为软木或栓皮，主要取自栓皮栎等树木的外层树皮。其蜂窝状封闭细胞结构使材料轻、可压缩、回弹、隔热、吸声并具有一定防水性。软木可制成整片、颗粒板或复合材料，常用于瓶塞、地板、墙面、鞋材、握把、包装和可持续产品表面。",
           "cognitiveText": "软木在“弹性模量”尺度中的参数区间为 0.013–0.05 GPa。",
           "cases": [
             {
@@ -3549,7 +3750,13 @@
           "category": "聚合物与弹性体",
           "min": 0.03,
           "max": 0.7,
-          "image": "/assets/cases/ebf1077dc595bbc5d602b16119cf037d-f5535cc6c3.jpeg",
+          "image": "/assets/materials/04_TPU_SMP_Filament_and_Printed_Samples-986cefa695.jpg",
+          "images": [
+            "/assets/materials/04_TPU_SMP_Filament_and_Printed_Samples-986cefa695.jpg",
+            "/assets/materials/03_Thermoplastic_Polyurethane_Pellets_and_Filame-7d84b8c1d6.jpg",
+            "/assets/materials/05_Medical-Grade_Thermoplastic_Polyurethane_Comp-e3405b5e0d.jpg"
+          ],
+          "description": "TPU常用名称为热塑性聚氨酯或TPU弹性体，是可熔融加工的聚氨酯类弹性材料。它兼具橡胶般的弹性与热塑性塑料的成型效率，通常具有耐磨、抗撕裂、耐油和良好回弹性。常用于手机保护套、鞋材、软管、电缆护套、薄膜、滚轮及可穿戴产品，不同软硬段配方差异较大。",
           "cognitiveText": "TPU在“弹性模量”尺度中的参数区间为 0.03–0.7 GPa。",
           "cases": [
             {
@@ -3643,7 +3850,12 @@
           "category": "聚合物与弹性体",
           "min": 0.69,
           "max": 1.52,
-          "image": "/assets/cases/f687b26296c639eec40b6b3db84f9ad4-04a76324ec.jpeg",
+          "image": "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
+          "images": [
+            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
+            "/assets/materials/01_Polypropylene_Machined_Sheets_and_Rods-3ff1c90585.jpg"
+          ],
+          "description": "PP常用名称为聚丙烯或PP塑料，是密度较低、用途广泛的热塑性聚合物。它耐化学品、耐湿、易注塑和挤出，并具有良好的反复弯折疲劳性能，可制作一体式活铰链。常见于食品容器、家居用品、医疗耗材、汽车内饰、无纺布和包装薄膜，但低温冲击性能及耐候性需要关注。",
           "cognitiveText": "PP在“弹性模量”尺度中的参数区间为 0.69–1.52 GPa。",
           "cases": [
             {
@@ -3793,7 +4005,14 @@
           "category": "聚合物与弹性体",
           "min": 1.7,
           "max": 2.6,
-          "image": "/assets/cases/d1a4f73cf0c7a717022407f050aa1450-a254293cb6.jpeg",
+          "image": "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
+          "images": [
+            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
+            "/assets/materials/02_ABS_Plastic_Pellets-072e2e6578.jpg",
+            "/assets/materials/04_ABS_Plastic_Resin_Granules-4e4ab4d3c6.jpg",
+            "/assets/materials/05_Chimei_ABS_Resin_PA-765b_Plastic_Granules-1a84b6b56a.jpg"
+          ],
+          "description": "ABS常用名称为ABS塑料或ABS树脂，中文全称为丙烯腈—丁二烯—苯乙烯共聚物。它综合了刚性、韧性、尺寸稳定性和较好的表面加工性能，可通过注塑、挤出、机加工与表面涂装制成复杂外壳。常见于家电、电子产品、玩具、工具外壳、汽车内饰和模型制作。",
           "cognitiveText": "ABS在“弹性模量”尺度中的参数区间为 1.7–2.6 GPa。",
           "cases": [
             {
@@ -3943,7 +4162,15 @@
           "category": "聚合物与弹性体",
           "min": 2.3,
           "max": 2.4,
-          "image": "/assets/cases/e209c123c24c6fdf9217763ea23e14be-e7bc9f9dfc.jpeg",
+          "image": "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
+          "images": [
+            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
+            "/assets/materials/01_Transparent_Polycarbonate_Pellets-02e6f623ea.jpg",
+            "/assets/materials/03_Clear_Polycarbonate_Pellets-4d7b981453.jpg",
+            "/assets/materials/04_Polycarbonate_Pellets_for_Electrical_Applicat-debca79357.jpg",
+            "/assets/materials/05_Polycarbonate_Resin_Pellets_for_LED_Diffusers-faf7855af7.jpg"
+          ],
+          "description": "PC常用名称为聚碳酸酯或PC塑料，部分地区也称防弹胶。它是一种透明热塑性工程塑料，突出特点是抗冲击能力强、尺寸稳定、可透光并能进行注塑和热成型。PC常用于透明防护罩、电子产品外壳、头盔镜片、灯具、医疗器械及光学部件，但需要关注表面耐刮擦和耐化学性。",
           "cognitiveText": "PC在“弹性模量”尺度中的参数区间为 2.3–2.4 GPa。",
           "cases": [
             {
@@ -4089,12 +4316,18 @@
           ]
         },
         {
-          "name": "PA（尼龙）",
+          "name": "PA",
           "category": "聚合物与弹性体",
           "min": 2.6,
           "max": 3.3,
-          "image": "/assets/cases/9a7433e5f6b04b51d09e6f3a22ffe691-0a89e7d992.jpeg",
-          "cognitiveText": "PA（尼龙）在“弹性模量”尺度中的参数区间为 2.6–3.3 GPa。",
+          "image": "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
+          "images": [
+            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
+            "/assets/materials/02_Polyamide_-PA-_Sheets-_Rods-_and_Tubes-df8c0bbbe9.jpg",
+            "/assets/materials/05_Polyamide_-PA-_Plastic_Samples-47c88552e2.jpg"
+          ],
+          "description": "PA常用名称为尼龙或PA塑料，材料学名称为聚酰胺。其分子链含有酰胺基团，通常具有较高强度、耐磨性、耐疲劳性和良好的自润滑特征。不同尼龙牌号及含水状态会显著影响尺寸和力学性能。常用于齿轮、轴承、扣件、织物纤维、工具零件及结构性注塑件。",
+          "cognitiveText": "PA在“弹性模量”尺度中的参数区间为 2.6–3.3 GPa。",
           "cases": [
             {
               "productName": "Bluetooth Speaker for Two-Wheelers",
@@ -4243,7 +4476,13 @@
           "category": "聚合物与弹性体",
           "min": 2.8,
           "max": 3.3,
-          "image": "/assets/cases/3438d4ea99d2f67e8586fc88a5c5f118-8c954130f7.jpeg",
+          "image": "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
+          "images": [
+            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
+            "/assets/materials/02_Clear_Acrylic_Rods_and_Sheets-d7da225e61.jpg",
+            "/assets/materials/05_Acrylic_PMMA_Samples-d06b9c7a7e.jpg"
+          ],
+          "description": "PMMA常用名称为亚克力、有机玻璃或压克力，化学名称为聚甲基丙烯酸甲酯。它是透明度较高的无定形热塑性塑料，具有良好的耐候性、着色性和机械加工性能，常作为玻璃替代材料。典型应用包括灯具、展示架、标识、透明罩、汽车灯具和光学件，但抗冲击性低于PC。",
           "cognitiveText": "PMMA在“弹性模量”尺度中的参数区间为 2.8–3.3 GPa。",
           "cases": [
             {
@@ -4260,7 +4499,15 @@
           "category": "纤维",
           "min": 2.3,
           "max": 5,
-          "image": "/assets/cases/c3c79b1e57acda94356902d2c95bec4c-8cff62b561.jpeg",
+          "image": "/assets/materials/02_Wool_Felt_Roving_Yarn-7946691595.jpg",
+          "images": [
+            "/assets/materials/02_Wool_Felt_Roving_Yarn-7946691595.jpg",
+            "/assets/materials/01_Natural_Wool_Roving_Fiber-b59c9d5c20.jpg",
+            "/assets/materials/03_Raw-Colored_Carded_Felting_Wool-f9d8f2e899.jpg",
+            "/assets/materials/04_Natural_Wool_Felt_Texture-868872b2dd.jpg",
+            "/assets/materials/05_Natural_Roving_Wool_Fiber-5b4f80b34c.jpg"
+          ],
+          "description": "羊毛纤维常用名称为羊毛或毛纤维，是羊等动物毛被中取得的天然蛋白质纤维。其表面鳞片和天然卷曲赋予良好的保温、弹性、吸湿与毡化特性，同时具有一定阻燃性。羊毛可纺成纱线、织物、毡和吸声材料，常用于服装、家居软装、鞋材、隔热吸声产品及复合材料。",
           "cognitiveText": "羊毛纤维在“弹性模量”尺度中的参数区间为 2.3–5 GPa。",
           "cases": [
             {
@@ -4382,7 +4629,12 @@
           "category": "聚合物与弹性体",
           "min": 3.5,
           "max": 11,
-          "image": "/assets/cases/92fc6909ad3d1958a17a1159fe862189-938b359b60.jpeg",
+          "image": "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
+          "images": [
+            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
+            "/assets/materials/04_PET_Preforms_and_Pellets-66a536ba55.jpg"
+          ],
+          "description": "PET常用名称为PET塑料或聚酯，化学名称为聚对苯二甲酸乙二酯。它可制成透明容器、薄膜、片材和纤维，具有较好的强度、气体阻隔性、尺寸稳定性和可回收性。结晶程度与加工状态会改变透明度和耐热性，常用于饮料瓶、食品包装、电子薄膜、纺织纤维及工程塑料。",
           "cognitiveText": "PET在“弹性模量”尺度中的参数区间为 3.5–11 GPa。",
           "cases": [
             {
@@ -4532,7 +4784,15 @@
           "category": "木质材料",
           "min": 10.6,
           "max": 12.3,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
+          "image": "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
+          "images": [
+            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
+            "/assets/materials/02_White_Oak_Lumber_Boards-e9db162d1b.jpg",
+            "/assets/materials/03_Oak_Thin_Boards_Set-b06db8e91b.jpg",
+            "/assets/materials/04_Oak_Lumber_Boards-4144b6bf03.jpg",
+            "/assets/materials/05_White_Oak_Plain-Sawn_Hardwood_Planks-9f8aaada2b.jpg"
+          ],
+          "description": "橡木常用名称为橡木或栎木，来自栎属多种树木，是家具和室内产品中常见的阔叶木材。其纹理明显，通常具有较好的强度、耐磨性和表面涂饰效果，白橡与红橡在导管结构、色泽和耐久性方面存在差异。常用于家具、地板、酒桶、饰面板和结构木制品，性能受含水率影响明显。",
           "cognitiveText": "橡木在“弹性模量”尺度中的参数区间为 10.6–12.3 GPa。",
           "cases": [
             {
@@ -4682,7 +4942,13 @@
           "category": "纤维",
           "min": 10,
           "max": 15,
-          "image": "/assets/cases/c3c79b1e57acda94356902d2c95bec4c-8cff62b561.jpeg",
+          "image": "/assets/materials/03_Low-Melt_Polyester_Fiber_Samples-7cd5d15f73.jpg",
+          "images": [
+            "/assets/materials/03_Low-Melt_Polyester_Fiber_Samples-7cd5d15f73.jpg",
+            "/assets/materials/02_Polyester_Filament_Yarn_Samples-dc59ea2163.jpg",
+            "/assets/materials/05_Bright_White_Polyester_Hank_Yarn-3d918eaf42.jpg"
+          ],
+          "description": "PET聚酯纤维常用名称为涤纶或聚酯纤维，是以聚对苯二甲酸乙二酯为主要成分制成的合成纤维。它具有强度较高、耐磨、易洗快干和尺寸稳定等特点，可制成长丝、短纤、织物或非织造材料。常用于服装、箱包、家具面料、绳带、过滤材料及纤维增强复合材料。",
           "cognitiveText": "PET聚酯纤维在“弹性模量”尺度中的参数区间为 10–15 GPa。",
           "cases": [
             {
@@ -4832,7 +5098,15 @@
           "category": "木质材料",
           "min": 5,
           "max": 25,
-          "image": "/assets/cases/85dc813edc2d2a4a3e263602200dea38-e842c6490a.jpeg",
+          "image": "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
+          "images": [
+            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
+            "/assets/materials/02_Bamboo_Laminated_Wood_Boards-1aabd4826c.jpg",
+            "/assets/materials/03_Bamboo_Slats_Display-fca6bce693.jpg",
+            "/assets/materials/04_Natural_Dry_Bamboo_Strips-a9ba0e4cf8.jpg",
+            "/assets/materials/05_Stacked_Bamboo_Plywood_Boards-2231a7d0e2.jpg"
+          ],
+          "description": "竹材常用名称为竹材或竹木，来源于竹秆，经干燥、防护、剖分、层压或重组后可形成板材和构件。其纤维沿生长方向排列，具有较高比强度和鲜明纹理，但性能受竹种、部位、含水率及胶合方式影响。常用于家具、餐具、地板、包装、建筑构件和可持续产品设计。",
           "cognitiveText": "竹材在“弹性模量”尺度中的参数区间为 5–25 GPa。",
           "cases": [
             {
@@ -4859,12 +5133,19 @@
           ]
         },
         {
-          "name": "普通混凝土",
+          "name": "混凝土",
           "category": "建筑与矿物材料",
           "min": 14,
           "max": 41,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
-          "cognitiveText": "普通混凝土在“弹性模量”尺度中的参数区间为 14–41 GPa。",
+          "image": "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
+          "images": [
+            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
+            "/assets/materials/01_Concrete_Aggregate_Sample-2a7751994f.jpg",
+            "/assets/materials/03_Exposed_Aggregate_Concrete_Samples-ef04d78dfc.jpg",
+            "/assets/materials/04_Concrete_Texture_Samples-68a5c93cd5.jpg"
+          ],
+          "description": "混凝土常用名称为混凝土，工程中也简称“砼”，由水泥、骨料、水及必要外加剂拌合并硬化形成。它抗压能力较强、可浇筑成复杂形状且成本相对可控，但抗拉性能较弱，常与钢筋组合使用。除建筑结构外，也用于家具、灯具、花器和公共设施等产品，表观性能受配比、养护和孔隙影响。",
+          "cognitiveText": "混凝土在“弹性模量”尺度中的参数区间为 14–41 GPa。",
           "cases": [
             {
               "productName": "Decorative Surface",
@@ -5013,7 +5294,14 @@
           "category": "金属与合金",
           "min": 44.8,
           "max": 45,
-          "image": "/assets/cases/107d19dcaf6090d43644fd5515656521-bc0ba0f4ee.jpeg",
+          "image": "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
+          "images": [
+            "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
+            "/assets/materials/01_Magnesium_Alloy_Samples-d904aea5eb.jpg",
+            "/assets/materials/02_99-9-_Magnesium_Alloy_Sheet-feebc7a9a1.jpg",
+            "/assets/materials/04_Magnesium_Alloy_Ingot_Display-ce3efccb4f.jpg"
+          ],
+          "description": "镁合金是以镁为基体并加入铝、锌、锰、稀土等元素形成的轻金属材料，常用名称即镁合金。其密度低、比强度较好、减振和电磁屏蔽性能突出，适合压铸和机加工，但耐腐蚀、燃烧风险及表面防护需要重点控制。常用于电子外壳、汽车零件、航空部件和轻量化器材。",
           "cognitiveText": "镁合金在“弹性模量”尺度中的参数区间为 44.8–45 GPa。",
           "cases": [
             {
@@ -5163,7 +5451,13 @@
           "category": "建筑与矿物材料",
           "min": 23,
           "max": 74,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
+          "image": "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
+          "images": [
+            "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
+            "/assets/materials/02_Grey-White_Marble_Slab-3fc844a84b.jpg",
+            "/assets/materials/05_White_Marble_Slab_Texture-c04bb0dbdf.jpg"
+          ],
+          "description": "大理石常用名称为大理石，地质学上主要对应大理岩，是石灰岩或白云岩经变质作用形成的天然石材。其纹理、颜色和孔隙会因矿物组成而变化，表面可抛光形成装饰效果。常用于建筑饰面、台面、雕塑、家具构件和工艺品，但需要关注脆性、重量、酸敏感性及天然批次差异。",
           "cognitiveText": "大理石在“弹性模量”尺度中的参数区间为 23–74 GPa。",
           "cases": [
             {
@@ -5285,7 +5579,11 @@
           "category": "玻璃与陶瓷",
           "min": 62,
           "max": 67,
-          "image": "/assets/cases/532700c4fc7196edadbaa1290b0369a4-9b8a5c89ee.jpeg",
+          "image": "/assets/materials/placeholder.svg",
+          "images": [
+            "/assets/materials/placeholder.svg"
+          ],
+          "description": "材料简介",
           "cognitiveText": "硼硅玻璃在“弹性模量”尺度中的参数区间为 62–67 GPa。",
           "cases": [
             {
@@ -5435,7 +5733,14 @@
           "category": "金属与合金",
           "min": 70,
           "max": 70,
-          "image": "/assets/cases/10754c93a172f1bc5d1052a0858d15c1-8f2704d01f.jpeg",
+          "image": "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
+          "images": [
+            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
+            "/assets/materials/01_Aluminum_Alloy_Extrusion_Rods-cc5ade1966.jpg",
+            "/assets/materials/03_Aluminum_Alloy_Solid_Bars-647e9f31c2.jpg",
+            "/assets/materials/05_Extruded_Aluminum_Alloy_Bars-9f9569126b.jpg"
+          ],
+          "description": "铝合金是以铝为基体并加入镁、硅、铜、锌等元素形成的轻金属材料，常用名称即铝合金。它具有低密度、较好的比强度、耐腐蚀性和加工性，可进行挤压、压铸、冲压、机加工及阳极氧化。常用于电子产品外壳、交通工具、家具、建筑型材、灯具和包装。",
           "cognitiveText": "铝合金在“弹性模量”尺度中的参数区间为 70–70 GPa。",
           "cases": [
             {
@@ -5585,7 +5890,12 @@
           "category": "金属与合金",
           "min": 70,
           "max": 80,
-          "image": "/assets/cases/c3c79b1e57acda94356902d2c95bec4c-8cff62b561.jpeg",
+          "image": "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
+          "images": [
+            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
+            "/assets/materials/02_99-99-纯金颗粒-9ad8114de2.jpg"
+          ],
+          "description": "金常用名称为黄金，是具有黄色金属光泽的贵金属。它延展性和导电性突出，化学性质稳定，不易氧化，但纯金较软，工程使用中常通过加入银、铜等元素形成不同成色的合金。除珠宝和装饰外，金还用于电子触点、连接器、镀层、牙科和精密器件，其成本与资源属性非常显著。",
           "cognitiveText": "金在“弹性模量”尺度中的参数区间为 70–80 GPa。",
           "cases": [
             {
@@ -5686,7 +5996,13 @@
           "category": "金属与合金",
           "min": 80,
           "max": 85,
-          "image": "/assets/cases/96ea874d03dbc70acd645f25678d01ec-d7cf778902.jpeg",
+          "image": "/assets/materials/04_Fine_999_Silver_Sheet_for_Jewellery_Making-1863f6a346.jpg",
+          "images": [
+            "/assets/materials/04_Fine_999_Silver_Sheet_for_Jewellery_Making-1863f6a346.jpg",
+            "/assets/materials/03_High-Purity_Silver_Strips-5a8faeace7.jpg",
+            "/assets/materials/05_Argentium_Silver_Sheets-e800fe36d8.jpg"
+          ],
+          "description": "银常用名称为白银，是具有明亮白色金属光泽的贵金属。它在常见金属中具有很高的导电和导热能力，同时延展性良好，但表面会与含硫物质反应而变暗。银除用于首饰、餐具和装饰外，也广泛用于电子触点、导电浆料、光伏电极、镜面镀层和抗菌材料。",
           "cognitiveText": "银在“弹性模量”尺度中的参数区间为 80–85 GPa。",
           "cases": [
             {
@@ -5780,7 +6096,14 @@
           "category": "金属与合金",
           "min": 97,
           "max": 110,
-          "image": "/assets/cases/abc2dc2b6a6d8ffe68bb70a881175595-6c359e5070.jpeg",
+          "image": "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
+          "images": [
+            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
+            "/assets/materials/02_Brass_Alloy_Components-e2d520e349.jpg",
+            "/assets/materials/03_Brass_Alloy_Product_Showcase-a9260d0607.jpg",
+            "/assets/materials/05_Brass_Cut-to-Length_Components-4c35d4c4b1.jpg"
+          ],
+          "description": "黄铜是以铜和锌为主要成分的铜合金，常用名称即黄铜。它呈黄至金色金属光泽，具有良好成形、切削、耐腐蚀和装饰性能；加入铅、锡、铝等元素可形成不同用途的特殊黄铜。常用于阀门、管件、紧固件、乐器、灯具、家具五金、饰品和需要金色外观的产品部件。",
           "cognitiveText": "黄铜在“弹性模量”尺度中的参数区间为 97–110 GPa。",
           "cases": [
             {
@@ -5926,21 +6249,31 @@
           ]
         },
         {
-          "name": "工程瓷",
+          "name": "瓷",
           "category": "玻璃与陶瓷",
           "min": 67,
           "max": 150,
-          "image": "/assets/cases/placeholder.svg",
-          "cognitiveText": "工程瓷在“弹性模量”尺度中的参数区间为 67–150 GPa。",
+          "image": "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
+          "images": [
+            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
+            "/assets/materials/01_White_Porcelain_Floor_Tiles-0aa85f40b4.jpg",
+            "/assets/materials/03_Grazioso_Canvas_White_Porcelain_Tile_Sample-2bf10bfed4.jpg"
+          ],
+          "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
+          "cognitiveText": "瓷在“弹性模量”尺度中的参数区间为 67–150 GPa。",
           "cases": []
         },
         {
-          "name": "工业纯钛",
+          "name": "钛金属（纯钛）",
           "category": "金属与合金",
           "min": 102,
           "max": 120.2,
-          "image": "/assets/cases/8c6f760564b95d6313fac22e970c639b-fa4c57fa53.jpeg",
-          "cognitiveText": "工业纯钛在“弹性模量”尺度中的参数区间为 102–120.2 GPa。",
+          "image": "/assets/materials/04_Titanium_Sheets-_Plates-_and_Rods_Display-3e8e9bf78e.jpg",
+          "images": [
+            "/assets/materials/04_Titanium_Sheets-_Plates-_and_Rods_Display-3e8e9bf78e.jpg"
+          ],
+          "description": "钛金属（纯钛）常用名称为纯钛或钛金属，通常指工业纯钛而非加入大量合金元素的钛合金。它呈银灰色，密度低于钢，具有良好耐腐蚀性、生物相容性和一定成形焊接能力；不同纯钛等级的强度差异明显。常用于化工设备、医疗器械、换热器、建筑饰面和轻量化产品。",
+          "cognitiveText": "钛金属（纯钛）在“弹性模量”尺度中的参数区间为 102–120.2 GPa。",
           "cases": [
             {
               "productName": "Heirloom Vacuum Flask – Mini",
@@ -5956,7 +6289,14 @@
           "category": "金属与合金",
           "min": 120,
           "max": 129.8,
-          "image": "/assets/cases/930e8d48e9a3977df52ddc0ecb40e319-2ad9b406d8.jpeg",
+          "image": "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
+          "images": [
+            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
+            "/assets/materials/02_Copper_Product_Samples-a2d4818efa.jpg",
+            "/assets/materials/03_High-Purity_Copper_Ingots_and_Lumps-99f1e8324a.jpg",
+            "/assets/materials/04_Copper_Metal_Profiles-9c0df64d04.jpg"
+          ],
+          "description": "铜常用名称为铜，较高纯度的工业铜常称紫铜或纯铜。它具有优良的导电、导热、延展和耐腐蚀性能，表面会随环境形成由红褐到绿色的氧化或碱式碳酸盐层。铜常用于电线、电路、换热器、管材、厨具、建筑饰面和工艺品，也是黄铜、青铜等合金的主要基体。",
           "cognitiveText": "铜在“弹性模量”尺度中的参数区间为 120–129.8 GPa。",
           "cases": [
             {
@@ -6106,7 +6446,11 @@
           "category": "金属与合金",
           "min": 154,
           "max": 172.4,
-          "image": "/assets/cases/5341119ef606f056e028512635604731-6b4cf67d71.jpeg",
+          "image": "/assets/materials/placeholder.svg",
+          "images": [
+            "/assets/materials/placeholder.svg"
+          ],
+          "description": "材料简介",
           "cognitiveText": "铂在“弹性模量”尺度中的参数区间为 154–172.4 GPa。",
           "cases": [
             {
@@ -6123,7 +6467,12 @@
           "category": "金属与合金",
           "min": 180,
           "max": 180,
-          "image": "/assets/cases/2386ea6a62b38689165575e1cd3e1011-b37666be8f.jpeg",
+          "image": "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
+          "images": [
+            "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
+            "/assets/materials/03_Cast_Iron_Ingot-39834ac7d0.jpg"
+          ],
+          "description": "铸铁是含碳量较高、主要通过铸造成形的铁碳合金，常用名称即铸铁。灰铸铁、球墨铸铁、白口铸铁等类型因石墨形态和组织不同，在减振、强度、耐磨和韧性上差异明显。铸铁流动性好、成本相对低，常用于机床底座、发动机部件、管件、炉具、锅具和厚壁结构件。",
           "cognitiveText": "铸铁在“弹性模量”尺度中的参数区间为 180–180 GPa。",
           "cases": [
             {
@@ -6273,7 +6622,13 @@
           "category": "金属与合金",
           "min": 193,
           "max": 200,
-          "image": "/assets/cases/d3e59fd616e923bdbc4f30bfdc855522-f312bf6fda.jpeg",
+          "image": "/assets/materials/04_Stainless_Steel_Tubes_and_Sheets-f1d6b92b02.jpg",
+          "images": [
+            "/assets/materials/04_Stainless_Steel_Tubes_and_Sheets-f1d6b92b02.jpg",
+            "/assets/materials/03_Stainless_Steel_Sheets_and_Rods-ef11d267da.jpg",
+            "/assets/materials/05_Stainless_Steel_Jewelry_Material_Samples-6970953370.jpg"
+          ],
+          "description": "316/316L不锈钢常用名称为316不锈钢和低碳316L不锈钢，是含铬、镍、钼的奥氏体不锈钢。钼能提高耐点蚀和耐氯化物腐蚀能力，316L因碳含量较低，更适合焊接后仍需保持耐蚀性的构件。它常用于医疗器械、食品设备、海洋附件、紧固件及精密产品外壳。",
           "cognitiveText": "316/316L不锈钢在“弹性模量”尺度中的参数区间为 193–200 GPa。",
           "cases": [
             {
@@ -6423,7 +6778,14 @@
           "category": "金属与合金",
           "min": 200,
           "max": 220,
-          "image": "/assets/cases/d3e59fd616e923bdbc4f30bfdc855522-f312bf6fda.jpeg",
+          "image": "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
+          "images": [
+            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
+            "/assets/materials/02_Stainless_Steel_Product_Range-5c3c0ea5bb.jpg",
+            "/assets/materials/04_Stainless_Steel_Sheets_and_Rods-ca1dc40731.jpg",
+            "/assets/materials/05_Stainless_Steel_Product_Assortment-747d45f710.jpg"
+          ],
+          "description": "不锈钢常用名称为不锈钢或耐蚀钢，是以铁为基体、含有足够铬并可加入镍、钼等元素的合金体系。铬在表面形成钝化膜，使其具有较好的耐腐蚀和清洁维护性能。奥氏体、铁素体、马氏体等类别在强度、磁性和加工性上不同，常用于厨具、建筑、医疗、交通及产品外壳。",
           "cognitiveText": "不锈钢在“弹性模量”尺度中的参数区间为 200–220 GPa。",
           "cases": [
             {
@@ -6573,7 +6935,15 @@
           "category": "纤维",
           "min": 220,
           "max": 400,
-          "image": "/assets/cases/6444a632063ed0fd0a511f1f5fa8c68a-2cb773c337.jpeg",
+          "image": "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
+          "images": [
+            "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
+            "/assets/materials/02_Unidirectional_Carbon_Fiber_Fabric_Roll-96256e7846.jpg",
+            "/assets/materials/03_Carbon_Fiber_Fabric_Roll-52999713f1.jpg",
+            "/assets/materials/04_Woven_Carbon_Fiber_Fabric_Roll-72fc649b71.jpg",
+            "/assets/materials/05_UD_Carbon_Fiber_Fabric_Roll-6fe47321c3.jpg"
+          ],
+          "description": "碳纤维常用简称为碳纤，是含碳量很高的细丝状材料，通常由聚丙烯腈等前驱体经稳定化和碳化制成。它具有低密度、高比强度、高比模量和明显方向性，多与环氧等树脂组合成复合材料。常用于航空航天、运动器材、自行车、汽车部件、机器人和高端产品外壳。",
           "cognitiveText": "碳纤维在“弹性模量”尺度中的参数区间为 220–400 GPa。",
           "cases": [
             {
@@ -6735,7 +7105,14 @@
           "category": "木质材料",
           "min": 0.035,
           "max": 0.048,
-          "image": "/assets/cases/c162550f3fca40cf42b1355311ca5796-7889f9789a.jpeg",
+          "image": "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
+          "images": [
+            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
+            "/assets/materials/02_Natural_Cork_Sheet_Roll-36f7686707.jpg",
+            "/assets/materials/03_Natural_Cork_Fabric_Rolls-37601d0fd8.jpg",
+            "/assets/materials/05_Natural_Cork_Sheet_Roll-f2bb65d00c.jpg"
+          ],
+          "description": "软木常用名称为软木或栓皮，主要取自栓皮栎等树木的外层树皮。其蜂窝状封闭细胞结构使材料轻、可压缩、回弹、隔热、吸声并具有一定防水性。软木可制成整片、颗粒板或复合材料，常用于瓶塞、地板、墙面、鞋材、握把、包装和可持续产品表面。",
           "cognitiveText": "软木在“导热系数”尺度中的参数区间为 0.035–0.048 W/(m·K)。",
           "cases": [
             {
@@ -6864,7 +7241,15 @@
           "category": "木质材料",
           "min": 0.136,
           "max": 0.19,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
+          "image": "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
+          "images": [
+            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
+            "/assets/materials/02_White_Oak_Lumber_Boards-e9db162d1b.jpg",
+            "/assets/materials/03_Oak_Thin_Boards_Set-b06db8e91b.jpg",
+            "/assets/materials/04_Oak_Lumber_Boards-4144b6bf03.jpg",
+            "/assets/materials/05_White_Oak_Plain-Sawn_Hardwood_Planks-9f8aaada2b.jpg"
+          ],
+          "description": "橡木常用名称为橡木或栎木，来自栎属多种树木，是家具和室内产品中常见的阔叶木材。其纹理明显，通常具有较好的强度、耐磨性和表面涂饰效果，白橡与红橡在导管结构、色泽和耐久性方面存在差异。常用于家具、地板、酒桶、饰面板和结构木制品，性能受含水率影响明显。",
           "cognitiveText": "橡木在“导热系数”尺度中的参数区间为 0.136–0.19 W/(m·K)。",
           "cases": [
             {
@@ -7014,7 +7399,13 @@
           "category": "聚合物与弹性体",
           "min": 0.17,
           "max": 0.19,
-          "image": "/assets/cases/3438d4ea99d2f67e8586fc88a5c5f118-8c954130f7.jpeg",
+          "image": "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
+          "images": [
+            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
+            "/assets/materials/02_Clear_Acrylic_Rods_and_Sheets-d7da225e61.jpg",
+            "/assets/materials/05_Acrylic_PMMA_Samples-d06b9c7a7e.jpg"
+          ],
+          "description": "PMMA常用名称为亚克力、有机玻璃或压克力，化学名称为聚甲基丙烯酸甲酯。它是透明度较高的无定形热塑性塑料，具有良好的耐候性、着色性和机械加工性能，常作为玻璃替代材料。典型应用包括灯具、展示架、标识、透明罩、汽车灯具和光学件，但抗冲击性低于PC。",
           "cognitiveText": "PMMA在“导热系数”尺度中的参数区间为 0.17–0.19 W/(m·K)。",
           "cases": [
             {
@@ -7031,7 +7422,12 @@
           "category": "聚合物与弹性体",
           "min": 0.15,
           "max": 0.22,
-          "image": "/assets/cases/f687b26296c639eec40b6b3db84f9ad4-04a76324ec.jpeg",
+          "image": "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
+          "images": [
+            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
+            "/assets/materials/01_Polypropylene_Machined_Sheets_and_Rods-3ff1c90585.jpg"
+          ],
+          "description": "PP常用名称为聚丙烯或PP塑料，是密度较低、用途广泛的热塑性聚合物。它耐化学品、耐湿、易注塑和挤出，并具有良好的反复弯折疲劳性能，可制作一体式活铰链。常见于食品容器、家居用品、医疗耗材、汽车内饰、无纺布和包装薄膜，但低温冲击性能及耐候性需要关注。",
           "cognitiveText": "PP在“导热系数”尺度中的参数区间为 0.15–0.22 W/(m·K)。",
           "cases": [
             {
@@ -7181,7 +7577,15 @@
           "category": "聚合物与弹性体",
           "min": 0.19,
           "max": 0.22,
-          "image": "/assets/cases/e209c123c24c6fdf9217763ea23e14be-e7bc9f9dfc.jpeg",
+          "image": "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
+          "images": [
+            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
+            "/assets/materials/01_Transparent_Polycarbonate_Pellets-02e6f623ea.jpg",
+            "/assets/materials/03_Clear_Polycarbonate_Pellets-4d7b981453.jpg",
+            "/assets/materials/04_Polycarbonate_Pellets_for_Electrical_Applicat-debca79357.jpg",
+            "/assets/materials/05_Polycarbonate_Resin_Pellets_for_LED_Diffusers-faf7855af7.jpg"
+          ],
+          "description": "PC常用名称为聚碳酸酯或PC塑料，部分地区也称防弹胶。它是一种透明热塑性工程塑料，突出特点是抗冲击能力强、尺寸稳定、可透光并能进行注塑和热成型。PC常用于透明防护罩、电子产品外壳、头盔镜片、灯具、医疗器械及光学部件，但需要关注表面耐刮擦和耐化学性。",
           "cognitiveText": "PC在“导热系数”尺度中的参数区间为 0.19–0.22 W/(m·K)。",
           "cases": [
             {
@@ -7327,12 +7731,18 @@
           ]
         },
         {
-          "name": "PA（尼龙）",
+          "name": "PA",
           "category": "聚合物与弹性体",
           "min": 0.23,
           "max": 0.25,
-          "image": "/assets/cases/9a7433e5f6b04b51d09e6f3a22ffe691-0a89e7d992.jpeg",
-          "cognitiveText": "PA（尼龙）在“导热系数”尺度中的参数区间为 0.23–0.25 W/(m·K)。",
+          "image": "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
+          "images": [
+            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
+            "/assets/materials/02_Polyamide_-PA-_Sheets-_Rods-_and_Tubes-df8c0bbbe9.jpg",
+            "/assets/materials/05_Polyamide_-PA-_Plastic_Samples-47c88552e2.jpg"
+          ],
+          "description": "PA常用名称为尼龙或PA塑料，材料学名称为聚酰胺。其分子链含有酰胺基团，通常具有较高强度、耐磨性、耐疲劳性和良好的自润滑特征。不同尼龙牌号及含水状态会显著影响尺寸和力学性能。常用于齿轮、轴承、扣件、织物纤维、工具零件及结构性注塑件。",
+          "cognitiveText": "PA在“导热系数”尺度中的参数区间为 0.23–0.25 W/(m·K)。",
           "cases": [
             {
               "productName": "Bluetooth Speaker for Two-Wheelers",
@@ -7481,7 +7891,14 @@
           "category": "聚合物与弹性体",
           "min": 0.17,
           "max": 0.34,
-          "image": "/assets/cases/d1a4f73cf0c7a717022407f050aa1450-a254293cb6.jpeg",
+          "image": "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
+          "images": [
+            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
+            "/assets/materials/02_ABS_Plastic_Pellets-072e2e6578.jpg",
+            "/assets/materials/04_ABS_Plastic_Resin_Granules-4e4ab4d3c6.jpg",
+            "/assets/materials/05_Chimei_ABS_Resin_PA-765b_Plastic_Granules-1a84b6b56a.jpg"
+          ],
+          "description": "ABS常用名称为ABS塑料或ABS树脂，中文全称为丙烯腈—丁二烯—苯乙烯共聚物。它综合了刚性、韧性、尺寸稳定性和较好的表面加工性能，可通过注塑、挤出、机加工与表面涂装制成复杂外壳。常见于家电、电子产品、玩具、工具外壳、汽车内饰和模型制作。",
           "cognitiveText": "ABS在“导热系数”尺度中的参数区间为 0.17–0.34 W/(m·K)。",
           "cases": [
             {
@@ -7631,7 +8048,12 @@
           "category": "聚合物与弹性体",
           "min": 0.17,
           "max": 0.4,
-          "image": "/assets/cases/92fc6909ad3d1958a17a1159fe862189-938b359b60.jpeg",
+          "image": "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
+          "images": [
+            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
+            "/assets/materials/04_PET_Preforms_and_Pellets-66a536ba55.jpg"
+          ],
+          "description": "PET常用名称为PET塑料或聚酯，化学名称为聚对苯二甲酸乙二酯。它可制成透明容器、薄膜、片材和纤维，具有较好的强度、气体阻隔性、尺寸稳定性和可回收性。结晶程度与加工状态会改变透明度和耐热性，常用于饮料瓶、食品包装、电子薄膜、纺织纤维及工程塑料。",
           "cognitiveText": "PET在“导热系数”尺度中的参数区间为 0.17–0.4 W/(m·K)。",
           "cases": [
             {
@@ -7781,7 +8203,15 @@
           "category": "木质材料",
           "min": 0.39,
           "max": 0.59,
-          "image": "/assets/cases/85dc813edc2d2a4a3e263602200dea38-e842c6490a.jpeg",
+          "image": "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
+          "images": [
+            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
+            "/assets/materials/02_Bamboo_Laminated_Wood_Boards-1aabd4826c.jpg",
+            "/assets/materials/03_Bamboo_Slats_Display-fca6bce693.jpg",
+            "/assets/materials/04_Natural_Dry_Bamboo_Strips-a9ba0e4cf8.jpg",
+            "/assets/materials/05_Stacked_Bamboo_Plywood_Boards-2231a7d0e2.jpg"
+          ],
+          "description": "竹材常用名称为竹材或竹木，来源于竹秆，经干燥、防护、剖分、层压或重组后可形成板材和构件。其纤维沿生长方向排列，具有较高比强度和鲜明纹理，但性能受竹种、部位、含水率及胶合方式影响。常用于家具、餐具、地板、包装、建筑构件和可持续产品设计。",
           "cognitiveText": "竹材在“导热系数”尺度中的参数区间为 0.39–0.59 W/(m·K)。",
           "cases": [
             {
@@ -7808,12 +8238,18 @@
           ]
         },
         {
-          "name": "钢化钠钙玻璃",
+          "name": "钢化玻璃",
           "category": "玻璃与陶瓷",
           "min": 0.94,
           "max": 1.1,
-          "image": "/assets/cases/17f23baf9cf90621af365a5daf08ee61-6b6b08c3be.jpeg",
-          "cognitiveText": "钢化钠钙玻璃在“导热系数”尺度中的参数区间为 0.94–1.1 W/(m·K)。",
+          "image": "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
+          "images": [
+            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
+            "/assets/materials/01_Clear_Glass_Sample-8d34ea7bab.jpg",
+            "/assets/materials/05_钢化安全玻璃破裂颗粒-7bc89f3275.jpg"
+          ],
+          "description": "钢化玻璃常用名称为钢化玻璃或强化玻璃，是普通玻璃经热处理或化学强化形成表面压应力的安全玻璃。它的抗弯和抗热冲击能力通常高于未强化玻璃，破碎时热钢化玻璃会形成较小颗粒。常用于建筑门窗、家具、家电面板、汽车侧窗、手机保护盖板和展示装置。",
+          "cognitiveText": "钢化玻璃在“导热系数”尺度中的参数区间为 0.94–1.1 W/(m·K)。",
           "cases": [
             {
               "productName": "Interior Design Element",
@@ -7958,12 +8394,19 @@
           ]
         },
         {
-          "name": "普通混凝土",
+          "name": "混凝土",
           "category": "建筑与矿物材料",
           "min": 1.4,
           "max": 2,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
-          "cognitiveText": "普通混凝土在“导热系数”尺度中的参数区间为 1.4–2 W/(m·K)。",
+          "image": "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
+          "images": [
+            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
+            "/assets/materials/01_Concrete_Aggregate_Sample-2a7751994f.jpg",
+            "/assets/materials/03_Exposed_Aggregate_Concrete_Samples-ef04d78dfc.jpg",
+            "/assets/materials/04_Concrete_Texture_Samples-68a5c93cd5.jpg"
+          ],
+          "description": "混凝土常用名称为混凝土，工程中也简称“砼”，由水泥、骨料、水及必要外加剂拌合并硬化形成。它抗压能力较强、可浇筑成复杂形状且成本相对可控，但抗拉性能较弱，常与钢筋组合使用。除建筑结构外，也用于家具、灯具、花器和公共设施等产品，表观性能受配比、养护和孔隙影响。",
+          "cognitiveText": "混凝土在“导热系数”尺度中的参数区间为 1.4–2 W/(m·K)。",
           "cases": [
             {
               "productName": "Decorative Surface",
@@ -8108,12 +8551,18 @@
           ]
         },
         {
-          "name": "工程瓷",
+          "name": "瓷",
           "category": "玻璃与陶瓷",
           "min": 1.8,
           "max": 6.5,
-          "image": "/assets/cases/placeholder.svg",
-          "cognitiveText": "工程瓷在“导热系数”尺度中的参数区间为 1.8–6.5 W/(m·K)。",
+          "image": "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
+          "images": [
+            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
+            "/assets/materials/01_White_Porcelain_Floor_Tiles-0aa85f40b4.jpg",
+            "/assets/materials/03_Grazioso_Canvas_White_Porcelain_Tile_Sample-2bf10bfed4.jpg"
+          ],
+          "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
+          "cognitiveText": "瓷在“导热系数”尺度中的参数区间为 1.8–6.5 W/(m·K)。",
           "cases": []
         },
         {
@@ -8121,7 +8570,13 @@
           "category": "金属与合金",
           "min": 6.6,
           "max": 6.7,
-          "image": "/assets/cases/0209146255f15e38ff9dd05c5bd77d66-2b025de7d3.jpeg",
+          "image": "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
+          "images": [
+            "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
+            "/assets/materials/01_Titanium_Raw_Material_Assortment-3127cfeb3d.jpg",
+            "/assets/materials/02_Titanium_Sheets-_Plates-_and_Rods_Display-945f8f00f4.jpg"
+          ],
+          "description": "钛合金是以钛为基体并加入铝、钒、钼等元素形成的合金体系，常用名称即钛合金。它兼具较低密度、较高比强度、耐腐蚀和生物相容性，α型、β型及α+β型合金的组织和性能不同。常用于航空结构、发动机部件、医疗植入物、化工设备、运动器材和高端消费品。",
           "cognitiveText": "钛合金在“导热系数”尺度中的参数区间为 6.6–6.7 W/(m·K)。",
           "cases": [
             {
@@ -8267,12 +8722,16 @@
           ]
         },
         {
-          "name": "工业纯钛",
+          "name": "钛金属（纯钛）",
           "category": "金属与合金",
           "min": 16,
           "max": 22,
-          "image": "/assets/cases/8c6f760564b95d6313fac22e970c639b-fa4c57fa53.jpeg",
-          "cognitiveText": "工业纯钛在“导热系数”尺度中的参数区间为 16–22 W/(m·K)。",
+          "image": "/assets/materials/04_Titanium_Sheets-_Plates-_and_Rods_Display-3e8e9bf78e.jpg",
+          "images": [
+            "/assets/materials/04_Titanium_Sheets-_Plates-_and_Rods_Display-3e8e9bf78e.jpg"
+          ],
+          "description": "钛金属（纯钛）常用名称为纯钛或钛金属，通常指工业纯钛而非加入大量合金元素的钛合金。它呈银灰色，密度低于钢，具有良好耐腐蚀性、生物相容性和一定成形焊接能力；不同纯钛等级的强度差异明显。常用于化工设备、医疗器械、换热器、建筑饰面和轻量化产品。",
+          "cognitiveText": "钛金属（纯钛）在“导热系数”尺度中的参数区间为 16–22 W/(m·K)。",
           "cases": [
             {
               "productName": "Heirloom Vacuum Flask – Mini",
@@ -8288,7 +8747,14 @@
           "category": "金属与合金",
           "min": 15,
           "max": 30,
-          "image": "/assets/cases/d3e59fd616e923bdbc4f30bfdc855522-f312bf6fda.jpeg",
+          "image": "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
+          "images": [
+            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
+            "/assets/materials/02_Stainless_Steel_Product_Range-5c3c0ea5bb.jpg",
+            "/assets/materials/04_Stainless_Steel_Sheets_and_Rods-ca1dc40731.jpg",
+            "/assets/materials/05_Stainless_Steel_Product_Assortment-747d45f710.jpg"
+          ],
+          "description": "不锈钢常用名称为不锈钢或耐蚀钢，是以铁为基体、含有足够铬并可加入镍、钼等元素的合金体系。铬在表面形成钝化膜，使其具有较好的耐腐蚀和清洁维护性能。奥氏体、铁素体、马氏体等类别在强度、磁性和加工性上不同，常用于厨具、建筑、医疗、交通及产品外壳。",
           "cognitiveText": "不锈钢在“导热系数”尺度中的参数区间为 15–30 W/(m·K)。",
           "cases": [
             {
@@ -8434,12 +8900,19 @@
           ]
         },
         {
-          "name": "蓝宝石（单晶Al₂O₃）",
+          "name": "蓝宝石玻璃",
           "category": "玻璃与陶瓷",
           "min": 40,
           "max": 46,
-          "image": "/assets/cases/0f7d7c26ffda27fe248ebc7f0b72139d-efae3bced0.jpeg",
-          "cognitiveText": "蓝宝石（单晶Al₂O₃）在“导热系数”尺度中的参数区间为 40–46 W/(m·K)。",
+          "image": "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
+          "images": [
+            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
+            "/assets/materials/03_Synthetic_Sapphire_Optical_Windows-4097024730.jpg",
+            "/assets/materials/04_Sapphire_Crystal_Glass_Blanks-bbf388a18c.jpg",
+            "/assets/materials/05_Customized_Sapphire_Optical_Window_Disc-a16fba506c.jpg"
+          ],
+          "description": "蓝宝石玻璃常用名称为蓝宝石玻璃或蓝宝石晶体，本质上通常是人工生长的单晶氧化铝，并非普通硅酸盐玻璃。它透明、硬度高、耐磨且耐高温，可制成薄片和光学窗口，但加工成本较高且仍具有脆性。常用于手表镜面、手机镜头保护、传感器窗口、LED衬底和精密光学器件。",
+          "cognitiveText": "蓝宝石玻璃在“导热系数”尺度中的参数区间为 40–46 W/(m·K)。",
           "cases": [
             {
               "productName": "Ring",
@@ -8469,7 +8942,14 @@
           "category": "金属与合金",
           "min": 79.5,
           "max": 80.4,
-          "image": "/assets/cases/9191b18a12004436dbc6c51c700c4ac8-9529668d9b.jpeg",
+          "image": "/assets/materials/01_Iron_Metal_Rod_Specimen-15c0740e59.jpg",
+          "images": [
+            "/assets/materials/01_Iron_Metal_Rod_Specimen-15c0740e59.jpg",
+            "/assets/materials/02_High-Purity_Iron_Round_Rods-93df2820ce.jpg",
+            "/assets/materials/04_High-Purity_Electrolytic_Iron_Bars-1ec1bb797a.jpg",
+            "/assets/materials/05_High-Purity_Iron_Billets-1091df01b1.jpg"
+          ],
+          "description": "铁常用名称为铁，工程中若强调成分则称纯铁。它是钢和铸铁的基础金属元素，具有良好导磁性和塑性，但纯铁强度有限且在潮湿环境中易锈蚀。实际产品多使用含碳及其他合金元素的铁基材料；纯铁则用于电磁元件、实验材料、粉末冶金和需要高磁导率的部件。",
           "cognitiveText": "铁在“导热系数”尺度中的参数区间为 79.5–80.4 W/(m·K)。",
           "cases": [
             {
@@ -8549,7 +9029,14 @@
           "category": "金属与合金",
           "min": 72,
           "max": 96,
-          "image": "/assets/cases/107d19dcaf6090d43644fd5515656521-bc0ba0f4ee.jpeg",
+          "image": "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
+          "images": [
+            "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
+            "/assets/materials/01_Magnesium_Alloy_Samples-d904aea5eb.jpg",
+            "/assets/materials/02_99-9-_Magnesium_Alloy_Sheet-feebc7a9a1.jpg",
+            "/assets/materials/04_Magnesium_Alloy_Ingot_Display-ce3efccb4f.jpg"
+          ],
+          "description": "镁合金是以镁为基体并加入铝、锌、锰、稀土等元素形成的轻金属材料，常用名称即镁合金。其密度低、比强度较好、减振和电磁屏蔽性能突出，适合压铸和机加工，但耐腐蚀、燃烧风险及表面防护需要重点控制。常用于电子外壳、汽车零件、航空部件和轻量化器材。",
           "cognitiveText": "镁合金在“导热系数”尺度中的参数区间为 72–96 W/(m·K)。",
           "cases": [
             {
@@ -8699,7 +9186,14 @@
           "category": "金属与合金",
           "min": 115,
           "max": 120,
-          "image": "/assets/cases/abc2dc2b6a6d8ffe68bb70a881175595-6c359e5070.jpeg",
+          "image": "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
+          "images": [
+            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
+            "/assets/materials/02_Brass_Alloy_Components-e2d520e349.jpg",
+            "/assets/materials/03_Brass_Alloy_Product_Showcase-a9260d0607.jpg",
+            "/assets/materials/05_Brass_Cut-to-Length_Components-4c35d4c4b1.jpg"
+          ],
+          "description": "黄铜是以铜和锌为主要成分的铜合金，常用名称即黄铜。它呈黄至金色金属光泽，具有良好成形、切削、耐腐蚀和装饰性能；加入铅、锡、铝等元素可形成不同用途的特殊黄铜。常用于阀门、管件、紧固件、乐器、灯具、家具五金、饰品和需要金色外观的产品部件。",
           "cognitiveText": "黄铜在“导热系数”尺度中的参数区间为 115–120 W/(m·K)。",
           "cases": [
             {
@@ -8849,7 +9343,14 @@
           "category": "金属与合金",
           "min": 150,
           "max": 150,
-          "image": "/assets/cases/10754c93a172f1bc5d1052a0858d15c1-8f2704d01f.jpeg",
+          "image": "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
+          "images": [
+            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
+            "/assets/materials/01_Aluminum_Alloy_Extrusion_Rods-cc5ade1966.jpg",
+            "/assets/materials/03_Aluminum_Alloy_Solid_Bars-647e9f31c2.jpg",
+            "/assets/materials/05_Extruded_Aluminum_Alloy_Bars-9f9569126b.jpg"
+          ],
+          "description": "铝合金是以铝为基体并加入镁、硅、铜、锌等元素形成的轻金属材料，常用名称即铝合金。它具有低密度、较好的比强度、耐腐蚀性和加工性，可进行挤压、压铸、冲压、机加工及阳极氧化。常用于电子产品外壳、交通工具、家具、建筑型材、灯具和包装。",
           "cognitiveText": "铝合金在“导热系数”尺度中的参数区间为 150–150 W/(m·K)。",
           "cases": [
             {
@@ -8999,7 +9500,12 @@
           "category": "金属与合金",
           "min": 310,
           "max": 320,
-          "image": "/assets/cases/c3c79b1e57acda94356902d2c95bec4c-8cff62b561.jpeg",
+          "image": "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
+          "images": [
+            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
+            "/assets/materials/02_99-99-纯金颗粒-9ad8114de2.jpg"
+          ],
+          "description": "金常用名称为黄金，是具有黄色金属光泽的贵金属。它延展性和导电性突出，化学性质稳定，不易氧化，但纯金较软，工程使用中常通过加入银、铜等元素形成不同成色的合金。除珠宝和装饰外，金还用于电子触点、连接器、镀层、牙科和精密器件，其成本与资源属性非常显著。",
           "cognitiveText": "金在“导热系数”尺度中的参数区间为 310–320 W/(m·K)。",
           "cases": [
             {
@@ -9100,7 +9606,14 @@
           "category": "金属与合金",
           "min": 390,
           "max": 401,
-          "image": "/assets/cases/930e8d48e9a3977df52ddc0ecb40e319-2ad9b406d8.jpeg",
+          "image": "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
+          "images": [
+            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
+            "/assets/materials/02_Copper_Product_Samples-a2d4818efa.jpg",
+            "/assets/materials/03_High-Purity_Copper_Ingots_and_Lumps-99f1e8324a.jpg",
+            "/assets/materials/04_Copper_Metal_Profiles-9c0df64d04.jpg"
+          ],
+          "description": "铜常用名称为铜，较高纯度的工业铜常称紫铜或纯铜。它具有优良的导电、导热、延展和耐腐蚀性能，表面会随环境形成由红褐到绿色的氧化或碱式碳酸盐层。铜常用于电线、电路、换热器、管材、厨具、建筑饰面和工艺品，也是黄铜、青铜等合金的主要基体。",
           "cognitiveText": "铜在“导热系数”尺度中的参数区间为 390–401 W/(m·K)。",
           "cases": [
             {
@@ -9262,7 +9775,13 @@
           "category": "多孔材料",
           "min": 0.097,
           "max": 0.186,
-          "image": "/assets/cases/e6ed17ee15666d939670fe9ff774e58d-4094b4a898.jpeg",
+          "image": "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
+          "images": [
+            "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
+            "/assets/materials/03_Polystyrene_Packaging_Beads-9123782bb5.jpg",
+            "/assets/materials/04_EPS_Plastic_Foam_Beads-bfe286b137.jpg"
+          ],
+          "description": "EPS常用名称为EPS泡沫、发泡聚苯乙烯，部分地区也称保丽龙。它由可发性聚苯乙烯珠粒经过预发泡和模塑形成，内部包含大量封闭气泡，因此密度低、隔热和缓冲性能突出。常用于产品包装、保温板、头盔缓冲层、展示模型与轻量化填充，但耐热性和耐溶剂性有限。",
           "cognitiveText": "EPS在“拉伸强度”尺度中的参数区间为 0.097–0.186 MPa。",
           "cases": [
             {
@@ -9328,7 +9847,14 @@
           "category": "木质材料",
           "min": 0.5,
           "max": 2.5,
-          "image": "/assets/cases/c162550f3fca40cf42b1355311ca5796-7889f9789a.jpeg",
+          "image": "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
+          "images": [
+            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
+            "/assets/materials/02_Natural_Cork_Sheet_Roll-36f7686707.jpg",
+            "/assets/materials/03_Natural_Cork_Fabric_Rolls-37601d0fd8.jpg",
+            "/assets/materials/05_Natural_Cork_Sheet_Roll-f2bb65d00c.jpg"
+          ],
+          "description": "软木常用名称为软木或栓皮，主要取自栓皮栎等树木的外层树皮。其蜂窝状封闭细胞结构使材料轻、可压缩、回弹、隔热、吸声并具有一定防水性。软木可制成整片、颗粒板或复合材料，常用于瓶塞、地板、墙面、鞋材、握把、包装和可持续产品表面。",
           "cognitiveText": "软木在“拉伸强度”尺度中的参数区间为 0.5–2.5 MPa。",
           "cases": [
             {
@@ -9453,12 +9979,19 @@
           ]
         },
         {
-          "name": "普通混凝土",
+          "name": "混凝土",
           "category": "建筑与矿物材料",
           "min": 2,
           "max": 5,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
-          "cognitiveText": "普通混凝土在“拉伸强度”尺度中的参数区间为 2–5 MPa。",
+          "image": "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
+          "images": [
+            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
+            "/assets/materials/01_Concrete_Aggregate_Sample-2a7751994f.jpg",
+            "/assets/materials/03_Exposed_Aggregate_Concrete_Samples-ef04d78dfc.jpg",
+            "/assets/materials/04_Concrete_Texture_Samples-68a5c93cd5.jpg"
+          ],
+          "description": "混凝土常用名称为混凝土，工程中也简称“砼”，由水泥、骨料、水及必要外加剂拌合并硬化形成。它抗压能力较强、可浇筑成复杂形状且成本相对可控，但抗拉性能较弱，常与钢筋组合使用。除建筑结构外，也用于家具、灯具、花器和公共设施等产品，表观性能受配比、养护和孔隙影响。",
+          "cognitiveText": "混凝土在“拉伸强度”尺度中的参数区间为 2–5 MPa。",
           "cases": [
             {
               "productName": "Decorative Surface",
@@ -9607,7 +10140,13 @@
           "category": "建筑与矿物材料",
           "min": 7,
           "max": 20,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
+          "image": "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
+          "images": [
+            "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
+            "/assets/materials/02_Grey-White_Marble_Slab-3fc844a84b.jpg",
+            "/assets/materials/05_White_Marble_Slab_Texture-c04bb0dbdf.jpg"
+          ],
+          "description": "大理石常用名称为大理石，地质学上主要对应大理岩，是石灰岩或白云岩经变质作用形成的天然石材。其纹理、颜色和孔隙会因矿物组成而变化，表面可抛光形成装饰效果。常用于建筑饰面、台面、雕塑、家具构件和工艺品，但需要关注脆性、重量、酸敏感性及天然批次差异。",
           "cognitiveText": "大理石在“拉伸强度”尺度中的参数区间为 7–20 MPa。",
           "cases": [
             {
@@ -9729,7 +10268,14 @@
           "category": "聚合物与弹性体",
           "min": 7,
           "max": 27,
-          "image": "/assets/cases/17f23baf9cf90621af365a5daf08ee61-6b6b08c3be.jpeg",
+          "image": "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
+          "images": [
+            "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
+            "/assets/materials/02_PVC_Rain_Pipe_and_Pellets_Showcase-80929947ea.jpg",
+            "/assets/materials/03_PVC_Pellets_and_Sheet_Display-627743793d.jpg",
+            "/assets/materials/05_PVC_Compound_Pellets_and_Pipes-6081d5f1f8.jpg"
+          ],
+          "description": "PVC常用名称为聚氯乙烯或PVC塑料，可通过增塑剂和稳定剂配方形成硬质或软质材料。硬质PVC具有较好的刚性、耐化学性和阻燃特征，软质PVC则柔韧并易加工。它广泛用于管材、型材、电线护套、地板、薄膜、卡片和充气制品，性能与环境影响高度依赖具体添加剂体系。",
           "cognitiveText": "PVC在“拉伸强度”尺度中的参数区间为 7–27 MPa。",
           "cases": [
             {
@@ -9795,7 +10341,14 @@
           "category": "聚合物与弹性体",
           "min": 3,
           "max": 35,
-          "image": "/assets/cases/2293c8c0b396395130ed3de4d7cf1ad6-9400983091.jpeg",
+          "image": "/assets/materials/03_EVA_Foam_Rolls_and_Sheets-f263fa2b55.jpg",
+          "images": [
+            "/assets/materials/03_EVA_Foam_Rolls_and_Sheets-f263fa2b55.jpg",
+            "/assets/materials/01_High-Density_White_EVA_Foam_Roll-671c873e39.jpg",
+            "/assets/materials/02_EVA_Foam_Packing_Rolls-bc29f36d59.jpg",
+            "/assets/materials/05_Colored_EVA_Foam_Rolls-d6683c1159.jpg"
+          ],
+          "description": "EVA常用名称为EVA材料或EVA泡棉，化学名称为乙烯—醋酸乙烯共聚物。通过调节醋酸乙烯含量，可获得从柔韧塑料到弹性泡棉的不同性能。它具有回弹、缓冲、低温柔韧和易加工等特点，广泛用于鞋底、运动护具、包装内衬、密封件、热熔胶及儿童产品。",
           "cognitiveText": "EVA在“拉伸强度”尺度中的参数区间为 3–35 MPa。",
           "cases": [
             {
@@ -9896,7 +10449,12 @@
           "category": "聚合物与弹性体",
           "min": 31,
           "max": 41,
-          "image": "/assets/cases/f687b26296c639eec40b6b3db84f9ad4-04a76324ec.jpeg",
+          "image": "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
+          "images": [
+            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
+            "/assets/materials/01_Polypropylene_Machined_Sheets_and_Rods-3ff1c90585.jpg"
+          ],
+          "description": "PP常用名称为聚丙烯或PP塑料，是密度较低、用途广泛的热塑性聚合物。它耐化学品、耐湿、易注塑和挤出，并具有良好的反复弯折疲劳性能，可制作一体式活铰链。常见于食品容器、家居用品、医疗耗材、汽车内饰、无纺布和包装薄膜，但低温冲击性能及耐候性需要关注。",
           "cognitiveText": "PP在“拉伸强度”尺度中的参数区间为 31–41 MPa。",
           "cases": [
             {
@@ -10046,7 +10604,14 @@
           "category": "聚合物与弹性体",
           "min": 41,
           "max": 62,
-          "image": "/assets/cases/d1a4f73cf0c7a717022407f050aa1450-a254293cb6.jpeg",
+          "image": "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
+          "images": [
+            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
+            "/assets/materials/02_ABS_Plastic_Pellets-072e2e6578.jpg",
+            "/assets/materials/04_ABS_Plastic_Resin_Granules-4e4ab4d3c6.jpg",
+            "/assets/materials/05_Chimei_ABS_Resin_PA-765b_Plastic_Granules-1a84b6b56a.jpg"
+          ],
+          "description": "ABS常用名称为ABS塑料或ABS树脂，中文全称为丙烯腈—丁二烯—苯乙烯共聚物。它综合了刚性、韧性、尺寸稳定性和较好的表面加工性能，可通过注塑、挤出、机加工与表面涂装制成复杂外壳。常见于家电、电子产品、玩具、工具外壳、汽车内饰和模型制作。",
           "cognitiveText": "ABS在“拉伸强度”尺度中的参数区间为 41–62 MPa。",
           "cases": [
             {
@@ -10196,7 +10761,15 @@
           "category": "聚合物与弹性体",
           "min": 55,
           "max": 75,
-          "image": "/assets/cases/e209c123c24c6fdf9217763ea23e14be-e7bc9f9dfc.jpeg",
+          "image": "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
+          "images": [
+            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
+            "/assets/materials/01_Transparent_Polycarbonate_Pellets-02e6f623ea.jpg",
+            "/assets/materials/03_Clear_Polycarbonate_Pellets-4d7b981453.jpg",
+            "/assets/materials/04_Polycarbonate_Pellets_for_Electrical_Applicat-debca79357.jpg",
+            "/assets/materials/05_Polycarbonate_Resin_Pellets_for_LED_Diffusers-faf7855af7.jpg"
+          ],
+          "description": "PC常用名称为聚碳酸酯或PC塑料，部分地区也称防弹胶。它是一种透明热塑性工程塑料，突出特点是抗冲击能力强、尺寸稳定、可透光并能进行注塑和热成型。PC常用于透明防护罩、电子产品外壳、头盔镜片、灯具、医疗器械及光学部件，但需要关注表面耐刮擦和耐化学性。",
           "cognitiveText": "PC在“拉伸强度”尺度中的参数区间为 55–75 MPa。",
           "cases": [
             {
@@ -10346,7 +10919,13 @@
           "category": "聚合物与弹性体",
           "min": 60,
           "max": 75,
-          "image": "/assets/cases/3438d4ea99d2f67e8586fc88a5c5f118-8c954130f7.jpeg",
+          "image": "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
+          "images": [
+            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
+            "/assets/materials/02_Clear_Acrylic_Rods_and_Sheets-d7da225e61.jpg",
+            "/assets/materials/05_Acrylic_PMMA_Samples-d06b9c7a7e.jpg"
+          ],
+          "description": "PMMA常用名称为亚克力、有机玻璃或压克力，化学名称为聚甲基丙烯酸甲酯。它是透明度较高的无定形热塑性塑料，具有良好的耐候性、着色性和机械加工性能，常作为玻璃替代材料。典型应用包括灯具、展示架、标识、透明罩、汽车灯具和光学件，但抗冲击性低于PC。",
           "cognitiveText": "PMMA在“拉伸强度”尺度中的参数区间为 60–75 MPa。",
           "cases": [
             {
@@ -10359,12 +10938,18 @@
           ]
         },
         {
-          "name": "PA（尼龙）",
+          "name": "PA",
           "category": "聚合物与弹性体",
           "min": 78,
           "max": 82,
-          "image": "/assets/cases/9a7433e5f6b04b51d09e6f3a22ffe691-0a89e7d992.jpeg",
-          "cognitiveText": "PA（尼龙）在“拉伸强度”尺度中的参数区间为 78–82 MPa。",
+          "image": "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
+          "images": [
+            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
+            "/assets/materials/02_Polyamide_-PA-_Sheets-_Rods-_and_Tubes-df8c0bbbe9.jpg",
+            "/assets/materials/05_Polyamide_-PA-_Plastic_Samples-47c88552e2.jpg"
+          ],
+          "description": "PA常用名称为尼龙或PA塑料，材料学名称为聚酰胺。其分子链含有酰胺基团，通常具有较高强度、耐磨性、耐疲劳性和良好的自润滑特征。不同尼龙牌号及含水状态会显著影响尺寸和力学性能。常用于齿轮、轴承、扣件、织物纤维、工具零件及结构性注塑件。",
+          "cognitiveText": "PA在“拉伸强度”尺度中的参数区间为 78–82 MPa。",
           "cases": [
             {
               "productName": "Bluetooth Speaker for Two-Wheelers",
@@ -10513,7 +11098,15 @@
           "category": "木质材料",
           "min": 77.9,
           "max": 112.4,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
+          "image": "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
+          "images": [
+            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
+            "/assets/materials/02_White_Oak_Lumber_Boards-e9db162d1b.jpg",
+            "/assets/materials/03_Oak_Thin_Boards_Set-b06db8e91b.jpg",
+            "/assets/materials/04_Oak_Lumber_Boards-4144b6bf03.jpg",
+            "/assets/materials/05_White_Oak_Plain-Sawn_Hardwood_Planks-9f8aaada2b.jpg"
+          ],
+          "description": "橡木常用名称为橡木或栎木，来自栎属多种树木，是家具和室内产品中常见的阔叶木材。其纹理明显，通常具有较好的强度、耐磨性和表面涂饰效果，白橡与红橡在导管结构、色泽和耐久性方面存在差异。常用于家具、地板、酒桶、饰面板和结构木制品，性能受含水率影响明显。",
           "cognitiveText": "橡木在“拉伸强度”尺度中的参数区间为 77.9–112.4 MPa。",
           "cases": [
             {
@@ -10663,7 +11256,12 @@
           "category": "聚合物与弹性体",
           "min": 60,
           "max": 140,
-          "image": "/assets/cases/92fc6909ad3d1958a17a1159fe862189-938b359b60.jpeg",
+          "image": "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
+          "images": [
+            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
+            "/assets/materials/04_PET_Preforms_and_Pellets-66a536ba55.jpg"
+          ],
+          "description": "PET常用名称为PET塑料或聚酯，化学名称为聚对苯二甲酸乙二酯。它可制成透明容器、薄膜、片材和纤维，具有较好的强度、气体阻隔性、尺寸稳定性和可回收性。结晶程度与加工状态会改变透明度和耐热性，常用于饮料瓶、食品包装、电子薄膜、纺织纤维及工程塑料。",
           "cognitiveText": "PET在“拉伸强度”尺度中的参数区间为 60–140 MPa。",
           "cases": [
             {
@@ -10809,12 +11407,18 @@
           ]
         },
         {
-          "name": "钢化钠钙玻璃",
+          "name": "钢化玻璃",
           "category": "玻璃与陶瓷",
           "min": 41,
           "max": 180,
-          "image": "/assets/cases/17f23baf9cf90621af365a5daf08ee61-6b6b08c3be.jpeg",
-          "cognitiveText": "钢化钠钙玻璃在“拉伸强度”尺度中的参数区间为 41–180 MPa。",
+          "image": "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
+          "images": [
+            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
+            "/assets/materials/01_Clear_Glass_Sample-8d34ea7bab.jpg",
+            "/assets/materials/05_钢化安全玻璃破裂颗粒-7bc89f3275.jpg"
+          ],
+          "description": "钢化玻璃常用名称为钢化玻璃或强化玻璃，是普通玻璃经热处理或化学强化形成表面压应力的安全玻璃。它的抗弯和抗热冲击能力通常高于未强化玻璃，破碎时热钢化玻璃会形成较小颗粒。常用于建筑门窗、家具、家电面板、汽车侧窗、手机保护盖板和展示装置。",
+          "cognitiveText": "钢化玻璃在“拉伸强度”尺度中的参数区间为 41–180 MPa。",
           "cases": [
             {
               "productName": "Interior Design Element",
@@ -10959,12 +11563,18 @@
           ]
         },
         {
-          "name": "工程瓷",
+          "name": "瓷",
           "category": "玻璃与陶瓷",
           "min": 130,
           "max": 130,
-          "image": "/assets/cases/placeholder.svg",
-          "cognitiveText": "工程瓷在“拉伸强度”尺度中的参数区间为 130–130 MPa。",
+          "image": "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
+          "images": [
+            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
+            "/assets/materials/01_White_Porcelain_Floor_Tiles-0aa85f40b4.jpg",
+            "/assets/materials/03_Grazioso_Canvas_White_Porcelain_Tile_Sample-2bf10bfed4.jpg"
+          ],
+          "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
+          "cognitiveText": "瓷在“拉伸强度”尺度中的参数区间为 130–130 MPa。",
           "cases": []
         },
         {
@@ -10972,7 +11582,12 @@
           "category": "金属与合金",
           "min": 100,
           "max": 300,
-          "image": "/assets/cases/c3c79b1e57acda94356902d2c95bec4c-8cff62b561.jpeg",
+          "image": "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
+          "images": [
+            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
+            "/assets/materials/02_99-99-纯金颗粒-9ad8114de2.jpg"
+          ],
+          "description": "金常用名称为黄金，是具有黄色金属光泽的贵金属。它延展性和导电性突出，化学性质稳定，不易氧化，但纯金较软，工程使用中常通过加入银、铜等元素形成不同成色的合金。除珠宝和装饰外，金还用于电子触点、连接器、镀层、牙科和精密器件，其成本与资源属性非常显著。",
           "cognitiveText": "金在“拉伸强度”尺度中的参数区间为 100–300 MPa。",
           "cases": [
             {
@@ -11073,7 +11688,14 @@
           "category": "金属与合金",
           "min": 160,
           "max": 270,
-          "image": "/assets/cases/10754c93a172f1bc5d1052a0858d15c1-8f2704d01f.jpeg",
+          "image": "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
+          "images": [
+            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
+            "/assets/materials/01_Aluminum_Alloy_Extrusion_Rods-cc5ade1966.jpg",
+            "/assets/materials/03_Aluminum_Alloy_Solid_Bars-647e9f31c2.jpg",
+            "/assets/materials/05_Extruded_Aluminum_Alloy_Bars-9f9569126b.jpg"
+          ],
+          "description": "铝合金是以铝为基体并加入镁、硅、铜、锌等元素形成的轻金属材料，常用名称即铝合金。它具有低密度、较好的比强度、耐腐蚀性和加工性，可进行挤压、压铸、冲压、机加工及阳极氧化。常用于电子产品外壳、交通工具、家具、建筑型材、灯具和包装。",
           "cognitiveText": "铝合金在“拉伸强度”尺度中的参数区间为 160–270 MPa。",
           "cases": [
             {
@@ -11223,7 +11845,14 @@
           "category": "金属与合金",
           "min": 248,
           "max": 260,
-          "image": "/assets/cases/107d19dcaf6090d43644fd5515656521-bc0ba0f4ee.jpeg",
+          "image": "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
+          "images": [
+            "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
+            "/assets/materials/01_Magnesium_Alloy_Samples-d904aea5eb.jpg",
+            "/assets/materials/02_99-9-_Magnesium_Alloy_Sheet-feebc7a9a1.jpg",
+            "/assets/materials/04_Magnesium_Alloy_Ingot_Display-ce3efccb4f.jpg"
+          ],
+          "description": "镁合金是以镁为基体并加入铝、锌、锰、稀土等元素形成的轻金属材料，常用名称即镁合金。其密度低、比强度较好、减振和电磁屏蔽性能突出，适合压铸和机加工，但耐腐蚀、燃烧风险及表面防护需要重点控制。常用于电子外壳、汽车零件、航空部件和轻量化器材。",
           "cognitiveText": "镁合金在“拉伸强度”尺度中的参数区间为 248–260 MPa。",
           "cases": [
             {
@@ -11373,7 +12002,14 @@
           "category": "金属与合金",
           "min": 220,
           "max": 410,
-          "image": "/assets/cases/930e8d48e9a3977df52ddc0ecb40e319-2ad9b406d8.jpeg",
+          "image": "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
+          "images": [
+            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
+            "/assets/materials/02_Copper_Product_Samples-a2d4818efa.jpg",
+            "/assets/materials/03_High-Purity_Copper_Ingots_and_Lumps-99f1e8324a.jpg",
+            "/assets/materials/04_Copper_Metal_Profiles-9c0df64d04.jpg"
+          ],
+          "description": "铜常用名称为铜，较高纯度的工业铜常称紫铜或纯铜。它具有优良的导电、导热、延展和耐腐蚀性能，表面会随环境形成由红褐到绿色的氧化或碱式碳酸盐层。铜常用于电线、电路、换热器、管材、厨具、建筑饰面和工艺品，也是黄铜、青铜等合金的主要基体。",
           "cognitiveText": "铜在“拉伸强度”尺度中的参数区间为 220–410 MPa。",
           "cases": [
             {
@@ -11519,12 +12155,19 @@
           ]
         },
         {
-          "name": "蓝宝石（单晶Al₂O₃）",
+          "name": "蓝宝石玻璃",
           "category": "玻璃与陶瓷",
           "min": 300,
           "max": 400,
-          "image": "/assets/cases/0f7d7c26ffda27fe248ebc7f0b72139d-efae3bced0.jpeg",
-          "cognitiveText": "蓝宝石（单晶Al₂O₃）在“拉伸强度”尺度中的参数区间为 300–400 MPa。",
+          "image": "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
+          "images": [
+            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
+            "/assets/materials/03_Synthetic_Sapphire_Optical_Windows-4097024730.jpg",
+            "/assets/materials/04_Sapphire_Crystal_Glass_Blanks-bbf388a18c.jpg",
+            "/assets/materials/05_Customized_Sapphire_Optical_Window_Disc-a16fba506c.jpg"
+          ],
+          "description": "蓝宝石玻璃常用名称为蓝宝石玻璃或蓝宝石晶体，本质上通常是人工生长的单晶氧化铝，并非普通硅酸盐玻璃。它透明、硬度高、耐磨且耐高温，可制成薄片和光学窗口，但加工成本较高且仍具有脆性。常用于手表镜面、手机镜头保护、传感器窗口、LED衬底和精密光学器件。",
+          "cognitiveText": "蓝宝石玻璃在“拉伸强度”尺度中的参数区间为 300–400 MPa。",
           "cases": [
             {
               "productName": "Ring",
@@ -11550,12 +12193,16 @@
           ]
         },
         {
-          "name": "工业纯钛",
+          "name": "钛金属（纯钛）",
           "category": "金属与合金",
           "min": 240,
           "max": 550,
-          "image": "/assets/cases/8c6f760564b95d6313fac22e970c639b-fa4c57fa53.jpeg",
-          "cognitiveText": "工业纯钛在“拉伸强度”尺度中的参数区间为 240–550 MPa。",
+          "image": "/assets/materials/04_Titanium_Sheets-_Plates-_and_Rods_Display-3e8e9bf78e.jpg",
+          "images": [
+            "/assets/materials/04_Titanium_Sheets-_Plates-_and_Rods_Display-3e8e9bf78e.jpg"
+          ],
+          "description": "钛金属（纯钛）常用名称为纯钛或钛金属，通常指工业纯钛而非加入大量合金元素的钛合金。它呈银灰色，密度低于钢，具有良好耐腐蚀性、生物相容性和一定成形焊接能力；不同纯钛等级的强度差异明显。常用于化工设备、医疗器械、换热器、建筑饰面和轻量化产品。",
+          "cognitiveText": "钛金属（纯钛）在“拉伸强度”尺度中的参数区间为 240–550 MPa。",
           "cases": [
             {
               "productName": "Heirloom Vacuum Flask – Mini",
@@ -11571,7 +12218,12 @@
           "category": "金属与合金",
           "min": 118,
           "max": 689,
-          "image": "/assets/cases/2386ea6a62b38689165575e1cd3e1011-b37666be8f.jpeg",
+          "image": "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
+          "images": [
+            "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
+            "/assets/materials/03_Cast_Iron_Ingot-39834ac7d0.jpg"
+          ],
+          "description": "铸铁是含碳量较高、主要通过铸造成形的铁碳合金，常用名称即铸铁。灰铸铁、球墨铸铁、白口铸铁等类型因石墨形态和组织不同，在减振、强度、耐磨和韧性上差异明显。铸铁流动性好、成本相对低，常用于机床底座、发动机部件、管件、炉具、锅具和厚壁结构件。",
           "cognitiveText": "铸铁在“拉伸强度”尺度中的参数区间为 118–689 MPa。",
           "cases": [
             {
@@ -11721,7 +12373,15 @@
           "category": "木质材料",
           "min": 100,
           "max": 800,
-          "image": "/assets/cases/85dc813edc2d2a4a3e263602200dea38-e842c6490a.jpeg",
+          "image": "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
+          "images": [
+            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
+            "/assets/materials/02_Bamboo_Laminated_Wood_Boards-1aabd4826c.jpg",
+            "/assets/materials/03_Bamboo_Slats_Display-fca6bce693.jpg",
+            "/assets/materials/04_Natural_Dry_Bamboo_Strips-a9ba0e4cf8.jpg",
+            "/assets/materials/05_Stacked_Bamboo_Plywood_Boards-2231a7d0e2.jpg"
+          ],
+          "description": "竹材常用名称为竹材或竹木，来源于竹秆，经干燥、防护、剖分、层压或重组后可形成板材和构件。其纤维沿生长方向排列，具有较高比强度和鲜明纹理，但性能受竹种、部位、含水率及胶合方式影响。常用于家具、餐具、地板、包装、建筑构件和可持续产品设计。",
           "cognitiveText": "竹材在“拉伸强度”尺度中的参数区间为 100–800 MPa。",
           "cases": [
             {
@@ -11752,7 +12412,14 @@
           "category": "纤维",
           "min": 287,
           "max": 800,
-          "image": "/assets/cases/c3c79b1e57acda94356902d2c95bec4c-8cff62b561.jpeg",
+          "image": "/assets/materials/01_Natural_Textile_Fibers_Showcase-bb2ac615c6.jpg",
+          "images": [
+            "/assets/materials/01_Natural_Textile_Fibers_Showcase-bb2ac615c6.jpg",
+            "/assets/materials/03_Raw_Cotton_Fabric_Yarn-fcaedd5c1c.jpg",
+            "/assets/materials/04_Raw_Cotton_Fiber_Bundles-65af190d72.jpg",
+            "/assets/materials/05_Organic_Kala_Cotton_Fabric_Display-68d0d6a77d.jpg"
+          ],
+          "description": "棉纤维常用名称为棉或棉花纤维，是包覆棉籽表面的天然纤维，主要成分为纤维素。它吸湿、透气、触感柔和，并能进行纺纱、织造、染整和复合加工。棉纤维常用于服装、家纺、医疗敷料、过滤材料和纤维增强生物复合材料，其性能会受纤维长度、含水率和织物结构影响。",
           "cognitiveText": "棉纤维在“拉伸强度”尺度中的参数区间为 287–800 MPa。",
           "cases": [
             {
@@ -11776,7 +12443,14 @@
           "category": "金属与合金",
           "min": 300,
           "max": 890,
-          "image": "/assets/cases/abc2dc2b6a6d8ffe68bb70a881175595-6c359e5070.jpeg",
+          "image": "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
+          "images": [
+            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
+            "/assets/materials/02_Brass_Alloy_Components-e2d520e349.jpg",
+            "/assets/materials/03_Brass_Alloy_Product_Showcase-a9260d0607.jpg",
+            "/assets/materials/05_Brass_Cut-to-Length_Components-4c35d4c4b1.jpg"
+          ],
+          "description": "黄铜是以铜和锌为主要成分的铜合金，常用名称即黄铜。它呈黄至金色金属光泽，具有良好成形、切削、耐腐蚀和装饰性能；加入铅、锡、铝等元素可形成不同用途的特殊黄铜。常用于阀门、管件、紧固件、乐器、灯具、家具五金、饰品和需要金色外观的产品部件。",
           "cognitiveText": "黄铜在“拉伸强度”尺度中的参数区间为 300–890 MPa。",
           "cases": [
             {
@@ -11926,7 +12600,14 @@
           "category": "金属与合金",
           "min": 500,
           "max": 750,
-          "image": "/assets/cases/d3e59fd616e923bdbc4f30bfdc855522-f312bf6fda.jpeg",
+          "image": "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
+          "images": [
+            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
+            "/assets/materials/02_Stainless_Steel_Product_Range-5c3c0ea5bb.jpg",
+            "/assets/materials/04_Stainless_Steel_Sheets_and_Rods-ca1dc40731.jpg",
+            "/assets/materials/05_Stainless_Steel_Product_Assortment-747d45f710.jpg"
+          ],
+          "description": "不锈钢常用名称为不锈钢或耐蚀钢，是以铁为基体、含有足够铬并可加入镍、钼等元素的合金体系。铬在表面形成钝化膜，使其具有较好的耐腐蚀和清洁维护性能。奥氏体、铁素体、马氏体等类别在强度、磁性和加工性上不同，常用于厨具、建筑、医疗、交通及产品外壳。",
           "cognitiveText": "不锈钢在“拉伸强度”尺度中的参数区间为 500–750 MPa。",
           "cases": [
             {
@@ -12076,7 +12757,13 @@
           "category": "纤维",
           "min": 400,
           "max": 900,
-          "image": "/assets/cases/c3c79b1e57acda94356902d2c95bec4c-8cff62b561.jpeg",
+          "image": "/assets/materials/03_Low-Melt_Polyester_Fiber_Samples-7cd5d15f73.jpg",
+          "images": [
+            "/assets/materials/03_Low-Melt_Polyester_Fiber_Samples-7cd5d15f73.jpg",
+            "/assets/materials/02_Polyester_Filament_Yarn_Samples-dc59ea2163.jpg",
+            "/assets/materials/05_Bright_White_Polyester_Hank_Yarn-3d918eaf42.jpg"
+          ],
+          "description": "PET聚酯纤维常用名称为涤纶或聚酯纤维，是以聚对苯二甲酸乙二酯为主要成分制成的合成纤维。它具有强度较高、耐磨、易洗快干和尺寸稳定等特点，可制成长丝、短纤、织物或非织造材料。常用于服装、箱包、家具面料、绳带、过滤材料及纤维增强复合材料。",
           "cognitiveText": "PET聚酯纤维在“拉伸强度”尺度中的参数区间为 400–900 MPa。",
           "cases": [
             {
@@ -12226,7 +12913,13 @@
           "category": "金属与合金",
           "min": 860,
           "max": 950,
-          "image": "/assets/cases/0209146255f15e38ff9dd05c5bd77d66-2b025de7d3.jpeg",
+          "image": "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
+          "images": [
+            "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
+            "/assets/materials/01_Titanium_Raw_Material_Assortment-3127cfeb3d.jpg",
+            "/assets/materials/02_Titanium_Sheets-_Plates-_and_Rods_Display-945f8f00f4.jpg"
+          ],
+          "description": "钛合金是以钛为基体并加入铝、钒、钼等元素形成的合金体系，常用名称即钛合金。它兼具较低密度、较高比强度、耐腐蚀和生物相容性，α型、β型及α+β型合金的组织和性能不同。常用于航空结构、发动机部件、医疗植入物、化工设备、运动器材和高端消费品。",
           "cognitiveText": "钛合金在“拉伸强度”尺度中的参数区间为 860–950 MPa。",
           "cases": [
             {
@@ -12376,7 +13069,11 @@
           "category": "金属与合金",
           "min": 895,
           "max": 1900,
-          "image": "/assets/cases/012069ec3547ced032a243c36da2c2bd-1434ccb34e.jpeg",
+          "image": "/assets/materials/placeholder.svg",
+          "images": [
+            "/assets/materials/placeholder.svg"
+          ],
+          "description": "材料简介",
           "cognitiveText": "NiTi形状记忆合金在“拉伸强度”尺度中的参数区间为 895–1900 MPa。",
           "cases": [
             {
@@ -12428,7 +13125,15 @@
           "category": "纤维",
           "min": 1800,
           "max": 3700,
-          "image": "/assets/cases/6444a632063ed0fd0a511f1f5fa8c68a-2cb773c337.jpeg",
+          "image": "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
+          "images": [
+            "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
+            "/assets/materials/02_Unidirectional_Carbon_Fiber_Fabric_Roll-96256e7846.jpg",
+            "/assets/materials/03_Carbon_Fiber_Fabric_Roll-52999713f1.jpg",
+            "/assets/materials/04_Woven_Carbon_Fiber_Fabric_Roll-72fc649b71.jpg",
+            "/assets/materials/05_UD_Carbon_Fiber_Fabric_Roll-6fe47321c3.jpg"
+          ],
+          "description": "碳纤维常用简称为碳纤，是含碳量很高的细丝状材料，通常由聚丙烯腈等前驱体经稳定化和碳化制成。它具有低密度、高比强度、高比模量和明显方向性，多与环氧等树脂组合成复合材料。常用于航空航天、运动器材、自行车、汽车部件、机器人和高端产品外壳。",
           "cognitiveText": "碳纤维在“拉伸强度”尺度中的参数区间为 1800–3700 MPa。",
           "cases": [
             {
@@ -12590,7 +13295,14 @@
           "category": "玻璃与陶瓷",
           "min": 0.8,
           "max": 1.2,
-          "image": "/assets/cases/464383a4bfae02ebf6056e5acbd80671-389aeed4f6.jpeg",
+          "image": "/assets/materials/04_Raw_Uncut_Diamond-bc3d17546f.jpg",
+          "images": [
+            "/assets/materials/04_Raw_Uncut_Diamond-bc3d17546f.jpg",
+            "/assets/materials/01_African_Raw_Diamond-510ed04654.jpg",
+            "/assets/materials/02_Natural_Rough_Grey_Diamonds-1170c9692e.jpg",
+            "/assets/materials/05_White-Grey_Rough_Diamond_Crystals-e2de98b793.jpg"
+          ],
+          "description": "金刚石常用名称为金刚石，达到宝石品质并经切磨后通常称为钻石，是碳元素形成的晶体材料。它具有极高硬度、耐磨性和很高导热能力，但不同晶向和缺陷会影响性能。除珠宝外，工业金刚石广泛用于切削、磨削、钻探、散热片、光学窗口和高压实验装置。",
           "cognitiveText": "金刚石在“线膨胀系数”尺度中的参数区间为 0.8–1.2 10^-6/K。",
           "cases": [
             {
@@ -12649,7 +13361,15 @@
           "category": "木质材料",
           "min": 3.1,
           "max": 4.5,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
+          "image": "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
+          "images": [
+            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
+            "/assets/materials/02_White_Oak_Lumber_Boards-e9db162d1b.jpg",
+            "/assets/materials/03_Oak_Thin_Boards_Set-b06db8e91b.jpg",
+            "/assets/materials/04_Oak_Lumber_Boards-4144b6bf03.jpg",
+            "/assets/materials/05_White_Oak_Plain-Sawn_Hardwood_Planks-9f8aaada2b.jpg"
+          ],
+          "description": "橡木常用名称为橡木或栎木，来自栎属多种树木，是家具和室内产品中常见的阔叶木材。其纹理明显，通常具有较好的强度、耐磨性和表面涂饰效果，白橡与红橡在导管结构、色泽和耐久性方面存在差异。常用于家具、地板、酒桶、饰面板和结构木制品，性能受含水率影响明显。",
           "cognitiveText": "橡木在“线膨胀系数”尺度中的参数区间为 3.1–4.5 10^-6/K。",
           "cases": [
             {
@@ -12795,21 +13515,34 @@
           ]
         },
         {
-          "name": "工程瓷",
+          "name": "瓷",
           "category": "玻璃与陶瓷",
           "min": 2,
           "max": 6.6,
-          "image": "/assets/cases/placeholder.svg",
-          "cognitiveText": "工程瓷在“线膨胀系数”尺度中的参数区间为 2–6.6 10^-6/K。",
+          "image": "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
+          "images": [
+            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
+            "/assets/materials/01_White_Porcelain_Floor_Tiles-0aa85f40b4.jpg",
+            "/assets/materials/03_Grazioso_Canvas_White_Porcelain_Tile_Sample-2bf10bfed4.jpg"
+          ],
+          "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
+          "cognitiveText": "瓷在“线膨胀系数”尺度中的参数区间为 2–6.6 10^-6/K。",
           "cases": []
         },
         {
-          "name": "蓝宝石（单晶Al₂O₃）",
+          "name": "蓝宝石玻璃",
           "category": "玻璃与陶瓷",
           "min": 4.3,
           "max": 5.4,
-          "image": "/assets/cases/0f7d7c26ffda27fe248ebc7f0b72139d-efae3bced0.jpeg",
-          "cognitiveText": "蓝宝石（单晶Al₂O₃）在“线膨胀系数”尺度中的参数区间为 4.3–5.4 10^-6/K。",
+          "image": "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
+          "images": [
+            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
+            "/assets/materials/03_Synthetic_Sapphire_Optical_Windows-4097024730.jpg",
+            "/assets/materials/04_Sapphire_Crystal_Glass_Blanks-bbf388a18c.jpg",
+            "/assets/materials/05_Customized_Sapphire_Optical_Window_Disc-a16fba506c.jpg"
+          ],
+          "description": "蓝宝石玻璃常用名称为蓝宝石玻璃或蓝宝石晶体，本质上通常是人工生长的单晶氧化铝，并非普通硅酸盐玻璃。它透明、硬度高、耐磨且耐高温，可制成薄片和光学窗口，但加工成本较高且仍具有脆性。常用于手表镜面、手机镜头保护、传感器窗口、LED衬底和精密光学器件。",
+          "cognitiveText": "蓝宝石玻璃在“线膨胀系数”尺度中的参数区间为 4.3–5.4 10^-6/K。",
           "cases": [
             {
               "productName": "Ring",
@@ -12835,12 +13568,16 @@
           ]
         },
         {
-          "name": "工业纯钛",
+          "name": "钛金属（纯钛）",
           "category": "金属与合金",
           "min": 8.4,
           "max": 9,
-          "image": "/assets/cases/8c6f760564b95d6313fac22e970c639b-fa4c57fa53.jpeg",
-          "cognitiveText": "工业纯钛在“线膨胀系数”尺度中的参数区间为 8.4–9 10^-6/K。",
+          "image": "/assets/materials/04_Titanium_Sheets-_Plates-_and_Rods_Display-3e8e9bf78e.jpg",
+          "images": [
+            "/assets/materials/04_Titanium_Sheets-_Plates-_and_Rods_Display-3e8e9bf78e.jpg"
+          ],
+          "description": "钛金属（纯钛）常用名称为纯钛或钛金属，通常指工业纯钛而非加入大量合金元素的钛合金。它呈银灰色，密度低于钢，具有良好耐腐蚀性、生物相容性和一定成形焊接能力；不同纯钛等级的强度差异明显。常用于化工设备、医疗器械、换热器、建筑饰面和轻量化产品。",
+          "cognitiveText": "钛金属（纯钛）在“线膨胀系数”尺度中的参数区间为 8.4–9 10^-6/K。",
           "cases": [
             {
               "productName": "Heirloom Vacuum Flask – Mini",
@@ -12852,12 +13589,18 @@
           ]
         },
         {
-          "name": "钢化钠钙玻璃",
+          "name": "钢化玻璃",
           "category": "玻璃与陶瓷",
           "min": 8.5,
           "max": 9.5,
-          "image": "/assets/cases/17f23baf9cf90621af365a5daf08ee61-6b6b08c3be.jpeg",
-          "cognitiveText": "钢化钠钙玻璃在“线膨胀系数”尺度中的参数区间为 8.5–9.5 10^-6/K。",
+          "image": "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
+          "images": [
+            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
+            "/assets/materials/01_Clear_Glass_Sample-8d34ea7bab.jpg",
+            "/assets/materials/05_钢化安全玻璃破裂颗粒-7bc89f3275.jpg"
+          ],
+          "description": "钢化玻璃常用名称为钢化玻璃或强化玻璃，是普通玻璃经热处理或化学强化形成表面压应力的安全玻璃。它的抗弯和抗热冲击能力通常高于未强化玻璃，破碎时热钢化玻璃会形成较小颗粒。常用于建筑门窗、家具、家电面板、汽车侧窗、手机保护盖板和展示装置。",
+          "cognitiveText": "钢化玻璃在“线膨胀系数”尺度中的参数区间为 8.5–9.5 10^-6/K。",
           "cases": [
             {
               "productName": "Interior Design Element",
@@ -13002,12 +13745,19 @@
           ]
         },
         {
-          "name": "普通混凝土",
+          "name": "混凝土",
           "category": "建筑与矿物材料",
           "min": 9,
           "max": 12,
-          "image": "/assets/cases/7df229c3417f88a93755df33d04a5558-2f16d4aeea.jpeg",
-          "cognitiveText": "普通混凝土在“线膨胀系数”尺度中的参数区间为 9–12 10^-6/K。",
+          "image": "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
+          "images": [
+            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
+            "/assets/materials/01_Concrete_Aggregate_Sample-2a7751994f.jpg",
+            "/assets/materials/03_Exposed_Aggregate_Concrete_Samples-ef04d78dfc.jpg",
+            "/assets/materials/04_Concrete_Texture_Samples-68a5c93cd5.jpg"
+          ],
+          "description": "混凝土常用名称为混凝土，工程中也简称“砼”，由水泥、骨料、水及必要外加剂拌合并硬化形成。它抗压能力较强、可浇筑成复杂形状且成本相对可控，但抗拉性能较弱，常与钢筋组合使用。除建筑结构外，也用于家具、灯具、花器和公共设施等产品，表观性能受配比、养护和孔隙影响。",
+          "cognitiveText": "混凝土在“线膨胀系数”尺度中的参数区间为 9–12 10^-6/K。",
           "cases": [
             {
               "productName": "Decorative Surface",
@@ -13156,7 +13906,14 @@
           "category": "金属与合金",
           "min": 10,
           "max": 16,
-          "image": "/assets/cases/d3e59fd616e923bdbc4f30bfdc855522-f312bf6fda.jpeg",
+          "image": "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
+          "images": [
+            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
+            "/assets/materials/02_Stainless_Steel_Product_Range-5c3c0ea5bb.jpg",
+            "/assets/materials/04_Stainless_Steel_Sheets_and_Rods-ca1dc40731.jpg",
+            "/assets/materials/05_Stainless_Steel_Product_Assortment-747d45f710.jpg"
+          ],
+          "description": "不锈钢常用名称为不锈钢或耐蚀钢，是以铁为基体、含有足够铬并可加入镍、钼等元素的合金体系。铬在表面形成钝化膜，使其具有较好的耐腐蚀和清洁维护性能。奥氏体、铁素体、马氏体等类别在强度、磁性和加工性上不同，常用于厨具、建筑、医疗、交通及产品外壳。",
           "cognitiveText": "不锈钢在“线膨胀系数”尺度中的参数区间为 10–16 10^-6/K。",
           "cases": [
             {
@@ -13306,7 +14063,12 @@
           "category": "金属与合金",
           "min": 14,
           "max": 15,
-          "image": "/assets/cases/c3c79b1e57acda94356902d2c95bec4c-8cff62b561.jpeg",
+          "image": "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
+          "images": [
+            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
+            "/assets/materials/02_99-99-纯金颗粒-9ad8114de2.jpg"
+          ],
+          "description": "金常用名称为黄金，是具有黄色金属光泽的贵金属。它延展性和导电性突出，化学性质稳定，不易氧化，但纯金较软，工程使用中常通过加入银、铜等元素形成不同成色的合金。除珠宝和装饰外，金还用于电子触点、连接器、镀层、牙科和精密器件，其成本与资源属性非常显著。",
           "cognitiveText": "金在“线膨胀系数”尺度中的参数区间为 14–15 10^-6/K。",
           "cases": [
             {
@@ -13407,7 +14169,14 @@
           "category": "金属与合金",
           "min": 16.5,
           "max": 17,
-          "image": "/assets/cases/930e8d48e9a3977df52ddc0ecb40e319-2ad9b406d8.jpeg",
+          "image": "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
+          "images": [
+            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
+            "/assets/materials/02_Copper_Product_Samples-a2d4818efa.jpg",
+            "/assets/materials/03_High-Purity_Copper_Ingots_and_Lumps-99f1e8324a.jpg",
+            "/assets/materials/04_Copper_Metal_Profiles-9c0df64d04.jpg"
+          ],
+          "description": "铜常用名称为铜，较高纯度的工业铜常称紫铜或纯铜。它具有优良的导电、导热、延展和耐腐蚀性能，表面会随环境形成由红褐到绿色的氧化或碱式碳酸盐层。铜常用于电线、电路、换热器、管材、厨具、建筑饰面和工艺品，也是黄铜、青铜等合金的主要基体。",
           "cognitiveText": "铜在“线膨胀系数”尺度中的参数区间为 16.5–17 10^-6/K。",
           "cases": [
             {
@@ -13557,7 +14326,14 @@
           "category": "金属与合金",
           "min": 21,
           "max": 21,
-          "image": "/assets/cases/10754c93a172f1bc5d1052a0858d15c1-8f2704d01f.jpeg",
+          "image": "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
+          "images": [
+            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
+            "/assets/materials/01_Aluminum_Alloy_Extrusion_Rods-cc5ade1966.jpg",
+            "/assets/materials/03_Aluminum_Alloy_Solid_Bars-647e9f31c2.jpg",
+            "/assets/materials/05_Extruded_Aluminum_Alloy_Bars-9f9569126b.jpg"
+          ],
+          "description": "铝合金是以铝为基体并加入镁、硅、铜、锌等元素形成的轻金属材料，常用名称即铝合金。它具有低密度、较好的比强度、耐腐蚀性和加工性，可进行挤压、压铸、冲压、机加工及阳极氧化。常用于电子产品外壳、交通工具、家具、建筑型材、灯具和包装。",
           "cognitiveText": "铝合金在“线膨胀系数”尺度中的参数区间为 21–21 10^-6/K。",
           "cases": [
             {
@@ -13707,7 +14483,12 @@
           "category": "金属与合金",
           "min": 27,
           "max": 27.3,
-          "image": "/assets/cases/864b3cf966a8a1ef73d3afc72e1c8475-8e6925d493.jpeg",
+          "image": "/assets/materials/02_Zinc_Alloy_Ingots-c23c1e9576.jpg",
+          "images": [
+            "/assets/materials/02_Zinc_Alloy_Ingots-c23c1e9576.jpg",
+            "/assets/materials/04_Zamak_Alloy_Ingots_for_Die_Casting-4ce2d4b424.jpg"
+          ],
+          "description": "锌合金常用名称为锌合金或锌压铸合金，是以锌为基体并加入铝、铜、镁等元素的低熔点合金，常见体系包括Zamak。它具有良好压铸流动性，可成形薄壁、细节丰富的零件，表面适合电镀和涂装。常用于锁具、拉手、电子外壳、汽车小型件、玩具和装饰五金。",
           "cognitiveText": "锌合金在“线膨胀系数”尺度中的参数区间为 27–27.3 10^-6/K。",
           "cases": [
             {
@@ -13843,7 +14624,12 @@
           "category": "聚合物与弹性体",
           "min": 15,
           "max": 65,
-          "image": "/assets/cases/92fc6909ad3d1958a17a1159fe862189-938b359b60.jpeg",
+          "image": "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
+          "images": [
+            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
+            "/assets/materials/04_PET_Preforms_and_Pellets-66a536ba55.jpg"
+          ],
+          "description": "PET常用名称为PET塑料或聚酯，化学名称为聚对苯二甲酸乙二酯。它可制成透明容器、薄膜、片材和纤维，具有较好的强度、气体阻隔性、尺寸稳定性和可回收性。结晶程度与加工状态会改变透明度和耐热性，常用于饮料瓶、食品包装、电子薄膜、纺织纤维及工程塑料。",
           "cognitiveText": "PET在“线膨胀系数”尺度中的参数区间为 15–65 10^-6/K。",
           "cases": [
             {
@@ -13989,12 +14775,18 @@
           ]
         },
         {
-          "name": "PA（尼龙）",
+          "name": "PA",
           "category": "聚合物与弹性体",
           "min": 40,
           "max": 45,
-          "image": "/assets/cases/9a7433e5f6b04b51d09e6f3a22ffe691-0a89e7d992.jpeg",
-          "cognitiveText": "PA（尼龙）在“线膨胀系数”尺度中的参数区间为 40–45 10^-6/K。",
+          "image": "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
+          "images": [
+            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
+            "/assets/materials/02_Polyamide_-PA-_Sheets-_Rods-_and_Tubes-df8c0bbbe9.jpg",
+            "/assets/materials/05_Polyamide_-PA-_Plastic_Samples-47c88552e2.jpg"
+          ],
+          "description": "PA常用名称为尼龙或PA塑料，材料学名称为聚酰胺。其分子链含有酰胺基团，通常具有较高强度、耐磨性、耐疲劳性和良好的自润滑特征。不同尼龙牌号及含水状态会显著影响尺寸和力学性能。常用于齿轮、轴承、扣件、织物纤维、工具零件及结构性注塑件。",
+          "cognitiveText": "PA在“线膨胀系数”尺度中的参数区间为 40–45 10^-6/K。",
           "cases": [
             {
               "productName": "Bluetooth Speaker for Two-Wheelers",
@@ -14143,7 +14935,15 @@
           "category": "聚合物与弹性体",
           "min": 38,
           "max": 70,
-          "image": "/assets/cases/e209c123c24c6fdf9217763ea23e14be-e7bc9f9dfc.jpeg",
+          "image": "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
+          "images": [
+            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
+            "/assets/materials/01_Transparent_Polycarbonate_Pellets-02e6f623ea.jpg",
+            "/assets/materials/03_Clear_Polycarbonate_Pellets-4d7b981453.jpg",
+            "/assets/materials/04_Polycarbonate_Pellets_for_Electrical_Applicat-debca79357.jpg",
+            "/assets/materials/05_Polycarbonate_Resin_Pellets_for_LED_Diffusers-faf7855af7.jpg"
+          ],
+          "description": "PC常用名称为聚碳酸酯或PC塑料，部分地区也称防弹胶。它是一种透明热塑性工程塑料，突出特点是抗冲击能力强、尺寸稳定、可透光并能进行注塑和热成型。PC常用于透明防护罩、电子产品外壳、头盔镜片、灯具、医疗器械及光学部件，但需要关注表面耐刮擦和耐化学性。",
           "cognitiveText": "PC在“线膨胀系数”尺度中的参数区间为 38–70 10^-6/K。",
           "cases": [
             {
@@ -14293,7 +15093,14 @@
           "category": "聚合物与弹性体",
           "min": 60,
           "max": 70,
-          "image": "/assets/cases/17f23baf9cf90621af365a5daf08ee61-6b6b08c3be.jpeg",
+          "image": "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
+          "images": [
+            "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
+            "/assets/materials/02_PVC_Rain_Pipe_and_Pellets_Showcase-80929947ea.jpg",
+            "/assets/materials/03_PVC_Pellets_and_Sheet_Display-627743793d.jpg",
+            "/assets/materials/05_PVC_Compound_Pellets_and_Pipes-6081d5f1f8.jpg"
+          ],
+          "description": "PVC常用名称为聚氯乙烯或PVC塑料，可通过增塑剂和稳定剂配方形成硬质或软质材料。硬质PVC具有较好的刚性、耐化学性和阻燃特征，软质PVC则柔韧并易加工。它广泛用于管材、型材、电线护套、地板、薄膜、卡片和充气制品，性能与环境影响高度依赖具体添加剂体系。",
           "cognitiveText": "PVC在“线膨胀系数”尺度中的参数区间为 60–70 10^-6/K。",
           "cases": [
             {
@@ -14359,7 +15166,13 @@
           "category": "聚合物与弹性体",
           "min": 68,
           "max": 85,
-          "image": "/assets/cases/8b7749e28a954f932c22849583d8439e-0d50b4923d.jpeg",
+          "image": "/assets/materials/01_Blue_PLA_Filament_and_Pellets-7f2841e5a1.jpg",
+          "images": [
+            "/assets/materials/01_Blue_PLA_Filament_and_Pellets-7f2841e5a1.jpg",
+            "/assets/materials/04_Biodegradable_PLA_3D_Printing_Filament_Sample-c68239d450.jpg",
+            "/assets/materials/05_Natural-Color_PLA_Pellets-357bb71b25.jpg"
+          ],
+          "description": "PLA常用名称为聚乳酸或PLA生物塑料，通常以玉米淀粉、甘蔗等可再生原料发酵得到的乳酸为基础制备。它可透明、易着色，适合挤出、注塑和3D打印，并可在特定工业堆肥条件下降解。常用于包装、一次性制品、打印线材和生物医用材料，但耐热与韧性需通过改性改善。",
           "cognitiveText": "PLA在“线膨胀系数”尺度中的参数区间为 68–85 10^-6/K。",
           "cases": [
             {
@@ -14418,7 +15231,14 @@
           "category": "聚合物与弹性体",
           "min": 53,
           "max": 110,
-          "image": "/assets/cases/d1a4f73cf0c7a717022407f050aa1450-a254293cb6.jpeg",
+          "image": "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
+          "images": [
+            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
+            "/assets/materials/02_ABS_Plastic_Pellets-072e2e6578.jpg",
+            "/assets/materials/04_ABS_Plastic_Resin_Granules-4e4ab4d3c6.jpg",
+            "/assets/materials/05_Chimei_ABS_Resin_PA-765b_Plastic_Granules-1a84b6b56a.jpg"
+          ],
+          "description": "ABS常用名称为ABS塑料或ABS树脂，中文全称为丙烯腈—丁二烯—苯乙烯共聚物。它综合了刚性、韧性、尺寸稳定性和较好的表面加工性能，可通过注塑、挤出、机加工与表面涂装制成复杂外壳。常见于家电、电子产品、玩具、工具外壳、汽车内饰和模型制作。",
           "cognitiveText": "ABS在“线膨胀系数”尺度中的参数区间为 53–110 10^-6/K。",
           "cases": [
             {
@@ -14568,7 +15388,12 @@
           "category": "聚合物与弹性体",
           "min": 81,
           "max": 100,
-          "image": "/assets/cases/f687b26296c639eec40b6b3db84f9ad4-04a76324ec.jpeg",
+          "image": "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
+          "images": [
+            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
+            "/assets/materials/01_Polypropylene_Machined_Sheets_and_Rods-3ff1c90585.jpg"
+          ],
+          "description": "PP常用名称为聚丙烯或PP塑料，是密度较低、用途广泛的热塑性聚合物。它耐化学品、耐湿、易注塑和挤出，并具有良好的反复弯折疲劳性能，可制作一体式活铰链。常见于食品容器、家居用品、医疗耗材、汽车内饰、无纺布和包装薄膜，但低温冲击性能及耐候性需要关注。",
           "cognitiveText": "PP在“线膨胀系数”尺度中的参数区间为 81–100 10^-6/K。",
           "cases": [
             {
@@ -14718,7 +15543,13 @@
           "category": "聚合物与弹性体",
           "min": 100,
           "max": 100,
-          "image": "/assets/cases/2d66b52bd541e5b9eaf85970b5fda97f-af7245355e.jpeg",
+          "image": "/assets/materials/01_amber_cast_blocks-df08c5fd91.png",
+          "images": [
+            "/assets/materials/01_amber_cast_blocks-df08c5fd91.png",
+            "/assets/materials/02_clear_sheet_cubes_puck-039da90d0e.png",
+            "/assets/materials/03_amber_test_specimens-d27f92d173.png"
+          ],
+          "description": "固化环氧树脂常用名称为环氧树脂或环氧胶，是环氧低聚物与固化剂发生交联后形成的热固性材料。固化后通常具有较好的粘接力、尺寸稳定性、电绝缘性和耐化学性，但韧性、耐热与颜色会随配方变化。它常用于胶黏剂、电子灌封、涂层、复合材料基体、模具和艺术浇注。",
           "cognitiveText": "固化环氧树脂在“线膨胀系数”尺度中的参数区间为 100–100 10^-6/K。",
           "cases": [
             {
@@ -14868,7 +15699,12 @@
           "category": "聚合物与弹性体",
           "min": 110,
           "max": 120,
-          "image": "/assets/cases/b7b052be64508c3b3532c54ab6bbcfaf-613d0fa01b.jpeg",
+          "image": "/assets/materials/05_PTFE_Teflon_Components_Display-e56fdfd0b4.jpg",
+          "images": [
+            "/assets/materials/05_PTFE_Teflon_Components_Display-e56fdfd0b4.jpg",
+            "/assets/materials/03_PTFE_Sheets-_Tubes-_and_Rods_Display-3306ac9aa8.jpg"
+          ],
+          "description": "PTFE常用名称为聚四氟乙烯，商品语境中也常称特氟龙或铁氟龙。其碳氟结构带来极低摩擦系数、优异耐化学性、电绝缘性和较宽的使用温区，但刚性、耐磨与加工方式不同于普通热塑性塑料。常用于密封垫、轴承衬套、不粘涂层、电线绝缘和化工设备内衬。",
           "cognitiveText": "PTFE在“线膨胀系数”尺度中的参数区间为 110–120 10^-6/K。",
           "cases": [
             {
@@ -14885,7 +15721,14 @@
           "category": "聚合物与弹性体",
           "min": 100,
           "max": 200,
-          "image": "/assets/cases/de221557fe1b5da261e4d385959d00e5-cf10babc08.jpeg",
+          "image": "/assets/materials/02_HDPE_Plastic_Granules_Sample-75c093435a.jpg",
+          "images": [
+            "/assets/materials/02_HDPE_Plastic_Granules_Sample-75c093435a.jpg",
+            "/assets/materials/03_Black_HDPE_Pipe-Grade_Granules-2b9dcf2e45.jpg",
+            "/assets/materials/04_Recycled_HDPE_Granules_for_Pipe_Production-00e71150c9.jpg",
+            "/assets/materials/05_Black_HDPE_Pipe-Grade_Granules-00228bf2ca.jpg"
+          ],
+          "description": "HDPE常用名称为高密度聚乙烯或HDPE塑料，是分子支化较少、结晶度较高的聚乙烯。它兼具较好的刚性、耐化学性、耐湿性和电绝缘性，同时质量较轻，可进行吹塑、注塑、挤出和焊接加工。常用于瓶罐、管材、周转箱、户外部件、砧板及耐腐蚀容器。",
           "cognitiveText": "HDPE在“线膨胀系数”尺度中的参数区间为 100–200 10^-6/K。",
           "cases": [
             {

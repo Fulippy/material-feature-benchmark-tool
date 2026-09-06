@@ -21,7 +21,10 @@ export default function MaterialDetailPanel({ material, parameter }: { material:
           <strong>{material.min}–{material.max}</strong>
           <small>{parameter.unit}</small>
         </div>
-        <p>{material.cognitiveText}</p>
+        <div className="material-detail__description">
+          <p>{material.description || '材料简介'}</p>
+          <small>{material.cognitiveText}</small>
+        </div>
       </div>
 
       <div className="case-section">

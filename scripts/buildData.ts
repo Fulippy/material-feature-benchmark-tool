@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { access, copyFile, mkdir, readFile, writeFile } from 'node:fs/promises'
+import { access, copyFile, mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import process from 'node:process'
 import * as XLSXModule from 'xlsx'
@@ -33,16 +33,27 @@ type OutputMaterial = {
   min: number
   max: number
   image: string
+  images: string[]
   description: string
   cognitiveText: string
   cases: OutputCase[]
 }
 
+type MaterialImageSource = {
+  materialName: string
+  title: string
+  sourcePath: string
+  isMain: boolean
+  rowNumber: number
+}
+
 const PROJECT_ROOT = process.cwd()
 const REPORT_PATH = path.join(PROJECT_ROOT, 'data_inspection_report.md')
 const OUTPUT_DATA_DIR = path.join(PROJECT_ROOT, 'src', 'data')
-const OUTPUT_IMAGE_DIR = path.join(PROJECT_ROOT, 'public', 'assets', 'cases')
+const OUTPUT_CASE_IMAGE_DIR = path.join(PROJECT_ROOT, 'public', 'assets', 'cases')
+const OUTPUT_MATERIAL_IMAGE_DIR = path.join(PROJECT_ROOT, 'public', 'assets', 'materials')
 const PLACEHOLDER_WEB_PATH = '/assets/cases/placeholder.svg'
+const MATERIAL_PLACEHOLDER_WEB_PATH = '/assets/materials/placeholder.svg'
 const CASE_LIMIT = 20
 const MIN_CASE_TARGET = 10
 
@@ -178,6 +189,23 @@ async function locateWorkbook(filename: string, report: string): Promise<string>
   throw new Error(`未找到数据文件：${filename}`)
 }
 
+async function locateReviewWorkbook(filename: string, environmentKey: string, report: string): Promise<string> {
+  const environmentPath = clean(process.env[environmentKey])
+  if (environmentPath) {
+    if (await exists(environmentPath)) return environmentPath
+    throw new Error(`${environmentKey} 指向的文件不存在：${environmentPath}`)
+  }
+  for (const candidate of reportedPaths(report, filename)) {
+    if (await exists(candidate)) return candidate
+  }
+  const searchRoots = [PROJECT_ROOT, path.dirname(PROJECT_ROOT)]
+  for (const root of searchRoots) {
+    const located = await findFileRecursive(root, filename)
+    if (located) return located
+  }
+  throw new Error(`未找到人工复核文件：${filename}。文件位于项目外时，请设置 ${environmentKey}。`)
+}
+
 function sheetRows(workbook: XLSXModule.WorkBook, sheetName: string, raw = true): RawRow[] {
   const sheet = workbook.Sheets[sheetName]
   if (!sheet) throw new Error(`工作簿中不存在 sheet：${sheetName}；实际 sheet：${workbook.SheetNames.join('、')}`)
@@ -188,6 +216,40 @@ function records(workbook: XLSXModule.WorkBook, sheetName: string): Record<strin
   const sheet = workbook.Sheets[sheetName]
   if (!sheet) throw new Error(`工作簿中不存在 sheet：${sheetName}`)
   return XLSX.utils.sheet_to_json<Record<string, Cell>>(sheet, { defval: '', raw: true })
+}
+
+function recordsFromHeaderRow(workbook: XLSXModule.WorkBook, sheetName: string, headerRow: number): Record<string, Cell>[] {
+  const rows = sheetRows(workbook, sheetName, true)
+  const headers = rows[headerRow - 1]?.map(clean) ?? []
+  return rows.slice(headerRow).map((row) => Object.fromEntries(
+    headers.flatMap((header, index) => header ? [[header, row[index] ?? ''] as const] : []),
+  ))
+}
+
+async function listFilesRecursive(root: string): Promise<string[]> {
+  const ignored = new Set(['node_modules', 'dist', '.git', 'thumbnails'])
+  const results: string[] = []
+  const queue = [root]
+  while (queue.length) {
+    const current = queue.shift()!
+    let entries
+    try {
+      entries = await readdir(current, { withFileTypes: true })
+    } catch {
+      continue
+    }
+    for (const entry of entries) {
+      if (ignored.has(entry.name)) continue
+      const fullPath = path.join(current, entry.name)
+      if (entry.isDirectory()) queue.push(fullPath)
+      if (entry.isFile()) results.push(fullPath)
+    }
+  }
+  return results
+}
+
+function normalizeRelativePath(value: string): string {
+  return value.replace(/[\\/]+/g, path.sep).replace(/^[/\\]+/, '').toLowerCase()
 }
 
 function parseAliases(workbook: XLSXModule.WorkBook): Map<string, Set<string>> {
@@ -212,6 +274,99 @@ function parseAliases(workbook: XLSXModule.WorkBook): Map<string, Set<string>> {
     }
   }
   return byMaterial
+}
+
+function parseNameChanges(workbook: XLSXModule.WorkBook) {
+  const rows = recordsFromHeaderRow(workbook, '名称变动', 3)
+  const byCurrentName = new Map<string, string>()
+  const changes: Array<{ from: string; to: string; action: string; reason: string }> = []
+
+  for (const row of rows) {
+    const currentName = clean(row['current_standard_material（当前标准名）'])
+    const finalName = clean(row['manual_final_material_name（人工）'])
+    const action = clean(row['manual_name_action（人工）'])
+    if (!currentName || !finalName || finalName === currentName) continue
+    byCurrentName.set(normalizeName(currentName), finalName)
+    changes.push({
+      from: currentName,
+      to: finalName,
+      action,
+      reason: clean(row['manual_name_change_reason（人工）']),
+    })
+  }
+  return { byCurrentName, changes }
+}
+
+async function parseMaterialReview(
+  workbook: XLSXModule.WorkBook,
+  workbookPath: string,
+  imageReadFailures: Array<Record<string, unknown>>,
+) {
+  const workbookDirectory = path.dirname(workbookPath)
+  const indexedFiles = await listFilesRecursive(workbookDirectory)
+  const indexedBySuffix = indexedFiles.map((filePath) => ({
+    filePath,
+    normalized: filePath.toLowerCase().replace(/[\\/]+/g, path.sep),
+  }))
+  const resolvedPathCache = new Map<string, string>()
+
+  const resolveImagePath = async (relativePath: string): Promise<string> => {
+    const cached = resolvedPathCache.get(relativePath)
+    if (cached !== undefined) return cached
+    const direct = path.resolve(workbookDirectory, relativePath)
+    if (await exists(direct)) {
+      resolvedPathCache.set(relativePath, direct)
+      return direct
+    }
+    const suffix = normalizeRelativePath(relativePath)
+    const match = indexedBySuffix.find((item) => item.normalized.endsWith(`${path.sep}${suffix}`))
+    const resolved = match?.filePath ?? ''
+    resolvedPathCache.set(relativePath, resolved)
+    return resolved
+  }
+
+  const descriptions = new Map<string, string>()
+  for (const row of recordsFromHeaderRow(workbook, '材料简介', 3)) {
+    const materialName = clean(row['标准材料'])
+    const description = firstParagraph(clean(row['材料简介（100—200字）']))
+    if (materialName && description) descriptions.set(normalizeName(materialName), description)
+  }
+
+  const images = new Map<string, MaterialImageSource[]>()
+  const reviewRows = recordsFromHeaderRow(workbook, '逐图人工复核', 3)
+  for (let index = 0; index < reviewRows.length; index += 1) {
+    const row = reviewRows[index]
+    if (clean(row['研究者判断']) !== '可用') continue
+    const materialName = clean(row['标准材料'])
+    const relativePath = clean(row['本地文件'])
+    if (!materialName || !relativePath || isHttpUrl(relativePath)) continue
+    const sourcePath = await resolveImagePath(relativePath)
+    if (!sourcePath) {
+      imageReadFailures.push({
+        row: index + 4,
+        material: materialName,
+        path: relativePath,
+        reason: '人工复核表中的可用图片未在工作簿目录树内找到',
+      })
+      continue
+    }
+    const key = normalizeName(materialName)
+    const entries = images.get(key) ?? []
+    entries.push({
+      materialName,
+      title: clean(row['图片标题/形态']),
+      sourcePath,
+      isMain: clean(row['是否做为主图']) === '做主图',
+      rowNumber: index + 4,
+    })
+    images.set(key, entries)
+  }
+
+  for (const [key, entries] of images) {
+    entries.sort((left, right) => Number(right.isMain) - Number(left.isMain) || left.rowNumber - right.rowNumber)
+    images.set(key, entries)
+  }
+  return { descriptions, images }
 }
 
 function aliasesFor(materialName: string, aliases: Map<string, Set<string>>): Set<string> {
@@ -366,39 +521,63 @@ async function main() {
   const reportText = await readFile(REPORT_PATH, 'utf8')
   const axisPath = await locateWorkbook('final_material_axis_summary.xlsx', reportText)
   const casesPath = await locateWorkbook('文本图片和提及材料.xlsx', reportText)
+  const materialImageReviewPath = await locateReviewWorkbook(
+    'material_image_manual_review_v2.xlsx',
+    'MATERIAL_IMAGE_REVIEW_XLSX',
+    reportText,
+  )
+  const materialNameReviewPath = await locateReviewWorkbook(
+    'material_reselection_manual.xlsx',
+    'MATERIAL_NAME_REVIEW_XLSX',
+    reportText,
+  )
   const axisWorkbook = XLSX.readFile(axisPath)
   const casesWorkbook = XLSX.readFile(casesPath)
+  const materialImageReviewWorkbook = XLSX.readFile(materialImageReviewPath)
+  const materialNameReviewWorkbook = XLSX.readFile(materialNameReviewPath)
 
   await mkdir(OUTPUT_DATA_DIR, { recursive: true })
-  await mkdir(OUTPUT_IMAGE_DIR, { recursive: true })
-  await writeFile(path.join(OUTPUT_IMAGE_DIR, 'placeholder.svg'), `<?xml version="1.0" encoding="UTF-8"?>
+  await mkdir(OUTPUT_CASE_IMAGE_DIR, { recursive: true })
+  await mkdir(OUTPUT_MATERIAL_IMAGE_DIR, { recursive: true })
+  const placeholderSvg = `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420">
   <rect width="640" height="420" fill="#e8edf2"/>
   <path d="M200 284l72-74 52 46 58-76 78 104H200z" fill="#c5d0da"/>
   <circle cx="240" cy="146" r="28" fill="#c5d0da"/>
   <text x="320" y="354" text-anchor="middle" fill="#617184" font-family="Arial, sans-serif" font-size="24">暂无可用图片</text>
-</svg>`, 'utf8')
+</svg>`
+  await writeFile(path.join(OUTPUT_CASE_IMAGE_DIR, 'placeholder.svg'), placeholderSvg, 'utf8')
+  await writeFile(path.join(OUTPUT_MATERIAL_IMAGE_DIR, 'placeholder.svg'), placeholderSvg, 'utf8')
 
   const axisDefinitions = records(axisWorkbook, 'axis_definition')
   const imageReadFailures: Array<Record<string, unknown>> = []
   const imageCopyFailures: Array<Record<string, unknown>> = []
+  const materialImageReadFailures: Array<Record<string, unknown>> = []
+  const materialImageCopyFailures: Array<Record<string, unknown>> = []
   const sourceCases = await parseCases(casesWorkbook, imageReadFailures)
+  const nameReview = parseNameChanges(materialNameReviewWorkbook)
+  const materialReview = await parseMaterialReview(
+    materialImageReviewWorkbook,
+    materialImageReviewPath,
+    materialImageReadFailures,
+  )
   const aliasSheetAvailable = casesWorkbook.SheetNames.includes('Sheet5')
   const aliasMap = parseAliases(casesWorkbook)
-  const copiedImages = new Map<string, string>()
+  const copiedCaseImages = new Map<string, string>()
+  const copiedMaterialImages = new Map<string, string>()
   const matchStats = { exact: 0, contains: 0, fuzzy: 0, unmatched: 0 }
   const clippedIntervals: Array<Record<string, unknown>> = []
 
-  const copyImage = async (sourcePath: string, productName: string): Promise<string> => {
+  const copyCaseImage = async (sourcePath: string, productName: string): Promise<string> => {
     if (!sourcePath || !(await exists(sourcePath))) return PLACEHOLDER_WEB_PATH
-    const cached = copiedImages.get(sourcePath)
+    const cached = copiedCaseImages.get(sourcePath)
     if (cached) return cached
     const filename = safeImageName(sourcePath)
-    const destination = path.join(OUTPUT_IMAGE_DIR, filename)
+    const destination = path.join(OUTPUT_CASE_IMAGE_DIR, filename)
     try {
       await copyFile(sourcePath, destination)
       const webPath = `/assets/cases/${filename}`
-      copiedImages.set(sourcePath, webPath)
+      copiedCaseImages.set(sourcePath, webPath)
       return webPath
     } catch (error) {
       imageCopyFailures.push({ productName, sourcePath, reason: error instanceof Error ? error.message : String(error) })
@@ -406,10 +585,35 @@ async function main() {
     }
   }
 
+  const copyMaterialImage = async (source: MaterialImageSource): Promise<string> => {
+    const cached = copiedMaterialImages.get(source.sourcePath)
+    if (cached) return cached
+    const filename = safeImageName(source.sourcePath)
+    const destination = path.join(OUTPUT_MATERIAL_IMAGE_DIR, filename)
+    try {
+      await copyFile(source.sourcePath, destination)
+      const webPath = `/assets/materials/${filename}`
+      copiedMaterialImages.set(source.sourcePath, webPath)
+      return webPath
+    } catch (error) {
+      materialImageCopyFailures.push({
+        material: source.materialName,
+        title: source.title,
+        sourcePath: source.sourcePath,
+        reason: error instanceof Error ? error.message : String(error),
+      })
+      return ''
+    }
+  }
+
   const parameters = []
   const materialsPerParameter: Record<string, number> = {}
   const unmatchedMaterials = new Set<string>()
   const materialsWithCases = new Set<string>()
+  const materialsWithReviewedImages = new Set<string>()
+  const materialsWithDescriptions = new Set<string>()
+  const materialsWithoutReviewedImages = new Set<string>()
+  const materialsWithoutDescriptions = new Set<string>()
 
   for (const axisRow of axisDefinitions) {
     const name = clean(axisRow.parameter)
@@ -422,14 +626,15 @@ async function main() {
 
     const materials: OutputMaterial[] = []
     for (const row of materialRows) {
-      const materialName = clean(row.standard_material)
+      const sourceMaterialName = clean(row.standard_material)
+      const materialName = nameReview.byCurrentName.get(normalizeName(sourceMaterialName)) ?? sourceMaterialName
       const min = asNumber(row.value_min)
       const max = asNumber(row.value_max)
       if (min < axisMin || max > axisMax) {
         clippedIntervals.push({ parameter: name, material: materialName, originalMin: min, originalMax: max, axisMin, axisMax })
       }
 
-      const matches = findCases(materialName, sourceCases, aliasMap)
+      const matches = findCases(sourceMaterialName, sourceCases, aliasMap)
       if (!matches.length) {
         unmatchedMaterials.add(materialName)
         matchStats.unmatched += 1
@@ -439,7 +644,7 @@ async function main() {
 
       const outputCases: OutputCase[] = []
       for (const match of matches) {
-        const image = await copyImage(match.source.imageReadable ? match.source.localImagePath : '', match.source.productName)
+        const image = await copyCaseImage(match.source.imageReadable ? match.source.localImagePath : '', match.source.productName)
         matchStats[match.matchType] += 1
         outputCases.push({
           productName: match.source.productName,
@@ -450,14 +655,33 @@ async function main() {
         })
       }
 
-      const materialImage = outputCases.find((item) => item.image !== PLACEHOLDER_WEB_PATH)?.image ?? PLACEHOLDER_WEB_PATH
+      const reviewKey = normalizeName(materialName)
+      const materialImageSources = materialReview.images.get(reviewKey)
+        ?? materialReview.images.get(normalizeName(sourceMaterialName))
+        ?? []
+      const materialImages: string[] = []
+      for (const source of materialImageSources) {
+        const webPath = await copyMaterialImage(source)
+        if (webPath && !materialImages.includes(webPath)) materialImages.push(webPath)
+      }
+      if (materialImages.length) materialsWithReviewedImages.add(materialName)
+      else materialsWithoutReviewedImages.add(materialName)
+
+      const description = materialReview.descriptions.get(reviewKey)
+        ?? materialReview.descriptions.get(normalizeName(sourceMaterialName))
+        ?? '材料简介'
+      if (description !== '材料简介') materialsWithDescriptions.add(materialName)
+      else materialsWithoutDescriptions.add(materialName)
+
+      const image = materialImages[0] ?? MATERIAL_PLACEHOLDER_WEB_PATH
       materials.push({
         name: materialName,
         category: clean(row.material_category),
         min,
         max,
-        image: materialImage,
-        description: '材料简介',
+        image,
+        images: materialImages.length ? materialImages : [MATERIAL_PLACEHOLDER_WEB_PATH],
+        description,
         cognitiveText: `${materialName}在“${name}”尺度中的参数区间为 ${min}–${max} ${unit}。`,
         cases: outputCases,
       })
@@ -478,6 +702,7 @@ async function main() {
   }
 
   const totalMaterials = parameters.reduce((sum, parameter) => sum + parameter.materials.length, 0)
+  const reviewedMaterialImageSources = [...materialReview.images.values()].flat()
   const materialsMapping = { parameters }
   const dataReport = {
     generatedAt: new Date().toISOString(),
@@ -489,16 +714,32 @@ async function main() {
     unmatchedMaterials: [...unmatchedMaterials].sort((a, b) => a.localeCompare(b, 'zh-CN')),
     imageReadFailures,
     imageCopyFailures,
-    copiedImageCount: copiedImages.size,
+    materialImageReadFailures,
+    materialImageCopyFailures,
+    copiedImageCount: copiedCaseImages.size + copiedMaterialImages.size,
+    copiedCaseImageCount: copiedCaseImages.size,
+    copiedMaterialImageCount: copiedMaterialImages.size,
+    reviewedUsableMaterialImageCount: reviewedMaterialImageSources.length,
+    reviewedMainImageCount: reviewedMaterialImageSources.filter((item) => item.isMain).length,
+    materialsWithReviewedImages: [...materialsWithReviewedImages].sort((a, b) => a.localeCompare(b, 'zh-CN')),
+    materialsWithoutReviewedImages: [...materialsWithoutReviewedImages].sort((a, b) => a.localeCompare(b, 'zh-CN')),
+    materialDescriptionCount: materialsWithDescriptions.size,
+    materialsWithoutDescriptions: [...materialsWithoutDescriptions].sort((a, b) => a.localeCompare(b, 'zh-CN')),
+    materialNameChanges: nameReview.changes,
     sourceFiles: {
       materialAxisWorkbook: axisPath,
       applicationCasesWorkbook: casesPath,
+      materialImageReviewWorkbook: materialImageReviewPath,
+      materialNameReviewWorkbook: materialNameReviewPath,
     },
     sheets: {
       axisDefinition: 'axis_definition',
       parameterMaterials: Object.fromEntries(Object.entries(parameterMeta).map(([name, meta]) => [name, meta.sheet])),
       applicationCases: '总',
       materialAliases: aliasSheetAvailable ? 'Sheet5' : null,
+      materialImages: '逐图人工复核',
+      materialDescriptions: '材料简介',
+      materialNameChanges: '名称变动',
     },
     fieldMappings: {
       axisDefinition: {
@@ -510,6 +751,15 @@ async function main() {
       applicationCases: {
         mentionedMaterials: 'A–L', productName: 'M', description: 'N 起按首个非代码、非 URL、非本地图片路径文本动态识别', localImage: 'N–S 中首个可读取的本地图片路径', remoteUrl: '忽略',
       },
+      materialImages: {
+        name: '标准材料', title: '图片标题/形态', localImage: '本地文件', usable: '研究者判断=可用', mainImage: '是否做为主图=做主图',
+      },
+      materialDescriptions: {
+        name: '标准材料', description: '材料简介（100—200字）',
+      },
+      materialNameChanges: {
+        currentName: 'current_standard_material（当前标准名）', action: 'manual_name_action（人工）', finalName: 'manual_final_material_name（人工）',
+      },
     },
     caseLimitPerMaterial: CASE_LIMIT,
     caseMatchTypeStatistics: matchStats,
@@ -518,6 +768,10 @@ async function main() {
       ...(!aliasSheetAvailable ? ['当前 Node Excel 解析器仅识别到案例工作簿的“总”sheet，未使用 Sheet5 别名表；匹配仍按总表原始材料名称执行。'] : []),
       ...(imageReadFailures.length ? [`${imageReadFailures.length} 条本地图片路径不存在或不可读取，相关案例使用占位图。`] : []),
       ...(imageCopyFailures.length ? [`${imageCopyFailures.length} 张图片复制失败，相关案例使用占位图。`] : []),
+      ...(materialImageReadFailures.length ? [`${materialImageReadFailures.length} 张已标记可用的材料图片未找到，未加入材料图集。`] : []),
+      ...(materialImageCopyFailures.length ? [`${materialImageCopyFailures.length} 张材料图片复制失败，未加入材料图集。`] : []),
+      ...(materialsWithoutReviewedImages.size ? [`${materialsWithoutReviewedImages.size} 种当前基准材料没有人工复核材料图，使用占位图。`] : []),
+      ...(materialsWithoutDescriptions.size ? [`${materialsWithoutDescriptions.size} 种当前基准材料没有人工复核简介，保留“材料简介”占位文字。`] : []),
       ...(unmatchedMaterials.size ? [`${unmatchedMaterials.size} 种基准材料未匹配到应用案例。`] : []),
       ...(clippedIntervals.length ? [`${clippedIntervals.length} 个材料区间超出主轴显示范围，前端按主轴边界裁切显示。`] : []),
     ],
@@ -530,8 +784,14 @@ async function main() {
     uniqueMaterialCount: dataReport.uniqueMaterialCount,
     matchedMaterialCount: dataReport.matchedMaterialCount,
     copiedImageCount: dataReport.copiedImageCount,
+    copiedCaseImageCount: dataReport.copiedCaseImageCount,
+    copiedMaterialImageCount: dataReport.copiedMaterialImageCount,
+    reviewedMainImageCount: dataReport.reviewedMainImageCount,
+    materialDescriptionCount: dataReport.materialDescriptionCount,
     imageReadFailureCount: dataReport.imageReadFailures.length,
     imageCopyFailureCount: dataReport.imageCopyFailures.length,
+    materialImageReadFailureCount: dataReport.materialImageReadFailures.length,
+    materialImageCopyFailureCount: dataReport.materialImageCopyFailures.length,
     clippedIntervalCount: dataReport.clippedIntervals.length,
     unmatchedMaterials: dataReport.unmatchedMaterials,
   }
@@ -545,7 +805,10 @@ async function main() {
     materialRows: totalMaterials,
     uniqueMaterials: dataReport.uniqueMaterialCount,
     matchedMaterials: materialsWithCases.size,
-    copiedImages: copiedImages.size,
+    copiedCaseImages: copiedCaseImages.size,
+    copiedMaterialImages: copiedMaterialImages.size,
+    materialDescriptions: materialsWithDescriptions.size,
+    renamedMaterials: nameReview.changes.length,
     unmatchedMaterials: unmatchedMaterials.size,
     clippedIntervals: clippedIntervals.length,
   }, null, 2))

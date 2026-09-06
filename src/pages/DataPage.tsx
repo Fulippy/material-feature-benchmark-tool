@@ -14,7 +14,7 @@ export default function DataPage() {
         <div><strong>{dataReport.parsedParameterCount}</strong><span>成功解析参数</span></div>
         <div><strong>{dataReport.uniqueMaterialCount}</strong><span>唯一基准材料</span></div>
         <div><strong>{dataReport.matchedMaterialCount}</strong><span>已匹配案例的材料</span></div>
-        <div><strong>{dataReport.copiedImageCount}</strong><span>已复制本地案例图片</span></div>
+        <div><strong>{dataReport.copiedCaseImageCount}</strong><span>已复制本地案例图片</span></div>
       </section>
 
       <section className="data-sections">
@@ -51,6 +51,9 @@ export default function DataPage() {
         </div>
         <ul>
           <li>{dataReport.parsedMaterialTotal} 条参数—材料记录成功解析。</li>
+          <li>{dataReport.reviewedMainImageCount} 种材料已在人工复核表中指定主图。</li>
+          <li>{dataReport.copiedMaterialImageCount} 张材料图片已复制到网页图集。</li>
+          <li>{dataReport.materialDescriptionCount} 种当前基准材料已匹配人工简介。</li>
           <li>{dataReport.imageReadFailureCount} 条本地图片路径不可读取，页面使用灰色占位图。</li>
           <li>{dataReport.clippedIntervalCount} 个材料区间越过主轴边界，尺度表按边界裁切。</li>
           <li>{dataReport.unmatchedMaterials.length ? `${dataReport.unmatchedMaterials.join('、')} 暂未匹配到案例。` : '所有材料均已匹配到案例。'}</li>

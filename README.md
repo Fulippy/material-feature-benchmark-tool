@@ -25,7 +25,7 @@ npm run build
 
 ## 重新生成 JSON 数据
 
-数据转换脚本会优先读取项目根目录的 `data_inspection_report.md`，使用报告中记录的 Excel 实际路径；若报告没有可用路径，脚本会在当前项目中递归查找对应文件。无需另建 `data/` 文件夹，也不会移动或修改原始工作簿。
+数据转换脚本会优先读取项目根目录的 `data_inspection_report.md`，使用报告中记录的 Excel 实际路径；若报告没有可用路径，脚本会在当前项目及其上级目录递归查找对应文件。无需另建 `data/` 文件夹，也不会移动或修改原始工作簿。
 
 ```bash
 npm run data
@@ -35,12 +35,23 @@ npm run data
 
 1. 读取 `final_material_axis_summary.xlsx` 的 `axis_definition` 和五个 `*_final` sheet；
 2. 读取 `文本图片和提及材料.xlsx` 的 `总` sheet；
-3. 按已确认的字段规则识别提及材料、产品名称、第一段产品简介及本地图片路径；
-4. 按 exact、contains、fuzzy 顺序匹配案例，每种材料最多保留 20 条；
-5. 将有效图片复制到 `public/assets/cases/`；
-6. 生成 `src/data/materials_mapping.json`、本地完整报告 `src/data/data_report.json` 和可公开的统计摘要 `src/data/public_data_report.json`。
+3. 读取 `material_reselection_manual.xlsx` 的 `名称变动` sheet，应用人工确认的最终材料名称；
+4. 读取 `material_image_manual_review_v2.xlsx` 的 `逐图人工复核` 与 `材料简介` sheet；
+5. 只复制人工判定“可用”的材料图片，并将“做主图”图片放在图集第一位；
+6. 按已确认的字段规则识别案例提及材料、产品名称、第一段产品简介及本地图片路径；
+7. 按 exact、contains、fuzzy 顺序匹配案例，每种材料最多保留 20 条；
+8. 将材料图片复制到 `public/assets/materials/`，将案例图片复制到 `public/assets/cases/`；
+9. 生成 `src/data/materials_mapping.json`、本地完整报告 `src/data/data_report.json` 和可公开的统计摘要 `src/data/public_data_report.json`。
 
-转换脚本不联网下载图片，也不会将应用案例的本地绝对路径写入页面使用的图片字段。图片读取或复制失败时使用 `public/assets/cases/placeholder.svg`，并在数据报告中记录。
+转换脚本不联网下载图片，也不会将本地绝对路径写入页面使用的图片字段。图片读取或复制失败时使用对应目录的占位图，并在数据报告中记录。
+
+若两份人工复核工作簿位于项目目录之外，且探查报告中没有记录路径，可在运行前设置环境变量：
+
+```powershell
+$env:MATERIAL_IMAGE_REVIEW_XLSX = '材料图片人工复核工作簿的完整路径'
+$env:MATERIAL_NAME_REVIEW_XLSX = '材料名称人工复核工作簿的完整路径'
+npm run data
+```
 
 ## 替换应用案例图片
 
@@ -52,10 +63,23 @@ npm run data
 
 也可以直接替换 `public/assets/cases/` 中的同名图片。若文件名或扩展名发生变化，还需同步更新 `src/data/materials_mapping.json` 中对应的 `/assets/cases/...` 相对路径。
 
+## 替换材料主图与图集
+
+在 `material_image_manual_review_v2.xlsx` 的 `逐图人工复核` sheet 中维护图片：
+
+- “研究者判断”填写“可用”的图片才会进入网页；
+- “是否做为主图”填写“做主图”的图片会排在第一位并用作材料标签主图；
+- 同一材料的其他可用图片会进入点击材料后出现的横向滚动图集；
+- 材料简介来自 `材料简介` sheet 的“材料简介（100—200字）”。
+
+修改完成后运行 `npm run data`。网页主图不会从应用案例图片中自动选取。
+
 ## 数据来源
 
 - 材料参数、主轴范围和基准材料区间来自第三章形成的材料参数—基准材料映射工作簿 `final_material_axis_summary.xlsx`。
 - 产品应用案例来自设计奖产品材料提及数据工作簿 `文本图片和提及材料.xlsx`。
+- 材料名称来自 `material_reselection_manual.xlsx` 的人工复核结果。
+- 材料主图、图集与简介来自 `material_image_manual_review_v2.xlsx` 的人工复核结果。
 - 实际文件路径、sheet 名称、字段映射、图片失败项和区间裁切项记录于本地 `src/data/data_report.json`；该文件含本机路径，已排除在公开仓库之外。
 
 ## GitHub Pages 部署
@@ -70,11 +94,11 @@ npm run data
 - 参数详情页：动态演示、数值搜索、斜向参数尺度表、横向拖动与缩略导航、材料详情和应用案例；
 - 数据说明页：数据来源、区间表达、转换统计和工具使用边界。
 
-斜向参数尺度表的横轴是唯一真实数值变量。纵向位置只用于表现由低到高的视觉趋势，不表示第二个变量。密度与线膨胀系数使用线性排布；弹性模量、导热系数与拉伸强度使用 `log(1+x)` 对数排布，并以真实参数数值标注刻度。
+斜向参数尺度表的横轴是唯一真实数值变量。纵向位置只用于表现由低到高的视觉趋势，不表示第二个变量。密度与线膨胀系数使用线性排布；弹性模量、导热系数与拉伸强度使用对数排布，并以真实参数数值标注刻度。
 
 参数动画提供“低—高”滑块，用于观察五种参数的相对变化趋势。数值搜索位于全轴缩略导航下方。
 
-尺度表中的材料框支持点击放大，并预留“材料简介”字段。当前材料图片按本轮确认保持不变；待补充专用材料图片数据后，可更新 `materials_mapping.json` 中各材料的 `image` 字段，应用案例图片仍保留在相应 `cases` 中。
+尺度表只把人工指定的优先材料显示为标签，其余材料以带轻微上下浮动效果的圆点显示；圆点、标签和错落区间条都可点击。点击后材料标签会展开，显示人工简介、主图和可横向滚动的材料图集；应用案例图片仍独立保留在相应 `cases` 中。
 
 ## 使用边界
 
