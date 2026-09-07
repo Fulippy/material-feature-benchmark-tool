@@ -54,7 +54,7 @@ function formatTick(value: number) {
 
 type Props = {
   parameter: Parameter
-  selectedMaterial: Material
+  selectedMaterial: Material | null
   highlightedNames: string[]
   focusValue: number | null
   onSelect: (material: Material) => void
@@ -104,6 +104,7 @@ export default function DiagonalParameterScale({
     ? 10 ** (transformedMin + ratio * transformedSpan) - logShift
     : parameter.axisMin + ratio * (parameter.axisMax - parameter.axisMin)
   const xOf = (value: number) => plotLeft + ratioOf(value) * plotWidth
+  const selectedName = selectedMaterial?.name ?? ''
 
   const positions = useMemo(() => {
     const featuredNames = featuredNamesFor(parameter)
@@ -133,7 +134,7 @@ export default function DiagonalParameterScale({
 
     const placementOrder = [...source]
       .sort((left, right) => {
-        const selectedDifference = Number(right.material.name === selectedMaterial.name) - Number(left.material.name === selectedMaterial.name)
+        const selectedDifference = Number(right.material.name === selectedName) - Number(left.material.name === selectedName)
         const cardDifference = Number(right.displayMode === 'card') - Number(left.displayMode === 'card')
         return selectedDifference || cardDifference || left.ratio - right.ratio
       })
@@ -149,18 +150,22 @@ export default function DiagonalParameterScale({
 
     for (const item of placementOrder) {
       const { material, ratio, anchorX, minX, maxX } = item
-      const selected = material.name === selectedMaterial.name
+      const selected = material.name === selectedName
       const displayMode = selected ? 'card' as const : item.displayMode
-      const width = selected ? 344 : displayMode === 'card' ? 108 : 18
-      const height = selected ? 236 : displayMode === 'card' ? 46 : 18
+      const dotLabelWidth = Math.max(48, Math.min(132, material.name.length * 10 + 14))
+      const width = selected ? 344 : displayMode === 'card' ? 108 : dotLabelWidth
+      const height = selected ? 236 : displayMode === 'card' ? 46 : 40
       const x = displayMode === 'card'
         ? Math.max(width / 2 + 12, Math.min(contentWidth - width / 2 - 12, anchorX))
         : anchorX
       const trendY = baseY - ratio * slopeHeight
       const maxY = Math.max(minY, markerBottomLimit - height)
       const preferredY = Math.max(minY, Math.min(maxY, trendY - height / 2))
-      const step = selected ? 70 : displayMode === 'card' ? 52 : 28
-      const offsets = [0, -step, step, -step * 2, step * 2, -step * 3, step * 3, -step * 4, step * 4, -step * 5, step * 5]
+      const step = selected ? 44 : displayMode === 'card' ? 30 : 18
+      const offsets = [0]
+      for (let offsetIndex = 1; offsetIndex <= Math.ceil((maxY - minY) / step); offsetIndex += 1) {
+        offsets.push(-step * offsetIndex, step * offsetIndex)
+      }
       let y: number | null = null
 
       for (const offset of offsets) {
@@ -196,7 +201,7 @@ export default function DiagonalParameterScale({
 
     return placed.sort((left, right) => left.ratio - right.ratio)
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [parameter.id, parameter.materials, selectedMaterial.name, contentWidth])
+  }, [parameter.id, parameter.materials, selectedName, contentWidth])
 
   const updateScroll = () => {
     const element = viewportRef.current
@@ -216,13 +221,13 @@ export default function DiagonalParameterScale({
   useEffect(() => {
     const element = viewportRef.current
     if (!element) return
-    const selected = positions.find((position) => position.material.name === selectedMaterial.name)
+    const selected = positions.find((position) => position.material.name === selectedName)
     const ratio = focusValue == null ? selected?.ratio : ratioOf(focusValue)
     if (ratio == null) return
     const target = plotLeft + ratio * plotWidth - element.clientWidth / 2
     element.scrollTo({ left: Math.max(0, target), behavior: 'smooth' })
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedMaterial.name, focusValue, parameter.id])
+  }, [selectedName, focusValue, parameter.id])
 
   const maxScroll = Math.max(scrollState.scrollWidth - scrollState.width, 1)
   const viewportStartRatio = scrollState.left / scrollState.scrollWidth
@@ -330,7 +335,7 @@ export default function DiagonalParameterScale({
               intervalY={position.intervalY}
               displayMode={position.displayMode}
               floatDelay={position.floatDelay}
-              selected={selectedMaterial.name === position.material.name}
+              selected={selectedName === position.material.name}
               highlighted={highlightedNames.includes(position.material.name)}
               onSelect={onSelect}
             />

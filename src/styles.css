@@ -273,17 +273,35 @@ main { flex: 1; }
 .material-gallery { min-width:0; height:64px; display:flex; gap:7px; padding:2px 1px 5px; overflow-x:auto; overflow-y:hidden; overscroll-behavior-x:contain; scrollbar-width:thin; scrollbar-color:#c7835a #f1e4dc; cursor:ew-resize; }
 .material-gallery figure { position:relative; flex:0 0 84px; height:54px; margin:0; overflow:hidden; border:1px solid #d8c7bb; background:#e5e9ec; }
 .material-gallery figure.is-main { border:2px solid #d87843; }
-.material-gallery img { width:100%; height:100%; object-fit:cover; }
+.material-gallery button { width:100%; height:100%; padding:0; border:0; background:transparent; cursor:zoom-in; }
+.material-gallery img { width:100%; height:100%; object-fit:cover; transition:transform .18s ease; }
+.material-gallery button:hover img,.material-gallery button:focus-visible img { transform:scale(1.06); }
 .material-gallery figcaption { position:absolute; left:3px; bottom:3px; padding:2px 4px; color:white; background:rgba(36,54,69,.78); font-size:7px; }
-.material-dot { position:absolute; z-index:8; width:18px; height:18px; padding:0; transform:translateX(-50%); border:3px solid rgba(255,255,255,.95); border-radius:50%; background:#4f7d9e; box-shadow:0 0 0 1px #416d8c,0 4px 9px rgba(38,71,96,.22); cursor:pointer; animation:materialFloat 2.9s ease-in-out infinite; }
-.material-dot:hover,.material-dot:focus-visible { z-index:28; animation-play-state:paused; background:#d87843; box-shadow:0 0 0 4px rgba(216,120,67,.18),0 7px 14px rgba(38,71,96,.25); }
-.material-dot.is-highlighted { z-index:22; background:#7b55ab; box-shadow:0 0 0 5px rgba(111,73,165,.18),0 5px 12px rgba(56,37,82,.2); }
+.material-dot { position:absolute; z-index:8; padding:0; transform:translateX(-50%); border:0; background:transparent; color:#294c66; cursor:pointer; animation:materialFloat 2.9s ease-in-out infinite; }
+.material-dot__label { position:absolute; left:50%; top:0; max-width:132px; transform:translateX(-50%); padding:2px 5px; border:1px solid rgba(111,143,165,.38); border-radius:2px; background:rgba(240,247,251,.88); overflow:hidden; text-overflow:ellipsis; color:#34566f; font-size:8px; font-weight:600; line-height:1.3; white-space:nowrap; }
+.material-dot__core { position:absolute; left:50%; bottom:1px; width:15px; height:15px; transform:translateX(-50%); border:3px solid rgba(255,255,255,.95); border-radius:50%; background:#4f7d9e; box-shadow:0 0 0 1px #416d8c,0 4px 9px rgba(38,71,96,.22); transition:background .16s ease,box-shadow .16s ease,transform .16s ease; }
+.material-dot:hover,.material-dot:focus-visible { z-index:28; animation-play-state:paused; }
+.material-dot:hover .material-dot__label,.material-dot:focus-visible .material-dot__label { color:#9d4d21; border-color:#dc9c78; background:#fff7f1; }
+.material-dot:hover .material-dot__core,.material-dot:focus-visible .material-dot__core { transform:translateX(-50%) scale(1.12); background:#d87843; box-shadow:0 0 0 4px rgba(216,120,67,.18),0 7px 14px rgba(38,71,96,.25); }
+.material-dot.is-highlighted .material-dot__label { color:#67438c; border-color:#a88dbf; background:#f7f1fb; }
+.material-dot.is-highlighted .material-dot__core { background:#7b55ab; box-shadow:0 0 0 5px rgba(111,73,165,.18),0 5px 12px rgba(56,37,82,.2); }
 @keyframes materialFloat { 0%,100%{transform:translateX(-50%) translateY(-3px)} 50%{transform:translateX(-50%) translateY(4px)} }
-.material-dot .marker-tooltip { bottom:calc(100% + 10px); }
+.material-dot .marker-tooltip { bottom:calc(100% + 8px); }
 .material-dot:hover .marker-tooltip,.material-dot:focus-visible .marker-tooltip { opacity:1; visibility:visible; transform:translate(-50%,0); }
 .material-projection.is-dot-projection { opacity:.34; border-left-style:dotted; }
 .material-interval { height:7px; opacity:.68; }
 .material-interval:hover,.material-interval.is-active { z-index:12; opacity:1; }
+.image-lightbox { position:fixed; z-index:1000; inset:0; padding:28px; display:grid; place-items:center; background:rgba(8,22,34,.86); backdrop-filter:blur(8px); }
+.image-lightbox__panel { width:min(1080px,94vw); height:min(820px,90vh); border:1px solid rgba(214,228,238,.34); background:#10283c; box-shadow:0 30px 90px rgba(0,0,0,.4); display:grid; grid-template-rows:66px minmax(0,1fr) 38px; }
+.image-lightbox__header { padding:0 20px 0 24px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid rgba(214,228,238,.16); color:white; }
+.image-lightbox__header > div { display:flex; align-items:baseline; gap:12px; }.image-lightbox__header strong { font-size:17px; }.image-lightbox__header span { color:#9fb5c5; font-size:10px; }
+.image-lightbox__close { width:38px; height:38px; padding:0; border:1px solid rgba(255,255,255,.28); border-radius:50%; color:white; background:rgba(255,255,255,.06); font-size:26px; font-weight:300; cursor:pointer; }
+.image-lightbox__close:hover { background:rgba(255,255,255,.15); }
+.image-lightbox__stage { position:relative; min-height:0; padding:26px 78px; display:grid; place-items:center; overflow:hidden; background:#091b2a; }
+.image-lightbox__stage img { max-width:100%; max-height:100%; object-fit:contain; box-shadow:0 8px 34px rgba(0,0,0,.3); }
+.image-lightbox__arrow { position:absolute; z-index:2; top:50%; width:44px; height:62px; padding:0; transform:translateY(-50%); border:1px solid rgba(255,255,255,.24); color:white; background:rgba(30,56,76,.7); font-size:36px; font-weight:300; cursor:pointer; }
+.image-lightbox__arrow:hover { background:rgba(66,102,128,.88); }.image-lightbox__arrow--previous { left:18px; }.image-lightbox__arrow--next { right:18px; }
+.image-lightbox__panel > p { margin:0; display:grid; place-items:center; color:#91a9ba; font-size:9px; letter-spacing:.03em; }
 .search-panel--embedded { min-height:0; margin-top:20px; padding:22px 24px; border:1px solid #d7e1e8; box-shadow:none; background:#f7fafc; display:grid; grid-template-columns:minmax(220px,.8fr) minmax(420px,1.2fr); grid-template-rows:none; gap:26px; align-items:end; }
 .search-panel--embedded h2 { margin-bottom:7px; font-size:18px; }.search-panel--embedded > div:first-child > p:last-child { margin-bottom:0; }.search-panel--embedded .search-form { align-self:auto; }.search-panel--embedded .search-result { margin-bottom:0; }
 

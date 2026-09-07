@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Material } from '../types'
 import { publicAssetUrl } from '../utils/assets'
+import ImageLightbox from './ImageLightbox'
 
 type Props = {
   material: Material
@@ -56,10 +57,11 @@ export default function MaterialMarker({
   highlighted,
   onSelect,
 }: Props) {
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
   const active = selected || highlighted
   const intervalWidth = Math.max(maxX - minX, 8)
   const isDot = displayMode === 'dot' && !selected
-  const markerBottom = y + (isDot ? 18 : height)
+  const markerBottom = y + height
   const galleryImages = material.images?.length ? material.images : [material.image]
 
   return (
@@ -74,11 +76,12 @@ export default function MaterialMarker({
         <button
           type="button"
           className={`material-dot${highlighted ? ' is-highlighted' : ''}`}
-          style={{ left: anchorX, top: y, animationDelay: `${floatDelay}s` }}
+          style={{ left: anchorX, top: y, width, height, animationDelay: `${floatDelay}s` }}
           onClick={() => onSelect(material)}
           aria-label={`展开${material.name}，${material.min} 至 ${material.max} ${unit}`}
         >
-          <span className="visually-hidden">{material.name}</span>
+          <span className="material-dot__label">{material.name}</span>
+          <span className="material-dot__core" aria-hidden="true" />
           <Tooltip material={material} unit={unit} />
         </button>
       ) : (
@@ -114,7 +117,13 @@ export default function MaterialMarker({
               >
                 {galleryImages.map((source, index) => (
                   <figure key={`${source}-${index}`} className={index === 0 ? 'is-main' : ''}>
-                    <MaterialImage source={source} alt={`${material.name}材料图片 ${index + 1}`} />
+                    <button
+                      type="button"
+                      onClick={() => setLightboxIndex(index)}
+                      aria-label={`查看${material.name}第 ${index + 1} 张材料大图`}
+                    >
+                      <MaterialImage source={source} alt={`${material.name}材料图片 ${index + 1}`} />
+                    </button>
                     {index === 0 && <figcaption>主图</figcaption>}
                   </figure>
                 ))}
@@ -132,6 +141,14 @@ export default function MaterialMarker({
         onClick={() => onSelect(material)}
         aria-label={`选择${material.name}，区间 ${material.min} 至 ${material.max} ${unit}`}
       />
+      {lightboxIndex != null && (
+        <ImageLightbox
+          images={galleryImages}
+          initialIndex={lightboxIndex}
+          materialName={material.name}
+          onClose={() => setLightboxIndex(null)}
+        />
+      )}
     </>
   )
 }

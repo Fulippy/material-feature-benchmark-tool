@@ -19,13 +19,12 @@ export default function ParameterPage() {
   })
 
   useEffect(() => {
-    setSelectedName(parameter?.materials[0]?.name ?? '')
+    setSelectedName('')
     setSearchResult({ value: null, highlightedNames: [], selectedName: null, message: '', outOfRange: false })
   }, [parameter?.id])
 
   if (!parameter) return <Navigate to="/" replace />
-  const selectedMaterial = parameter.materials.find((material) => material.name === selectedName) ?? parameter.materials[0]
-  if (!selectedMaterial) return <Navigate to="/" replace />
+  const selectedMaterial = parameter.materials.find((material) => material.name === selectedName) ?? null
 
   const handleSearch = (result: SearchResult) => {
     setSearchResult(result)
@@ -64,12 +63,12 @@ export default function ParameterPage() {
           focusValue={searchResult.outOfRange ? null : searchResult.value}
           onSearchResult={handleSearch}
           onSelect={(material) => {
-            setSelectedName(material.name)
+            setSelectedName((current) => current === material.name ? '' : material.name)
             setSearchResult((current) => ({ ...current, highlightedNames: [] }))
           }}
         />
 
-        <MaterialDetailPanel material={selectedMaterial} parameter={parameter} />
+        {selectedMaterial && <MaterialDetailPanel material={selectedMaterial} parameter={parameter} />}
         <DataNotice />
       </div>
     </main>
