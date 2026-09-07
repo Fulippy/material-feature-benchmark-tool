@@ -101,7 +101,7 @@ main { flex: 1; }
 .hero-stats strong { font: 600 25px "Source Serif 4", serif; }.hero-stats span { color: #9db3c4; font-size: 11px; }
 @keyframes nodeFloat { 50% { transform: translateY(-6px); } }
 
-.parameter-index { width: min(1240px, calc(100% - 56px)); margin: 0 auto; padding: 92px 0 100px; }
+.parameter-index { width: min(1240px, calc(100% - 56px)); margin: 0 auto; padding: 92px 0 100px; scroll-margin-top: 86px; }
 .index-intro { display: grid; grid-template-columns: 1fr 430px; gap: 40px; align-items: end; margin-bottom: 38px; }
 .index-intro h2, .workflow-strip > h2 { margin-bottom: 0; font-size: 31px; letter-spacing: .02em; }
 .index-intro > p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.9; }

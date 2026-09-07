@@ -1,3 +1,4 @@
+import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import rawData from '../data/materials_mapping.json'
 import DataNotice from '../components/DataNotice'
@@ -7,7 +8,15 @@ import type { MaterialsMapping } from '../types'
 const data = rawData as MaterialsMapping
 
 export default function HomePage() {
+  const parameterSectionRef = useRef<HTMLElement>(null)
   const materialCount = new Set(data.parameters.flatMap((parameter) => parameter.materials.map((material) => material.name))).size
+
+  const scrollToParameters = () => {
+    parameterSectionRef.current?.scrollIntoView({
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      block: 'start',
+    })
+  }
 
   return (
     <main>
@@ -19,7 +28,9 @@ export default function HomePage() {
           <p className="hero-lead">通过常见基准材料帮助设计师理解抽象材料参数。</p>
           <p className="hero-description">从参数简介、动态演示到斜向尺度与产品案例，在真实数值区间中建立“参数—材料—应用”的认知联系。</p>
           <div className="hero-actions">
-            <a href="#parameters" className="primary-button large">选择参数</a>
+            <button type="button" className="primary-button large" onClick={scrollToParameters}>
+              选择参数
+            </button>
             <Link to="/data" className="secondary-button large">了解数据范围</Link>
           </div>
         </div>
@@ -44,7 +55,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="parameter-index" id="parameters">
+      <section ref={parameterSectionRef} className="parameter-index" id="parameters">
         <div className="index-intro">
           <div>
             <p className="eyebrow">CHOOSE A PARAMETER</p>
