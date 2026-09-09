@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-06T13:13:17.088Z",
+  "generatedAt": "2026-09-09T11:02:27.359Z",
   "parsedParameterCount": 5,
   "parsedMaterialTotal": 132,
   "uniqueMaterialCount": 45,
-  "matchedMaterialCount": 44,
+  "matchedMaterialCount": 45,
   "copiedImageCount": 656,
   "copiedCaseImageCount": 511,
   "copiedMaterialImageCount": 145,
@@ -14,7 +14,5 @@
   "materialImageReadFailureCount": 0,
   "materialImageCopyFailureCount": 0,
   "clippedIntervalCount": 4,
-  "unmatchedMaterials": [
-    "瓷"
-  ]
+  "unmatchedMaterials": []
 }

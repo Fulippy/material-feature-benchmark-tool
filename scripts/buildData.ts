@@ -57,6 +57,12 @@ const MATERIAL_PLACEHOLDER_WEB_PATH = '/assets/materials/placeholder.svg'
 const CASE_LIMIT = 20
 const MIN_CASE_TARGET = 10
 
+// 已由材料名称复核结果和案例“总”表共同确认的跨表同义名。
+// “瓷”是网页最终名称，案例表仍主要使用“陶瓷”。
+const VERIFIED_CASE_ALIAS_GROUPS = [
+  ['工程瓷', '瓷', '陶瓷'],
+]
+
 const parameterMeta: Record<string, {
   id: string
   sheet: string
@@ -253,8 +259,7 @@ function normalizeRelativePath(value: string): string {
 }
 
 function parseAliases(workbook: XLSXModule.WorkBook): Map<string, Set<string>> {
-  if (!workbook.Sheets.Sheet5) return new Map()
-  const rows = sheetRows(workbook, 'Sheet5', false).slice(1)
+  const rows = workbook.Sheets.Sheet5 ? sheetRows(workbook, 'Sheet5', false).slice(1) : []
   const groups = rows
     .map((row) => {
       const standard = clean(row[1])
@@ -267,7 +272,7 @@ function parseAliases(workbook: XLSXModule.WorkBook): Map<string, Set<string>> {
     .filter((group) => group.standard)
 
   const byMaterial = new Map<string, Set<string>>()
-  for (const group of groups) {
+  for (const group of [...groups, ...VERIFIED_CASE_ALIAS_GROUPS.map((names) => ({ standard: names[0], names }))]) {
     const normalizedGroup = new Set(group.names.map(normalizeName).filter(Boolean))
     for (const name of group.names) {
       byMaterial.set(normalizeName(name), normalizedGroup)
@@ -760,12 +765,15 @@ async function main() {
       materialNameChanges: {
         currentName: 'current_standard_material（当前标准名）', action: 'manual_name_action（人工）', finalName: 'manual_final_material_name（人工）',
       },
+      verifiedCaseAliases: Object.fromEntries(
+        VERIFIED_CASE_ALIAS_GROUPS.map(([sourceName, ...aliases]) => [sourceName, aliases]),
+      ),
     },
     caseLimitPerMaterial: CASE_LIMIT,
     caseMatchTypeStatistics: matchStats,
     clippedIntervals,
     issues: [
-      ...(!aliasSheetAvailable ? ['当前 Node Excel 解析器仅识别到案例工作簿的“总”sheet，未使用 Sheet5 别名表；匹配仍按总表原始材料名称执行。'] : []),
+      ...(!aliasSheetAvailable ? ['当前 Node Excel 解析器仅识别到案例工作簿的“总”sheet；已确认的跨表材料同义名由转换脚本显式补充。'] : []),
       ...(imageReadFailures.length ? [`${imageReadFailures.length} 条本地图片路径不存在或不可读取，相关案例使用占位图。`] : []),
       ...(imageCopyFailures.length ? [`${imageCopyFailures.length} 张图片复制失败，相关案例使用占位图。`] : []),
       ...(materialImageReadFailures.length ? [`${materialImageReadFailures.length} 张已标记可用的材料图片未找到，未加入材料图集。`] : []),

@@ -2191,7 +2191,148 @@
           ],
           "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
           "cognitiveText": "瓷在“密度”尺度中的参数区间为 2.3–3 g/cm³。",
-          "cases": []
+          "cases": [
+            {
+              "productName": "Laptop",
+              "description": "ZenBook A14",
+              "image": "/assets/cases/dbb661c66051f8daf4de504f0249e61c-efb29a0de1.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Mobile Phone",
+              "description": "Xiaomi Mix Fold 4",
+              "image": "/assets/cases/321aade99dfe065990d654dd2670679b-91d45e0b0e.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "Metalcraft",
+              "image": "/assets/cases/7c8dd0f957414d539d8d71fed3829597-534f34f85d.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "CementEra",
+              "image": "/assets/cases/26043b27b3dceb85bed3f2de05bcec1c-1cb4615529.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "Grotta Collection",
+              "image": "/assets/cases/930e8d48e9a3977df52ddc0ecb40e319-2ad9b406d8.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "E-Cigarette",
+              "description": "Vuse Go Reload™ Pen",
+              "image": "/assets/cases/bed8689017436789b85d5d8dcd56a3b6-48ae1141d9.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic",
+              "description": "Alina",
+              "image": "/assets/cases/8bfaf3c52849a954604df680c2a804d9-1efeb24513.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washbasin and Bathtub",
+              "description": "Ohtake Basin and Bathtub",
+              "image": "/assets/cases/7f2e6b0c9a27a9a25096a2161d3b1639-5ca0c7c3fb.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilet",
+              "description": "Bella Smart Toilet",
+              "image": "/assets/cases/00f8b6098c34dc6ae25ce4345f614735-9cc53a3700.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Porcelain",
+              "description": "Panio",
+              "image": "/assets/cases/11aa9183d47d91f3f980d25d39b7a020-43e51df521.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic",
+              "description": "Tone",
+              "image": "/assets/cases/b1bfaf65e45d63cb71fbca251ed3e0f6-60e4aa0c75.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Cookware Set",
+              "description": "Glasslock Chef Topf Warm Pot",
+              "image": "/assets/cases/d90517515d8061d7204a8609740935fe-0ae992b853.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Interior Design Element",
+              "description": "Unwasted",
+              "image": "/assets/cases/ab595ffd915227b8ca278c7a52864f52-93ddcc71e1.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic Tiles",
+              "description": "KuQua",
+              "image": "/assets/cases/78880e7397eaee0183de04c2eaa43261-fe05b2eb9c.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Monitor",
+              "description": "LG Room & Style",
+              "image": "/assets/cases/7a885d80e6f7b11e36700c795e37cde3-b4c0790685.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Bathroom Furniture",
+              "description": "Restroom Dresser Premium Series",
+              "image": "/assets/cases/0884743db099f57a13220512af7cfd01-626bed1aba.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilet",
+              "description": "Portico Urinal",
+              "image": "/assets/cases/20374d4113daeca5298ae870a19e1ba6-92f4736900.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Hair Clipper",
+              "description": "VGR-001",
+              "image": "/assets/cases/d4807a1705f45dfa11ca3dcfbfe55a7f-79cbd6647c.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Wash Basin",
+              "description": "Cobble",
+              "image": "/assets/cases/dff7ff93d708d1d2c0c09f3b3fa96b91-e273a2272a.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilets and Accessories",
+              "description": "PURE VORTEX®",
+              "image": "/assets/cases/b29f58e376a680775d5f738c49d32d44-04c0c2faba.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            }
+          ]
         },
         {
           "name": "大理石",
@@ -2617,144 +2758,144 @@
           "cognitiveText": "氧化锆陶瓷在“密度”尺度中的参数区间为 5.7–6.1 g/cm³。",
           "cases": [
             {
-              "productName": "Oura Ring 4",
-              "description": "Health Wearable Tech; Fourth Generation Ring",
-              "image": "/assets/cases/5db5b422a968e64ee9d28c70bbb2dbb6-6be416de5b.jpeg",
-              "sourceMaterial": "氧化锆陶瓷",
-              "matchType": "exact"
-            },
-            {
               "productName": "Laptop",
               "description": "ZenBook A14",
               "image": "/assets/cases/dbb661c66051f8daf4de504f0249e61c-efb29a0de1.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Mobile Phone",
               "description": "Xiaomi Mix Fold 4",
               "image": "/assets/cases/321aade99dfe065990d654dd2670679b-91d45e0b0e.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Tile",
               "description": "Metalcraft",
               "image": "/assets/cases/7c8dd0f957414d539d8d71fed3829597-534f34f85d.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Tile",
               "description": "CementEra",
               "image": "/assets/cases/26043b27b3dceb85bed3f2de05bcec1c-1cb4615529.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Tile",
               "description": "Grotta Collection",
               "image": "/assets/cases/930e8d48e9a3977df52ddc0ecb40e319-2ad9b406d8.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "E-Cigarette",
               "description": "Vuse Go Reload™ Pen",
               "image": "/assets/cases/bed8689017436789b85d5d8dcd56a3b6-48ae1141d9.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Ceramic",
               "description": "Alina",
               "image": "/assets/cases/8bfaf3c52849a954604df680c2a804d9-1efeb24513.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Washbasin and Bathtub",
               "description": "Ohtake Basin and Bathtub",
               "image": "/assets/cases/7f2e6b0c9a27a9a25096a2161d3b1639-5ca0c7c3fb.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Toilet",
               "description": "Bella Smart Toilet",
               "image": "/assets/cases/00f8b6098c34dc6ae25ce4345f614735-9cc53a3700.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Porcelain",
               "description": "Panio",
               "image": "/assets/cases/11aa9183d47d91f3f980d25d39b7a020-43e51df521.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Ceramic",
               "description": "Tone",
               "image": "/assets/cases/b1bfaf65e45d63cb71fbca251ed3e0f6-60e4aa0c75.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Cookware Set",
               "description": "Glasslock Chef Topf Warm Pot",
               "image": "/assets/cases/d90517515d8061d7204a8609740935fe-0ae992b853.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Interior Design Element",
               "description": "Unwasted",
               "image": "/assets/cases/ab595ffd915227b8ca278c7a52864f52-93ddcc71e1.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Ceramic Tiles",
               "description": "KuQua",
               "image": "/assets/cases/78880e7397eaee0183de04c2eaa43261-fe05b2eb9c.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Monitor",
               "description": "LG Room & Style",
               "image": "/assets/cases/7a885d80e6f7b11e36700c795e37cde3-b4c0790685.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Bathroom Furniture",
               "description": "Restroom Dresser Premium Series",
               "image": "/assets/cases/0884743db099f57a13220512af7cfd01-626bed1aba.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Toilet",
               "description": "Portico Urinal",
               "image": "/assets/cases/20374d4113daeca5298ae870a19e1ba6-92f4736900.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Hair Clipper",
               "description": "VGR-001",
               "image": "/assets/cases/d4807a1705f45dfa11ca3dcfbfe55a7f-79cbd6647c.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
             },
             {
               "productName": "Wash Basin",
               "description": "Cobble",
               "image": "/assets/cases/dff7ff93d708d1d2c0c09f3b3fa96b91-e273a2272a.jpeg",
               "sourceMaterial": "陶瓷",
-              "matchType": "contains"
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilets and Accessories",
+              "description": "PURE VORTEX®",
+              "image": "/assets/cases/b29f58e376a680775d5f738c49d32d44-04c0c2faba.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
             }
           ]
         },
@@ -6261,7 +6402,148 @@
           ],
           "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
           "cognitiveText": "瓷在“弹性模量”尺度中的参数区间为 67–150 GPa。",
-          "cases": []
+          "cases": [
+            {
+              "productName": "Laptop",
+              "description": "ZenBook A14",
+              "image": "/assets/cases/dbb661c66051f8daf4de504f0249e61c-efb29a0de1.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Mobile Phone",
+              "description": "Xiaomi Mix Fold 4",
+              "image": "/assets/cases/321aade99dfe065990d654dd2670679b-91d45e0b0e.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "Metalcraft",
+              "image": "/assets/cases/7c8dd0f957414d539d8d71fed3829597-534f34f85d.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "CementEra",
+              "image": "/assets/cases/26043b27b3dceb85bed3f2de05bcec1c-1cb4615529.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "Grotta Collection",
+              "image": "/assets/cases/930e8d48e9a3977df52ddc0ecb40e319-2ad9b406d8.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "E-Cigarette",
+              "description": "Vuse Go Reload™ Pen",
+              "image": "/assets/cases/bed8689017436789b85d5d8dcd56a3b6-48ae1141d9.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic",
+              "description": "Alina",
+              "image": "/assets/cases/8bfaf3c52849a954604df680c2a804d9-1efeb24513.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washbasin and Bathtub",
+              "description": "Ohtake Basin and Bathtub",
+              "image": "/assets/cases/7f2e6b0c9a27a9a25096a2161d3b1639-5ca0c7c3fb.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilet",
+              "description": "Bella Smart Toilet",
+              "image": "/assets/cases/00f8b6098c34dc6ae25ce4345f614735-9cc53a3700.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Porcelain",
+              "description": "Panio",
+              "image": "/assets/cases/11aa9183d47d91f3f980d25d39b7a020-43e51df521.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic",
+              "description": "Tone",
+              "image": "/assets/cases/b1bfaf65e45d63cb71fbca251ed3e0f6-60e4aa0c75.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Cookware Set",
+              "description": "Glasslock Chef Topf Warm Pot",
+              "image": "/assets/cases/d90517515d8061d7204a8609740935fe-0ae992b853.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Interior Design Element",
+              "description": "Unwasted",
+              "image": "/assets/cases/ab595ffd915227b8ca278c7a52864f52-93ddcc71e1.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic Tiles",
+              "description": "KuQua",
+              "image": "/assets/cases/78880e7397eaee0183de04c2eaa43261-fe05b2eb9c.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Monitor",
+              "description": "LG Room & Style",
+              "image": "/assets/cases/7a885d80e6f7b11e36700c795e37cde3-b4c0790685.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Bathroom Furniture",
+              "description": "Restroom Dresser Premium Series",
+              "image": "/assets/cases/0884743db099f57a13220512af7cfd01-626bed1aba.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilet",
+              "description": "Portico Urinal",
+              "image": "/assets/cases/20374d4113daeca5298ae870a19e1ba6-92f4736900.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Hair Clipper",
+              "description": "VGR-001",
+              "image": "/assets/cases/d4807a1705f45dfa11ca3dcfbfe55a7f-79cbd6647c.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Wash Basin",
+              "description": "Cobble",
+              "image": "/assets/cases/dff7ff93d708d1d2c0c09f3b3fa96b91-e273a2272a.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilets and Accessories",
+              "description": "PURE VORTEX®",
+              "image": "/assets/cases/b29f58e376a680775d5f738c49d32d44-04c0c2faba.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            }
+          ]
         },
         {
           "name": "钛金属（纯钛）",
@@ -8563,7 +8845,148 @@
           ],
           "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
           "cognitiveText": "瓷在“导热系数”尺度中的参数区间为 1.8–6.5 W/(m·K)。",
-          "cases": []
+          "cases": [
+            {
+              "productName": "Laptop",
+              "description": "ZenBook A14",
+              "image": "/assets/cases/dbb661c66051f8daf4de504f0249e61c-efb29a0de1.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Mobile Phone",
+              "description": "Xiaomi Mix Fold 4",
+              "image": "/assets/cases/321aade99dfe065990d654dd2670679b-91d45e0b0e.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "Metalcraft",
+              "image": "/assets/cases/7c8dd0f957414d539d8d71fed3829597-534f34f85d.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "CementEra",
+              "image": "/assets/cases/26043b27b3dceb85bed3f2de05bcec1c-1cb4615529.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "Grotta Collection",
+              "image": "/assets/cases/930e8d48e9a3977df52ddc0ecb40e319-2ad9b406d8.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "E-Cigarette",
+              "description": "Vuse Go Reload™ Pen",
+              "image": "/assets/cases/bed8689017436789b85d5d8dcd56a3b6-48ae1141d9.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic",
+              "description": "Alina",
+              "image": "/assets/cases/8bfaf3c52849a954604df680c2a804d9-1efeb24513.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washbasin and Bathtub",
+              "description": "Ohtake Basin and Bathtub",
+              "image": "/assets/cases/7f2e6b0c9a27a9a25096a2161d3b1639-5ca0c7c3fb.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilet",
+              "description": "Bella Smart Toilet",
+              "image": "/assets/cases/00f8b6098c34dc6ae25ce4345f614735-9cc53a3700.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Porcelain",
+              "description": "Panio",
+              "image": "/assets/cases/11aa9183d47d91f3f980d25d39b7a020-43e51df521.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic",
+              "description": "Tone",
+              "image": "/assets/cases/b1bfaf65e45d63cb71fbca251ed3e0f6-60e4aa0c75.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Cookware Set",
+              "description": "Glasslock Chef Topf Warm Pot",
+              "image": "/assets/cases/d90517515d8061d7204a8609740935fe-0ae992b853.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Interior Design Element",
+              "description": "Unwasted",
+              "image": "/assets/cases/ab595ffd915227b8ca278c7a52864f52-93ddcc71e1.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic Tiles",
+              "description": "KuQua",
+              "image": "/assets/cases/78880e7397eaee0183de04c2eaa43261-fe05b2eb9c.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Monitor",
+              "description": "LG Room & Style",
+              "image": "/assets/cases/7a885d80e6f7b11e36700c795e37cde3-b4c0790685.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Bathroom Furniture",
+              "description": "Restroom Dresser Premium Series",
+              "image": "/assets/cases/0884743db099f57a13220512af7cfd01-626bed1aba.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilet",
+              "description": "Portico Urinal",
+              "image": "/assets/cases/20374d4113daeca5298ae870a19e1ba6-92f4736900.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Hair Clipper",
+              "description": "VGR-001",
+              "image": "/assets/cases/d4807a1705f45dfa11ca3dcfbfe55a7f-79cbd6647c.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Wash Basin",
+              "description": "Cobble",
+              "image": "/assets/cases/dff7ff93d708d1d2c0c09f3b3fa96b91-e273a2272a.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilets and Accessories",
+              "description": "PURE VORTEX®",
+              "image": "/assets/cases/b29f58e376a680775d5f738c49d32d44-04c0c2faba.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            }
+          ]
         },
         {
           "name": "钛合金",
@@ -11575,7 +11998,148 @@
           ],
           "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
           "cognitiveText": "瓷在“拉伸强度”尺度中的参数区间为 130–130 MPa。",
-          "cases": []
+          "cases": [
+            {
+              "productName": "Laptop",
+              "description": "ZenBook A14",
+              "image": "/assets/cases/dbb661c66051f8daf4de504f0249e61c-efb29a0de1.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Mobile Phone",
+              "description": "Xiaomi Mix Fold 4",
+              "image": "/assets/cases/321aade99dfe065990d654dd2670679b-91d45e0b0e.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "Metalcraft",
+              "image": "/assets/cases/7c8dd0f957414d539d8d71fed3829597-534f34f85d.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "CementEra",
+              "image": "/assets/cases/26043b27b3dceb85bed3f2de05bcec1c-1cb4615529.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "Grotta Collection",
+              "image": "/assets/cases/930e8d48e9a3977df52ddc0ecb40e319-2ad9b406d8.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "E-Cigarette",
+              "description": "Vuse Go Reload™ Pen",
+              "image": "/assets/cases/bed8689017436789b85d5d8dcd56a3b6-48ae1141d9.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic",
+              "description": "Alina",
+              "image": "/assets/cases/8bfaf3c52849a954604df680c2a804d9-1efeb24513.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washbasin and Bathtub",
+              "description": "Ohtake Basin and Bathtub",
+              "image": "/assets/cases/7f2e6b0c9a27a9a25096a2161d3b1639-5ca0c7c3fb.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilet",
+              "description": "Bella Smart Toilet",
+              "image": "/assets/cases/00f8b6098c34dc6ae25ce4345f614735-9cc53a3700.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Porcelain",
+              "description": "Panio",
+              "image": "/assets/cases/11aa9183d47d91f3f980d25d39b7a020-43e51df521.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic",
+              "description": "Tone",
+              "image": "/assets/cases/b1bfaf65e45d63cb71fbca251ed3e0f6-60e4aa0c75.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Cookware Set",
+              "description": "Glasslock Chef Topf Warm Pot",
+              "image": "/assets/cases/d90517515d8061d7204a8609740935fe-0ae992b853.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Interior Design Element",
+              "description": "Unwasted",
+              "image": "/assets/cases/ab595ffd915227b8ca278c7a52864f52-93ddcc71e1.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic Tiles",
+              "description": "KuQua",
+              "image": "/assets/cases/78880e7397eaee0183de04c2eaa43261-fe05b2eb9c.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Monitor",
+              "description": "LG Room & Style",
+              "image": "/assets/cases/7a885d80e6f7b11e36700c795e37cde3-b4c0790685.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Bathroom Furniture",
+              "description": "Restroom Dresser Premium Series",
+              "image": "/assets/cases/0884743db099f57a13220512af7cfd01-626bed1aba.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilet",
+              "description": "Portico Urinal",
+              "image": "/assets/cases/20374d4113daeca5298ae870a19e1ba6-92f4736900.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Hair Clipper",
+              "description": "VGR-001",
+              "image": "/assets/cases/d4807a1705f45dfa11ca3dcfbfe55a7f-79cbd6647c.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Wash Basin",
+              "description": "Cobble",
+              "image": "/assets/cases/dff7ff93d708d1d2c0c09f3b3fa96b91-e273a2272a.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilets and Accessories",
+              "description": "PURE VORTEX®",
+              "image": "/assets/cases/b29f58e376a680775d5f738c49d32d44-04c0c2faba.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            }
+          ]
         },
         {
           "name": "金",
@@ -13527,7 +14091,148 @@
           ],
           "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
           "cognitiveText": "瓷在“线膨胀系数”尺度中的参数区间为 2–6.6 10^-6/K。",
-          "cases": []
+          "cases": [
+            {
+              "productName": "Laptop",
+              "description": "ZenBook A14",
+              "image": "/assets/cases/dbb661c66051f8daf4de504f0249e61c-efb29a0de1.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Mobile Phone",
+              "description": "Xiaomi Mix Fold 4",
+              "image": "/assets/cases/321aade99dfe065990d654dd2670679b-91d45e0b0e.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "Metalcraft",
+              "image": "/assets/cases/7c8dd0f957414d539d8d71fed3829597-534f34f85d.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "CementEra",
+              "image": "/assets/cases/26043b27b3dceb85bed3f2de05bcec1c-1cb4615529.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tile",
+              "description": "Grotta Collection",
+              "image": "/assets/cases/930e8d48e9a3977df52ddc0ecb40e319-2ad9b406d8.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "E-Cigarette",
+              "description": "Vuse Go Reload™ Pen",
+              "image": "/assets/cases/bed8689017436789b85d5d8dcd56a3b6-48ae1141d9.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic",
+              "description": "Alina",
+              "image": "/assets/cases/8bfaf3c52849a954604df680c2a804d9-1efeb24513.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washbasin and Bathtub",
+              "description": "Ohtake Basin and Bathtub",
+              "image": "/assets/cases/7f2e6b0c9a27a9a25096a2161d3b1639-5ca0c7c3fb.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilet",
+              "description": "Bella Smart Toilet",
+              "image": "/assets/cases/00f8b6098c34dc6ae25ce4345f614735-9cc53a3700.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Porcelain",
+              "description": "Panio",
+              "image": "/assets/cases/11aa9183d47d91f3f980d25d39b7a020-43e51df521.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic",
+              "description": "Tone",
+              "image": "/assets/cases/b1bfaf65e45d63cb71fbca251ed3e0f6-60e4aa0c75.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Cookware Set",
+              "description": "Glasslock Chef Topf Warm Pot",
+              "image": "/assets/cases/d90517515d8061d7204a8609740935fe-0ae992b853.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Interior Design Element",
+              "description": "Unwasted",
+              "image": "/assets/cases/ab595ffd915227b8ca278c7a52864f52-93ddcc71e1.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Ceramic Tiles",
+              "description": "KuQua",
+              "image": "/assets/cases/78880e7397eaee0183de04c2eaa43261-fe05b2eb9c.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Monitor",
+              "description": "LG Room & Style",
+              "image": "/assets/cases/7a885d80e6f7b11e36700c795e37cde3-b4c0790685.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Bathroom Furniture",
+              "description": "Restroom Dresser Premium Series",
+              "image": "/assets/cases/0884743db099f57a13220512af7cfd01-626bed1aba.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilet",
+              "description": "Portico Urinal",
+              "image": "/assets/cases/20374d4113daeca5298ae870a19e1ba6-92f4736900.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Hair Clipper",
+              "description": "VGR-001",
+              "image": "/assets/cases/d4807a1705f45dfa11ca3dcfbfe55a7f-79cbd6647c.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Wash Basin",
+              "description": "Cobble",
+              "image": "/assets/cases/dff7ff93d708d1d2c0c09f3b3fa96b91-e273a2272a.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Toilets and Accessories",
+              "description": "PURE VORTEX®",
+              "image": "/assets/cases/b29f58e376a680775d5f738c49d32d44-04c0c2faba.jpeg",
+              "sourceMaterial": "陶瓷",
+              "matchType": "exact"
+            }
+          ]
         },
         {
           "name": "蓝宝石玻璃",
