@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Material, Parameter, SearchResult } from '../types'
+import MaterialDetailPanel from './MaterialDetailPanel'
 import MaterialMarker from './MaterialMarker'
 import ScaleNavigator from './ScaleNavigator'
 import SearchByValue from './SearchByValue'
@@ -58,6 +59,7 @@ type Props = {
   highlightedNames: string[]
   focusValue: number | null
   onSelect: (material: Material) => void
+  onClearSelection: () => void
   onSearchResult: (result: SearchResult) => void
 }
 
@@ -82,18 +84,22 @@ export default function DiagonalParameterScale({
   highlightedNames,
   focusValue,
   onSelect,
+  onClearSelection,
   onSearchResult,
 }: Props) {
   const viewportRef = useRef<HTMLDivElement>(null)
-  const dragRef = useRef<{ startX: number; startScroll: number } | null>(null)
+  const dragRef = useRef<{ pointerId: number; startX: number; startScroll: number } | null>(null)
+  const scrollFrameRef = useRef<number | null>(null)
   const [scrollState, setScrollState] = useState({ left: 0, width: 1, scrollWidth: 1 })
+  const [showDragHint, setShowDragHint] = useState(true)
   const usesLogScale = ['elastic-modulus', 'thermal-conductivity', 'tensile-strength'].includes(parameter.id)
   const contentWidth = Math.max(5000, parameter.materials.length * 170)
   const plotLeft = 110
   const plotWidth = contentWidth - 220
-  const axisY = 780
-  const baseY = 650
-  const slopeHeight = 450
+  const canvasHeight = 700
+  const axisY = 625
+  const baseY = 535
+  const slopeHeight = 360
   const logShift = parameter.axisMin <= 0 ? 1 - parameter.axisMin : 0
   const transformValue = (value: number) => usesLogScale ? Math.log10(Math.max(value + logShift, Number.EPSILON)) : value
   const transformedMin = transformValue(parameter.axisMin)
@@ -154,7 +160,7 @@ export default function DiagonalParameterScale({
       const displayMode = selected ? 'card' as const : item.displayMode
       const dotLabelWidth = Math.max(48, Math.min(132, material.name.length * 10 + 14))
       const width = selected ? 344 : displayMode === 'card' ? 108 : dotLabelWidth
-      const height = selected ? 236 : displayMode === 'card' ? 46 : 40
+      const height = selected ? 160 : displayMode === 'card' ? 46 : 40
       const x = displayMode === 'card'
         ? Math.max(width / 2 + 12, Math.min(contentWidth - width / 2 - 12, anchorX))
         : anchorX
@@ -209,14 +215,51 @@ export default function DiagonalParameterScale({
     setScrollState({ left: element.scrollLeft, width: element.clientWidth, scrollWidth: element.scrollWidth })
   }
 
+  const scheduleScrollUpdate = () => {
+    if (scrollFrameRef.current != null) return
+    scrollFrameRef.current = window.requestAnimationFrame(() => {
+      scrollFrameRef.current = null
+      updateScroll()
+    })
+  }
+
+  const finishViewportDrag = (element = viewportRef.current, pointerId = dragRef.current?.pointerId) => {
+    dragRef.current = null
+    element?.classList.remove('is-dragging')
+    if (element && pointerId != null && element.hasPointerCapture(pointerId)) {
+      try { element.releasePointerCapture(pointerId) } catch { /* pointer capture already ended */ }
+    }
+  }
+
   useEffect(() => {
     const element = viewportRef.current
     if (!element) return
     updateScroll()
-    const observer = new ResizeObserver(updateScroll)
+    const observer = new ResizeObserver(scheduleScrollUpdate)
     observer.observe(element)
-    return () => observer.disconnect()
+    return () => {
+      observer.disconnect()
+      if (scrollFrameRef.current != null) window.cancelAnimationFrame(scrollFrameRef.current)
+      scrollFrameRef.current = null
+    }
   }, [parameter.id])
+
+  useEffect(() => {
+    setShowDragHint(true)
+  }, [parameter.id])
+
+  useEffect(() => {
+    const handleWindowEnd = () => finishViewportDrag()
+    window.addEventListener('blur', handleWindowEnd)
+    window.addEventListener('pointerup', handleWindowEnd)
+    window.addEventListener('pointercancel', handleWindowEnd)
+    return () => {
+      window.removeEventListener('blur', handleWindowEnd)
+      window.removeEventListener('pointerup', handleWindowEnd)
+      window.removeEventListener('pointercancel', handleWindowEnd)
+      finishViewportDrag()
+    }
+  }, [])
 
   useEffect(() => {
     const element = viewportRef.current
@@ -264,28 +307,51 @@ export default function DiagonalParameterScale({
         </div>
       </div>
 
-      <div
-        ref={viewportRef}
-        className="scale-viewport"
-        onScroll={updateScroll}
-        onPointerDown={(event) => {
-          if ((event.target as HTMLElement).closest('button')) return
-          dragRef.current = { startX: event.clientX, startScroll: event.currentTarget.scrollLeft }
-          event.currentTarget.setPointerCapture(event.pointerId)
-          event.currentTarget.classList.add('is-dragging')
-        }}
-        onPointerMove={(event) => {
-          if (!dragRef.current) return
-          event.currentTarget.scrollLeft = dragRef.current.startScroll - (event.clientX - dragRef.current.startX)
-        }}
-        onPointerUp={(event) => {
-          dragRef.current = null
-          event.currentTarget.releasePointerCapture(event.pointerId)
-          event.currentTarget.classList.remove('is-dragging')
-        }}
-      >
-        <div className="scale-canvas" style={{ width: contentWidth }}>
-          <svg className="scale-lines" width={contentWidth} height="864" aria-hidden="true">
+      <SearchByValue parameter={parameter} onResult={onSearchResult} embedded />
+
+      <div className={`scale-workspace${selectedMaterial ? ' has-sidebar' : ''}`}>
+        <div className="scale-workspace__main">
+          <div className="scale-viewport-shell">
+            <div className="scale-edge-guide scale-edge-guide--left" aria-hidden="true">‹</div>
+            <div className="scale-edge-guide scale-edge-guide--right" aria-hidden="true">›</div>
+            {showDragHint && (
+              <div className="scale-drag-hint" role="status">
+                <span>可左右拖动尺度表，查看数轴材料。</span>
+                <button type="button" onClick={() => setShowDragHint(false)} aria-label="关闭尺度表拖动提示">×</button>
+              </div>
+            )}
+            <div
+              ref={viewportRef}
+              className="scale-viewport"
+              onScroll={scheduleScrollUpdate}
+              onDragStart={(event) => event.preventDefault()}
+              onPointerDown={(event) => {
+                if (event.button !== 0 || (event.target as HTMLElement).closest('button')) return
+                if (!(event.target as HTMLElement).closest('.material-marker') && selectedMaterial) {
+                  onClearSelection()
+                }
+                finishViewportDrag(event.currentTarget)
+                dragRef.current = { pointerId: event.pointerId, startX: event.clientX, startScroll: event.currentTarget.scrollLeft }
+                event.currentTarget.setPointerCapture(event.pointerId)
+                event.currentTarget.classList.add('is-dragging')
+                event.preventDefault()
+              }}
+              onPointerMove={(event) => {
+                const drag = dragRef.current
+                if (!drag || drag.pointerId !== event.pointerId) return
+                if (event.pointerType === 'mouse' && event.buttons === 0) {
+                  finishViewportDrag(event.currentTarget, event.pointerId)
+                  return
+                }
+                event.currentTarget.scrollLeft = drag.startScroll - (event.clientX - drag.startX)
+                event.preventDefault()
+              }}
+              onPointerUp={(event) => finishViewportDrag(event.currentTarget, event.pointerId)}
+              onPointerCancel={(event) => finishViewportDrag(event.currentTarget, event.pointerId)}
+              onLostPointerCapture={(event) => finishViewportDrag(event.currentTarget, event.pointerId)}
+            >
+              <div className="scale-canvas" style={{ width: contentWidth }}>
+          <svg className="scale-lines" width={contentWidth} height={canvasHeight} aria-hidden="true">
             <defs>
               <linearGradient id="trendGradient" x1="0" x2="1">
                 <stop offset="0" stopColor="#22364d" stopOpacity="0.55" />
@@ -350,19 +416,29 @@ export default function DiagonalParameterScale({
           <div className="axis-title" style={{ top: axisY + 50 }}>
             {parameter.name}（{parameter.unit}）{usesLogScale ? ' · 对数排布 / 真实数值刻度' : ''}
           </div>
-        </div>
-      </div>
+              </div>
+            </div>
+          </div>
 
-      <ScaleNavigator
-        materials={parameter.materials}
-        axisMin={parameter.axisMin}
-        axisMax={parameter.axisMax}
-        startRatio={viewportStartRatio}
-        sizeRatio={viewportSizeRatio}
-        positionRatio={ratioOf}
-        onSeek={seek}
-      />
-      <SearchByValue parameter={parameter} onResult={onSearchResult} embedded />
+          <ScaleNavigator
+            materials={parameter.materials}
+            axisMin={parameter.axisMin}
+            axisMax={parameter.axisMax}
+            startRatio={viewportStartRatio}
+            sizeRatio={viewportSizeRatio}
+            positionRatio={ratioOf}
+            onSeek={seek}
+          />
+        </div>
+        {selectedMaterial && (
+          <MaterialDetailPanel
+            material={selectedMaterial}
+            parameter={parameter}
+            variant="sidebar"
+            onClose={onClearSelection}
+          />
+        )}
+      </div>
     </section>
   )
 }

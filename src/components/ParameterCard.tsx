@@ -9,6 +9,9 @@ export default function ParameterCard({ parameter, index }: { parameter: Paramet
       to={`/parameter/${parameter.id}`}
       className="parameter-card"
       style={{ '--card-index': index } as CSSProperties}
+      onClick={() => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' as ScrollBehavior })
+      }}
     >
       <div className="parameter-card__topline">
         <span>0{index + 1}</span>

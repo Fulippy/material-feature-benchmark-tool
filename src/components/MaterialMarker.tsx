@@ -62,7 +62,7 @@ export default function MaterialMarker({
   const intervalWidth = Math.max(maxX - minX, 8)
   const isDot = displayMode === 'dot' && !selected
   const markerBottom = y + height
-  const galleryImages = material.images?.length ? material.images : [material.image]
+  const mainImage = material.image
 
   return (
     <>
@@ -92,10 +92,17 @@ export default function MaterialMarker({
           <button
             type="button"
             className="marker-select"
-            onClick={() => onSelect(material)}
+            onClick={(event) => {
+              if (selected && (event.target as HTMLElement).closest('.marker-image')) {
+                setLightboxIndex(0)
+                return
+              }
+              onSelect(material)
+            }}
             aria-pressed={selected}
+            aria-label={selected ? `${material.name}，点击主图查看大图，点击名称关闭详情` : `选择${material.name}`}
           >
-            <span className="marker-image">
+            <span className="marker-image" title={selected ? '点击查看材料主图大图' : undefined}>
               <MaterialImage source={material.image} alt={`${material.name}材料主图`} />
             </span>
             <span className="marker-copy">
@@ -108,26 +115,6 @@ export default function MaterialMarker({
           {selected && (
             <div className="marker-expanded-content">
               <p>{material.description || '材料简介'}</p>
-              <div
-                className="material-gallery"
-                tabIndex={0}
-                aria-label={`${material.name}材料图片，共 ${galleryImages.length} 张`}
-                onPointerDown={(event) => event.stopPropagation()}
-                onWheel={(event) => event.stopPropagation()}
-              >
-                {galleryImages.map((source, index) => (
-                  <figure key={`${source}-${index}`} className={index === 0 ? 'is-main' : ''}>
-                    <button
-                      type="button"
-                      onClick={() => setLightboxIndex(index)}
-                      aria-label={`查看${material.name}第 ${index + 1} 张材料大图`}
-                    >
-                      <MaterialImage source={source} alt={`${material.name}材料图片 ${index + 1}`} />
-                    </button>
-                    {index === 0 && <figcaption>主图</figcaption>}
-                  </figure>
-                ))}
-              </div>
             </div>
           )}
           {!selected && <Tooltip material={material} unit={unit} />}
@@ -143,7 +130,7 @@ export default function MaterialMarker({
       />
       {lightboxIndex != null && (
         <ImageLightbox
-          images={galleryImages}
+          images={[mainImage]}
           initialIndex={lightboxIndex}
           materialName={material.name}
           onClose={() => setLightboxIndex(null)}

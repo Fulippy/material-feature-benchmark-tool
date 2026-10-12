@@ -305,10 +305,12 @@ function parseNameChanges(workbook: XLSXModule.WorkBook) {
 async function parseMaterialReview(
   workbook: XLSXModule.WorkBook,
   workbookPath: string,
+  fallbackImageRoots: string[],
   imageReadFailures: Array<Record<string, unknown>>,
 ) {
   const workbookDirectory = path.dirname(workbookPath)
-  const indexedFiles = await listFilesRecursive(workbookDirectory)
+  const imageSearchRoots = [...new Set([workbookDirectory, ...fallbackImageRoots])]
+  const indexedFiles = (await Promise.all(imageSearchRoots.map((root) => listFilesRecursive(root)))).flat()
   const indexedBySuffix = indexedFiles.map((filePath) => ({
     filePath,
     normalized: filePath.toLowerCase().replace(/[\\/]+/g, path.sep),
@@ -351,7 +353,7 @@ async function parseMaterialReview(
         row: index + 4,
         material: materialName,
         path: relativePath,
-        reason: '人工复核表中的可用图片未在工作簿目录树内找到',
+        reason: '人工复核表中的可用图片未在工作簿目录或历史复核目录树内找到',
       })
       continue
     }
@@ -437,10 +439,18 @@ async function parseCases(workbook: XLSXModule.WorkBook, imageReadFailures: Arra
       imageReadFailures.push({ row: index + 2, productName, path: localImagePath, reason: '文件不存在或不可读取' })
     }
 
-    const descriptionCandidates = trailing.filter((value) =>
-      !isHttpUrl(value) && !isLocalImagePath(value) && !isCodeOnly(value),
+    // N/O may contain a short subtitle or a displaced title; P is the product
+    // introduction when it contains text. Q is the jury statement and is not
+    // used as product copy. Prefer a real explanatory paragraph over a short
+    // label, while retaining the short text when no longer introduction exists.
+    const introductionFields = [row[15], row[13], row[14]].map(clean)
+    const descriptionCandidates = introductionFields.filter((value) =>
+      value && !isHttpUrl(value) && !isLocalImagePath(value) && !isCodeOnly(value),
     )
-    const description = firstParagraph(descriptionCandidates[0] ?? '')
+    const descriptionSource = descriptionCandidates.find((value) => value.length >= 80)
+      ?? descriptionCandidates[0]
+      ?? ''
+    const description = firstParagraph(descriptionSource)
 
     parsed.push({
       rowNumber: index + 2,
@@ -559,11 +569,17 @@ async function main() {
   const imageCopyFailures: Array<Record<string, unknown>> = []
   const materialImageReadFailures: Array<Record<string, unknown>> = []
   const materialImageCopyFailures: Array<Record<string, unknown>> = []
+  const materialImageFallbackRoots = (await Promise.all(
+    reportedPaths(reportText, 'material_image_manual_review_v2.xlsx').map(async (candidate) => (
+      await exists(candidate) ? path.dirname(candidate) : ''
+    )),
+  )).filter(Boolean)
   const sourceCases = await parseCases(casesWorkbook, imageReadFailures)
   const nameReview = parseNameChanges(materialNameReviewWorkbook)
   const materialReview = await parseMaterialReview(
     materialImageReviewWorkbook,
     materialImageReviewPath,
+    materialImageFallbackRoots,
     materialImageReadFailures,
   )
   const aliasSheetAvailable = casesWorkbook.SheetNames.includes('Sheet5')
@@ -735,6 +751,7 @@ async function main() {
       materialAxisWorkbook: axisPath,
       applicationCasesWorkbook: casesPath,
       materialImageReviewWorkbook: materialImageReviewPath,
+      materialImageSearchRoots: [...new Set([path.dirname(materialImageReviewPath), ...materialImageFallbackRoots])],
       materialNameReviewWorkbook: materialNameReviewPath,
     },
     sheets: {

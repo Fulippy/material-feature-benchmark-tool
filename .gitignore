@@ -21,3 +21,8 @@ src/data/data_report.json
 scripts/*.py
 scripts/*.mjs
 requirements.txt
+
+# Codex 本地审阅缓存与工作输出（不上传公开仓库）
+.codex-artifact-work/
+.codex-doc-review/
+outputs/

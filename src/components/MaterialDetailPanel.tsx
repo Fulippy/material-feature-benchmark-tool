@@ -2,14 +2,26 @@ import { useEffect, useState } from 'react'
 import type { Material, Parameter } from '../types'
 import CaseCard from './CaseCard'
 
-export default function MaterialDetailPanel({ material, parameter }: { material: Material; parameter: Parameter }) {
+type Props = {
+  material: Material
+  parameter: Parameter
+  variant?: 'full' | 'sidebar'
+  onClose?: () => void
+}
+
+export default function MaterialDetailPanel({ material, parameter, variant = 'full', onClose }: Props) {
   const [expanded, setExpanded] = useState(false)
 
   useEffect(() => setExpanded(false), [material.name])
   const visibleCases = expanded ? material.cases : material.cases.slice(0, 3)
 
   return (
-    <section className="material-detail" aria-labelledby="material-detail-title">
+    <aside className={`material-detail material-detail--${variant}`} aria-labelledby="material-detail-title">
+      {onClose && (
+        <button type="button" className="material-detail__close" onClick={onClose} aria-label="关闭应用案例库">
+          <span aria-hidden="true">×</span>
+        </button>
+      )}
       <div className="material-detail__summary">
         <div>
           <p className="eyebrow">SELECTED BENCHMARK</p>
@@ -31,14 +43,21 @@ export default function MaterialDetailPanel({ material, parameter }: { material:
         <div className="section-heading">
           <div>
             <p className="eyebrow">APPLICATION CONTEXT</p>
-            <h2>应用案例</h2>
+            <h2>应用案例库</h2>
           </div>
           <span>{material.cases.length} 条已匹配案例</span>
         </div>
         {visibleCases.length ? (
           <>
             <div className="case-grid">
-              {visibleCases.map((item, index) => <CaseCard key={`${item.productName}-${index}`} item={item} />)}
+              {visibleCases.map((item, index) => (
+                <CaseCard
+                  key={`${item.productName}-${index}`}
+                  item={item}
+                  items={material.cases}
+                  initialIndex={index}
+                />
+              ))}
             </div>
             {material.cases.length > 3 && (
               <button type="button" className="secondary-button show-more" onClick={() => setExpanded((value) => !value)}>
@@ -53,6 +72,6 @@ export default function MaterialDetailPanel({ material, parameter }: { material:
           </div>
         )}
       </div>
-    </section>
+    </aside>
   )
 }
