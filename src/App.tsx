@@ -17,6 +17,9 @@ export default function App() {
         <nav aria-label="主导航">
           <NavLink to="/" end>参数首页</NavLink>
           <NavLink to="/data">数据说明</NavLink>
+          <a href="./v1.0/" target="_blank" rel="noreferrer" title="打开不再更新的第一轮可用性测试对照版本">
+            v1.0 对照版
+          </a>
         </nav>
       </header>
       <Routes>
