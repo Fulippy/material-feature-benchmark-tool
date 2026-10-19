@@ -186,7 +186,12 @@ function reportedPaths(report: string, filename: string): string[] {
   return [...new Set(results)]
 }
 
-async function locateWorkbook(filename: string, report: string): Promise<string> {
+async function locateWorkbook(filename: string, report: string, environmentKey?: string): Promise<string> {
+  const environmentPath = environmentKey ? clean(process.env[environmentKey]) : ''
+  if (environmentPath) {
+    if (await exists(environmentPath)) return environmentPath
+    throw new Error(`${environmentKey} 指向的文件不存在：${environmentPath}`)
+  }
   for (const candidate of reportedPaths(report, filename)) {
     if (await exists(candidate)) return candidate
   }
@@ -534,8 +539,8 @@ function safeImageName(sourcePath: string): string {
 
 async function main() {
   const reportText = await readFile(REPORT_PATH, 'utf8')
-  const axisPath = await locateWorkbook('final_material_axis_summary.xlsx', reportText)
-  const casesPath = await locateWorkbook('文本图片和提及材料.xlsx', reportText)
+  const axisPath = await locateWorkbook('final_material_axis_summary.xlsx', reportText, 'MATERIAL_AXIS_XLSX')
+  const casesPath = await locateWorkbook('文本图片和提及材料.xlsx', reportText, 'MATERIAL_CASES_XLSX')
   const materialImageReviewPath = await locateReviewWorkbook(
     'material_image_manual_review_v2.xlsx',
     'MATERIAL_IMAGE_REVIEW_XLSX',
@@ -680,8 +685,10 @@ async function main() {
       const materialImageSources = materialReview.images.get(reviewKey)
         ?? materialReview.images.get(normalizeName(sourceMaterialName))
         ?? []
+      const mainMaterialImage = materialImageSources.find((source) => source.isMain)
+        ?? materialImageSources[0]
       const materialImages: string[] = []
-      for (const source of materialImageSources) {
+      for (const source of mainMaterialImage ? [mainMaterialImage] : []) {
         const webPath = await copyMaterialImage(source)
         if (webPath && !materialImages.includes(webPath)) materialImages.push(webPath)
       }

@@ -17,9 +17,7 @@
           "max": 0.032,
           "image": "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
           "images": [
-            "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
-            "/assets/materials/03_Polystyrene_Packaging_Beads-9123782bb5.jpg",
-            "/assets/materials/04_EPS_Plastic_Foam_Beads-bfe286b137.jpg"
+            "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg"
           ],
           "description": "EPS常用名称为EPS泡沫、发泡聚苯乙烯，部分地区也称保丽龙。它由可发性聚苯乙烯珠粒经过预发泡和模塑形成，内部包含大量封闭气泡，因此密度低、隔热和缓冲性能突出。常用于产品包装、保温板、头盔缓冲层、展示模型与轻量化填充，但耐热性和耐溶剂性有限。",
           "cognitiveText": "EPS在“密度”尺度中的参数区间为 0.019–0.032 g/cm³。",
@@ -89,10 +87,7 @@
           "max": 0.24,
           "image": "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
           "images": [
-            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
-            "/assets/materials/02_Natural_Cork_Sheet_Roll-36f7686707.jpg",
-            "/assets/materials/03_Natural_Cork_Fabric_Rolls-37601d0fd8.jpg",
-            "/assets/materials/05_Natural_Cork_Sheet_Roll-f2bb65d00c.jpg"
+            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg"
           ],
           "description": "软木常用名称为软木或栓皮，主要取自栓皮栎等树木的外层树皮。其蜂窝状封闭细胞结构使材料轻、可压缩、回弹、隔热、吸声并具有一定防水性。软木可制成整片、颗粒板或复合材料，常用于瓶塞、地板、墙面、鞋材、握把、包装和可持续产品表面。",
           "cognitiveText": "软木在“密度”尺度中的参数区间为 0.12–0.24 g/cm³。",
@@ -225,11 +220,7 @@
           "max": 0.67,
           "image": "/assets/materials/05_Black_Walnut_Wood_Planks-410a6939d6.jpg",
           "images": [
-            "/assets/materials/05_Black_Walnut_Wood_Planks-410a6939d6.jpg",
-            "/assets/materials/01_Black_Walnut_Lumber_Planks-47440b3182.jpg",
-            "/assets/materials/02_Black_Walnut_Hardwood_Boards-7ebcfbe8db.jpg",
-            "/assets/materials/03_American_Black_Walnut_Lumber_Boards-8d026bd88c.jpg",
-            "/assets/materials/04_Black_Walnut_DIY_Boards-dbdf3be32f.jpg"
+            "/assets/materials/05_Black_Walnut_Wood_Planks-410a6939d6.jpg"
           ],
           "description": "胡桃木常用名称为胡桃木，产品设计中常见的是黑胡桃木。它属于中等密度阔叶木材，心材多呈浅褐至深巧克力色，纹理细致并具有良好切削、雕刻和涂饰性能。常用于高档家具、饰面板、乐器、枪托和产品木质外壳，但颜色、纹理和力学性能会随树种与产地变化。",
           "cognitiveText": "胡桃木在“密度”尺度中的参数区间为 0.55–0.67 g/cm³。",
@@ -383,11 +374,7 @@
           "max": 0.755,
           "image": "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
           "images": [
-            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
-            "/assets/materials/02_White_Oak_Lumber_Boards-e9db162d1b.jpg",
-            "/assets/materials/03_Oak_Thin_Boards_Set-b06db8e91b.jpg",
-            "/assets/materials/04_Oak_Lumber_Boards-4144b6bf03.jpg",
-            "/assets/materials/05_White_Oak_Plain-Sawn_Hardwood_Planks-9f8aaada2b.jpg"
+            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg"
           ],
           "description": "橡木常用名称为橡木或栎木，来自栎属多种树木，是家具和室内产品中常见的阔叶木材。其纹理明显，通常具有较好的强度、耐磨性和表面涂饰效果，白橡与红橡在导管结构、色泽和耐久性方面存在差异。常用于家具、地板、酒桶、饰面板和结构木制品，性能受含水率影响明显。",
           "cognitiveText": "橡木在“密度”尺度中的参数区间为 0.675–0.755 g/cm³。",
@@ -541,11 +528,7 @@
           "max": 1.02,
           "image": "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
           "images": [
-            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
-            "/assets/materials/02_Bamboo_Laminated_Wood_Boards-1aabd4826c.jpg",
-            "/assets/materials/03_Bamboo_Slats_Display-fca6bce693.jpg",
-            "/assets/materials/04_Natural_Dry_Bamboo_Strips-a9ba0e4cf8.jpg",
-            "/assets/materials/05_Stacked_Bamboo_Plywood_Boards-2231a7d0e2.jpg"
+            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg"
           ],
           "description": "竹材常用名称为竹材或竹木，来源于竹秆，经干燥、防护、剖分、层压或重组后可形成板材和构件。其纤维沿生长方向排列，具有较高比强度和鲜明纹理，但性能受竹种、部位、含水率及胶合方式影响。常用于家具、餐具、地板、包装、建筑构件和可持续产品设计。",
           "cognitiveText": "竹材在“密度”尺度中的参数区间为 0.68–1.02 g/cm³。",
@@ -580,8 +563,7 @@
           "max": 0.94,
           "image": "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
           "images": [
-            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
-            "/assets/materials/01_Polypropylene_Machined_Sheets_and_Rods-3ff1c90585.jpg"
+            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg"
           ],
           "description": "PP常用名称为聚丙烯或PP塑料，是密度较低、用途广泛的热塑性聚合物。它耐化学品、耐湿、易注塑和挤出，并具有良好的反复弯折疲劳性能，可制作一体式活铰链。常见于食品容器、家居用品、医疗耗材、汽车内饰、无纺布和包装薄膜，但低温冲击性能及耐候性需要关注。",
           "cognitiveText": "PP在“密度”尺度中的参数区间为 0.92–0.94 g/cm³。",
@@ -735,10 +717,7 @@
           "max": 1.18,
           "image": "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
           "images": [
-            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
-            "/assets/materials/02_ABS_Plastic_Pellets-072e2e6578.jpg",
-            "/assets/materials/04_ABS_Plastic_Resin_Granules-4e4ab4d3c6.jpg",
-            "/assets/materials/05_Chimei_ABS_Resin_PA-765b_Plastic_Granules-1a84b6b56a.jpg"
+            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg"
           ],
           "description": "ABS常用名称为ABS塑料或ABS树脂，中文全称为丙烯腈—丁二烯—苯乙烯共聚物。它综合了刚性、韧性、尺寸稳定性和较好的表面加工性能，可通过注塑、挤出、机加工与表面涂装制成复杂外壳。常见于家电、电子产品、玩具、工具外壳、汽车内饰和模型制作。",
           "cognitiveText": "ABS在“密度”尺度中的参数区间为 1.04–1.18 g/cm³。",
@@ -892,9 +871,7 @@
           "max": 1.14,
           "image": "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
           "images": [
-            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
-            "/assets/materials/02_Polyamide_-PA-_Sheets-_Rods-_and_Tubes-df8c0bbbe9.jpg",
-            "/assets/materials/05_Polyamide_-PA-_Plastic_Samples-47c88552e2.jpg"
+            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg"
           ],
           "description": "PA常用名称为尼龙或PA塑料，材料学名称为聚酰胺。其分子链含有酰胺基团，通常具有较高强度、耐磨性、耐疲劳性和良好的自润滑特征。不同尼龙牌号及含水状态会显著影响尺寸和力学性能。常用于齿轮、轴承、扣件、织物纤维、工具零件及结构性注塑件。",
           "cognitiveText": "PA在“密度”尺度中的参数区间为 1.13–1.14 g/cm³。",
@@ -1048,9 +1025,7 @@
           "max": 1.2,
           "image": "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
           "images": [
-            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
-            "/assets/materials/02_Clear_Acrylic_Rods_and_Sheets-d7da225e61.jpg",
-            "/assets/materials/05_Acrylic_PMMA_Samples-d06b9c7a7e.jpg"
+            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg"
           ],
           "description": "PMMA常用名称为亚克力、有机玻璃或压克力，化学名称为聚甲基丙烯酸甲酯。它是透明度较高的无定形热塑性塑料，具有良好的耐候性、着色性和机械加工性能，常作为玻璃替代材料。典型应用包括灯具、展示架、标识、透明罩、汽车灯具和光学件，但抗冲击性低于PC。",
           "cognitiveText": "PMMA在“密度”尺度中的参数区间为 1.18–1.2 g/cm³。",
@@ -1071,9 +1046,7 @@
           "max": 1.34,
           "image": "/assets/materials/04_TPU_SMP_Filament_and_Printed_Samples-986cefa695.jpg",
           "images": [
-            "/assets/materials/04_TPU_SMP_Filament_and_Printed_Samples-986cefa695.jpg",
-            "/assets/materials/03_Thermoplastic_Polyurethane_Pellets_and_Filame-7d84b8c1d6.jpg",
-            "/assets/materials/05_Medical-Grade_Thermoplastic_Polyurethane_Comp-e3405b5e0d.jpg"
+            "/assets/materials/04_TPU_SMP_Filament_and_Printed_Samples-986cefa695.jpg"
           ],
           "description": "TPU常用名称为热塑性聚氨酯或TPU弹性体，是可熔融加工的聚氨酯类弹性材料。它兼具橡胶般的弹性与热塑性塑料的成型效率，通常具有耐磨、抗撕裂、耐油和良好回弹性。常用于手机保护套、鞋材、软管、电缆护套、薄膜、滚轮及可穿戴产品，不同软硬段配方差异较大。",
           "cognitiveText": "TPU在“密度”尺度中的参数区间为 1.05–1.34 g/cm³。",
@@ -1171,11 +1144,7 @@
           "max": 1.22,
           "image": "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
           "images": [
-            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
-            "/assets/materials/01_Transparent_Polycarbonate_Pellets-02e6f623ea.jpg",
-            "/assets/materials/03_Clear_Polycarbonate_Pellets-4d7b981453.jpg",
-            "/assets/materials/04_Polycarbonate_Pellets_for_Electrical_Applicat-debca79357.jpg",
-            "/assets/materials/05_Polycarbonate_Resin_Pellets_for_LED_Diffusers-faf7855af7.jpg"
+            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg"
           ],
           "description": "PC常用名称为聚碳酸酯或PC塑料，部分地区也称防弹胶。它是一种透明热塑性工程塑料，突出特点是抗冲击能力强、尺寸稳定、可透光并能进行注塑和热成型。PC常用于透明防护罩、电子产品外壳、头盔镜片、灯具、医疗器械及光学部件，但需要关注表面耐刮擦和耐化学性。",
           "cognitiveText": "PC在“密度”尺度中的参数区间为 1.19–1.22 g/cm³。",
@@ -1329,10 +1298,7 @@
           "max": 1.55,
           "image": "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
           "images": [
-            "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
-            "/assets/materials/02_PVC_Rain_Pipe_and_Pellets_Showcase-80929947ea.jpg",
-            "/assets/materials/03_PVC_Pellets_and_Sheet_Display-627743793d.jpg",
-            "/assets/materials/05_PVC_Compound_Pellets_and_Pipes-6081d5f1f8.jpg"
+            "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg"
           ],
           "description": "PVC常用名称为聚氯乙烯或PVC塑料，可通过增塑剂和稳定剂配方形成硬质或软质材料。硬质PVC具有较好的刚性、耐化学性和阻燃特征，软质PVC则柔韧并易加工。它广泛用于管材、型材、电线护套、地板、薄膜、卡片和充气制品，性能与环境影响高度依赖具体添加剂体系。",
           "cognitiveText": "PVC在“密度”尺度中的参数区间为 1.16–1.55 g/cm³。",
@@ -1402,8 +1368,7 @@
           "max": 1.6,
           "image": "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
           "images": [
-            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
-            "/assets/materials/04_PET_Preforms_and_Pellets-66a536ba55.jpg"
+            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg"
           ],
           "description": "PET常用名称为PET塑料或聚酯，化学名称为聚对苯二甲酸乙二酯。它可制成透明容器、薄膜、片材和纤维，具有较好的强度、气体阻隔性、尺寸稳定性和可回收性。结晶程度与加工状态会改变透明度和耐热性，常用于饮料瓶、食品包装、电子薄膜、纺织纤维及工程塑料。",
           "cognitiveText": "PET在“密度”尺度中的参数区间为 1.4–1.6 g/cm³。",
@@ -1557,11 +1522,7 @@
           "max": 2,
           "image": "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
           "images": [
-            "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
-            "/assets/materials/02_Unidirectional_Carbon_Fiber_Fabric_Roll-96256e7846.jpg",
-            "/assets/materials/03_Carbon_Fiber_Fabric_Roll-52999713f1.jpg",
-            "/assets/materials/04_Woven_Carbon_Fiber_Fabric_Roll-72fc649b71.jpg",
-            "/assets/materials/05_UD_Carbon_Fiber_Fabric_Roll-6fe47321c3.jpg"
+            "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg"
           ],
           "description": "碳纤维常用简称为碳纤，是含碳量很高的细丝状材料，通常由聚丙烯腈等前驱体经稳定化和碳化制成。它具有低密度、高比强度、高比模量和明显方向性，多与环氧等树脂组合成复合材料。常用于航空航天、运动器材、自行车、汽车部件、机器人和高端产品外壳。",
           "cognitiveText": "碳纤维在“密度”尺度中的参数区间为 1.7–2 g/cm³。",
@@ -1715,10 +1676,7 @@
           "max": 2.4,
           "image": "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
           "images": [
-            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
-            "/assets/materials/01_Concrete_Aggregate_Sample-2a7751994f.jpg",
-            "/assets/materials/03_Exposed_Aggregate_Concrete_Samples-ef04d78dfc.jpg",
-            "/assets/materials/04_Concrete_Texture_Samples-68a5c93cd5.jpg"
+            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg"
           ],
           "description": "混凝土常用名称为混凝土，工程中也简称“砼”，由水泥、骨料、水及必要外加剂拌合并硬化形成。它抗压能力较强、可浇筑成复杂形状且成本相对可控，但抗拉性能较弱，常与钢筋组合使用。除建筑结构外，也用于家具、灯具、花器和公共设施等产品，表观性能受配比、养护和孔隙影响。",
           "cognitiveText": "混凝土在“密度”尺度中的参数区间为 2.24–2.4 g/cm³。",
@@ -1872,9 +1830,7 @@
           "max": 2.52,
           "image": "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
           "images": [
-            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
-            "/assets/materials/01_Clear_Glass_Sample-8d34ea7bab.jpg",
-            "/assets/materials/05_钢化安全玻璃破裂颗粒-7bc89f3275.jpg"
+            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg"
           ],
           "description": "钢化玻璃常用名称为钢化玻璃或强化玻璃，是普通玻璃经热处理或化学强化形成表面压应力的安全玻璃。它的抗弯和抗热冲击能力通常高于未强化玻璃，破碎时热钢化玻璃会形成较小颗粒。常用于建筑门窗、家具、家电面板、汽车侧窗、手机保护盖板和展示装置。",
           "cognitiveText": "钢化玻璃在“密度”尺度中的参数区间为 2.44–2.52 g/cm³。",
@@ -2028,10 +1984,7 @@
           "max": 2.6,
           "image": "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
           "images": [
-            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
-            "/assets/materials/01_Aluminum_Alloy_Extrusion_Rods-cc5ade1966.jpg",
-            "/assets/materials/03_Aluminum_Alloy_Solid_Bars-647e9f31c2.jpg",
-            "/assets/materials/05_Extruded_Aluminum_Alloy_Bars-9f9569126b.jpg"
+            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg"
           ],
           "description": "铝合金是以铝为基体并加入镁、硅、铜、锌等元素形成的轻金属材料，常用名称即铝合金。它具有低密度、较好的比强度、耐腐蚀性和加工性，可进行挤压、压铸、冲压、机加工及阳极氧化。常用于电子产品外壳、交通工具、家具、建筑型材、灯具和包装。",
           "cognitiveText": "铝合金在“密度”尺度中的参数区间为 2.6–2.6 g/cm³。",
@@ -2185,9 +2138,7 @@
           "max": 3,
           "image": "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
           "images": [
-            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
-            "/assets/materials/01_White_Porcelain_Floor_Tiles-0aa85f40b4.jpg",
-            "/assets/materials/03_Grazioso_Canvas_White_Porcelain_Tile_Sample-2bf10bfed4.jpg"
+            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg"
           ],
           "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
           "cognitiveText": "瓷在“密度”尺度中的参数区间为 2.3–3 g/cm³。",
@@ -2341,9 +2292,7 @@
           "max": 2.85,
           "image": "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
           "images": [
-            "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
-            "/assets/materials/02_Grey-White_Marble_Slab-3fc844a84b.jpg",
-            "/assets/materials/05_White_Marble_Slab_Texture-c04bb0dbdf.jpg"
+            "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg"
           ],
           "description": "大理石常用名称为大理石，地质学上主要对应大理岩，是石灰岩或白云岩经变质作用形成的天然石材。其纹理、颜色和孔隙会因矿物组成而变化，表面可抛光形成装饰效果。常用于建筑饰面、台面、雕塑、家具构件和工艺品，但需要关注脆性、重量、酸敏感性及天然批次差异。",
           "cognitiveText": "大理石在“密度”尺度中的参数区间为 2.68–2.85 g/cm³。",
@@ -2469,10 +2418,7 @@
           "max": 3.53,
           "image": "/assets/materials/04_Raw_Uncut_Diamond-bc3d17546f.jpg",
           "images": [
-            "/assets/materials/04_Raw_Uncut_Diamond-bc3d17546f.jpg",
-            "/assets/materials/01_African_Raw_Diamond-510ed04654.jpg",
-            "/assets/materials/02_Natural_Rough_Grey_Diamonds-1170c9692e.jpg",
-            "/assets/materials/05_White-Grey_Rough_Diamond_Crystals-e2de98b793.jpg"
+            "/assets/materials/04_Raw_Uncut_Diamond-bc3d17546f.jpg"
           ],
           "description": "金刚石常用名称为金刚石，达到宝石品质并经切磨后通常称为钻石，是碳元素形成的晶体材料。它具有极高硬度、耐磨性和很高导热能力，但不同晶向和缺陷会影响性能。除珠宝外，工业金刚石广泛用于切削、磨削、钻探、散热片、光学窗口和高压实验装置。",
           "cognitiveText": "金刚石在“密度”尺度中的参数区间为 3.5–3.53 g/cm³。",
@@ -2535,10 +2481,7 @@
           "max": 3.98,
           "image": "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
           "images": [
-            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
-            "/assets/materials/03_Synthetic_Sapphire_Optical_Windows-4097024730.jpg",
-            "/assets/materials/04_Sapphire_Crystal_Glass_Blanks-bbf388a18c.jpg",
-            "/assets/materials/05_Customized_Sapphire_Optical_Window_Disc-a16fba506c.jpg"
+            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg"
           ],
           "description": "蓝宝石玻璃常用名称为蓝宝石玻璃或蓝宝石晶体，本质上通常是人工生长的单晶氧化铝，并非普通硅酸盐玻璃。它透明、硬度高、耐磨且耐高温，可制成薄片和光学窗口，但加工成本较高且仍具有脆性。常用于手表镜面、手机镜头保护、传感器窗口、LED衬底和精密光学器件。",
           "cognitiveText": "蓝宝石玻璃在“密度”尺度中的参数区间为 3.97–3.98 g/cm³。",
@@ -2573,9 +2516,7 @@
           "max": 4.43,
           "image": "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
           "images": [
-            "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
-            "/assets/materials/01_Titanium_Raw_Material_Assortment-3127cfeb3d.jpg",
-            "/assets/materials/02_Titanium_Sheets-_Plates-_and_Rods_Display-945f8f00f4.jpg"
+            "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg"
           ],
           "description": "钛合金是以钛为基体并加入铝、钒、钼等元素形成的合金体系，常用名称即钛合金。它兼具较低密度、较高比强度、耐腐蚀和生物相容性，α型、β型及α+β型合金的组织和性能不同。常用于航空结构、发动机部件、医疗植入物、化工设备、运动器材和高端消费品。",
           "cognitiveText": "钛合金在“密度”尺度中的参数区间为 4.42–4.43 g/cm³。",
@@ -2750,9 +2691,7 @@
           "max": 6.1,
           "image": "/assets/materials/01_Y-TZP_Zirconia_Ceramic_Blocks-cd68a7bd3e.jpg",
           "images": [
-            "/assets/materials/01_Y-TZP_Zirconia_Ceramic_Blocks-cd68a7bd3e.jpg",
-            "/assets/materials/03_Polished_Zirconia_Ceramic_Blocks-bb3994de47.jpg",
-            "/assets/materials/05_Zirconia_Ceramic_Samples-50e225bf12.jpg"
+            "/assets/materials/01_Y-TZP_Zirconia_Ceramic_Blocks-cd68a7bd3e.jpg"
           ],
           "description": "氧化锆陶瓷常用名称为锆瓷，有时因其较高韧性被称为陶瓷钢，主要成分为二氧化锆。通过氧化钇等稳定剂控制晶相，可利用相变增韧获得优于普通陶瓷的抗裂能力，同时保持耐磨、耐腐蚀和生物相容性。常用于刀具、轴承、牙科修复、手表部件和精密结构件。",
           "cognitiveText": "氧化锆陶瓷在“密度”尺度中的参数区间为 5.7–6.1 g/cm³。",
@@ -2906,8 +2845,7 @@
           "max": 6.8,
           "image": "/assets/materials/02_Zinc_Alloy_Ingots-c23c1e9576.jpg",
           "images": [
-            "/assets/materials/02_Zinc_Alloy_Ingots-c23c1e9576.jpg",
-            "/assets/materials/04_Zamak_Alloy_Ingots_for_Die_Casting-4ce2d4b424.jpg"
+            "/assets/materials/02_Zinc_Alloy_Ingots-c23c1e9576.jpg"
           ],
           "description": "锌合金常用名称为锌合金或锌压铸合金，是以锌为基体并加入铝、铜、镁等元素的低熔点合金，常见体系包括Zamak。它具有良好压铸流动性，可成形薄壁、细节丰富的零件，表面适合电镀和涂装。常用于锁具、拉手、电子外壳、汽车小型件、玩具和装饰五金。",
           "cognitiveText": "锌合金在“密度”尺度中的参数区间为 6.3–6.8 g/cm³。",
@@ -3047,8 +2985,7 @@
           "max": 7.2,
           "image": "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
           "images": [
-            "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
-            "/assets/materials/03_Cast_Iron_Ingot-39834ac7d0.jpg"
+            "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg"
           ],
           "description": "铸铁是含碳量较高、主要通过铸造成形的铁碳合金，常用名称即铸铁。灰铸铁、球墨铸铁、白口铸铁等类型因石墨形态和组织不同，在减振、强度、耐磨和韧性上差异明显。铸铁流动性好、成本相对低，常用于机床底座、发动机部件、管件、炉具、锅具和厚壁结构件。",
           "cognitiveText": "铸铁在“密度”尺度中的参数区间为 7.1–7.2 g/cm³。",
@@ -3196,16 +3133,167 @@
           ]
         },
         {
+          "name": "铬金属",
+          "category": "金属与合金",
+          "min": 7.15,
+          "max": 7.2,
+          "image": "/assets/materials/04_Chromium_Sputtering_Target-e777a60e6c.jpg",
+          "images": [
+            "/assets/materials/04_Chromium_Sputtering_Target-e777a60e6c.jpg"
+          ],
+          "description": "材料简介",
+          "cognitiveText": "铬金属在“密度”尺度中的参数区间为 7.15–7.2 g/cm³。",
+          "cases": [
+            {
+              "productName": "Switch and System",
+              "description": "One of the key challenges of design today seems to be to create innovative products that are tailored to the needs and personalities of consumers and are sustainable at the same time. The Busch-art linear/ALBA switch range by Busch-Jaeger and Niessen, market leader in the field of electrical installation technology and building automation, fulfils this brief exceptionally well. A prominent feature of these switches is the position of the inserts, which float above the frame and are not, as usual, enclosed by them. This gives the product range a unique sense of lightness, heightened by the sharp, slim contours that radiate clarity and elegance across a wide selection of materials and models. The breadth of the Busch-art linear/ALBA switch range is hard to beat, in particular with regard to the frames. Whether it is glass, structured glass, wood, aluminium or plastic, with fine surrounds in chrome, gold or rose gold, and glossy, matt or mirrored surfaces, the rich variety on offer will satisfy personal preferences and suit the widest possible range of interiors. The soft feel of the switches also makes for a pleasurable sensory experience. In this way, the Busch-art linear/ALBA range is not only testimony to in-depth deliberations about form, material and colour but also about the environment, responsibility and the future. The collection is made with recycled and recyclable materials and follows a cradle-to-cradle philosophy for the healthy and regenerative productivity of companies. All plastic parts are produced from at least 92 per cent (white plastic) and up to 98 per cent (black plastic) recycled materials. That translates into a total reduction in CO₂ emissions of 82 per cent and requires a considerable amount of development work as it is difficult to produce such perfect, flat surfaces from recyclate. It is clear that sustainability is not a secondary consideration for Busch-Jaeger and Niessen but a value that is at the very heart of its design and product development work. The jury recognised this. “The Busch-art linear/ALBA switch range is both an object lesson in carefully considered design – from the construction through to the execution of details and surfaces, as well as the impressive haptics – and also a benchmark for sustainable design.”",
+              "image": "/assets/cases/8a430984b2f914f12ea1e718f4e83a15-2ed704b2bb.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Stove",
+              "description": "AGA ERA 110i is a premium-class multifunctional cooker. Black glass and high-quality chrome elements give it a minimalist aesthetic, which is reflected in the geometric design. The equipment includes an induction hob and a large hotplate on the top, as well as a convection oven and two cast-iron radiant ovens, each concealed behind a separate door. Operation is via a generously dimensioned touch control surface with integrated LED displays and a character display.",
+              "image": "/assets/cases/8a542da79dd1dfeac101bb9304e43700-c7483bd02a.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washer-Dryer Tower",
+              "description": "The Electrolux Laundry Tower is a space-saving washer-dryer combo for keeping the laundry area tidy. With the stylish colour options of white or titanium, it fits into any room concept. The sturdy, powder-coated metal plates along with elegant chrome and metal accents give the appliance a striking look. Thanks to the user-oriented interface with large touch elements and easily readable backlit displays as well as acoustic signals, the product ensures an intuitive and aesthetically pleasing washing experience.",
+              "image": "/assets/cases/8c67a0df234671dce921cb7d3b898034-45764534eb.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Refrigerator",
+              "description": "Vestel Zenith is a large-volume refrigerator with compact external dimensions. The minimalist appearance is based on a geometric silhouette. The horizontal panel and the chromium-plated handle balance the composition and harmonise with the overall appearance. The design also focuses on sustainability, as it relies on recycled materials made of olive seeds and sugar cane. Technologies in the interior provide flexible use for differing needs and help to store fresh food for extended periods.",
+              "image": "/assets/cases/277b3a294b527f10c68ac0fa5bf476a8-28a7c20acf.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washing Machine",
+              "description": "The BOSCH Series8 picks up on the reduced and solid appearance typical of the brand: the rotary knob and the large LED display allow for intuitive operation and selection of the wash programme as well as the precise setting of all parameters. Subtle colour accents such as red signals on the screen or chrome elements on the drawer and porthole freshen up the appearance and emphasise the clear geometric shapes of the body.",
+              "image": "/assets/cases/077d614f370d3b6a45e76306f21de422-fa0e161b69.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Door and Window Handle",
+              "description": "The MM80 handle designed by Marcello Morandini is characterised by its distinctive styling. The strictly geometric design of the object thus makes it more than just a handle; it considers itself an invitation to be touched, to open a door or a window and try out how it feels in one’s hand. With its black-and-white contrasts and the harmony between filled and empty space, the MM80, which is also available in polished chrome and matt satin nickel, reflects the designer’s dialogue between stringency and compromise.",
+              "image": "/assets/cases/294ac39719459977cc9c94958d754267-8a20b48cbc.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tap Collection",
+              "description": "The high-quality design of the Lift tap collection conveys a sense of long-lasting use by dispensing with plastic parts. The non-porous surface is also resilient and easy to clean. Its handling is practical thanks to a long, rising spout. This means that even large pots can be filled comfortably. A laminar jet regulator ensures use without splashing. The chrome, matt black, and steel finishes give kitchens a modern industrial look.",
+              "image": "/assets/cases/c2938c2271f6aeda8f8cfa76de5a9423-ac80096457.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "TV and Home Entertainment",
+              "description": "The set-top box can receive TV programs and is also equipped with an intelligent speaker that processes voice commands to control the television. The warm-white casing with its fabric-covered front is raised at an angle of 15 degrees on two tapered chrome feet, inviting the user to interact with it. The function buttons are designed as self-explanatory symbols, enabling the set-top box to be used intuitively.",
+              "image": "/assets/cases/cfba8dd3da6f656bf6bcf74b9c7fa49b-a626599098.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Lighting System",
+              "description": "The durable Opus lighting system was developed as a part of a product family for both residential and commercial sectors. The heart of the concept is an innovative track system, which unites central functions such as lighting, sound, air conditioning, security and multi-sensor monitoring. A wide range of available colours and surface finishes meet the demands of variability and adaptability to different interiors. In addition to discreet, timeless designs, the system allows the setting of glamorous highlights with gold-plated or chrome finishes.",
+              "image": "/assets/cases/140eebe5f9a5d4edb1b83900a8c13c56-31aaf6188d.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Thermostats",
+              "description": "Changing the functions from hand to overhead shower with the Axor ShowerSelect thermostats is easily done by the touch of a button. One to four shower settings can be selected. Easily graspable white symbols on a black background allow for intuitive handling. The thermostats are available in round, square or gently rounded soft cube shapes. Besides the standard chrome model, 15 special surface finishes are offered.",
+              "image": "/assets/cases/4c71135f9fd27b609ab7fc1a79bfa4a6-ac6cc28195.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Elektronische Fernsteuerung für Boote",
+              "description": "The ergonomic design approach of this remote control for outboard engines imbues it with a graceful appearance. The handles flow seamlessly into the arm and form a single visual unit with the base. Cool, glossy chrome details contrast with the dark soft-touch surface of the operating controls. The remote control facilitates the smooth shifting of gears.",
+              "image": "/assets/cases/d825bf94d6b99a4796264924d465d959-4334a9e79e.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Wall Mount",
+              "description": "The DesignMount is an innovative wall mount concept for premium TVs. A clear, striking look with elegant lines fosters a special environment for television units. Its high-grade surfaces are made of brushed aluminium with chrome accents. Well-conceived technical functionality prevents the screen from touching the wall and enables comfortable adjustment of the mount.",
+              "image": "/assets/cases/545b29ad9ec4302713d33be74af5a26a-bec15fedab.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Passenger Car",
+              "description": "The new Peugeot Traveller is designed as a Multiple Purpose Vehicle and is suitable for private use as well as for shuttle applications in the commercial sector. Its precise lines and the high vertical radiator grille present to the same extent a solid and an elegant appearance. The front of the car displays boomerang-shaped lighting elements with chrome-plated LEDs and is also characterised by headlamps set into the bodywork. The interior offers a lot of room for up to nine persons and many seating configurations.",
+              "image": "/assets/cases/7f4cbde0b8ac838ca6d248bb26de6edb-a7586e2770.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washing Machine",
+              "description": "The metallic front of this washing machine and the design for high capacity give a sense of durability and stability. The unusual square door including the window with its chrome-plated edge emphasises the impression of high capacity. The newly introduced storage container at the bottom of the machine results in the door as well as the control elements and the LCD display to be located higher up, making operation easier.",
+              "image": "/assets/cases/0275ea00e4e5beae99972a38459ed82b-a1dc7df75c.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Super-S Wasserreiniger",
+              "description": "The design concept of the Super-S Water Purifier follows the motif of clear water flowing down into the valley. To maximise the impression of freshness and purity, chrome-plated and transparent elements have been applied at the water spout. The water temperature is recognised intuitively by the coloured lighting at the tap. An integrated UV lamp sterilises the dispenser area automatically every two hours. A children’s button is integrated well within reach far down into the housing. Via Wi-Fi connection, remote maintenance by the customer service is possible.",
+              "image": "/assets/cases/20294162ea34cb5b438a3cce334c09ef-f27877d69c.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Dehumidifier",
+              "description": "DPC20-C showcases an overall retro style. With its friendly-looking, homey design, the dehumidifier appeals to the emotions and enriches interiors as an attractive home accessory. A particular eye-catcher is the bold, high-contrast colour scheme of the front; the round design idiom recalls earlier times while at the same time exuding a modern ­appearance. The chromed push buttons embedded on the top allow for easy ­operation.",
+              "image": "/assets/cases/f408ba3aa7b5db8e6514e0efc0026e51-5a59b6b8e1.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Shower System",
+              "description": "Characterised by a slim design and compact dimensions, the shower system embodies a space-saving solution that easily integrates into smaller bathrooms. The shower head is generously sized with a diameter of 310 mm, and is available in a round and a square design, ensuring relaxing shower experiences. The operation is simple and self-explanatory: at the touch of a button, the spray type is selected, and then the water flow adjusted with a turn of the knob.",
+              "image": "/assets/cases/6eb971c144fe528133816cde36d31e4b-3b26fafa17.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Shower System",
+              "description": "Meka combines user comfort and contemporary design with high versatility. A storage shelf – available in chrome, wood or stone finish – can be installed above the slim thermostat to customise the shower system and make it blend harmoniously into different bathroom interiors. An optional digital temperature display complements the user-oriented functions. Two push buttons, integrated into the side of the rotary knob, enable switching between the hand and overhead shower.",
+              "image": "/assets/cases/992b1916523dbf3df6e8c9a332f07d4f-6862423e18.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Microdermabrasion Tool",
+              "description": "This dermatologically tested device offers an easy way to perform microderm­a­brasion at home. The sleek and simple tool of glass and chrome is designed to go deeper into the skin. It removes the top layers of dead, dull skin cells to expose fresh, new skin underneath. A specially designed metal pattern inset into the glass provides the exfoliating effect. When applied with light pressure and moved in downward strokes on the face, the metal part gently abrades the top layer of skin on the forehead, cheek, nose and chin area.",
+              "image": "/assets/cases/01778e76f300e8a19789ac931e8e9434-858d02dd24.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Water Purifier",
+              "description": "The Newtro Ambient is a water purifier which combines contemporary aesthetics with retro elements, as can be observed in the interplay of high-gloss chromium and matte silver. The elegant water purifier is also easy to handle and presents a user-friendly design. The space-saving filter element integrates three different filter technologies and can be replaced via a door at the front of the device in an unproblematic way.",
+              "image": "/assets/cases/90def8998b847338565d34062317ad03-76155aac96.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            }
+          ]
+        },
+        {
           "name": "不锈钢",
           "category": "金属与合金",
           "min": 7.7,
           "max": 8,
           "image": "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
           "images": [
-            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
-            "/assets/materials/02_Stainless_Steel_Product_Range-5c3c0ea5bb.jpg",
-            "/assets/materials/04_Stainless_Steel_Sheets_and_Rods-ca1dc40731.jpg",
-            "/assets/materials/05_Stainless_Steel_Product_Assortment-747d45f710.jpg"
+            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg"
           ],
           "description": "不锈钢常用名称为不锈钢或耐蚀钢，是以铁为基体、含有足够铬并可加入镍、钼等元素的合金体系。铬在表面形成钝化膜，使其具有较好的耐腐蚀和清洁维护性能。奥氏体、铁素体、马氏体等类别在强度、磁性和加工性上不同，常用于厨具、建筑、医疗、交通及产品外壳。",
           "cognitiveText": "不锈钢在“密度”尺度中的参数区间为 7.7–8 g/cm³。",
@@ -3359,10 +3447,7 @@
           "max": 8.53,
           "image": "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
           "images": [
-            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
-            "/assets/materials/02_Brass_Alloy_Components-e2d520e349.jpg",
-            "/assets/materials/03_Brass_Alloy_Product_Showcase-a9260d0607.jpg",
-            "/assets/materials/05_Brass_Cut-to-Length_Components-4c35d4c4b1.jpg"
+            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg"
           ],
           "description": "黄铜是以铜和锌为主要成分的铜合金，常用名称即黄铜。它呈黄至金色金属光泽，具有良好成形、切削、耐腐蚀和装饰性能；加入铅、锡、铝等元素可形成不同用途的特殊黄铜。常用于阀门、管件、紧固件、乐器、灯具、家具五金、饰品和需要金色外观的产品部件。",
           "cognitiveText": "黄铜在“密度”尺度中的参数区间为 8.41–8.53 g/cm³。",
@@ -3516,10 +3601,7 @@
           "max": 9,
           "image": "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
           "images": [
-            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
-            "/assets/materials/02_Copper_Product_Samples-a2d4818efa.jpg",
-            "/assets/materials/03_High-Purity_Copper_Ingots_and_Lumps-99f1e8324a.jpg",
-            "/assets/materials/04_Copper_Metal_Profiles-9c0df64d04.jpg"
+            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg"
           ],
           "description": "铜常用名称为铜，较高纯度的工业铜常称紫铜或纯铜。它具有优良的导电、导热、延展和耐腐蚀性能，表面会随环境形成由红褐到绿色的氧化或碱式碳酸盐层。铜常用于电线、电路、换热器、管材、厨具、建筑饰面和工艺品，也是黄铜、青铜等合金的主要基体。",
           "cognitiveText": "铜在“密度”尺度中的参数区间为 8.96–9 g/cm³。",
@@ -3685,9 +3767,7 @@
           "max": 0.00345,
           "image": "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
           "images": [
-            "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
-            "/assets/materials/03_Polystyrene_Packaging_Beads-9123782bb5.jpg",
-            "/assets/materials/04_EPS_Plastic_Foam_Beads-bfe286b137.jpg"
+            "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg"
           ],
           "description": "EPS常用名称为EPS泡沫、发泡聚苯乙烯，部分地区也称保丽龙。它由可发性聚苯乙烯珠粒经过预发泡和模塑形成，内部包含大量封闭气泡，因此密度低、隔热和缓冲性能突出。常用于产品包装、保温板、头盔缓冲层、展示模型与轻量化填充，但耐热性和耐溶剂性有限。",
           "cognitiveText": "EPS在“弹性模量”尺度中的参数区间为 0.00076–0.00345 GPa。",
@@ -3757,10 +3837,7 @@
           "max": 0.05,
           "image": "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
           "images": [
-            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
-            "/assets/materials/02_Natural_Cork_Sheet_Roll-36f7686707.jpg",
-            "/assets/materials/03_Natural_Cork_Fabric_Rolls-37601d0fd8.jpg",
-            "/assets/materials/05_Natural_Cork_Sheet_Roll-f2bb65d00c.jpg"
+            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg"
           ],
           "description": "软木常用名称为软木或栓皮，主要取自栓皮栎等树木的外层树皮。其蜂窝状封闭细胞结构使材料轻、可压缩、回弹、隔热、吸声并具有一定防水性。软木可制成整片、颗粒板或复合材料，常用于瓶塞、地板、墙面、鞋材、握把、包装和可持续产品表面。",
           "cognitiveText": "软木在“弹性模量”尺度中的参数区间为 0.013–0.05 GPa。",
@@ -3893,9 +3970,7 @@
           "max": 0.7,
           "image": "/assets/materials/04_TPU_SMP_Filament_and_Printed_Samples-986cefa695.jpg",
           "images": [
-            "/assets/materials/04_TPU_SMP_Filament_and_Printed_Samples-986cefa695.jpg",
-            "/assets/materials/03_Thermoplastic_Polyurethane_Pellets_and_Filame-7d84b8c1d6.jpg",
-            "/assets/materials/05_Medical-Grade_Thermoplastic_Polyurethane_Comp-e3405b5e0d.jpg"
+            "/assets/materials/04_TPU_SMP_Filament_and_Printed_Samples-986cefa695.jpg"
           ],
           "description": "TPU常用名称为热塑性聚氨酯或TPU弹性体，是可熔融加工的聚氨酯类弹性材料。它兼具橡胶般的弹性与热塑性塑料的成型效率，通常具有耐磨、抗撕裂、耐油和良好回弹性。常用于手机保护套、鞋材、软管、电缆护套、薄膜、滚轮及可穿戴产品，不同软硬段配方差异较大。",
           "cognitiveText": "TPU在“弹性模量”尺度中的参数区间为 0.03–0.7 GPa。",
@@ -3993,8 +4068,7 @@
           "max": 1.52,
           "image": "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
           "images": [
-            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
-            "/assets/materials/01_Polypropylene_Machined_Sheets_and_Rods-3ff1c90585.jpg"
+            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg"
           ],
           "description": "PP常用名称为聚丙烯或PP塑料，是密度较低、用途广泛的热塑性聚合物。它耐化学品、耐湿、易注塑和挤出，并具有良好的反复弯折疲劳性能，可制作一体式活铰链。常见于食品容器、家居用品、医疗耗材、汽车内饰、无纺布和包装薄膜，但低温冲击性能及耐候性需要关注。",
           "cognitiveText": "PP在“弹性模量”尺度中的参数区间为 0.69–1.52 GPa。",
@@ -4148,10 +4222,7 @@
           "max": 2.6,
           "image": "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
           "images": [
-            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
-            "/assets/materials/02_ABS_Plastic_Pellets-072e2e6578.jpg",
-            "/assets/materials/04_ABS_Plastic_Resin_Granules-4e4ab4d3c6.jpg",
-            "/assets/materials/05_Chimei_ABS_Resin_PA-765b_Plastic_Granules-1a84b6b56a.jpg"
+            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg"
           ],
           "description": "ABS常用名称为ABS塑料或ABS树脂，中文全称为丙烯腈—丁二烯—苯乙烯共聚物。它综合了刚性、韧性、尺寸稳定性和较好的表面加工性能，可通过注塑、挤出、机加工与表面涂装制成复杂外壳。常见于家电、电子产品、玩具、工具外壳、汽车内饰和模型制作。",
           "cognitiveText": "ABS在“弹性模量”尺度中的参数区间为 1.7–2.6 GPa。",
@@ -4305,11 +4376,7 @@
           "max": 2.4,
           "image": "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
           "images": [
-            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
-            "/assets/materials/01_Transparent_Polycarbonate_Pellets-02e6f623ea.jpg",
-            "/assets/materials/03_Clear_Polycarbonate_Pellets-4d7b981453.jpg",
-            "/assets/materials/04_Polycarbonate_Pellets_for_Electrical_Applicat-debca79357.jpg",
-            "/assets/materials/05_Polycarbonate_Resin_Pellets_for_LED_Diffusers-faf7855af7.jpg"
+            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg"
           ],
           "description": "PC常用名称为聚碳酸酯或PC塑料，部分地区也称防弹胶。它是一种透明热塑性工程塑料，突出特点是抗冲击能力强、尺寸稳定、可透光并能进行注塑和热成型。PC常用于透明防护罩、电子产品外壳、头盔镜片、灯具、医疗器械及光学部件，但需要关注表面耐刮擦和耐化学性。",
           "cognitiveText": "PC在“弹性模量”尺度中的参数区间为 2.3–2.4 GPa。",
@@ -4463,9 +4530,7 @@
           "max": 3.3,
           "image": "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
           "images": [
-            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
-            "/assets/materials/02_Polyamide_-PA-_Sheets-_Rods-_and_Tubes-df8c0bbbe9.jpg",
-            "/assets/materials/05_Polyamide_-PA-_Plastic_Samples-47c88552e2.jpg"
+            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg"
           ],
           "description": "PA常用名称为尼龙或PA塑料，材料学名称为聚酰胺。其分子链含有酰胺基团，通常具有较高强度、耐磨性、耐疲劳性和良好的自润滑特征。不同尼龙牌号及含水状态会显著影响尺寸和力学性能。常用于齿轮、轴承、扣件、织物纤维、工具零件及结构性注塑件。",
           "cognitiveText": "PA在“弹性模量”尺度中的参数区间为 2.6–3.3 GPa。",
@@ -4619,9 +4684,7 @@
           "max": 3.3,
           "image": "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
           "images": [
-            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
-            "/assets/materials/02_Clear_Acrylic_Rods_and_Sheets-d7da225e61.jpg",
-            "/assets/materials/05_Acrylic_PMMA_Samples-d06b9c7a7e.jpg"
+            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg"
           ],
           "description": "PMMA常用名称为亚克力、有机玻璃或压克力，化学名称为聚甲基丙烯酸甲酯。它是透明度较高的无定形热塑性塑料，具有良好的耐候性、着色性和机械加工性能，常作为玻璃替代材料。典型应用包括灯具、展示架、标识、透明罩、汽车灯具和光学件，但抗冲击性低于PC。",
           "cognitiveText": "PMMA在“弹性模量”尺度中的参数区间为 2.8–3.3 GPa。",
@@ -4642,11 +4705,7 @@
           "max": 5,
           "image": "/assets/materials/02_Wool_Felt_Roving_Yarn-7946691595.jpg",
           "images": [
-            "/assets/materials/02_Wool_Felt_Roving_Yarn-7946691595.jpg",
-            "/assets/materials/01_Natural_Wool_Roving_Fiber-b59c9d5c20.jpg",
-            "/assets/materials/03_Raw-Colored_Carded_Felting_Wool-f9d8f2e899.jpg",
-            "/assets/materials/04_Natural_Wool_Felt_Texture-868872b2dd.jpg",
-            "/assets/materials/05_Natural_Roving_Wool_Fiber-5b4f80b34c.jpg"
+            "/assets/materials/02_Wool_Felt_Roving_Yarn-7946691595.jpg"
           ],
           "description": "羊毛纤维常用名称为羊毛或毛纤维，是羊等动物毛被中取得的天然蛋白质纤维。其表面鳞片和天然卷曲赋予良好的保温、弹性、吸湿与毡化特性，同时具有一定阻燃性。羊毛可纺成纱线、织物、毡和吸声材料，常用于服装、家居软装、鞋材、隔热吸声产品及复合材料。",
           "cognitiveText": "羊毛纤维在“弹性模量”尺度中的参数区间为 2.3–5 GPa。",
@@ -4772,8 +4831,7 @@
           "max": 11,
           "image": "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
           "images": [
-            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
-            "/assets/materials/04_PET_Preforms_and_Pellets-66a536ba55.jpg"
+            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg"
           ],
           "description": "PET常用名称为PET塑料或聚酯，化学名称为聚对苯二甲酸乙二酯。它可制成透明容器、薄膜、片材和纤维，具有较好的强度、气体阻隔性、尺寸稳定性和可回收性。结晶程度与加工状态会改变透明度和耐热性，常用于饮料瓶、食品包装、电子薄膜、纺织纤维及工程塑料。",
           "cognitiveText": "PET在“弹性模量”尺度中的参数区间为 3.5–11 GPa。",
@@ -4927,11 +4985,7 @@
           "max": 12.3,
           "image": "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
           "images": [
-            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
-            "/assets/materials/02_White_Oak_Lumber_Boards-e9db162d1b.jpg",
-            "/assets/materials/03_Oak_Thin_Boards_Set-b06db8e91b.jpg",
-            "/assets/materials/04_Oak_Lumber_Boards-4144b6bf03.jpg",
-            "/assets/materials/05_White_Oak_Plain-Sawn_Hardwood_Planks-9f8aaada2b.jpg"
+            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg"
           ],
           "description": "橡木常用名称为橡木或栎木，来自栎属多种树木，是家具和室内产品中常见的阔叶木材。其纹理明显，通常具有较好的强度、耐磨性和表面涂饰效果，白橡与红橡在导管结构、色泽和耐久性方面存在差异。常用于家具、地板、酒桶、饰面板和结构木制品，性能受含水率影响明显。",
           "cognitiveText": "橡木在“弹性模量”尺度中的参数区间为 10.6–12.3 GPa。",
@@ -5085,9 +5139,7 @@
           "max": 15,
           "image": "/assets/materials/03_Low-Melt_Polyester_Fiber_Samples-7cd5d15f73.jpg",
           "images": [
-            "/assets/materials/03_Low-Melt_Polyester_Fiber_Samples-7cd5d15f73.jpg",
-            "/assets/materials/02_Polyester_Filament_Yarn_Samples-dc59ea2163.jpg",
-            "/assets/materials/05_Bright_White_Polyester_Hank_Yarn-3d918eaf42.jpg"
+            "/assets/materials/03_Low-Melt_Polyester_Fiber_Samples-7cd5d15f73.jpg"
           ],
           "description": "PET聚酯纤维常用名称为涤纶或聚酯纤维，是以聚对苯二甲酸乙二酯为主要成分制成的合成纤维。它具有强度较高、耐磨、易洗快干和尺寸稳定等特点，可制成长丝、短纤、织物或非织造材料。常用于服装、箱包、家具面料、绳带、过滤材料及纤维增强复合材料。",
           "cognitiveText": "PET聚酯纤维在“弹性模量”尺度中的参数区间为 10–15 GPa。",
@@ -5241,11 +5293,7 @@
           "max": 25,
           "image": "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
           "images": [
-            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
-            "/assets/materials/02_Bamboo_Laminated_Wood_Boards-1aabd4826c.jpg",
-            "/assets/materials/03_Bamboo_Slats_Display-fca6bce693.jpg",
-            "/assets/materials/04_Natural_Dry_Bamboo_Strips-a9ba0e4cf8.jpg",
-            "/assets/materials/05_Stacked_Bamboo_Plywood_Boards-2231a7d0e2.jpg"
+            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg"
           ],
           "description": "竹材常用名称为竹材或竹木，来源于竹秆，经干燥、防护、剖分、层压或重组后可形成板材和构件。其纤维沿生长方向排列，具有较高比强度和鲜明纹理，但性能受竹种、部位、含水率及胶合方式影响。常用于家具、餐具、地板、包装、建筑构件和可持续产品设计。",
           "cognitiveText": "竹材在“弹性模量”尺度中的参数区间为 5–25 GPa。",
@@ -5280,10 +5328,7 @@
           "max": 41,
           "image": "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
           "images": [
-            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
-            "/assets/materials/01_Concrete_Aggregate_Sample-2a7751994f.jpg",
-            "/assets/materials/03_Exposed_Aggregate_Concrete_Samples-ef04d78dfc.jpg",
-            "/assets/materials/04_Concrete_Texture_Samples-68a5c93cd5.jpg"
+            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg"
           ],
           "description": "混凝土常用名称为混凝土，工程中也简称“砼”，由水泥、骨料、水及必要外加剂拌合并硬化形成。它抗压能力较强、可浇筑成复杂形状且成本相对可控，但抗拉性能较弱，常与钢筋组合使用。除建筑结构外，也用于家具、灯具、花器和公共设施等产品，表观性能受配比、养护和孔隙影响。",
           "cognitiveText": "混凝土在“弹性模量”尺度中的参数区间为 14–41 GPa。",
@@ -5437,10 +5482,7 @@
           "max": 45,
           "image": "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
           "images": [
-            "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
-            "/assets/materials/01_Magnesium_Alloy_Samples-d904aea5eb.jpg",
-            "/assets/materials/02_99-9-_Magnesium_Alloy_Sheet-feebc7a9a1.jpg",
-            "/assets/materials/04_Magnesium_Alloy_Ingot_Display-ce3efccb4f.jpg"
+            "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg"
           ],
           "description": "镁合金是以镁为基体并加入铝、锌、锰、稀土等元素形成的轻金属材料，常用名称即镁合金。其密度低、比强度较好、减振和电磁屏蔽性能突出，适合压铸和机加工，但耐腐蚀、燃烧风险及表面防护需要重点控制。常用于电子外壳、汽车零件、航空部件和轻量化器材。",
           "cognitiveText": "镁合金在“弹性模量”尺度中的参数区间为 44.8–45 GPa。",
@@ -5594,9 +5636,7 @@
           "max": 74,
           "image": "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
           "images": [
-            "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
-            "/assets/materials/02_Grey-White_Marble_Slab-3fc844a84b.jpg",
-            "/assets/materials/05_White_Marble_Slab_Texture-c04bb0dbdf.jpg"
+            "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg"
           ],
           "description": "大理石常用名称为大理石，地质学上主要对应大理岩，是石灰岩或白云岩经变质作用形成的天然石材。其纹理、颜色和孔隙会因矿物组成而变化，表面可抛光形成装饰效果。常用于建筑饰面、台面、雕塑、家具构件和工艺品，但需要关注脆性、重量、酸敏感性及天然批次差异。",
           "cognitiveText": "大理石在“弹性模量”尺度中的参数区间为 23–74 GPa。",
@@ -5722,10 +5762,7 @@
           "max": 67,
           "image": "/assets/materials/01_Borosilicate_Glass_Sheets_and_Discs-e83d904080.jpg",
           "images": [
-            "/assets/materials/01_Borosilicate_Glass_Sheets_and_Discs-e83d904080.jpg",
-            "/assets/materials/02_Borosilicate_Glass_Tubes-9a3942a67a.jpg",
-            "/assets/materials/03_Clear_Simax_Borosilicate_Glass_Rods-f0e54582e6.jpg",
-            "/assets/materials/04_Clear_Borosilicate_Glass_Discs_and_Plates-979830d297.jpg"
+            "/assets/materials/01_Borosilicate_Glass_Sheets_and_Discs-e83d904080.jpg"
           ],
           "description": "材料简介",
           "cognitiveText": "硼硅玻璃在“弹性模量”尺度中的参数区间为 62–67 GPa。",
@@ -5879,10 +5916,7 @@
           "max": 70,
           "image": "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
           "images": [
-            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
-            "/assets/materials/01_Aluminum_Alloy_Extrusion_Rods-cc5ade1966.jpg",
-            "/assets/materials/03_Aluminum_Alloy_Solid_Bars-647e9f31c2.jpg",
-            "/assets/materials/05_Extruded_Aluminum_Alloy_Bars-9f9569126b.jpg"
+            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg"
           ],
           "description": "铝合金是以铝为基体并加入镁、硅、铜、锌等元素形成的轻金属材料，常用名称即铝合金。它具有低密度、较好的比强度、耐腐蚀性和加工性，可进行挤压、压铸、冲压、机加工及阳极氧化。常用于电子产品外壳、交通工具、家具、建筑型材、灯具和包装。",
           "cognitiveText": "铝合金在“弹性模量”尺度中的参数区间为 70–70 GPa。",
@@ -6036,8 +6070,7 @@
           "max": 80,
           "image": "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
           "images": [
-            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
-            "/assets/materials/02_99-99-纯金颗粒-9ad8114de2.jpg"
+            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg"
           ],
           "description": "金常用名称为黄金，是具有黄色金属光泽的贵金属。它延展性和导电性突出，化学性质稳定，不易氧化，但纯金较软，工程使用中常通过加入银、铜等元素形成不同成色的合金。除珠宝和装饰外，金还用于电子触点、连接器、镀层、牙科和精密器件，其成本与资源属性非常显著。",
           "cognitiveText": "金在“弹性模量”尺度中的参数区间为 70–80 GPa。",
@@ -6142,9 +6175,7 @@
           "max": 85,
           "image": "/assets/materials/04_Fine_999_Silver_Sheet_for_Jewellery_Making-1863f6a346.jpg",
           "images": [
-            "/assets/materials/04_Fine_999_Silver_Sheet_for_Jewellery_Making-1863f6a346.jpg",
-            "/assets/materials/03_High-Purity_Silver_Strips-5a8faeace7.jpg",
-            "/assets/materials/05_Argentium_Silver_Sheets-e800fe36d8.jpg"
+            "/assets/materials/04_Fine_999_Silver_Sheet_for_Jewellery_Making-1863f6a346.jpg"
           ],
           "description": "银常用名称为白银，是具有明亮白色金属光泽的贵金属。它在常见金属中具有很高的导电和导热能力，同时延展性良好，但表面会与含硫物质反应而变暗。银除用于首饰、餐具和装饰外，也广泛用于电子触点、导电浆料、光伏电极、镜面镀层和抗菌材料。",
           "cognitiveText": "银在“弹性模量”尺度中的参数区间为 80–85 GPa。",
@@ -6242,10 +6273,7 @@
           "max": 110,
           "image": "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
           "images": [
-            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
-            "/assets/materials/02_Brass_Alloy_Components-e2d520e349.jpg",
-            "/assets/materials/03_Brass_Alloy_Product_Showcase-a9260d0607.jpg",
-            "/assets/materials/05_Brass_Cut-to-Length_Components-4c35d4c4b1.jpg"
+            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg"
           ],
           "description": "黄铜是以铜和锌为主要成分的铜合金，常用名称即黄铜。它呈黄至金色金属光泽，具有良好成形、切削、耐腐蚀和装饰性能；加入铅、锡、铝等元素可形成不同用途的特殊黄铜。常用于阀门、管件、紧固件、乐器、灯具、家具五金、饰品和需要金色外观的产品部件。",
           "cognitiveText": "黄铜在“弹性模量”尺度中的参数区间为 97–110 GPa。",
@@ -6399,9 +6427,7 @@
           "max": 150,
           "image": "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
           "images": [
-            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
-            "/assets/materials/01_White_Porcelain_Floor_Tiles-0aa85f40b4.jpg",
-            "/assets/materials/03_Grazioso_Canvas_White_Porcelain_Tile_Sample-2bf10bfed4.jpg"
+            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg"
           ],
           "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
           "cognitiveText": "瓷在“弹性模量”尺度中的参数区间为 67–150 GPa。",
@@ -6576,10 +6602,7 @@
           "max": 129.8,
           "image": "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
           "images": [
-            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
-            "/assets/materials/02_Copper_Product_Samples-a2d4818efa.jpg",
-            "/assets/materials/03_High-Purity_Copper_Ingots_and_Lumps-99f1e8324a.jpg",
-            "/assets/materials/04_Copper_Metal_Profiles-9c0df64d04.jpg"
+            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg"
           ],
           "description": "铜常用名称为铜，较高纯度的工业铜常称紫铜或纯铜。它具有优良的导电、导热、延展和耐腐蚀性能，表面会随环境形成由红褐到绿色的氧化或碱式碳酸盐层。铜常用于电线、电路、换热器、管材、厨具、建筑饰面和工艺品，也是黄铜、青铜等合金的主要基体。",
           "cognitiveText": "铜在“弹性模量”尺度中的参数区间为 120–129.8 GPa。",
@@ -6733,8 +6756,7 @@
           "max": 172.4,
           "image": "/assets/materials/05_Platinum_Strips_Sheets_and_Discs-9e081ce32d.jpg",
           "images": [
-            "/assets/materials/05_Platinum_Strips_Sheets_and_Discs-9e081ce32d.jpg",
-            "/assets/materials/03_High-Purity_Platinum_Foil-9ef4c54042.jpg"
+            "/assets/materials/05_Platinum_Strips_Sheets_and_Discs-9e081ce32d.jpg"
           ],
           "description": "材料简介",
           "cognitiveText": "铂在“弹性模量”尺度中的参数区间为 154–172.4 GPa。",
@@ -6755,8 +6777,7 @@
           "max": 180,
           "image": "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
           "images": [
-            "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
-            "/assets/materials/03_Cast_Iron_Ingot-39834ac7d0.jpg"
+            "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg"
           ],
           "description": "铸铁是含碳量较高、主要通过铸造成形的铁碳合金，常用名称即铸铁。灰铸铁、球墨铸铁、白口铸铁等类型因石墨形态和组织不同，在减振、强度、耐磨和韧性上差异明显。铸铁流动性好、成本相对低，常用于机床底座、发动机部件、管件、炉具、锅具和厚壁结构件。",
           "cognitiveText": "铸铁在“弹性模量”尺度中的参数区间为 180–180 GPa。",
@@ -6910,9 +6931,7 @@
           "max": 200,
           "image": "/assets/materials/04_Stainless_Steel_Tubes_and_Sheets-f1d6b92b02.jpg",
           "images": [
-            "/assets/materials/04_Stainless_Steel_Tubes_and_Sheets-f1d6b92b02.jpg",
-            "/assets/materials/03_Stainless_Steel_Sheets_and_Rods-ef11d267da.jpg",
-            "/assets/materials/05_Stainless_Steel_Jewelry_Material_Samples-6970953370.jpg"
+            "/assets/materials/04_Stainless_Steel_Tubes_and_Sheets-f1d6b92b02.jpg"
           ],
           "description": "316/316L不锈钢常用名称为316不锈钢和低碳316L不锈钢，是含铬、镍、钼的奥氏体不锈钢。钼能提高耐点蚀和耐氯化物腐蚀能力，316L因碳含量较低，更适合焊接后仍需保持耐蚀性的构件。它常用于医疗器械、食品设备、海洋附件、紧固件及精密产品外壳。",
           "cognitiveText": "316/316L不锈钢在“弹性模量”尺度中的参数区间为 193–200 GPa。",
@@ -7060,16 +7079,167 @@
           ]
         },
         {
+          "name": "铬金属",
+          "category": "金属与合金",
+          "min": 140,
+          "max": 279,
+          "image": "/assets/materials/04_Chromium_Sputtering_Target-e777a60e6c.jpg",
+          "images": [
+            "/assets/materials/04_Chromium_Sputtering_Target-e777a60e6c.jpg"
+          ],
+          "description": "材料简介",
+          "cognitiveText": "铬金属在“弹性模量”尺度中的参数区间为 140–279 GPa。",
+          "cases": [
+            {
+              "productName": "Switch and System",
+              "description": "One of the key challenges of design today seems to be to create innovative products that are tailored to the needs and personalities of consumers and are sustainable at the same time. The Busch-art linear/ALBA switch range by Busch-Jaeger and Niessen, market leader in the field of electrical installation technology and building automation, fulfils this brief exceptionally well. A prominent feature of these switches is the position of the inserts, which float above the frame and are not, as usual, enclosed by them. This gives the product range a unique sense of lightness, heightened by the sharp, slim contours that radiate clarity and elegance across a wide selection of materials and models. The breadth of the Busch-art linear/ALBA switch range is hard to beat, in particular with regard to the frames. Whether it is glass, structured glass, wood, aluminium or plastic, with fine surrounds in chrome, gold or rose gold, and glossy, matt or mirrored surfaces, the rich variety on offer will satisfy personal preferences and suit the widest possible range of interiors. The soft feel of the switches also makes for a pleasurable sensory experience. In this way, the Busch-art linear/ALBA range is not only testimony to in-depth deliberations about form, material and colour but also about the environment, responsibility and the future. The collection is made with recycled and recyclable materials and follows a cradle-to-cradle philosophy for the healthy and regenerative productivity of companies. All plastic parts are produced from at least 92 per cent (white plastic) and up to 98 per cent (black plastic) recycled materials. That translates into a total reduction in CO₂ emissions of 82 per cent and requires a considerable amount of development work as it is difficult to produce such perfect, flat surfaces from recyclate. It is clear that sustainability is not a secondary consideration for Busch-Jaeger and Niessen but a value that is at the very heart of its design and product development work. The jury recognised this. “The Busch-art linear/ALBA switch range is both an object lesson in carefully considered design – from the construction through to the execution of details and surfaces, as well as the impressive haptics – and also a benchmark for sustainable design.”",
+              "image": "/assets/cases/8a430984b2f914f12ea1e718f4e83a15-2ed704b2bb.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Stove",
+              "description": "AGA ERA 110i is a premium-class multifunctional cooker. Black glass and high-quality chrome elements give it a minimalist aesthetic, which is reflected in the geometric design. The equipment includes an induction hob and a large hotplate on the top, as well as a convection oven and two cast-iron radiant ovens, each concealed behind a separate door. Operation is via a generously dimensioned touch control surface with integrated LED displays and a character display.",
+              "image": "/assets/cases/8a542da79dd1dfeac101bb9304e43700-c7483bd02a.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washer-Dryer Tower",
+              "description": "The Electrolux Laundry Tower is a space-saving washer-dryer combo for keeping the laundry area tidy. With the stylish colour options of white or titanium, it fits into any room concept. The sturdy, powder-coated metal plates along with elegant chrome and metal accents give the appliance a striking look. Thanks to the user-oriented interface with large touch elements and easily readable backlit displays as well as acoustic signals, the product ensures an intuitive and aesthetically pleasing washing experience.",
+              "image": "/assets/cases/8c67a0df234671dce921cb7d3b898034-45764534eb.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Refrigerator",
+              "description": "Vestel Zenith is a large-volume refrigerator with compact external dimensions. The minimalist appearance is based on a geometric silhouette. The horizontal panel and the chromium-plated handle balance the composition and harmonise with the overall appearance. The design also focuses on sustainability, as it relies on recycled materials made of olive seeds and sugar cane. Technologies in the interior provide flexible use for differing needs and help to store fresh food for extended periods.",
+              "image": "/assets/cases/277b3a294b527f10c68ac0fa5bf476a8-28a7c20acf.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washing Machine",
+              "description": "The BOSCH Series8 picks up on the reduced and solid appearance typical of the brand: the rotary knob and the large LED display allow for intuitive operation and selection of the wash programme as well as the precise setting of all parameters. Subtle colour accents such as red signals on the screen or chrome elements on the drawer and porthole freshen up the appearance and emphasise the clear geometric shapes of the body.",
+              "image": "/assets/cases/077d614f370d3b6a45e76306f21de422-fa0e161b69.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Door and Window Handle",
+              "description": "The MM80 handle designed by Marcello Morandini is characterised by its distinctive styling. The strictly geometric design of the object thus makes it more than just a handle; it considers itself an invitation to be touched, to open a door or a window and try out how it feels in one’s hand. With its black-and-white contrasts and the harmony between filled and empty space, the MM80, which is also available in polished chrome and matt satin nickel, reflects the designer’s dialogue between stringency and compromise.",
+              "image": "/assets/cases/294ac39719459977cc9c94958d754267-8a20b48cbc.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tap Collection",
+              "description": "The high-quality design of the Lift tap collection conveys a sense of long-lasting use by dispensing with plastic parts. The non-porous surface is also resilient and easy to clean. Its handling is practical thanks to a long, rising spout. This means that even large pots can be filled comfortably. A laminar jet regulator ensures use without splashing. The chrome, matt black, and steel finishes give kitchens a modern industrial look.",
+              "image": "/assets/cases/c2938c2271f6aeda8f8cfa76de5a9423-ac80096457.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "TV and Home Entertainment",
+              "description": "The set-top box can receive TV programs and is also equipped with an intelligent speaker that processes voice commands to control the television. The warm-white casing with its fabric-covered front is raised at an angle of 15 degrees on two tapered chrome feet, inviting the user to interact with it. The function buttons are designed as self-explanatory symbols, enabling the set-top box to be used intuitively.",
+              "image": "/assets/cases/cfba8dd3da6f656bf6bcf74b9c7fa49b-a626599098.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Lighting System",
+              "description": "The durable Opus lighting system was developed as a part of a product family for both residential and commercial sectors. The heart of the concept is an innovative track system, which unites central functions such as lighting, sound, air conditioning, security and multi-sensor monitoring. A wide range of available colours and surface finishes meet the demands of variability and adaptability to different interiors. In addition to discreet, timeless designs, the system allows the setting of glamorous highlights with gold-plated or chrome finishes.",
+              "image": "/assets/cases/140eebe5f9a5d4edb1b83900a8c13c56-31aaf6188d.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Thermostats",
+              "description": "Changing the functions from hand to overhead shower with the Axor ShowerSelect thermostats is easily done by the touch of a button. One to four shower settings can be selected. Easily graspable white symbols on a black background allow for intuitive handling. The thermostats are available in round, square or gently rounded soft cube shapes. Besides the standard chrome model, 15 special surface finishes are offered.",
+              "image": "/assets/cases/4c71135f9fd27b609ab7fc1a79bfa4a6-ac6cc28195.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Elektronische Fernsteuerung für Boote",
+              "description": "The ergonomic design approach of this remote control for outboard engines imbues it with a graceful appearance. The handles flow seamlessly into the arm and form a single visual unit with the base. Cool, glossy chrome details contrast with the dark soft-touch surface of the operating controls. The remote control facilitates the smooth shifting of gears.",
+              "image": "/assets/cases/d825bf94d6b99a4796264924d465d959-4334a9e79e.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Wall Mount",
+              "description": "The DesignMount is an innovative wall mount concept for premium TVs. A clear, striking look with elegant lines fosters a special environment for television units. Its high-grade surfaces are made of brushed aluminium with chrome accents. Well-conceived technical functionality prevents the screen from touching the wall and enables comfortable adjustment of the mount.",
+              "image": "/assets/cases/545b29ad9ec4302713d33be74af5a26a-bec15fedab.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Passenger Car",
+              "description": "The new Peugeot Traveller is designed as a Multiple Purpose Vehicle and is suitable for private use as well as for shuttle applications in the commercial sector. Its precise lines and the high vertical radiator grille present to the same extent a solid and an elegant appearance. The front of the car displays boomerang-shaped lighting elements with chrome-plated LEDs and is also characterised by headlamps set into the bodywork. The interior offers a lot of room for up to nine persons and many seating configurations.",
+              "image": "/assets/cases/7f4cbde0b8ac838ca6d248bb26de6edb-a7586e2770.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washing Machine",
+              "description": "The metallic front of this washing machine and the design for high capacity give a sense of durability and stability. The unusual square door including the window with its chrome-plated edge emphasises the impression of high capacity. The newly introduced storage container at the bottom of the machine results in the door as well as the control elements and the LCD display to be located higher up, making operation easier.",
+              "image": "/assets/cases/0275ea00e4e5beae99972a38459ed82b-a1dc7df75c.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Super-S Wasserreiniger",
+              "description": "The design concept of the Super-S Water Purifier follows the motif of clear water flowing down into the valley. To maximise the impression of freshness and purity, chrome-plated and transparent elements have been applied at the water spout. The water temperature is recognised intuitively by the coloured lighting at the tap. An integrated UV lamp sterilises the dispenser area automatically every two hours. A children’s button is integrated well within reach far down into the housing. Via Wi-Fi connection, remote maintenance by the customer service is possible.",
+              "image": "/assets/cases/20294162ea34cb5b438a3cce334c09ef-f27877d69c.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Dehumidifier",
+              "description": "DPC20-C showcases an overall retro style. With its friendly-looking, homey design, the dehumidifier appeals to the emotions and enriches interiors as an attractive home accessory. A particular eye-catcher is the bold, high-contrast colour scheme of the front; the round design idiom recalls earlier times while at the same time exuding a modern ­appearance. The chromed push buttons embedded on the top allow for easy ­operation.",
+              "image": "/assets/cases/f408ba3aa7b5db8e6514e0efc0026e51-5a59b6b8e1.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Shower System",
+              "description": "Characterised by a slim design and compact dimensions, the shower system embodies a space-saving solution that easily integrates into smaller bathrooms. The shower head is generously sized with a diameter of 310 mm, and is available in a round and a square design, ensuring relaxing shower experiences. The operation is simple and self-explanatory: at the touch of a button, the spray type is selected, and then the water flow adjusted with a turn of the knob.",
+              "image": "/assets/cases/6eb971c144fe528133816cde36d31e4b-3b26fafa17.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Shower System",
+              "description": "Meka combines user comfort and contemporary design with high versatility. A storage shelf – available in chrome, wood or stone finish – can be installed above the slim thermostat to customise the shower system and make it blend harmoniously into different bathroom interiors. An optional digital temperature display complements the user-oriented functions. Two push buttons, integrated into the side of the rotary knob, enable switching between the hand and overhead shower.",
+              "image": "/assets/cases/992b1916523dbf3df6e8c9a332f07d4f-6862423e18.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Microdermabrasion Tool",
+              "description": "This dermatologically tested device offers an easy way to perform microderm­a­brasion at home. The sleek and simple tool of glass and chrome is designed to go deeper into the skin. It removes the top layers of dead, dull skin cells to expose fresh, new skin underneath. A specially designed metal pattern inset into the glass provides the exfoliating effect. When applied with light pressure and moved in downward strokes on the face, the metal part gently abrades the top layer of skin on the forehead, cheek, nose and chin area.",
+              "image": "/assets/cases/01778e76f300e8a19789ac931e8e9434-858d02dd24.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Water Purifier",
+              "description": "The Newtro Ambient is a water purifier which combines contemporary aesthetics with retro elements, as can be observed in the interplay of high-gloss chromium and matte silver. The elegant water purifier is also easy to handle and presents a user-friendly design. The space-saving filter element integrates three different filter technologies and can be replaced via a door at the front of the device in an unproblematic way.",
+              "image": "/assets/cases/90def8998b847338565d34062317ad03-76155aac96.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            }
+          ]
+        },
+        {
           "name": "不锈钢",
           "category": "金属与合金",
           "min": 200,
           "max": 220,
           "image": "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
           "images": [
-            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
-            "/assets/materials/02_Stainless_Steel_Product_Range-5c3c0ea5bb.jpg",
-            "/assets/materials/04_Stainless_Steel_Sheets_and_Rods-ca1dc40731.jpg",
-            "/assets/materials/05_Stainless_Steel_Product_Assortment-747d45f710.jpg"
+            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg"
           ],
           "description": "不锈钢常用名称为不锈钢或耐蚀钢，是以铁为基体、含有足够铬并可加入镍、钼等元素的合金体系。铬在表面形成钝化膜，使其具有较好的耐腐蚀和清洁维护性能。奥氏体、铁素体、马氏体等类别在强度、磁性和加工性上不同，常用于厨具、建筑、医疗、交通及产品外壳。",
           "cognitiveText": "不锈钢在“弹性模量”尺度中的参数区间为 200–220 GPa。",
@@ -7223,11 +7393,7 @@
           "max": 400,
           "image": "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
           "images": [
-            "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
-            "/assets/materials/02_Unidirectional_Carbon_Fiber_Fabric_Roll-96256e7846.jpg",
-            "/assets/materials/03_Carbon_Fiber_Fabric_Roll-52999713f1.jpg",
-            "/assets/materials/04_Woven_Carbon_Fiber_Fabric_Roll-72fc649b71.jpg",
-            "/assets/materials/05_UD_Carbon_Fiber_Fabric_Roll-6fe47321c3.jpg"
+            "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg"
           ],
           "description": "碳纤维常用简称为碳纤，是含碳量很高的细丝状材料，通常由聚丙烯腈等前驱体经稳定化和碳化制成。它具有低密度、高比强度、高比模量和明显方向性，多与环氧等树脂组合成复合材料。常用于航空航天、运动器材、自行车、汽车部件、机器人和高端产品外壳。",
           "cognitiveText": "碳纤维在“弹性模量”尺度中的参数区间为 220–400 GPa。",
@@ -7393,10 +7559,7 @@
           "max": 0.048,
           "image": "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
           "images": [
-            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
-            "/assets/materials/02_Natural_Cork_Sheet_Roll-36f7686707.jpg",
-            "/assets/materials/03_Natural_Cork_Fabric_Rolls-37601d0fd8.jpg",
-            "/assets/materials/05_Natural_Cork_Sheet_Roll-f2bb65d00c.jpg"
+            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg"
           ],
           "description": "软木常用名称为软木或栓皮，主要取自栓皮栎等树木的外层树皮。其蜂窝状封闭细胞结构使材料轻、可压缩、回弹、隔热、吸声并具有一定防水性。软木可制成整片、颗粒板或复合材料，常用于瓶塞、地板、墙面、鞋材、握把、包装和可持续产品表面。",
           "cognitiveText": "软木在“导热系数”尺度中的参数区间为 0.035–0.048 W/(m·K)。",
@@ -7529,11 +7692,7 @@
           "max": 0.19,
           "image": "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
           "images": [
-            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
-            "/assets/materials/02_White_Oak_Lumber_Boards-e9db162d1b.jpg",
-            "/assets/materials/03_Oak_Thin_Boards_Set-b06db8e91b.jpg",
-            "/assets/materials/04_Oak_Lumber_Boards-4144b6bf03.jpg",
-            "/assets/materials/05_White_Oak_Plain-Sawn_Hardwood_Planks-9f8aaada2b.jpg"
+            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg"
           ],
           "description": "橡木常用名称为橡木或栎木，来自栎属多种树木，是家具和室内产品中常见的阔叶木材。其纹理明显，通常具有较好的强度、耐磨性和表面涂饰效果，白橡与红橡在导管结构、色泽和耐久性方面存在差异。常用于家具、地板、酒桶、饰面板和结构木制品，性能受含水率影响明显。",
           "cognitiveText": "橡木在“导热系数”尺度中的参数区间为 0.136–0.19 W/(m·K)。",
@@ -7687,9 +7846,7 @@
           "max": 0.19,
           "image": "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
           "images": [
-            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
-            "/assets/materials/02_Clear_Acrylic_Rods_and_Sheets-d7da225e61.jpg",
-            "/assets/materials/05_Acrylic_PMMA_Samples-d06b9c7a7e.jpg"
+            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg"
           ],
           "description": "PMMA常用名称为亚克力、有机玻璃或压克力，化学名称为聚甲基丙烯酸甲酯。它是透明度较高的无定形热塑性塑料，具有良好的耐候性、着色性和机械加工性能，常作为玻璃替代材料。典型应用包括灯具、展示架、标识、透明罩、汽车灯具和光学件，但抗冲击性低于PC。",
           "cognitiveText": "PMMA在“导热系数”尺度中的参数区间为 0.17–0.19 W/(m·K)。",
@@ -7710,8 +7867,7 @@
           "max": 0.22,
           "image": "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
           "images": [
-            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
-            "/assets/materials/01_Polypropylene_Machined_Sheets_and_Rods-3ff1c90585.jpg"
+            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg"
           ],
           "description": "PP常用名称为聚丙烯或PP塑料，是密度较低、用途广泛的热塑性聚合物。它耐化学品、耐湿、易注塑和挤出，并具有良好的反复弯折疲劳性能，可制作一体式活铰链。常见于食品容器、家居用品、医疗耗材、汽车内饰、无纺布和包装薄膜，但低温冲击性能及耐候性需要关注。",
           "cognitiveText": "PP在“导热系数”尺度中的参数区间为 0.15–0.22 W/(m·K)。",
@@ -7865,11 +8021,7 @@
           "max": 0.22,
           "image": "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
           "images": [
-            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
-            "/assets/materials/01_Transparent_Polycarbonate_Pellets-02e6f623ea.jpg",
-            "/assets/materials/03_Clear_Polycarbonate_Pellets-4d7b981453.jpg",
-            "/assets/materials/04_Polycarbonate_Pellets_for_Electrical_Applicat-debca79357.jpg",
-            "/assets/materials/05_Polycarbonate_Resin_Pellets_for_LED_Diffusers-faf7855af7.jpg"
+            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg"
           ],
           "description": "PC常用名称为聚碳酸酯或PC塑料，部分地区也称防弹胶。它是一种透明热塑性工程塑料，突出特点是抗冲击能力强、尺寸稳定、可透光并能进行注塑和热成型。PC常用于透明防护罩、电子产品外壳、头盔镜片、灯具、医疗器械及光学部件，但需要关注表面耐刮擦和耐化学性。",
           "cognitiveText": "PC在“导热系数”尺度中的参数区间为 0.19–0.22 W/(m·K)。",
@@ -8023,9 +8175,7 @@
           "max": 0.25,
           "image": "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
           "images": [
-            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
-            "/assets/materials/02_Polyamide_-PA-_Sheets-_Rods-_and_Tubes-df8c0bbbe9.jpg",
-            "/assets/materials/05_Polyamide_-PA-_Plastic_Samples-47c88552e2.jpg"
+            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg"
           ],
           "description": "PA常用名称为尼龙或PA塑料，材料学名称为聚酰胺。其分子链含有酰胺基团，通常具有较高强度、耐磨性、耐疲劳性和良好的自润滑特征。不同尼龙牌号及含水状态会显著影响尺寸和力学性能。常用于齿轮、轴承、扣件、织物纤维、工具零件及结构性注塑件。",
           "cognitiveText": "PA在“导热系数”尺度中的参数区间为 0.23–0.25 W/(m·K)。",
@@ -8179,10 +8329,7 @@
           "max": 0.34,
           "image": "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
           "images": [
-            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
-            "/assets/materials/02_ABS_Plastic_Pellets-072e2e6578.jpg",
-            "/assets/materials/04_ABS_Plastic_Resin_Granules-4e4ab4d3c6.jpg",
-            "/assets/materials/05_Chimei_ABS_Resin_PA-765b_Plastic_Granules-1a84b6b56a.jpg"
+            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg"
           ],
           "description": "ABS常用名称为ABS塑料或ABS树脂，中文全称为丙烯腈—丁二烯—苯乙烯共聚物。它综合了刚性、韧性、尺寸稳定性和较好的表面加工性能，可通过注塑、挤出、机加工与表面涂装制成复杂外壳。常见于家电、电子产品、玩具、工具外壳、汽车内饰和模型制作。",
           "cognitiveText": "ABS在“导热系数”尺度中的参数区间为 0.17–0.34 W/(m·K)。",
@@ -8336,8 +8483,7 @@
           "max": 0.4,
           "image": "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
           "images": [
-            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
-            "/assets/materials/04_PET_Preforms_and_Pellets-66a536ba55.jpg"
+            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg"
           ],
           "description": "PET常用名称为PET塑料或聚酯，化学名称为聚对苯二甲酸乙二酯。它可制成透明容器、薄膜、片材和纤维，具有较好的强度、气体阻隔性、尺寸稳定性和可回收性。结晶程度与加工状态会改变透明度和耐热性，常用于饮料瓶、食品包装、电子薄膜、纺织纤维及工程塑料。",
           "cognitiveText": "PET在“导热系数”尺度中的参数区间为 0.17–0.4 W/(m·K)。",
@@ -8491,11 +8637,7 @@
           "max": 0.59,
           "image": "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
           "images": [
-            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
-            "/assets/materials/02_Bamboo_Laminated_Wood_Boards-1aabd4826c.jpg",
-            "/assets/materials/03_Bamboo_Slats_Display-fca6bce693.jpg",
-            "/assets/materials/04_Natural_Dry_Bamboo_Strips-a9ba0e4cf8.jpg",
-            "/assets/materials/05_Stacked_Bamboo_Plywood_Boards-2231a7d0e2.jpg"
+            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg"
           ],
           "description": "竹材常用名称为竹材或竹木，来源于竹秆，经干燥、防护、剖分、层压或重组后可形成板材和构件。其纤维沿生长方向排列，具有较高比强度和鲜明纹理，但性能受竹种、部位、含水率及胶合方式影响。常用于家具、餐具、地板、包装、建筑构件和可持续产品设计。",
           "cognitiveText": "竹材在“导热系数”尺度中的参数区间为 0.39–0.59 W/(m·K)。",
@@ -8530,9 +8672,7 @@
           "max": 1.1,
           "image": "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
           "images": [
-            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
-            "/assets/materials/01_Clear_Glass_Sample-8d34ea7bab.jpg",
-            "/assets/materials/05_钢化安全玻璃破裂颗粒-7bc89f3275.jpg"
+            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg"
           ],
           "description": "钢化玻璃常用名称为钢化玻璃或强化玻璃，是普通玻璃经热处理或化学强化形成表面压应力的安全玻璃。它的抗弯和抗热冲击能力通常高于未强化玻璃，破碎时热钢化玻璃会形成较小颗粒。常用于建筑门窗、家具、家电面板、汽车侧窗、手机保护盖板和展示装置。",
           "cognitiveText": "钢化玻璃在“导热系数”尺度中的参数区间为 0.94–1.1 W/(m·K)。",
@@ -8686,10 +8826,7 @@
           "max": 2,
           "image": "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
           "images": [
-            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
-            "/assets/materials/01_Concrete_Aggregate_Sample-2a7751994f.jpg",
-            "/assets/materials/03_Exposed_Aggregate_Concrete_Samples-ef04d78dfc.jpg",
-            "/assets/materials/04_Concrete_Texture_Samples-68a5c93cd5.jpg"
+            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg"
           ],
           "description": "混凝土常用名称为混凝土，工程中也简称“砼”，由水泥、骨料、水及必要外加剂拌合并硬化形成。它抗压能力较强、可浇筑成复杂形状且成本相对可控，但抗拉性能较弱，常与钢筋组合使用。除建筑结构外，也用于家具、灯具、花器和公共设施等产品，表观性能受配比、养护和孔隙影响。",
           "cognitiveText": "混凝土在“导热系数”尺度中的参数区间为 1.4–2 W/(m·K)。",
@@ -8843,9 +8980,7 @@
           "max": 6.5,
           "image": "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
           "images": [
-            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
-            "/assets/materials/01_White_Porcelain_Floor_Tiles-0aa85f40b4.jpg",
-            "/assets/materials/03_Grazioso_Canvas_White_Porcelain_Tile_Sample-2bf10bfed4.jpg"
+            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg"
           ],
           "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
           "cognitiveText": "瓷在“导热系数”尺度中的参数区间为 1.8–6.5 W/(m·K)。",
@@ -8999,9 +9134,7 @@
           "max": 6.7,
           "image": "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
           "images": [
-            "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
-            "/assets/materials/01_Titanium_Raw_Material_Assortment-3127cfeb3d.jpg",
-            "/assets/materials/02_Titanium_Sheets-_Plates-_and_Rods_Display-945f8f00f4.jpg"
+            "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg"
           ],
           "description": "钛合金是以钛为基体并加入铝、钒、钼等元素形成的合金体系，常用名称即钛合金。它兼具较低密度、较高比强度、耐腐蚀和生物相容性，α型、β型及α+β型合金的组织和性能不同。常用于航空结构、发动机部件、医疗植入物、化工设备、运动器材和高端消费品。",
           "cognitiveText": "钛合金在“导热系数”尺度中的参数区间为 6.6–6.7 W/(m·K)。",
@@ -9176,10 +9309,7 @@
           "max": 30,
           "image": "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
           "images": [
-            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
-            "/assets/materials/02_Stainless_Steel_Product_Range-5c3c0ea5bb.jpg",
-            "/assets/materials/04_Stainless_Steel_Sheets_and_Rods-ca1dc40731.jpg",
-            "/assets/materials/05_Stainless_Steel_Product_Assortment-747d45f710.jpg"
+            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg"
           ],
           "description": "不锈钢常用名称为不锈钢或耐蚀钢，是以铁为基体、含有足够铬并可加入镍、钼等元素的合金体系。铬在表面形成钝化膜，使其具有较好的耐腐蚀和清洁维护性能。奥氏体、铁素体、马氏体等类别在强度、磁性和加工性上不同，常用于厨具、建筑、医疗、交通及产品外壳。",
           "cognitiveText": "不锈钢在“导热系数”尺度中的参数区间为 15–30 W/(m·K)。",
@@ -9333,10 +9463,7 @@
           "max": 46,
           "image": "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
           "images": [
-            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
-            "/assets/materials/03_Synthetic_Sapphire_Optical_Windows-4097024730.jpg",
-            "/assets/materials/04_Sapphire_Crystal_Glass_Blanks-bbf388a18c.jpg",
-            "/assets/materials/05_Customized_Sapphire_Optical_Window_Disc-a16fba506c.jpg"
+            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg"
           ],
           "description": "蓝宝石玻璃常用名称为蓝宝石玻璃或蓝宝石晶体，本质上通常是人工生长的单晶氧化铝，并非普通硅酸盐玻璃。它透明、硬度高、耐磨且耐高温，可制成薄片和光学窗口，但加工成本较高且仍具有脆性。常用于手表镜面、手机镜头保护、传感器窗口、LED衬底和精密光学器件。",
           "cognitiveText": "蓝宝石玻璃在“导热系数”尺度中的参数区间为 40–46 W/(m·K)。",
@@ -9371,10 +9498,7 @@
           "max": 80.4,
           "image": "/assets/materials/01_Iron_Metal_Rod_Specimen-15c0740e59.jpg",
           "images": [
-            "/assets/materials/01_Iron_Metal_Rod_Specimen-15c0740e59.jpg",
-            "/assets/materials/02_High-Purity_Iron_Round_Rods-93df2820ce.jpg",
-            "/assets/materials/04_High-Purity_Electrolytic_Iron_Bars-1ec1bb797a.jpg",
-            "/assets/materials/05_High-Purity_Iron_Billets-1091df01b1.jpg"
+            "/assets/materials/01_Iron_Metal_Rod_Specimen-15c0740e59.jpg"
           ],
           "description": "铁常用名称为铁，工程中若强调成分则称纯铁。它是钢和铸铁的基础金属元素，具有良好导磁性和塑性，但纯铁强度有限且在潮湿环境中易锈蚀。实际产品多使用含碳及其他合金元素的铁基材料；纯铁则用于电磁元件、实验材料、粉末冶金和需要高磁导率的部件。",
           "cognitiveText": "铁在“导热系数”尺度中的参数区间为 79.5–80.4 W/(m·K)。",
@@ -9452,16 +9576,167 @@
           ]
         },
         {
+          "name": "铬金属",
+          "category": "金属与合金",
+          "min": 69.1,
+          "max": 93.7,
+          "image": "/assets/materials/04_Chromium_Sputtering_Target-e777a60e6c.jpg",
+          "images": [
+            "/assets/materials/04_Chromium_Sputtering_Target-e777a60e6c.jpg"
+          ],
+          "description": "材料简介",
+          "cognitiveText": "铬金属在“导热系数”尺度中的参数区间为 69.1–93.7 W/(m·K)。",
+          "cases": [
+            {
+              "productName": "Switch and System",
+              "description": "One of the key challenges of design today seems to be to create innovative products that are tailored to the needs and personalities of consumers and are sustainable at the same time. The Busch-art linear/ALBA switch range by Busch-Jaeger and Niessen, market leader in the field of electrical installation technology and building automation, fulfils this brief exceptionally well. A prominent feature of these switches is the position of the inserts, which float above the frame and are not, as usual, enclosed by them. This gives the product range a unique sense of lightness, heightened by the sharp, slim contours that radiate clarity and elegance across a wide selection of materials and models. The breadth of the Busch-art linear/ALBA switch range is hard to beat, in particular with regard to the frames. Whether it is glass, structured glass, wood, aluminium or plastic, with fine surrounds in chrome, gold or rose gold, and glossy, matt or mirrored surfaces, the rich variety on offer will satisfy personal preferences and suit the widest possible range of interiors. The soft feel of the switches also makes for a pleasurable sensory experience. In this way, the Busch-art linear/ALBA range is not only testimony to in-depth deliberations about form, material and colour but also about the environment, responsibility and the future. The collection is made with recycled and recyclable materials and follows a cradle-to-cradle philosophy for the healthy and regenerative productivity of companies. All plastic parts are produced from at least 92 per cent (white plastic) and up to 98 per cent (black plastic) recycled materials. That translates into a total reduction in CO₂ emissions of 82 per cent and requires a considerable amount of development work as it is difficult to produce such perfect, flat surfaces from recyclate. It is clear that sustainability is not a secondary consideration for Busch-Jaeger and Niessen but a value that is at the very heart of its design and product development work. The jury recognised this. “The Busch-art linear/ALBA switch range is both an object lesson in carefully considered design – from the construction through to the execution of details and surfaces, as well as the impressive haptics – and also a benchmark for sustainable design.”",
+              "image": "/assets/cases/8a430984b2f914f12ea1e718f4e83a15-2ed704b2bb.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Stove",
+              "description": "AGA ERA 110i is a premium-class multifunctional cooker. Black glass and high-quality chrome elements give it a minimalist aesthetic, which is reflected in the geometric design. The equipment includes an induction hob and a large hotplate on the top, as well as a convection oven and two cast-iron radiant ovens, each concealed behind a separate door. Operation is via a generously dimensioned touch control surface with integrated LED displays and a character display.",
+              "image": "/assets/cases/8a542da79dd1dfeac101bb9304e43700-c7483bd02a.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washer-Dryer Tower",
+              "description": "The Electrolux Laundry Tower is a space-saving washer-dryer combo for keeping the laundry area tidy. With the stylish colour options of white or titanium, it fits into any room concept. The sturdy, powder-coated metal plates along with elegant chrome and metal accents give the appliance a striking look. Thanks to the user-oriented interface with large touch elements and easily readable backlit displays as well as acoustic signals, the product ensures an intuitive and aesthetically pleasing washing experience.",
+              "image": "/assets/cases/8c67a0df234671dce921cb7d3b898034-45764534eb.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Refrigerator",
+              "description": "Vestel Zenith is a large-volume refrigerator with compact external dimensions. The minimalist appearance is based on a geometric silhouette. The horizontal panel and the chromium-plated handle balance the composition and harmonise with the overall appearance. The design also focuses on sustainability, as it relies on recycled materials made of olive seeds and sugar cane. Technologies in the interior provide flexible use for differing needs and help to store fresh food for extended periods.",
+              "image": "/assets/cases/277b3a294b527f10c68ac0fa5bf476a8-28a7c20acf.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washing Machine",
+              "description": "The BOSCH Series8 picks up on the reduced and solid appearance typical of the brand: the rotary knob and the large LED display allow for intuitive operation and selection of the wash programme as well as the precise setting of all parameters. Subtle colour accents such as red signals on the screen or chrome elements on the drawer and porthole freshen up the appearance and emphasise the clear geometric shapes of the body.",
+              "image": "/assets/cases/077d614f370d3b6a45e76306f21de422-fa0e161b69.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Door and Window Handle",
+              "description": "The MM80 handle designed by Marcello Morandini is characterised by its distinctive styling. The strictly geometric design of the object thus makes it more than just a handle; it considers itself an invitation to be touched, to open a door or a window and try out how it feels in one’s hand. With its black-and-white contrasts and the harmony between filled and empty space, the MM80, which is also available in polished chrome and matt satin nickel, reflects the designer’s dialogue between stringency and compromise.",
+              "image": "/assets/cases/294ac39719459977cc9c94958d754267-8a20b48cbc.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tap Collection",
+              "description": "The high-quality design of the Lift tap collection conveys a sense of long-lasting use by dispensing with plastic parts. The non-porous surface is also resilient and easy to clean. Its handling is practical thanks to a long, rising spout. This means that even large pots can be filled comfortably. A laminar jet regulator ensures use without splashing. The chrome, matt black, and steel finishes give kitchens a modern industrial look.",
+              "image": "/assets/cases/c2938c2271f6aeda8f8cfa76de5a9423-ac80096457.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "TV and Home Entertainment",
+              "description": "The set-top box can receive TV programs and is also equipped with an intelligent speaker that processes voice commands to control the television. The warm-white casing with its fabric-covered front is raised at an angle of 15 degrees on two tapered chrome feet, inviting the user to interact with it. The function buttons are designed as self-explanatory symbols, enabling the set-top box to be used intuitively.",
+              "image": "/assets/cases/cfba8dd3da6f656bf6bcf74b9c7fa49b-a626599098.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Lighting System",
+              "description": "The durable Opus lighting system was developed as a part of a product family for both residential and commercial sectors. The heart of the concept is an innovative track system, which unites central functions such as lighting, sound, air conditioning, security and multi-sensor monitoring. A wide range of available colours and surface finishes meet the demands of variability and adaptability to different interiors. In addition to discreet, timeless designs, the system allows the setting of glamorous highlights with gold-plated or chrome finishes.",
+              "image": "/assets/cases/140eebe5f9a5d4edb1b83900a8c13c56-31aaf6188d.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Thermostats",
+              "description": "Changing the functions from hand to overhead shower with the Axor ShowerSelect thermostats is easily done by the touch of a button. One to four shower settings can be selected. Easily graspable white symbols on a black background allow for intuitive handling. The thermostats are available in round, square or gently rounded soft cube shapes. Besides the standard chrome model, 15 special surface finishes are offered.",
+              "image": "/assets/cases/4c71135f9fd27b609ab7fc1a79bfa4a6-ac6cc28195.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Elektronische Fernsteuerung für Boote",
+              "description": "The ergonomic design approach of this remote control for outboard engines imbues it with a graceful appearance. The handles flow seamlessly into the arm and form a single visual unit with the base. Cool, glossy chrome details contrast with the dark soft-touch surface of the operating controls. The remote control facilitates the smooth shifting of gears.",
+              "image": "/assets/cases/d825bf94d6b99a4796264924d465d959-4334a9e79e.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Wall Mount",
+              "description": "The DesignMount is an innovative wall mount concept for premium TVs. A clear, striking look with elegant lines fosters a special environment for television units. Its high-grade surfaces are made of brushed aluminium with chrome accents. Well-conceived technical functionality prevents the screen from touching the wall and enables comfortable adjustment of the mount.",
+              "image": "/assets/cases/545b29ad9ec4302713d33be74af5a26a-bec15fedab.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Passenger Car",
+              "description": "The new Peugeot Traveller is designed as a Multiple Purpose Vehicle and is suitable for private use as well as for shuttle applications in the commercial sector. Its precise lines and the high vertical radiator grille present to the same extent a solid and an elegant appearance. The front of the car displays boomerang-shaped lighting elements with chrome-plated LEDs and is also characterised by headlamps set into the bodywork. The interior offers a lot of room for up to nine persons and many seating configurations.",
+              "image": "/assets/cases/7f4cbde0b8ac838ca6d248bb26de6edb-a7586e2770.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washing Machine",
+              "description": "The metallic front of this washing machine and the design for high capacity give a sense of durability and stability. The unusual square door including the window with its chrome-plated edge emphasises the impression of high capacity. The newly introduced storage container at the bottom of the machine results in the door as well as the control elements and the LCD display to be located higher up, making operation easier.",
+              "image": "/assets/cases/0275ea00e4e5beae99972a38459ed82b-a1dc7df75c.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Super-S Wasserreiniger",
+              "description": "The design concept of the Super-S Water Purifier follows the motif of clear water flowing down into the valley. To maximise the impression of freshness and purity, chrome-plated and transparent elements have been applied at the water spout. The water temperature is recognised intuitively by the coloured lighting at the tap. An integrated UV lamp sterilises the dispenser area automatically every two hours. A children’s button is integrated well within reach far down into the housing. Via Wi-Fi connection, remote maintenance by the customer service is possible.",
+              "image": "/assets/cases/20294162ea34cb5b438a3cce334c09ef-f27877d69c.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Dehumidifier",
+              "description": "DPC20-C showcases an overall retro style. With its friendly-looking, homey design, the dehumidifier appeals to the emotions and enriches interiors as an attractive home accessory. A particular eye-catcher is the bold, high-contrast colour scheme of the front; the round design idiom recalls earlier times while at the same time exuding a modern ­appearance. The chromed push buttons embedded on the top allow for easy ­operation.",
+              "image": "/assets/cases/f408ba3aa7b5db8e6514e0efc0026e51-5a59b6b8e1.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Shower System",
+              "description": "Characterised by a slim design and compact dimensions, the shower system embodies a space-saving solution that easily integrates into smaller bathrooms. The shower head is generously sized with a diameter of 310 mm, and is available in a round and a square design, ensuring relaxing shower experiences. The operation is simple and self-explanatory: at the touch of a button, the spray type is selected, and then the water flow adjusted with a turn of the knob.",
+              "image": "/assets/cases/6eb971c144fe528133816cde36d31e4b-3b26fafa17.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Shower System",
+              "description": "Meka combines user comfort and contemporary design with high versatility. A storage shelf – available in chrome, wood or stone finish – can be installed above the slim thermostat to customise the shower system and make it blend harmoniously into different bathroom interiors. An optional digital temperature display complements the user-oriented functions. Two push buttons, integrated into the side of the rotary knob, enable switching between the hand and overhead shower.",
+              "image": "/assets/cases/992b1916523dbf3df6e8c9a332f07d4f-6862423e18.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Microdermabrasion Tool",
+              "description": "This dermatologically tested device offers an easy way to perform microderm­a­brasion at home. The sleek and simple tool of glass and chrome is designed to go deeper into the skin. It removes the top layers of dead, dull skin cells to expose fresh, new skin underneath. A specially designed metal pattern inset into the glass provides the exfoliating effect. When applied with light pressure and moved in downward strokes on the face, the metal part gently abrades the top layer of skin on the forehead, cheek, nose and chin area.",
+              "image": "/assets/cases/01778e76f300e8a19789ac931e8e9434-858d02dd24.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Water Purifier",
+              "description": "The Newtro Ambient is a water purifier which combines contemporary aesthetics with retro elements, as can be observed in the interplay of high-gloss chromium and matte silver. The elegant water purifier is also easy to handle and presents a user-friendly design. The space-saving filter element integrates three different filter technologies and can be replaced via a door at the front of the device in an unproblematic way.",
+              "image": "/assets/cases/90def8998b847338565d34062317ad03-76155aac96.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            }
+          ]
+        },
+        {
           "name": "镁合金",
           "category": "金属与合金",
           "min": 72,
           "max": 96,
           "image": "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
           "images": [
-            "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
-            "/assets/materials/01_Magnesium_Alloy_Samples-d904aea5eb.jpg",
-            "/assets/materials/02_99-9-_Magnesium_Alloy_Sheet-feebc7a9a1.jpg",
-            "/assets/materials/04_Magnesium_Alloy_Ingot_Display-ce3efccb4f.jpg"
+            "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg"
           ],
           "description": "镁合金是以镁为基体并加入铝、锌、锰、稀土等元素形成的轻金属材料，常用名称即镁合金。其密度低、比强度较好、减振和电磁屏蔽性能突出，适合压铸和机加工，但耐腐蚀、燃烧风险及表面防护需要重点控制。常用于电子外壳、汽车零件、航空部件和轻量化器材。",
           "cognitiveText": "镁合金在“导热系数”尺度中的参数区间为 72–96 W/(m·K)。",
@@ -9615,10 +9890,7 @@
           "max": 120,
           "image": "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
           "images": [
-            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
-            "/assets/materials/02_Brass_Alloy_Components-e2d520e349.jpg",
-            "/assets/materials/03_Brass_Alloy_Product_Showcase-a9260d0607.jpg",
-            "/assets/materials/05_Brass_Cut-to-Length_Components-4c35d4c4b1.jpg"
+            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg"
           ],
           "description": "黄铜是以铜和锌为主要成分的铜合金，常用名称即黄铜。它呈黄至金色金属光泽，具有良好成形、切削、耐腐蚀和装饰性能；加入铅、锡、铝等元素可形成不同用途的特殊黄铜。常用于阀门、管件、紧固件、乐器、灯具、家具五金、饰品和需要金色外观的产品部件。",
           "cognitiveText": "黄铜在“导热系数”尺度中的参数区间为 115–120 W/(m·K)。",
@@ -9772,10 +10044,7 @@
           "max": 150,
           "image": "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
           "images": [
-            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
-            "/assets/materials/01_Aluminum_Alloy_Extrusion_Rods-cc5ade1966.jpg",
-            "/assets/materials/03_Aluminum_Alloy_Solid_Bars-647e9f31c2.jpg",
-            "/assets/materials/05_Extruded_Aluminum_Alloy_Bars-9f9569126b.jpg"
+            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg"
           ],
           "description": "铝合金是以铝为基体并加入镁、硅、铜、锌等元素形成的轻金属材料，常用名称即铝合金。它具有低密度、较好的比强度、耐腐蚀性和加工性，可进行挤压、压铸、冲压、机加工及阳极氧化。常用于电子产品外壳、交通工具、家具、建筑型材、灯具和包装。",
           "cognitiveText": "铝合金在“导热系数”尺度中的参数区间为 150–150 W/(m·K)。",
@@ -9929,8 +10198,7 @@
           "max": 320,
           "image": "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
           "images": [
-            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
-            "/assets/materials/02_99-99-纯金颗粒-9ad8114de2.jpg"
+            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg"
           ],
           "description": "金常用名称为黄金，是具有黄色金属光泽的贵金属。它延展性和导电性突出，化学性质稳定，不易氧化，但纯金较软，工程使用中常通过加入银、铜等元素形成不同成色的合金。除珠宝和装饰外，金还用于电子触点、连接器、镀层、牙科和精密器件，其成本与资源属性非常显著。",
           "cognitiveText": "金在“导热系数”尺度中的参数区间为 310–320 W/(m·K)。",
@@ -10035,10 +10303,7 @@
           "max": 401,
           "image": "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
           "images": [
-            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
-            "/assets/materials/02_Copper_Product_Samples-a2d4818efa.jpg",
-            "/assets/materials/03_High-Purity_Copper_Ingots_and_Lumps-99f1e8324a.jpg",
-            "/assets/materials/04_Copper_Metal_Profiles-9c0df64d04.jpg"
+            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg"
           ],
           "description": "铜常用名称为铜，较高纯度的工业铜常称紫铜或纯铜。它具有优良的导电、导热、延展和耐腐蚀性能，表面会随环境形成由红褐到绿色的氧化或碱式碳酸盐层。铜常用于电线、电路、换热器、管材、厨具、建筑饰面和工艺品，也是黄铜、青铜等合金的主要基体。",
           "cognitiveText": "铜在“导热系数”尺度中的参数区间为 390–401 W/(m·K)。",
@@ -10204,9 +10469,7 @@
           "max": 0.186,
           "image": "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
           "images": [
-            "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg",
-            "/assets/materials/03_Polystyrene_Packaging_Beads-9123782bb5.jpg",
-            "/assets/materials/04_EPS_Plastic_Foam_Beads-bfe286b137.jpg"
+            "/assets/materials/05_EPS_Foam_Insulation_Beads-0a880f9c45.jpg"
           ],
           "description": "EPS常用名称为EPS泡沫、发泡聚苯乙烯，部分地区也称保丽龙。它由可发性聚苯乙烯珠粒经过预发泡和模塑形成，内部包含大量封闭气泡，因此密度低、隔热和缓冲性能突出。常用于产品包装、保温板、头盔缓冲层、展示模型与轻量化填充，但耐热性和耐溶剂性有限。",
           "cognitiveText": "EPS在“拉伸强度”尺度中的参数区间为 0.097–0.186 MPa。",
@@ -10276,10 +10539,7 @@
           "max": 2.5,
           "image": "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
           "images": [
-            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg",
-            "/assets/materials/02_Natural_Cork_Sheet_Roll-36f7686707.jpg",
-            "/assets/materials/03_Natural_Cork_Fabric_Rolls-37601d0fd8.jpg",
-            "/assets/materials/05_Natural_Cork_Sheet_Roll-f2bb65d00c.jpg"
+            "/assets/materials/01_CR-115_Agglomerated_Cork_Rolls_and_Sheets-b87d95c9ff.jpg"
           ],
           "description": "软木常用名称为软木或栓皮，主要取自栓皮栎等树木的外层树皮。其蜂窝状封闭细胞结构使材料轻、可压缩、回弹、隔热、吸声并具有一定防水性。软木可制成整片、颗粒板或复合材料，常用于瓶塞、地板、墙面、鞋材、握把、包装和可持续产品表面。",
           "cognitiveText": "软木在“拉伸强度”尺度中的参数区间为 0.5–2.5 MPa。",
@@ -10412,10 +10672,7 @@
           "max": 5,
           "image": "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
           "images": [
-            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
-            "/assets/materials/01_Concrete_Aggregate_Sample-2a7751994f.jpg",
-            "/assets/materials/03_Exposed_Aggregate_Concrete_Samples-ef04d78dfc.jpg",
-            "/assets/materials/04_Concrete_Texture_Samples-68a5c93cd5.jpg"
+            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg"
           ],
           "description": "混凝土常用名称为混凝土，工程中也简称“砼”，由水泥、骨料、水及必要外加剂拌合并硬化形成。它抗压能力较强、可浇筑成复杂形状且成本相对可控，但抗拉性能较弱，常与钢筋组合使用。除建筑结构外，也用于家具、灯具、花器和公共设施等产品，表观性能受配比、养护和孔隙影响。",
           "cognitiveText": "混凝土在“拉伸强度”尺度中的参数区间为 2–5 MPa。",
@@ -10569,9 +10826,7 @@
           "max": 20,
           "image": "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
           "images": [
-            "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg",
-            "/assets/materials/02_Grey-White_Marble_Slab-3fc844a84b.jpg",
-            "/assets/materials/05_White_Marble_Slab_Texture-c04bb0dbdf.jpg"
+            "/assets/materials/01_Marble_Tile_Sample-11263ba47e.jpg"
           ],
           "description": "大理石常用名称为大理石，地质学上主要对应大理岩，是石灰岩或白云岩经变质作用形成的天然石材。其纹理、颜色和孔隙会因矿物组成而变化，表面可抛光形成装饰效果。常用于建筑饰面、台面、雕塑、家具构件和工艺品，但需要关注脆性、重量、酸敏感性及天然批次差异。",
           "cognitiveText": "大理石在“拉伸强度”尺度中的参数区间为 7–20 MPa。",
@@ -10697,10 +10952,7 @@
           "max": 27,
           "image": "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
           "images": [
-            "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
-            "/assets/materials/02_PVC_Rain_Pipe_and_Pellets_Showcase-80929947ea.jpg",
-            "/assets/materials/03_PVC_Pellets_and_Sheet_Display-627743793d.jpg",
-            "/assets/materials/05_PVC_Compound_Pellets_and_Pipes-6081d5f1f8.jpg"
+            "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg"
           ],
           "description": "PVC常用名称为聚氯乙烯或PVC塑料，可通过增塑剂和稳定剂配方形成硬质或软质材料。硬质PVC具有较好的刚性、耐化学性和阻燃特征，软质PVC则柔韧并易加工。它广泛用于管材、型材、电线护套、地板、薄膜、卡片和充气制品，性能与环境影响高度依赖具体添加剂体系。",
           "cognitiveText": "PVC在“拉伸强度”尺度中的参数区间为 7–27 MPa。",
@@ -10770,10 +11022,7 @@
           "max": 35,
           "image": "/assets/materials/03_EVA_Foam_Rolls_and_Sheets-f263fa2b55.jpg",
           "images": [
-            "/assets/materials/03_EVA_Foam_Rolls_and_Sheets-f263fa2b55.jpg",
-            "/assets/materials/01_High-Density_White_EVA_Foam_Roll-671c873e39.jpg",
-            "/assets/materials/02_EVA_Foam_Packing_Rolls-bc29f36d59.jpg",
-            "/assets/materials/05_Colored_EVA_Foam_Rolls-d6683c1159.jpg"
+            "/assets/materials/03_EVA_Foam_Rolls_and_Sheets-f263fa2b55.jpg"
           ],
           "description": "EVA常用名称为EVA材料或EVA泡棉，化学名称为乙烯—醋酸乙烯共聚物。通过调节醋酸乙烯含量，可获得从柔韧塑料到弹性泡棉的不同性能。它具有回弹、缓冲、低温柔韧和易加工等特点，广泛用于鞋底、运动护具、包装内衬、密封件、热熔胶及儿童产品。",
           "cognitiveText": "EVA在“拉伸强度”尺度中的参数区间为 3–35 MPa。",
@@ -10878,8 +11127,7 @@
           "max": 41,
           "image": "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
           "images": [
-            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
-            "/assets/materials/01_Polypropylene_Machined_Sheets_and_Rods-3ff1c90585.jpg"
+            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg"
           ],
           "description": "PP常用名称为聚丙烯或PP塑料，是密度较低、用途广泛的热塑性聚合物。它耐化学品、耐湿、易注塑和挤出，并具有良好的反复弯折疲劳性能，可制作一体式活铰链。常见于食品容器、家居用品、医疗耗材、汽车内饰、无纺布和包装薄膜，但低温冲击性能及耐候性需要关注。",
           "cognitiveText": "PP在“拉伸强度”尺度中的参数区间为 31–41 MPa。",
@@ -11033,10 +11281,7 @@
           "max": 62,
           "image": "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
           "images": [
-            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
-            "/assets/materials/02_ABS_Plastic_Pellets-072e2e6578.jpg",
-            "/assets/materials/04_ABS_Plastic_Resin_Granules-4e4ab4d3c6.jpg",
-            "/assets/materials/05_Chimei_ABS_Resin_PA-765b_Plastic_Granules-1a84b6b56a.jpg"
+            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg"
           ],
           "description": "ABS常用名称为ABS塑料或ABS树脂，中文全称为丙烯腈—丁二烯—苯乙烯共聚物。它综合了刚性、韧性、尺寸稳定性和较好的表面加工性能，可通过注塑、挤出、机加工与表面涂装制成复杂外壳。常见于家电、电子产品、玩具、工具外壳、汽车内饰和模型制作。",
           "cognitiveText": "ABS在“拉伸强度”尺度中的参数区间为 41–62 MPa。",
@@ -11190,11 +11435,7 @@
           "max": 75,
           "image": "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
           "images": [
-            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
-            "/assets/materials/01_Transparent_Polycarbonate_Pellets-02e6f623ea.jpg",
-            "/assets/materials/03_Clear_Polycarbonate_Pellets-4d7b981453.jpg",
-            "/assets/materials/04_Polycarbonate_Pellets_for_Electrical_Applicat-debca79357.jpg",
-            "/assets/materials/05_Polycarbonate_Resin_Pellets_for_LED_Diffusers-faf7855af7.jpg"
+            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg"
           ],
           "description": "PC常用名称为聚碳酸酯或PC塑料，部分地区也称防弹胶。它是一种透明热塑性工程塑料，突出特点是抗冲击能力强、尺寸稳定、可透光并能进行注塑和热成型。PC常用于透明防护罩、电子产品外壳、头盔镜片、灯具、医疗器械及光学部件，但需要关注表面耐刮擦和耐化学性。",
           "cognitiveText": "PC在“拉伸强度”尺度中的参数区间为 55–75 MPa。",
@@ -11348,9 +11589,7 @@
           "max": 75,
           "image": "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
           "images": [
-            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg",
-            "/assets/materials/02_Clear_Acrylic_Rods_and_Sheets-d7da225e61.jpg",
-            "/assets/materials/05_Acrylic_PMMA_Samples-d06b9c7a7e.jpg"
+            "/assets/materials/03_Acrylic_PMMA_Sheet_and_Rods_Showcase-bd21e10257.jpg"
           ],
           "description": "PMMA常用名称为亚克力、有机玻璃或压克力，化学名称为聚甲基丙烯酸甲酯。它是透明度较高的无定形热塑性塑料，具有良好的耐候性、着色性和机械加工性能，常作为玻璃替代材料。典型应用包括灯具、展示架、标识、透明罩、汽车灯具和光学件，但抗冲击性低于PC。",
           "cognitiveText": "PMMA在“拉伸强度”尺度中的参数区间为 60–75 MPa。",
@@ -11371,9 +11610,7 @@
           "max": 82,
           "image": "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
           "images": [
-            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
-            "/assets/materials/02_Polyamide_-PA-_Sheets-_Rods-_and_Tubes-df8c0bbbe9.jpg",
-            "/assets/materials/05_Polyamide_-PA-_Plastic_Samples-47c88552e2.jpg"
+            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg"
           ],
           "description": "PA常用名称为尼龙或PA塑料，材料学名称为聚酰胺。其分子链含有酰胺基团，通常具有较高强度、耐磨性、耐疲劳性和良好的自润滑特征。不同尼龙牌号及含水状态会显著影响尺寸和力学性能。常用于齿轮、轴承、扣件、织物纤维、工具零件及结构性注塑件。",
           "cognitiveText": "PA在“拉伸强度”尺度中的参数区间为 78–82 MPa。",
@@ -11527,11 +11764,7 @@
           "max": 112.4,
           "image": "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
           "images": [
-            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
-            "/assets/materials/02_White_Oak_Lumber_Boards-e9db162d1b.jpg",
-            "/assets/materials/03_Oak_Thin_Boards_Set-b06db8e91b.jpg",
-            "/assets/materials/04_Oak_Lumber_Boards-4144b6bf03.jpg",
-            "/assets/materials/05_White_Oak_Plain-Sawn_Hardwood_Planks-9f8aaada2b.jpg"
+            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg"
           ],
           "description": "橡木常用名称为橡木或栎木，来自栎属多种树木，是家具和室内产品中常见的阔叶木材。其纹理明显，通常具有较好的强度、耐磨性和表面涂饰效果，白橡与红橡在导管结构、色泽和耐久性方面存在差异。常用于家具、地板、酒桶、饰面板和结构木制品，性能受含水率影响明显。",
           "cognitiveText": "橡木在“拉伸强度”尺度中的参数区间为 77.9–112.4 MPa。",
@@ -11685,8 +11918,7 @@
           "max": 140,
           "image": "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
           "images": [
-            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
-            "/assets/materials/04_PET_Preforms_and_Pellets-66a536ba55.jpg"
+            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg"
           ],
           "description": "PET常用名称为PET塑料或聚酯，化学名称为聚对苯二甲酸乙二酯。它可制成透明容器、薄膜、片材和纤维，具有较好的强度、气体阻隔性、尺寸稳定性和可回收性。结晶程度与加工状态会改变透明度和耐热性，常用于饮料瓶、食品包装、电子薄膜、纺织纤维及工程塑料。",
           "cognitiveText": "PET在“拉伸强度”尺度中的参数区间为 60–140 MPa。",
@@ -11840,9 +12072,7 @@
           "max": 180,
           "image": "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
           "images": [
-            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
-            "/assets/materials/01_Clear_Glass_Sample-8d34ea7bab.jpg",
-            "/assets/materials/05_钢化安全玻璃破裂颗粒-7bc89f3275.jpg"
+            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg"
           ],
           "description": "钢化玻璃常用名称为钢化玻璃或强化玻璃，是普通玻璃经热处理或化学强化形成表面压应力的安全玻璃。它的抗弯和抗热冲击能力通常高于未强化玻璃，破碎时热钢化玻璃会形成较小颗粒。常用于建筑门窗、家具、家电面板、汽车侧窗、手机保护盖板和展示装置。",
           "cognitiveText": "钢化玻璃在“拉伸强度”尺度中的参数区间为 41–180 MPa。",
@@ -11996,9 +12226,7 @@
           "max": 130,
           "image": "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
           "images": [
-            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
-            "/assets/materials/01_White_Porcelain_Floor_Tiles-0aa85f40b4.jpg",
-            "/assets/materials/03_Grazioso_Canvas_White_Porcelain_Tile_Sample-2bf10bfed4.jpg"
+            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg"
           ],
           "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
           "cognitiveText": "瓷在“拉伸强度”尺度中的参数区间为 130–130 MPa。",
@@ -12152,8 +12380,7 @@
           "max": 300,
           "image": "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
           "images": [
-            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
-            "/assets/materials/02_99-99-纯金颗粒-9ad8114de2.jpg"
+            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg"
           ],
           "description": "金常用名称为黄金，是具有黄色金属光泽的贵金属。它延展性和导电性突出，化学性质稳定，不易氧化，但纯金较软，工程使用中常通过加入银、铜等元素形成不同成色的合金。除珠宝和装饰外，金还用于电子触点、连接器、镀层、牙科和精密器件，其成本与资源属性非常显著。",
           "cognitiveText": "金在“拉伸强度”尺度中的参数区间为 100–300 MPa。",
@@ -12258,10 +12485,7 @@
           "max": 270,
           "image": "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
           "images": [
-            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
-            "/assets/materials/01_Aluminum_Alloy_Extrusion_Rods-cc5ade1966.jpg",
-            "/assets/materials/03_Aluminum_Alloy_Solid_Bars-647e9f31c2.jpg",
-            "/assets/materials/05_Extruded_Aluminum_Alloy_Bars-9f9569126b.jpg"
+            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg"
           ],
           "description": "铝合金是以铝为基体并加入镁、硅、铜、锌等元素形成的轻金属材料，常用名称即铝合金。它具有低密度、较好的比强度、耐腐蚀性和加工性，可进行挤压、压铸、冲压、机加工及阳极氧化。常用于电子产品外壳、交通工具、家具、建筑型材、灯具和包装。",
           "cognitiveText": "铝合金在“拉伸强度”尺度中的参数区间为 160–270 MPa。",
@@ -12415,10 +12639,7 @@
           "max": 260,
           "image": "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
           "images": [
-            "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg",
-            "/assets/materials/01_Magnesium_Alloy_Samples-d904aea5eb.jpg",
-            "/assets/materials/02_99-9-_Magnesium_Alloy_Sheet-feebc7a9a1.jpg",
-            "/assets/materials/04_Magnesium_Alloy_Ingot_Display-ce3efccb4f.jpg"
+            "/assets/materials/03_Magnesium_Alloy_Plate_for_Vibration_Test_Tabl-c05b3adef5.jpg"
           ],
           "description": "镁合金是以镁为基体并加入铝、锌、锰、稀土等元素形成的轻金属材料，常用名称即镁合金。其密度低、比强度较好、减振和电磁屏蔽性能突出，适合压铸和机加工，但耐腐蚀、燃烧风险及表面防护需要重点控制。常用于电子外壳、汽车零件、航空部件和轻量化器材。",
           "cognitiveText": "镁合金在“拉伸强度”尺度中的参数区间为 248–260 MPa。",
@@ -12572,10 +12793,7 @@
           "max": 410,
           "image": "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
           "images": [
-            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
-            "/assets/materials/02_Copper_Product_Samples-a2d4818efa.jpg",
-            "/assets/materials/03_High-Purity_Copper_Ingots_and_Lumps-99f1e8324a.jpg",
-            "/assets/materials/04_Copper_Metal_Profiles-9c0df64d04.jpg"
+            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg"
           ],
           "description": "铜常用名称为铜，较高纯度的工业铜常称紫铜或纯铜。它具有优良的导电、导热、延展和耐腐蚀性能，表面会随环境形成由红褐到绿色的氧化或碱式碳酸盐层。铜常用于电线、电路、换热器、管材、厨具、建筑饰面和工艺品，也是黄铜、青铜等合金的主要基体。",
           "cognitiveText": "铜在“拉伸强度”尺度中的参数区间为 220–410 MPa。",
@@ -12729,10 +12947,7 @@
           "max": 400,
           "image": "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
           "images": [
-            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
-            "/assets/materials/03_Synthetic_Sapphire_Optical_Windows-4097024730.jpg",
-            "/assets/materials/04_Sapphire_Crystal_Glass_Blanks-bbf388a18c.jpg",
-            "/assets/materials/05_Customized_Sapphire_Optical_Window_Disc-a16fba506c.jpg"
+            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg"
           ],
           "description": "蓝宝石玻璃常用名称为蓝宝石玻璃或蓝宝石晶体，本质上通常是人工生长的单晶氧化铝，并非普通硅酸盐玻璃。它透明、硬度高、耐磨且耐高温，可制成薄片和光学窗口，但加工成本较高且仍具有脆性。常用于手表镜面、手机镜头保护、传感器窗口、LED衬底和精密光学器件。",
           "cognitiveText": "蓝宝石玻璃在“拉伸强度”尺度中的参数区间为 300–400 MPa。",
@@ -12757,6 +12972,160 @@
               "image": "/assets/cases/07b71c1e06ae140f480db874e4a5510f-6182b75990.jpeg",
               "sourceMaterial": "蓝宝石",
               "matchType": "contains"
+            }
+          ]
+        },
+        {
+          "name": "铬金属",
+          "category": "金属与合金",
+          "min": 282,
+          "max": 483,
+          "image": "/assets/materials/04_Chromium_Sputtering_Target-e777a60e6c.jpg",
+          "images": [
+            "/assets/materials/04_Chromium_Sputtering_Target-e777a60e6c.jpg"
+          ],
+          "description": "材料简介",
+          "cognitiveText": "铬金属在“拉伸强度”尺度中的参数区间为 282–483 MPa。",
+          "cases": [
+            {
+              "productName": "Switch and System",
+              "description": "One of the key challenges of design today seems to be to create innovative products that are tailored to the needs and personalities of consumers and are sustainable at the same time. The Busch-art linear/ALBA switch range by Busch-Jaeger and Niessen, market leader in the field of electrical installation technology and building automation, fulfils this brief exceptionally well. A prominent feature of these switches is the position of the inserts, which float above the frame and are not, as usual, enclosed by them. This gives the product range a unique sense of lightness, heightened by the sharp, slim contours that radiate clarity and elegance across a wide selection of materials and models. The breadth of the Busch-art linear/ALBA switch range is hard to beat, in particular with regard to the frames. Whether it is glass, structured glass, wood, aluminium or plastic, with fine surrounds in chrome, gold or rose gold, and glossy, matt or mirrored surfaces, the rich variety on offer will satisfy personal preferences and suit the widest possible range of interiors. The soft feel of the switches also makes for a pleasurable sensory experience. In this way, the Busch-art linear/ALBA range is not only testimony to in-depth deliberations about form, material and colour but also about the environment, responsibility and the future. The collection is made with recycled and recyclable materials and follows a cradle-to-cradle philosophy for the healthy and regenerative productivity of companies. All plastic parts are produced from at least 92 per cent (white plastic) and up to 98 per cent (black plastic) recycled materials. That translates into a total reduction in CO₂ emissions of 82 per cent and requires a considerable amount of development work as it is difficult to produce such perfect, flat surfaces from recyclate. It is clear that sustainability is not a secondary consideration for Busch-Jaeger and Niessen but a value that is at the very heart of its design and product development work. The jury recognised this. “The Busch-art linear/ALBA switch range is both an object lesson in carefully considered design – from the construction through to the execution of details and surfaces, as well as the impressive haptics – and also a benchmark for sustainable design.”",
+              "image": "/assets/cases/8a430984b2f914f12ea1e718f4e83a15-2ed704b2bb.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Stove",
+              "description": "AGA ERA 110i is a premium-class multifunctional cooker. Black glass and high-quality chrome elements give it a minimalist aesthetic, which is reflected in the geometric design. The equipment includes an induction hob and a large hotplate on the top, as well as a convection oven and two cast-iron radiant ovens, each concealed behind a separate door. Operation is via a generously dimensioned touch control surface with integrated LED displays and a character display.",
+              "image": "/assets/cases/8a542da79dd1dfeac101bb9304e43700-c7483bd02a.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washer-Dryer Tower",
+              "description": "The Electrolux Laundry Tower is a space-saving washer-dryer combo for keeping the laundry area tidy. With the stylish colour options of white or titanium, it fits into any room concept. The sturdy, powder-coated metal plates along with elegant chrome and metal accents give the appliance a striking look. Thanks to the user-oriented interface with large touch elements and easily readable backlit displays as well as acoustic signals, the product ensures an intuitive and aesthetically pleasing washing experience.",
+              "image": "/assets/cases/8c67a0df234671dce921cb7d3b898034-45764534eb.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Refrigerator",
+              "description": "Vestel Zenith is a large-volume refrigerator with compact external dimensions. The minimalist appearance is based on a geometric silhouette. The horizontal panel and the chromium-plated handle balance the composition and harmonise with the overall appearance. The design also focuses on sustainability, as it relies on recycled materials made of olive seeds and sugar cane. Technologies in the interior provide flexible use for differing needs and help to store fresh food for extended periods.",
+              "image": "/assets/cases/277b3a294b527f10c68ac0fa5bf476a8-28a7c20acf.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washing Machine",
+              "description": "The BOSCH Series8 picks up on the reduced and solid appearance typical of the brand: the rotary knob and the large LED display allow for intuitive operation and selection of the wash programme as well as the precise setting of all parameters. Subtle colour accents such as red signals on the screen or chrome elements on the drawer and porthole freshen up the appearance and emphasise the clear geometric shapes of the body.",
+              "image": "/assets/cases/077d614f370d3b6a45e76306f21de422-fa0e161b69.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Door and Window Handle",
+              "description": "The MM80 handle designed by Marcello Morandini is characterised by its distinctive styling. The strictly geometric design of the object thus makes it more than just a handle; it considers itself an invitation to be touched, to open a door or a window and try out how it feels in one’s hand. With its black-and-white contrasts and the harmony between filled and empty space, the MM80, which is also available in polished chrome and matt satin nickel, reflects the designer’s dialogue between stringency and compromise.",
+              "image": "/assets/cases/294ac39719459977cc9c94958d754267-8a20b48cbc.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tap Collection",
+              "description": "The high-quality design of the Lift tap collection conveys a sense of long-lasting use by dispensing with plastic parts. The non-porous surface is also resilient and easy to clean. Its handling is practical thanks to a long, rising spout. This means that even large pots can be filled comfortably. A laminar jet regulator ensures use without splashing. The chrome, matt black, and steel finishes give kitchens a modern industrial look.",
+              "image": "/assets/cases/c2938c2271f6aeda8f8cfa76de5a9423-ac80096457.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "TV and Home Entertainment",
+              "description": "The set-top box can receive TV programs and is also equipped with an intelligent speaker that processes voice commands to control the television. The warm-white casing with its fabric-covered front is raised at an angle of 15 degrees on two tapered chrome feet, inviting the user to interact with it. The function buttons are designed as self-explanatory symbols, enabling the set-top box to be used intuitively.",
+              "image": "/assets/cases/cfba8dd3da6f656bf6bcf74b9c7fa49b-a626599098.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Lighting System",
+              "description": "The durable Opus lighting system was developed as a part of a product family for both residential and commercial sectors. The heart of the concept is an innovative track system, which unites central functions such as lighting, sound, air conditioning, security and multi-sensor monitoring. A wide range of available colours and surface finishes meet the demands of variability and adaptability to different interiors. In addition to discreet, timeless designs, the system allows the setting of glamorous highlights with gold-plated or chrome finishes.",
+              "image": "/assets/cases/140eebe5f9a5d4edb1b83900a8c13c56-31aaf6188d.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Thermostats",
+              "description": "Changing the functions from hand to overhead shower with the Axor ShowerSelect thermostats is easily done by the touch of a button. One to four shower settings can be selected. Easily graspable white symbols on a black background allow for intuitive handling. The thermostats are available in round, square or gently rounded soft cube shapes. Besides the standard chrome model, 15 special surface finishes are offered.",
+              "image": "/assets/cases/4c71135f9fd27b609ab7fc1a79bfa4a6-ac6cc28195.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Elektronische Fernsteuerung für Boote",
+              "description": "The ergonomic design approach of this remote control for outboard engines imbues it with a graceful appearance. The handles flow seamlessly into the arm and form a single visual unit with the base. Cool, glossy chrome details contrast with the dark soft-touch surface of the operating controls. The remote control facilitates the smooth shifting of gears.",
+              "image": "/assets/cases/d825bf94d6b99a4796264924d465d959-4334a9e79e.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Wall Mount",
+              "description": "The DesignMount is an innovative wall mount concept for premium TVs. A clear, striking look with elegant lines fosters a special environment for television units. Its high-grade surfaces are made of brushed aluminium with chrome accents. Well-conceived technical functionality prevents the screen from touching the wall and enables comfortable adjustment of the mount.",
+              "image": "/assets/cases/545b29ad9ec4302713d33be74af5a26a-bec15fedab.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Passenger Car",
+              "description": "The new Peugeot Traveller is designed as a Multiple Purpose Vehicle and is suitable for private use as well as for shuttle applications in the commercial sector. Its precise lines and the high vertical radiator grille present to the same extent a solid and an elegant appearance. The front of the car displays boomerang-shaped lighting elements with chrome-plated LEDs and is also characterised by headlamps set into the bodywork. The interior offers a lot of room for up to nine persons and many seating configurations.",
+              "image": "/assets/cases/7f4cbde0b8ac838ca6d248bb26de6edb-a7586e2770.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washing Machine",
+              "description": "The metallic front of this washing machine and the design for high capacity give a sense of durability and stability. The unusual square door including the window with its chrome-plated edge emphasises the impression of high capacity. The newly introduced storage container at the bottom of the machine results in the door as well as the control elements and the LCD display to be located higher up, making operation easier.",
+              "image": "/assets/cases/0275ea00e4e5beae99972a38459ed82b-a1dc7df75c.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Super-S Wasserreiniger",
+              "description": "The design concept of the Super-S Water Purifier follows the motif of clear water flowing down into the valley. To maximise the impression of freshness and purity, chrome-plated and transparent elements have been applied at the water spout. The water temperature is recognised intuitively by the coloured lighting at the tap. An integrated UV lamp sterilises the dispenser area automatically every two hours. A children’s button is integrated well within reach far down into the housing. Via Wi-Fi connection, remote maintenance by the customer service is possible.",
+              "image": "/assets/cases/20294162ea34cb5b438a3cce334c09ef-f27877d69c.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Dehumidifier",
+              "description": "DPC20-C showcases an overall retro style. With its friendly-looking, homey design, the dehumidifier appeals to the emotions and enriches interiors as an attractive home accessory. A particular eye-catcher is the bold, high-contrast colour scheme of the front; the round design idiom recalls earlier times while at the same time exuding a modern ­appearance. The chromed push buttons embedded on the top allow for easy ­operation.",
+              "image": "/assets/cases/f408ba3aa7b5db8e6514e0efc0026e51-5a59b6b8e1.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Shower System",
+              "description": "Characterised by a slim design and compact dimensions, the shower system embodies a space-saving solution that easily integrates into smaller bathrooms. The shower head is generously sized with a diameter of 310 mm, and is available in a round and a square design, ensuring relaxing shower experiences. The operation is simple and self-explanatory: at the touch of a button, the spray type is selected, and then the water flow adjusted with a turn of the knob.",
+              "image": "/assets/cases/6eb971c144fe528133816cde36d31e4b-3b26fafa17.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Shower System",
+              "description": "Meka combines user comfort and contemporary design with high versatility. A storage shelf – available in chrome, wood or stone finish – can be installed above the slim thermostat to customise the shower system and make it blend harmoniously into different bathroom interiors. An optional digital temperature display complements the user-oriented functions. Two push buttons, integrated into the side of the rotary knob, enable switching between the hand and overhead shower.",
+              "image": "/assets/cases/992b1916523dbf3df6e8c9a332f07d4f-6862423e18.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Microdermabrasion Tool",
+              "description": "This dermatologically tested device offers an easy way to perform microderm­a­brasion at home. The sleek and simple tool of glass and chrome is designed to go deeper into the skin. It removes the top layers of dead, dull skin cells to expose fresh, new skin underneath. A specially designed metal pattern inset into the glass provides the exfoliating effect. When applied with light pressure and moved in downward strokes on the face, the metal part gently abrades the top layer of skin on the forehead, cheek, nose and chin area.",
+              "image": "/assets/cases/01778e76f300e8a19789ac931e8e9434-858d02dd24.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Water Purifier",
+              "description": "The Newtro Ambient is a water purifier which combines contemporary aesthetics with retro elements, as can be observed in the interplay of high-gloss chromium and matte silver. The elegant water purifier is also easy to handle and presents a user-friendly design. The space-saving filter element integrates three different filter technologies and can be replaced via a door at the front of the device in an unproblematic way.",
+              "image": "/assets/cases/90def8998b847338565d34062317ad03-76155aac96.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
             }
           ]
         },
@@ -12788,8 +13157,7 @@
           "max": 689,
           "image": "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
           "images": [
-            "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg",
-            "/assets/materials/03_Cast_Iron_Ingot-39834ac7d0.jpg"
+            "/assets/materials/05_Cast_Iron_Ingot_Overview-ed13729820.jpg"
           ],
           "description": "铸铁是含碳量较高、主要通过铸造成形的铁碳合金，常用名称即铸铁。灰铸铁、球墨铸铁、白口铸铁等类型因石墨形态和组织不同，在减振、强度、耐磨和韧性上差异明显。铸铁流动性好、成本相对低，常用于机床底座、发动机部件、管件、炉具、锅具和厚壁结构件。",
           "cognitiveText": "铸铁在“拉伸强度”尺度中的参数区间为 118–689 MPa。",
@@ -12943,11 +13311,7 @@
           "max": 800,
           "image": "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
           "images": [
-            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg",
-            "/assets/materials/02_Bamboo_Laminated_Wood_Boards-1aabd4826c.jpg",
-            "/assets/materials/03_Bamboo_Slats_Display-fca6bce693.jpg",
-            "/assets/materials/04_Natural_Dry_Bamboo_Strips-a9ba0e4cf8.jpg",
-            "/assets/materials/05_Stacked_Bamboo_Plywood_Boards-2231a7d0e2.jpg"
+            "/assets/materials/01_Construction_Laminated_Bamboo_Veneer_Boards-460f915007.jpg"
           ],
           "description": "竹材常用名称为竹材或竹木，来源于竹秆，经干燥、防护、剖分、层压或重组后可形成板材和构件。其纤维沿生长方向排列，具有较高比强度和鲜明纹理，但性能受竹种、部位、含水率及胶合方式影响。常用于家具、餐具、地板、包装、建筑构件和可持续产品设计。",
           "cognitiveText": "竹材在“拉伸强度”尺度中的参数区间为 100–800 MPa。",
@@ -12982,10 +13346,7 @@
           "max": 800,
           "image": "/assets/materials/01_Natural_Textile_Fibers_Showcase-bb2ac615c6.jpg",
           "images": [
-            "/assets/materials/01_Natural_Textile_Fibers_Showcase-bb2ac615c6.jpg",
-            "/assets/materials/03_Raw_Cotton_Fabric_Yarn-fcaedd5c1c.jpg",
-            "/assets/materials/04_Raw_Cotton_Fiber_Bundles-65af190d72.jpg",
-            "/assets/materials/05_Organic_Kala_Cotton_Fabric_Display-68d0d6a77d.jpg"
+            "/assets/materials/01_Natural_Textile_Fibers_Showcase-bb2ac615c6.jpg"
           ],
           "description": "棉纤维常用名称为棉或棉花纤维，是包覆棉籽表面的天然纤维，主要成分为纤维素。它吸湿、透气、触感柔和，并能进行纺纱、织造、染整和复合加工。棉纤维常用于服装、家纺、医疗敷料、过滤材料和纤维增强生物复合材料，其性能会受纤维长度、含水率和织物结构影响。",
           "cognitiveText": "棉纤维在“拉伸强度”尺度中的参数区间为 287–800 MPa。",
@@ -13013,10 +13374,7 @@
           "max": 890,
           "image": "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
           "images": [
-            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg",
-            "/assets/materials/02_Brass_Alloy_Components-e2d520e349.jpg",
-            "/assets/materials/03_Brass_Alloy_Product_Showcase-a9260d0607.jpg",
-            "/assets/materials/05_Brass_Cut-to-Length_Components-4c35d4c4b1.jpg"
+            "/assets/materials/04_Brass_Profiles_and_Sheets-b32c3f6832.jpg"
           ],
           "description": "黄铜是以铜和锌为主要成分的铜合金，常用名称即黄铜。它呈黄至金色金属光泽，具有良好成形、切削、耐腐蚀和装饰性能；加入铅、锡、铝等元素可形成不同用途的特殊黄铜。常用于阀门、管件、紧固件、乐器、灯具、家具五金、饰品和需要金色外观的产品部件。",
           "cognitiveText": "黄铜在“拉伸强度”尺度中的参数区间为 300–890 MPa。",
@@ -13170,10 +13528,7 @@
           "max": 750,
           "image": "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
           "images": [
-            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
-            "/assets/materials/02_Stainless_Steel_Product_Range-5c3c0ea5bb.jpg",
-            "/assets/materials/04_Stainless_Steel_Sheets_and_Rods-ca1dc40731.jpg",
-            "/assets/materials/05_Stainless_Steel_Product_Assortment-747d45f710.jpg"
+            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg"
           ],
           "description": "不锈钢常用名称为不锈钢或耐蚀钢，是以铁为基体、含有足够铬并可加入镍、钼等元素的合金体系。铬在表面形成钝化膜，使其具有较好的耐腐蚀和清洁维护性能。奥氏体、铁素体、马氏体等类别在强度、磁性和加工性上不同，常用于厨具、建筑、医疗、交通及产品外壳。",
           "cognitiveText": "不锈钢在“拉伸强度”尺度中的参数区间为 500–750 MPa。",
@@ -13327,9 +13682,7 @@
           "max": 900,
           "image": "/assets/materials/03_Low-Melt_Polyester_Fiber_Samples-7cd5d15f73.jpg",
           "images": [
-            "/assets/materials/03_Low-Melt_Polyester_Fiber_Samples-7cd5d15f73.jpg",
-            "/assets/materials/02_Polyester_Filament_Yarn_Samples-dc59ea2163.jpg",
-            "/assets/materials/05_Bright_White_Polyester_Hank_Yarn-3d918eaf42.jpg"
+            "/assets/materials/03_Low-Melt_Polyester_Fiber_Samples-7cd5d15f73.jpg"
           ],
           "description": "PET聚酯纤维常用名称为涤纶或聚酯纤维，是以聚对苯二甲酸乙二酯为主要成分制成的合成纤维。它具有强度较高、耐磨、易洗快干和尺寸稳定等特点，可制成长丝、短纤、织物或非织造材料。常用于服装、箱包、家具面料、绳带、过滤材料及纤维增强复合材料。",
           "cognitiveText": "PET聚酯纤维在“拉伸强度”尺度中的参数区间为 400–900 MPa。",
@@ -13483,9 +13836,7 @@
           "max": 950,
           "image": "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
           "images": [
-            "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg",
-            "/assets/materials/01_Titanium_Raw_Material_Assortment-3127cfeb3d.jpg",
-            "/assets/materials/02_Titanium_Sheets-_Plates-_and_Rods_Display-945f8f00f4.jpg"
+            "/assets/materials/05_Titanium_Alloy_Samples-3e9965744b.jpg"
           ],
           "description": "钛合金是以钛为基体并加入铝、钒、钼等元素形成的合金体系，常用名称即钛合金。它兼具较低密度、较高比强度、耐腐蚀和生物相容性，α型、β型及α+β型合金的组织和性能不同。常用于航空结构、发动机部件、医疗植入物、化工设备、运动器材和高端消费品。",
           "cognitiveText": "钛合金在“拉伸强度”尺度中的参数区间为 860–950 MPa。",
@@ -13639,8 +13990,7 @@
           "max": 1900,
           "image": "/assets/materials/02_Nitinol_Wire_Rod_and_Sheet_Stock-89d8b8bd90.jpg",
           "images": [
-            "/assets/materials/02_Nitinol_Wire_Rod_and_Sheet_Stock-89d8b8bd90.jpg",
-            "/assets/materials/01_Nitinol_Wires_Rods_and_Springs-dbfb77fbc0.jpg"
+            "/assets/materials/02_Nitinol_Wire_Rod_and_Sheet_Stock-89d8b8bd90.jpg"
           ],
           "description": "材料简介",
           "cognitiveText": "NiTi形状记忆合金在“拉伸强度”尺度中的参数区间为 895–1900 MPa。",
@@ -13696,11 +14046,7 @@
           "max": 3700,
           "image": "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
           "images": [
-            "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg",
-            "/assets/materials/02_Unidirectional_Carbon_Fiber_Fabric_Roll-96256e7846.jpg",
-            "/assets/materials/03_Carbon_Fiber_Fabric_Roll-52999713f1.jpg",
-            "/assets/materials/04_Woven_Carbon_Fiber_Fabric_Roll-72fc649b71.jpg",
-            "/assets/materials/05_UD_Carbon_Fiber_Fabric_Roll-6fe47321c3.jpg"
+            "/assets/materials/01_Carbon_Fiber_Cloth_Roll-22091b146b.jpg"
           ],
           "description": "碳纤维常用简称为碳纤，是含碳量很高的细丝状材料，通常由聚丙烯腈等前驱体经稳定化和碳化制成。它具有低密度、高比强度、高比模量和明显方向性，多与环氧等树脂组合成复合材料。常用于航空航天、运动器材、自行车、汽车部件、机器人和高端产品外壳。",
           "cognitiveText": "碳纤维在“拉伸强度”尺度中的参数区间为 1800–3700 MPa。",
@@ -13866,10 +14212,7 @@
           "max": 1.2,
           "image": "/assets/materials/04_Raw_Uncut_Diamond-bc3d17546f.jpg",
           "images": [
-            "/assets/materials/04_Raw_Uncut_Diamond-bc3d17546f.jpg",
-            "/assets/materials/01_African_Raw_Diamond-510ed04654.jpg",
-            "/assets/materials/02_Natural_Rough_Grey_Diamonds-1170c9692e.jpg",
-            "/assets/materials/05_White-Grey_Rough_Diamond_Crystals-e2de98b793.jpg"
+            "/assets/materials/04_Raw_Uncut_Diamond-bc3d17546f.jpg"
           ],
           "description": "金刚石常用名称为金刚石，达到宝石品质并经切磨后通常称为钻石，是碳元素形成的晶体材料。它具有极高硬度、耐磨性和很高导热能力，但不同晶向和缺陷会影响性能。除珠宝外，工业金刚石广泛用于切削、磨削、钻探、散热片、光学窗口和高压实验装置。",
           "cognitiveText": "金刚石在“线膨胀系数”尺度中的参数区间为 0.8–1.2 10^-6/K。",
@@ -13932,11 +14275,7 @@
           "max": 4.5,
           "image": "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
           "images": [
-            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg",
-            "/assets/materials/02_White_Oak_Lumber_Boards-e9db162d1b.jpg",
-            "/assets/materials/03_Oak_Thin_Boards_Set-b06db8e91b.jpg",
-            "/assets/materials/04_Oak_Lumber_Boards-4144b6bf03.jpg",
-            "/assets/materials/05_White_Oak_Plain-Sawn_Hardwood_Planks-9f8aaada2b.jpg"
+            "/assets/materials/01_White_Oak_Wood_Sample_Planks-dfa7c0b487.jpg"
           ],
           "description": "橡木常用名称为橡木或栎木，来自栎属多种树木，是家具和室内产品中常见的阔叶木材。其纹理明显，通常具有较好的强度、耐磨性和表面涂饰效果，白橡与红橡在导管结构、色泽和耐久性方面存在差异。常用于家具、地板、酒桶、饰面板和结构木制品，性能受含水率影响明显。",
           "cognitiveText": "橡木在“线膨胀系数”尺度中的参数区间为 3.1–4.5 10^-6/K。",
@@ -14090,9 +14429,7 @@
           "max": 6.6,
           "image": "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
           "images": [
-            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg",
-            "/assets/materials/01_White_Porcelain_Floor_Tiles-0aa85f40b4.jpg",
-            "/assets/materials/03_Grazioso_Canvas_White_Porcelain_Tile_Sample-2bf10bfed4.jpg"
+            "/assets/materials/02_White_Matte_Ceramic_Tiles-238ba603c5.jpg"
           ],
           "description": "瓷常用名称为瓷器或瓷质陶瓷，是以高岭土、长石、石英等原料成形并经高温烧结得到的致密陶瓷。它通常质地坚硬、耐磨、耐化学腐蚀并具有良好电绝缘性，但脆性较高。日用瓷、建筑瓷和工程瓷在配方与烧成制度上差异明显，常用于餐具、卫浴、绝缘件、饰面和精密陶瓷部件。",
           "cognitiveText": "瓷在“线膨胀系数”尺度中的参数区间为 2–6.6 10^-6/K。",
@@ -14246,10 +14583,7 @@
           "max": 5.4,
           "image": "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
           "images": [
-            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg",
-            "/assets/materials/03_Synthetic_Sapphire_Optical_Windows-4097024730.jpg",
-            "/assets/materials/04_Sapphire_Crystal_Glass_Blanks-bbf388a18c.jpg",
-            "/assets/materials/05_Customized_Sapphire_Optical_Window_Disc-a16fba506c.jpg"
+            "/assets/materials/02_Sapphire_Glass_Optical_Windows_Showcase-dfe7077b7b.jpg"
           ],
           "description": "蓝宝石玻璃常用名称为蓝宝石玻璃或蓝宝石晶体，本质上通常是人工生长的单晶氧化铝，并非普通硅酸盐玻璃。它透明、硬度高、耐磨且耐高温，可制成薄片和光学窗口，但加工成本较高且仍具有脆性。常用于手表镜面、手机镜头保护、传感器窗口、LED衬底和精密光学器件。",
           "cognitiveText": "蓝宝石玻璃在“线膨胀系数”尺度中的参数区间为 4.3–5.4 10^-6/K。",
@@ -14274,6 +14608,160 @@
               "image": "/assets/cases/07b71c1e06ae140f480db874e4a5510f-6182b75990.jpeg",
               "sourceMaterial": "蓝宝石",
               "matchType": "contains"
+            }
+          ]
+        },
+        {
+          "name": "铬金属",
+          "category": "金属与合金",
+          "min": 4.9,
+          "max": 6.2,
+          "image": "/assets/materials/04_Chromium_Sputtering_Target-e777a60e6c.jpg",
+          "images": [
+            "/assets/materials/04_Chromium_Sputtering_Target-e777a60e6c.jpg"
+          ],
+          "description": "材料简介",
+          "cognitiveText": "铬金属在“线膨胀系数”尺度中的参数区间为 4.9–6.2 10^-6/K。",
+          "cases": [
+            {
+              "productName": "Switch and System",
+              "description": "One of the key challenges of design today seems to be to create innovative products that are tailored to the needs and personalities of consumers and are sustainable at the same time. The Busch-art linear/ALBA switch range by Busch-Jaeger and Niessen, market leader in the field of electrical installation technology and building automation, fulfils this brief exceptionally well. A prominent feature of these switches is the position of the inserts, which float above the frame and are not, as usual, enclosed by them. This gives the product range a unique sense of lightness, heightened by the sharp, slim contours that radiate clarity and elegance across a wide selection of materials and models. The breadth of the Busch-art linear/ALBA switch range is hard to beat, in particular with regard to the frames. Whether it is glass, structured glass, wood, aluminium or plastic, with fine surrounds in chrome, gold or rose gold, and glossy, matt or mirrored surfaces, the rich variety on offer will satisfy personal preferences and suit the widest possible range of interiors. The soft feel of the switches also makes for a pleasurable sensory experience. In this way, the Busch-art linear/ALBA range is not only testimony to in-depth deliberations about form, material and colour but also about the environment, responsibility and the future. The collection is made with recycled and recyclable materials and follows a cradle-to-cradle philosophy for the healthy and regenerative productivity of companies. All plastic parts are produced from at least 92 per cent (white plastic) and up to 98 per cent (black plastic) recycled materials. That translates into a total reduction in CO₂ emissions of 82 per cent and requires a considerable amount of development work as it is difficult to produce such perfect, flat surfaces from recyclate. It is clear that sustainability is not a secondary consideration for Busch-Jaeger and Niessen but a value that is at the very heart of its design and product development work. The jury recognised this. “The Busch-art linear/ALBA switch range is both an object lesson in carefully considered design – from the construction through to the execution of details and surfaces, as well as the impressive haptics – and also a benchmark for sustainable design.”",
+              "image": "/assets/cases/8a430984b2f914f12ea1e718f4e83a15-2ed704b2bb.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Stove",
+              "description": "AGA ERA 110i is a premium-class multifunctional cooker. Black glass and high-quality chrome elements give it a minimalist aesthetic, which is reflected in the geometric design. The equipment includes an induction hob and a large hotplate on the top, as well as a convection oven and two cast-iron radiant ovens, each concealed behind a separate door. Operation is via a generously dimensioned touch control surface with integrated LED displays and a character display.",
+              "image": "/assets/cases/8a542da79dd1dfeac101bb9304e43700-c7483bd02a.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washer-Dryer Tower",
+              "description": "The Electrolux Laundry Tower is a space-saving washer-dryer combo for keeping the laundry area tidy. With the stylish colour options of white or titanium, it fits into any room concept. The sturdy, powder-coated metal plates along with elegant chrome and metal accents give the appliance a striking look. Thanks to the user-oriented interface with large touch elements and easily readable backlit displays as well as acoustic signals, the product ensures an intuitive and aesthetically pleasing washing experience.",
+              "image": "/assets/cases/8c67a0df234671dce921cb7d3b898034-45764534eb.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Refrigerator",
+              "description": "Vestel Zenith is a large-volume refrigerator with compact external dimensions. The minimalist appearance is based on a geometric silhouette. The horizontal panel and the chromium-plated handle balance the composition and harmonise with the overall appearance. The design also focuses on sustainability, as it relies on recycled materials made of olive seeds and sugar cane. Technologies in the interior provide flexible use for differing needs and help to store fresh food for extended periods.",
+              "image": "/assets/cases/277b3a294b527f10c68ac0fa5bf476a8-28a7c20acf.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washing Machine",
+              "description": "The BOSCH Series8 picks up on the reduced and solid appearance typical of the brand: the rotary knob and the large LED display allow for intuitive operation and selection of the wash programme as well as the precise setting of all parameters. Subtle colour accents such as red signals on the screen or chrome elements on the drawer and porthole freshen up the appearance and emphasise the clear geometric shapes of the body.",
+              "image": "/assets/cases/077d614f370d3b6a45e76306f21de422-fa0e161b69.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Door and Window Handle",
+              "description": "The MM80 handle designed by Marcello Morandini is characterised by its distinctive styling. The strictly geometric design of the object thus makes it more than just a handle; it considers itself an invitation to be touched, to open a door or a window and try out how it feels in one’s hand. With its black-and-white contrasts and the harmony between filled and empty space, the MM80, which is also available in polished chrome and matt satin nickel, reflects the designer’s dialogue between stringency and compromise.",
+              "image": "/assets/cases/294ac39719459977cc9c94958d754267-8a20b48cbc.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Tap Collection",
+              "description": "The high-quality design of the Lift tap collection conveys a sense of long-lasting use by dispensing with plastic parts. The non-porous surface is also resilient and easy to clean. Its handling is practical thanks to a long, rising spout. This means that even large pots can be filled comfortably. A laminar jet regulator ensures use without splashing. The chrome, matt black, and steel finishes give kitchens a modern industrial look.",
+              "image": "/assets/cases/c2938c2271f6aeda8f8cfa76de5a9423-ac80096457.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "TV and Home Entertainment",
+              "description": "The set-top box can receive TV programs and is also equipped with an intelligent speaker that processes voice commands to control the television. The warm-white casing with its fabric-covered front is raised at an angle of 15 degrees on two tapered chrome feet, inviting the user to interact with it. The function buttons are designed as self-explanatory symbols, enabling the set-top box to be used intuitively.",
+              "image": "/assets/cases/cfba8dd3da6f656bf6bcf74b9c7fa49b-a626599098.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Lighting System",
+              "description": "The durable Opus lighting system was developed as a part of a product family for both residential and commercial sectors. The heart of the concept is an innovative track system, which unites central functions such as lighting, sound, air conditioning, security and multi-sensor monitoring. A wide range of available colours and surface finishes meet the demands of variability and adaptability to different interiors. In addition to discreet, timeless designs, the system allows the setting of glamorous highlights with gold-plated or chrome finishes.",
+              "image": "/assets/cases/140eebe5f9a5d4edb1b83900a8c13c56-31aaf6188d.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Thermostats",
+              "description": "Changing the functions from hand to overhead shower with the Axor ShowerSelect thermostats is easily done by the touch of a button. One to four shower settings can be selected. Easily graspable white symbols on a black background allow for intuitive handling. The thermostats are available in round, square or gently rounded soft cube shapes. Besides the standard chrome model, 15 special surface finishes are offered.",
+              "image": "/assets/cases/4c71135f9fd27b609ab7fc1a79bfa4a6-ac6cc28195.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Elektronische Fernsteuerung für Boote",
+              "description": "The ergonomic design approach of this remote control for outboard engines imbues it with a graceful appearance. The handles flow seamlessly into the arm and form a single visual unit with the base. Cool, glossy chrome details contrast with the dark soft-touch surface of the operating controls. The remote control facilitates the smooth shifting of gears.",
+              "image": "/assets/cases/d825bf94d6b99a4796264924d465d959-4334a9e79e.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Wall Mount",
+              "description": "The DesignMount is an innovative wall mount concept for premium TVs. A clear, striking look with elegant lines fosters a special environment for television units. Its high-grade surfaces are made of brushed aluminium with chrome accents. Well-conceived technical functionality prevents the screen from touching the wall and enables comfortable adjustment of the mount.",
+              "image": "/assets/cases/545b29ad9ec4302713d33be74af5a26a-bec15fedab.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Passenger Car",
+              "description": "The new Peugeot Traveller is designed as a Multiple Purpose Vehicle and is suitable for private use as well as for shuttle applications in the commercial sector. Its precise lines and the high vertical radiator grille present to the same extent a solid and an elegant appearance. The front of the car displays boomerang-shaped lighting elements with chrome-plated LEDs and is also characterised by headlamps set into the bodywork. The interior offers a lot of room for up to nine persons and many seating configurations.",
+              "image": "/assets/cases/7f4cbde0b8ac838ca6d248bb26de6edb-a7586e2770.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Washing Machine",
+              "description": "The metallic front of this washing machine and the design for high capacity give a sense of durability and stability. The unusual square door including the window with its chrome-plated edge emphasises the impression of high capacity. The newly introduced storage container at the bottom of the machine results in the door as well as the control elements and the LCD display to be located higher up, making operation easier.",
+              "image": "/assets/cases/0275ea00e4e5beae99972a38459ed82b-a1dc7df75c.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Super-S Wasserreiniger",
+              "description": "The design concept of the Super-S Water Purifier follows the motif of clear water flowing down into the valley. To maximise the impression of freshness and purity, chrome-plated and transparent elements have been applied at the water spout. The water temperature is recognised intuitively by the coloured lighting at the tap. An integrated UV lamp sterilises the dispenser area automatically every two hours. A children’s button is integrated well within reach far down into the housing. Via Wi-Fi connection, remote maintenance by the customer service is possible.",
+              "image": "/assets/cases/20294162ea34cb5b438a3cce334c09ef-f27877d69c.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Dehumidifier",
+              "description": "DPC20-C showcases an overall retro style. With its friendly-looking, homey design, the dehumidifier appeals to the emotions and enriches interiors as an attractive home accessory. A particular eye-catcher is the bold, high-contrast colour scheme of the front; the round design idiom recalls earlier times while at the same time exuding a modern ­appearance. The chromed push buttons embedded on the top allow for easy ­operation.",
+              "image": "/assets/cases/f408ba3aa7b5db8e6514e0efc0026e51-5a59b6b8e1.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Shower System",
+              "description": "Characterised by a slim design and compact dimensions, the shower system embodies a space-saving solution that easily integrates into smaller bathrooms. The shower head is generously sized with a diameter of 310 mm, and is available in a round and a square design, ensuring relaxing shower experiences. The operation is simple and self-explanatory: at the touch of a button, the spray type is selected, and then the water flow adjusted with a turn of the knob.",
+              "image": "/assets/cases/6eb971c144fe528133816cde36d31e4b-3b26fafa17.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Shower System",
+              "description": "Meka combines user comfort and contemporary design with high versatility. A storage shelf – available in chrome, wood or stone finish – can be installed above the slim thermostat to customise the shower system and make it blend harmoniously into different bathroom interiors. An optional digital temperature display complements the user-oriented functions. Two push buttons, integrated into the side of the rotary knob, enable switching between the hand and overhead shower.",
+              "image": "/assets/cases/992b1916523dbf3df6e8c9a332f07d4f-6862423e18.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Microdermabrasion Tool",
+              "description": "This dermatologically tested device offers an easy way to perform microderm­a­brasion at home. The sleek and simple tool of glass and chrome is designed to go deeper into the skin. It removes the top layers of dead, dull skin cells to expose fresh, new skin underneath. A specially designed metal pattern inset into the glass provides the exfoliating effect. When applied with light pressure and moved in downward strokes on the face, the metal part gently abrades the top layer of skin on the forehead, cheek, nose and chin area.",
+              "image": "/assets/cases/01778e76f300e8a19789ac931e8e9434-858d02dd24.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
+            },
+            {
+              "productName": "Water Purifier",
+              "description": "The Newtro Ambient is a water purifier which combines contemporary aesthetics with retro elements, as can be observed in the interplay of high-gloss chromium and matte silver. The elegant water purifier is also easy to handle and presents a user-friendly design. The space-saving filter element integrates three different filter technologies and can be replaced via a door at the front of the device in an unproblematic way.",
+              "image": "/assets/cases/90def8998b847338565d34062317ad03-76155aac96.jpeg",
+              "sourceMaterial": "铬",
+              "matchType": "exact"
             }
           ]
         },
@@ -14305,9 +14793,7 @@
           "max": 9.5,
           "image": "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
           "images": [
-            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg",
-            "/assets/materials/01_Clear_Glass_Sample-8d34ea7bab.jpg",
-            "/assets/materials/05_钢化安全玻璃破裂颗粒-7bc89f3275.jpg"
+            "/assets/materials/03_定制切割钢化玻璃片-612e33fc8a.jpg"
           ],
           "description": "钢化玻璃常用名称为钢化玻璃或强化玻璃，是普通玻璃经热处理或化学强化形成表面压应力的安全玻璃。它的抗弯和抗热冲击能力通常高于未强化玻璃，破碎时热钢化玻璃会形成较小颗粒。常用于建筑门窗、家具、家电面板、汽车侧窗、手机保护盖板和展示装置。",
           "cognitiveText": "钢化玻璃在“线膨胀系数”尺度中的参数区间为 8.5–9.5 10^-6/K。",
@@ -14461,10 +14947,7 @@
           "max": 12,
           "image": "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
           "images": [
-            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg",
-            "/assets/materials/01_Concrete_Aggregate_Sample-2a7751994f.jpg",
-            "/assets/materials/03_Exposed_Aggregate_Concrete_Samples-ef04d78dfc.jpg",
-            "/assets/materials/04_Concrete_Texture_Samples-68a5c93cd5.jpg"
+            "/assets/materials/02_Concrete_Block_Sample-67202231c1.jpg"
           ],
           "description": "混凝土常用名称为混凝土，工程中也简称“砼”，由水泥、骨料、水及必要外加剂拌合并硬化形成。它抗压能力较强、可浇筑成复杂形状且成本相对可控，但抗拉性能较弱，常与钢筋组合使用。除建筑结构外，也用于家具、灯具、花器和公共设施等产品，表观性能受配比、养护和孔隙影响。",
           "cognitiveText": "混凝土在“线膨胀系数”尺度中的参数区间为 9–12 10^-6/K。",
@@ -14618,10 +15101,7 @@
           "max": 16,
           "image": "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
           "images": [
-            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg",
-            "/assets/materials/02_Stainless_Steel_Product_Range-5c3c0ea5bb.jpg",
-            "/assets/materials/04_Stainless_Steel_Sheets_and_Rods-ca1dc40731.jpg",
-            "/assets/materials/05_Stainless_Steel_Product_Assortment-747d45f710.jpg"
+            "/assets/materials/01_Variety_of_Stainless_Steel_Material_Families-e8a352545e.jpg"
           ],
           "description": "不锈钢常用名称为不锈钢或耐蚀钢，是以铁为基体、含有足够铬并可加入镍、钼等元素的合金体系。铬在表面形成钝化膜，使其具有较好的耐腐蚀和清洁维护性能。奥氏体、铁素体、马氏体等类别在强度、磁性和加工性上不同，常用于厨具、建筑、医疗、交通及产品外壳。",
           "cognitiveText": "不锈钢在“线膨胀系数”尺度中的参数区间为 10–16 10^-6/K。",
@@ -14775,8 +15255,7 @@
           "max": 15,
           "image": "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
           "images": [
-            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg",
-            "/assets/materials/02_99-99-纯金颗粒-9ad8114de2.jpg"
+            "/assets/materials/01_Investment-Grade_Gold_Bars_and_Nugget-87b13511c5.jpg"
           ],
           "description": "金常用名称为黄金，是具有黄色金属光泽的贵金属。它延展性和导电性突出，化学性质稳定，不易氧化，但纯金较软，工程使用中常通过加入银、铜等元素形成不同成色的合金。除珠宝和装饰外，金还用于电子触点、连接器、镀层、牙科和精密器件，其成本与资源属性非常显著。",
           "cognitiveText": "金在“线膨胀系数”尺度中的参数区间为 14–15 10^-6/K。",
@@ -14881,10 +15360,7 @@
           "max": 17,
           "image": "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
           "images": [
-            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg",
-            "/assets/materials/02_Copper_Product_Samples-a2d4818efa.jpg",
-            "/assets/materials/03_High-Purity_Copper_Ingots_and_Lumps-99f1e8324a.jpg",
-            "/assets/materials/04_Copper_Metal_Profiles-9c0df64d04.jpg"
+            "/assets/materials/05_Copper_Metal_Stock-e1f50a8d54.jpg"
           ],
           "description": "铜常用名称为铜，较高纯度的工业铜常称紫铜或纯铜。它具有优良的导电、导热、延展和耐腐蚀性能，表面会随环境形成由红褐到绿色的氧化或碱式碳酸盐层。铜常用于电线、电路、换热器、管材、厨具、建筑饰面和工艺品，也是黄铜、青铜等合金的主要基体。",
           "cognitiveText": "铜在“线膨胀系数”尺度中的参数区间为 16.5–17 10^-6/K。",
@@ -15038,10 +15514,7 @@
           "max": 21,
           "image": "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
           "images": [
-            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg",
-            "/assets/materials/01_Aluminum_Alloy_Extrusion_Rods-cc5ade1966.jpg",
-            "/assets/materials/03_Aluminum_Alloy_Solid_Bars-647e9f31c2.jpg",
-            "/assets/materials/05_Extruded_Aluminum_Alloy_Bars-9f9569126b.jpg"
+            "/assets/materials/02_Aluminum_Alloy_Round_Bars-a89d0c9a30.jpg"
           ],
           "description": "铝合金是以铝为基体并加入镁、硅、铜、锌等元素形成的轻金属材料，常用名称即铝合金。它具有低密度、较好的比强度、耐腐蚀性和加工性，可进行挤压、压铸、冲压、机加工及阳极氧化。常用于电子产品外壳、交通工具、家具、建筑型材、灯具和包装。",
           "cognitiveText": "铝合金在“线膨胀系数”尺度中的参数区间为 21–21 10^-6/K。",
@@ -15195,8 +15668,7 @@
           "max": 27.3,
           "image": "/assets/materials/02_Zinc_Alloy_Ingots-c23c1e9576.jpg",
           "images": [
-            "/assets/materials/02_Zinc_Alloy_Ingots-c23c1e9576.jpg",
-            "/assets/materials/04_Zamak_Alloy_Ingots_for_Die_Casting-4ce2d4b424.jpg"
+            "/assets/materials/02_Zinc_Alloy_Ingots-c23c1e9576.jpg"
           ],
           "description": "锌合金常用名称为锌合金或锌压铸合金，是以锌为基体并加入铝、铜、镁等元素的低熔点合金，常见体系包括Zamak。它具有良好压铸流动性，可成形薄壁、细节丰富的零件，表面适合电镀和涂装。常用于锁具、拉手、电子外壳、汽车小型件、玩具和装饰五金。",
           "cognitiveText": "锌合金在“线膨胀系数”尺度中的参数区间为 27–27.3 10^-6/K。",
@@ -15336,8 +15808,7 @@
           "max": 65,
           "image": "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
           "images": [
-            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg",
-            "/assets/materials/04_PET_Preforms_and_Pellets-66a536ba55.jpg"
+            "/assets/materials/01_PET_Packaging_Material_Sample-6c648e8ce1.jpg"
           ],
           "description": "PET常用名称为PET塑料或聚酯，化学名称为聚对苯二甲酸乙二酯。它可制成透明容器、薄膜、片材和纤维，具有较好的强度、气体阻隔性、尺寸稳定性和可回收性。结晶程度与加工状态会改变透明度和耐热性，常用于饮料瓶、食品包装、电子薄膜、纺织纤维及工程塑料。",
           "cognitiveText": "PET在“线膨胀系数”尺度中的参数区间为 15–65 10^-6/K。",
@@ -15491,9 +15962,7 @@
           "max": 45,
           "image": "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
           "images": [
-            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg",
-            "/assets/materials/02_Polyamide_-PA-_Sheets-_Rods-_and_Tubes-df8c0bbbe9.jpg",
-            "/assets/materials/05_Polyamide_-PA-_Plastic_Samples-47c88552e2.jpg"
+            "/assets/materials/04_Nylon_Raw_Pellets_and_Machined_Components-efdf6d6487.jpg"
           ],
           "description": "PA常用名称为尼龙或PA塑料，材料学名称为聚酰胺。其分子链含有酰胺基团，通常具有较高强度、耐磨性、耐疲劳性和良好的自润滑特征。不同尼龙牌号及含水状态会显著影响尺寸和力学性能。常用于齿轮、轴承、扣件、织物纤维、工具零件及结构性注塑件。",
           "cognitiveText": "PA在“线膨胀系数”尺度中的参数区间为 40–45 10^-6/K。",
@@ -15647,11 +16116,7 @@
           "max": 70,
           "image": "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
           "images": [
-            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg",
-            "/assets/materials/01_Transparent_Polycarbonate_Pellets-02e6f623ea.jpg",
-            "/assets/materials/03_Clear_Polycarbonate_Pellets-4d7b981453.jpg",
-            "/assets/materials/04_Polycarbonate_Pellets_for_Electrical_Applicat-debca79357.jpg",
-            "/assets/materials/05_Polycarbonate_Resin_Pellets_for_LED_Diffusers-faf7855af7.jpg"
+            "/assets/materials/02_Transparent_Polycarbonate_Pellets-ba16eca21a.jpg"
           ],
           "description": "PC常用名称为聚碳酸酯或PC塑料，部分地区也称防弹胶。它是一种透明热塑性工程塑料，突出特点是抗冲击能力强、尺寸稳定、可透光并能进行注塑和热成型。PC常用于透明防护罩、电子产品外壳、头盔镜片、灯具、医疗器械及光学部件，但需要关注表面耐刮擦和耐化学性。",
           "cognitiveText": "PC在“线膨胀系数”尺度中的参数区间为 38–70 10^-6/K。",
@@ -15805,10 +16270,7 @@
           "max": 70,
           "image": "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
           "images": [
-            "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg",
-            "/assets/materials/02_PVC_Rain_Pipe_and_Pellets_Showcase-80929947ea.jpg",
-            "/assets/materials/03_PVC_Pellets_and_Sheet_Display-627743793d.jpg",
-            "/assets/materials/05_PVC_Compound_Pellets_and_Pipes-6081d5f1f8.jpg"
+            "/assets/materials/04_PVC_Pipe_and_Plastic_Pellets-6f1ad7b48f.jpg"
           ],
           "description": "PVC常用名称为聚氯乙烯或PVC塑料，可通过增塑剂和稳定剂配方形成硬质或软质材料。硬质PVC具有较好的刚性、耐化学性和阻燃特征，软质PVC则柔韧并易加工。它广泛用于管材、型材、电线护套、地板、薄膜、卡片和充气制品，性能与环境影响高度依赖具体添加剂体系。",
           "cognitiveText": "PVC在“线膨胀系数”尺度中的参数区间为 60–70 10^-6/K。",
@@ -15878,9 +16340,7 @@
           "max": 85,
           "image": "/assets/materials/01_Blue_PLA_Filament_and_Pellets-7f2841e5a1.jpg",
           "images": [
-            "/assets/materials/01_Blue_PLA_Filament_and_Pellets-7f2841e5a1.jpg",
-            "/assets/materials/04_Biodegradable_PLA_3D_Printing_Filament_Sample-c68239d450.jpg",
-            "/assets/materials/05_Natural-Color_PLA_Pellets-357bb71b25.jpg"
+            "/assets/materials/01_Blue_PLA_Filament_and_Pellets-7f2841e5a1.jpg"
           ],
           "description": "PLA常用名称为聚乳酸或PLA生物塑料，通常以玉米淀粉、甘蔗等可再生原料发酵得到的乳酸为基础制备。它可透明、易着色，适合挤出、注塑和3D打印，并可在特定工业堆肥条件下降解。常用于包装、一次性制品、打印线材和生物医用材料，但耐热与韧性需通过改性改善。",
           "cognitiveText": "PLA在“线膨胀系数”尺度中的参数区间为 68–85 10^-6/K。",
@@ -15943,10 +16403,7 @@
           "max": 110,
           "image": "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
           "images": [
-            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg",
-            "/assets/materials/02_ABS_Plastic_Pellets-072e2e6578.jpg",
-            "/assets/materials/04_ABS_Plastic_Resin_Granules-4e4ab4d3c6.jpg",
-            "/assets/materials/05_Chimei_ABS_Resin_PA-765b_Plastic_Granules-1a84b6b56a.jpg"
+            "/assets/materials/01_ABS_Polymer_Pellets-27c5b8f54e.jpg"
           ],
           "description": "ABS常用名称为ABS塑料或ABS树脂，中文全称为丙烯腈—丁二烯—苯乙烯共聚物。它综合了刚性、韧性、尺寸稳定性和较好的表面加工性能，可通过注塑、挤出、机加工与表面涂装制成复杂外壳。常见于家电、电子产品、玩具、工具外壳、汽车内饰和模型制作。",
           "cognitiveText": "ABS在“线膨胀系数”尺度中的参数区间为 53–110 10^-6/K。",
@@ -16100,8 +16557,7 @@
           "max": 100,
           "image": "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
           "images": [
-            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg",
-            "/assets/materials/01_Polypropylene_Machined_Sheets_and_Rods-3ff1c90585.jpg"
+            "/assets/materials/02_Polypropylene_Rods_and_Sheets-520d663f45.jpg"
           ],
           "description": "PP常用名称为聚丙烯或PP塑料，是密度较低、用途广泛的热塑性聚合物。它耐化学品、耐湿、易注塑和挤出，并具有良好的反复弯折疲劳性能，可制作一体式活铰链。常见于食品容器、家居用品、医疗耗材、汽车内饰、无纺布和包装薄膜，但低温冲击性能及耐候性需要关注。",
           "cognitiveText": "PP在“线膨胀系数”尺度中的参数区间为 81–100 10^-6/K。",
@@ -16255,9 +16711,7 @@
           "max": 100,
           "image": "/assets/materials/01_amber_cast_blocks-df08c5fd91.png",
           "images": [
-            "/assets/materials/01_amber_cast_blocks-df08c5fd91.png",
-            "/assets/materials/02_clear_sheet_cubes_puck-039da90d0e.png",
-            "/assets/materials/03_amber_test_specimens-d27f92d173.png"
+            "/assets/materials/01_amber_cast_blocks-df08c5fd91.png"
           ],
           "description": "固化环氧树脂常用名称为环氧树脂或环氧胶，是环氧低聚物与固化剂发生交联后形成的热固性材料。固化后通常具有较好的粘接力、尺寸稳定性、电绝缘性和耐化学性，但韧性、耐热与颜色会随配方变化。它常用于胶黏剂、电子灌封、涂层、复合材料基体、模具和艺术浇注。",
           "cognitiveText": "固化环氧树脂在“线膨胀系数”尺度中的参数区间为 100–100 10^-6/K。",
@@ -16411,8 +16865,7 @@
           "max": 120,
           "image": "/assets/materials/05_PTFE_Teflon_Components_Display-e56fdfd0b4.jpg",
           "images": [
-            "/assets/materials/05_PTFE_Teflon_Components_Display-e56fdfd0b4.jpg",
-            "/assets/materials/03_PTFE_Sheets-_Tubes-_and_Rods_Display-3306ac9aa8.jpg"
+            "/assets/materials/05_PTFE_Teflon_Components_Display-e56fdfd0b4.jpg"
           ],
           "description": "PTFE常用名称为聚四氟乙烯，商品语境中也常称特氟龙或铁氟龙。其碳氟结构带来极低摩擦系数、优异耐化学性、电绝缘性和较宽的使用温区，但刚性、耐磨与加工方式不同于普通热塑性塑料。常用于密封垫、轴承衬套、不粘涂层、电线绝缘和化工设备内衬。",
           "cognitiveText": "PTFE在“线膨胀系数”尺度中的参数区间为 110–120 10^-6/K。",
@@ -16433,10 +16886,7 @@
           "max": 200,
           "image": "/assets/materials/02_HDPE_Plastic_Granules_Sample-75c093435a.jpg",
           "images": [
-            "/assets/materials/02_HDPE_Plastic_Granules_Sample-75c093435a.jpg",
-            "/assets/materials/03_Black_HDPE_Pipe-Grade_Granules-2b9dcf2e45.jpg",
-            "/assets/materials/04_Recycled_HDPE_Granules_for_Pipe_Production-00e71150c9.jpg",
-            "/assets/materials/05_Black_HDPE_Pipe-Grade_Granules-00228bf2ca.jpg"
+            "/assets/materials/02_HDPE_Plastic_Granules_Sample-75c093435a.jpg"
           ],
           "description": "HDPE常用名称为高密度聚乙烯或HDPE塑料，是分子支化较少、结晶度较高的聚乙烯。它兼具较好的刚性、耐化学性、耐湿性和电绝缘性，同时质量较轻，可进行吹塑、注塑、挤出和焊接加工。常用于瓶罐、管材、周转箱、户外部件、砧板及耐腐蚀容器。",
           "cognitiveText": "HDPE在“线膨胀系数”尺度中的参数区间为 100–200 10^-6/K。",

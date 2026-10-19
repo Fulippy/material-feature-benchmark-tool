@@ -8,11 +8,11 @@ import SearchByValue from './SearchByValue'
 const clamp = (value: number) => Math.max(0, Math.min(1, value))
 
 const priorityMaterials: Record<string, string[]> = {
-  density: ['软木', '竹材', 'PVC', '碳纤维', '铝合金', '金刚石', '蓝宝石玻璃', '钛合金'],
-  'elastic-modulus': ['软木', 'TPU', 'PP', 'PC', '羊毛纤维', 'PET', '橡木', '竹材', '混凝土', '镁合金', '铝合金', '黄铜', '铜', '铸铁', '不锈钢'],
-  'thermal-conductivity': ['软木', 'PET', '竹材', '钢化玻璃', '混凝土', '瓷', '钛合金', '钛金属（纯钛）', '不锈钢', '蓝宝石玻璃', '镁合金'],
-  'tensile-strength': ['PVC', 'PP', 'ABS', 'PMMA', 'PET', '瓷', '铝合金', '铜', '铸铁', '不锈钢', '钛合金'],
-  'thermal-expansion': ['橡木', '不锈钢', '铝合金', '锌合金', 'PET', 'PC'],
+  density: ['软木', '竹材', 'PVC', '碳纤维', '铝合金', '铬金属', '金刚石', '蓝宝石玻璃', '钛合金'],
+  'elastic-modulus': ['软木', 'TPU', 'PP', 'PC', '羊毛纤维', 'PET', '橡木', '竹材', '混凝土', '镁合金', '铝合金', '黄铜', '铜', '铸铁', '不锈钢', '铬金属'],
+  'thermal-conductivity': ['软木', 'PET', '竹材', '钢化玻璃', '混凝土', '瓷', '钛合金', '钛金属（纯钛）', '不锈钢', '铬金属', '蓝宝石玻璃', '镁合金'],
+  'tensile-strength': ['PVC', 'PP', 'ABS', 'PMMA', 'PET', '瓷', '铝合金', '铜', '铸铁', '不锈钢', '铬金属', '钛合金'],
+  'thermal-expansion': ['橡木', '铬金属', '不锈钢', '铝合金', '锌合金', 'PET', 'PC'],
 }
 
 function featuredNamesFor(parameter: Parameter): Set<string> {
