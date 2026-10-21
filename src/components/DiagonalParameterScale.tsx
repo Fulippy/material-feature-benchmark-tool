@@ -284,6 +284,16 @@ export default function DiagonalParameterScale({
 
   const tickCount = 9
 
+  const scrollByPage = (direction: -1 | 1) => {
+    const element = viewportRef.current
+    if (!element) return
+    finishViewportDrag(element)
+    element.scrollBy({
+      left: direction * element.clientWidth * 0.8,
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+    })
+  }
+
   return (
     <section className="scale-section" aria-labelledby="scale-title">
       <div className="section-heading scale-heading">
@@ -312,8 +322,8 @@ export default function DiagonalParameterScale({
       <div className={`scale-workspace${selectedMaterial ? ' has-sidebar' : ''}`}>
         <div className="scale-workspace__main">
           <div className="scale-viewport-shell">
-            <div className="scale-edge-guide scale-edge-guide--left" aria-hidden="true">‹</div>
-            <div className="scale-edge-guide scale-edge-guide--right" aria-hidden="true">›</div>
+            <button type="button" className="scale-edge-guide scale-edge-guide--left" aria-label="向左翻看尺度表" title="向左翻看" onClick={() => scrollByPage(-1)}>‹</button>
+            <button type="button" className="scale-edge-guide scale-edge-guide--right" aria-label="向右翻看尺度表" title="向右翻看" onClick={() => scrollByPage(1)}>›</button>
             {showDragHint && (
               <div className="scale-drag-hint" role="status">
                 <span>可左右拖动尺度表，查看数轴材料。</span>
